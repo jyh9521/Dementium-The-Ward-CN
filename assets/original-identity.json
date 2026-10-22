@@ -1,0 +1,149 @@
+{
+  "platform": "Steam Windows PC",
+  "observed_date": "2026-10-23",
+  "steam": {
+    "appid": "3909960",
+    "buildid": "21501403",
+    "installdir": "Dementium - The Ward"
+  },
+  "manifest_sha256": "a1e72bab457c76eb69529f50940d22034f7cb71e64c6163375d602e9d10a5d3e",
+  "files": [
+    {
+      "path": "BsSndRpt64.exe",
+      "size": 380536,
+      "sha256": "3e2b9c1f3003c495f72fa3d25863c920e4dc56500a5c43fb2ee6f3324bd97aed",
+      "magic_hex": "4d5a90000300000004000000ffff0000b8000000000000004000000000000000",
+      "pe": {
+        "machine": "0x8664",
+        "architecture": "x64",
+        "timestamp": 1748400277,
+        "optional_magic": "0x20b",
+        "sections": [
+          ".text",
+          ".rdata",
+          ".data",
+          ".pdata",
+          ".rsrc",
+          ".reloc"
+        ]
+      }
+    },
+    {
+      "path": "BugSplat64.dll",
+      "size": 646264,
+      "sha256": "0a4c11e611dc6469355f3a3215a37c3402ee439a0090f00738d7c257fd57f445",
+      "magic_hex": "4d5a90000300000004000000ffff0000b8000000000000004000000000000000",
+      "pe": {
+        "machine": "0x8664",
+        "architecture": "x64",
+        "timestamp": 1748400283,
+        "optional_magic": "0x20b",
+        "sections": [
+          ".text",
+          ".rdata",
+          ".data",
+          ".pdata",
+          "_RDATA",
+          ".rsrc",
+          ".reloc"
+        ]
+      }
+    },
+    {
+      "path": "BugSplatRc64.dll",
+      "size": 288376,
+      "sha256": "d6e8d33b06381f431ffe391029f252233554846703dd570e8ae174a39c7dcca6",
+      "magic_hex": "4d5a90000300000004000000ffff0000b8000000000000004000000000000000",
+      "pe": {
+        "machine": "0x8664",
+        "architecture": "x64",
+        "timestamp": 1748400256,
+        "optional_magic": "0x20b",
+        "sections": [
+          ".rdata",
+          ".rsrc"
+        ]
+      }
+    },
+    {
+      "path": "Dementium.exe",
+      "size": 4673536,
+      "sha256": "26186ceb1142e1c84298aa528627531e3821b8068e4e777e3975403a272c530e",
+      "magic_hex": "4d5a90000300000004000000ffff0000b8000000000000004000000000000000",
+      "pe": {
+        "machine": "0x8664",
+        "architecture": "x64",
+        "timestamp": 1768431703,
+        "optional_magic": "0x20b",
+        "sections": [
+          ".text",
+          ".rdata",
+          ".data",
+          ".pdata",
+          ".rodata",
+          ".xbld",
+          ".rsrc",
+          ".reloc"
+        ]
+      }
+    },
+    {
+      "path": "dxcompiler.dll",
+      "size": 17837088,
+      "sha256": "5888d3e590f5bfd8743484e7f31313996734adec5741506271a5c6368cbe8ba9",
+      "magic_hex": "4d5a90000300000004000000ffff0000b8000000000000004000000000000000",
+      "pe": {
+        "machine": "0x8664",
+        "architecture": "x64",
+        "timestamp": 1752523127,
+        "optional_magic": "0x20b",
+        "sections": [
+          ".text",
+          ".rdata",
+          ".data",
+          ".pdata",
+          ".rsrc",
+          ".reloc"
+        ]
+      }
+    },
+    {
+      "path": "LICENSES.TXT",
+      "size": 112737,
+      "sha256": "f1ada528b2df2535cf4c38316cc2d4cc36eb7b9374f68552514d17a1fddeca3a",
+      "magic_hex": "3d2d3d2d3d2d3d2d3d2d3d2d3d2d3d2d3d2d3d2d3d2d3d2d3d2d3d2d3d2d3d2d"
+    },
+    {
+      "path": "rom.zar",
+      "size": 662255104,
+      "sha256": "9a9ceffb4bbf5fd9a22d5b9d0b87b963ab3abf1bf4afa7e49c5bdf44875fd42c",
+      "magic_hex": "5a4152319c020000000010000000000020000000900a0000a06b000000000000"
+    },
+    {
+      "path": "spiller.toml.readme.txt",
+      "size": 3186,
+      "sha256": "50e8a3227ce3d383c9cb10554fcac7817c5ebb53d7c6ba0a1e2a8e9c895b7920",
+      "magic_hex": "232048692e20546869732069732061206e657720656e67696e652e204e6f7420"
+    },
+    {
+      "path": "steam_api64.dll",
+      "size": 319584,
+      "sha256": "e082bf5c9f881c822b1540a76b74f9d15e18019a73ebd206a559595badcb7f65",
+      "magic_hex": "4d5a90000300000004000000ffff0000b8000000000000004000000000000000",
+      "pe": {
+        "machine": "0x8664",
+        "architecture": "x64",
+        "timestamp": 1741905608,
+        "optional_magic": "0x20b",
+        "sections": [
+          ".text",
+          ".rdata",
+          ".data",
+          ".pdata",
+          ".rsrc",
+          ".reloc"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "appid": "3909960",
+  "archive": "rom.zar",
+  "executable": "Dementium.exe",
+  "content": "CONTENT.TAR",
+  "source_locale": "en",
+  "inventory_encoding": "latin-1",
+  "encoding_status": "lossless archival byte mapping; runtime decoder unverified",
+  "font": "fonts/d2font_12x15.binfont",
+  "probe_resource": "loc/en/UISSFrontend.tbl",
+  "probe_source": "New Game",
+  "probe_target": "New Game [offline probe]",
+  "external_index": {"LICENSES.TXT": 112737}
+}

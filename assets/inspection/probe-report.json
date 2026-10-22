@@ -1,0 +1,17 @@
+{
+  "resource": "loc/en/UISSFrontend.tbl",
+  "id": "loc/en/UISSFrontend.tbl:0000",
+  "source": "New Game",
+  "target": "New Game [offline probe]",
+  "changed_outer": [
+    "CONTENT.TAR"
+  ],
+  "original_sha256": "9a9ceffb4bbf5fd9a22d5b9d0b87b963ab3abf1bf4afa7e49c5bdf44875fd42c",
+  "modified_sha256": "0fcf7e5017a5716087cd26bda6b57b63e589132373bbbdda2b51454c421eb347",
+  "original_size": 662255104,
+  "modified_size": 735327744,
+  "growth_original": 73072640,
+  "growth_modified": 73073152,
+  "runtime_tested": false,
+  "chinese_tested": false
+}

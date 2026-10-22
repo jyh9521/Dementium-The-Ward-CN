@@ -1,0 +1,84 @@
+{
+  "zar_header": [
+    827474266,
+    668,
+    1048576,
+    0,
+    32,
+    2704,
+    27552,
+    0
+  ],
+  "outer_members": 668,
+  "tar_members": 2555,
+  "tar_files": 2522,
+  "outer_extensions": {
+    ".TAR": 1,
+    ".TOML": 1,
+    ".DAT": 34,
+    ".IVF": 34,
+    ".OGG": 34,
+    ".FLAC": 177,
+    ".FRAG": 19,
+    ".FRAG_FXC": 19,
+    ".VERT": 14,
+    ".VERT_FXC": 14,
+    ".INI": 1,
+    ".PNG": 319,
+    "": 1
+  },
+  "vfs_rows": 602,
+  "png_count": 0,
+  "binary_texture_count": 319,
+  "locale_counts": {
+    "de": {
+      "resources": 131,
+      "records": 278,
+      "unique": 254,
+      "translated": 0,
+      "ascii_resources": 43
+    },
+    "en": {
+      "resources": 131,
+      "records": 278,
+      "unique": 252,
+      "translated": 0,
+      "ascii_resources": 130
+    },
+    "es": {
+      "resources": 131,
+      "records": 278,
+      "unique": 254,
+      "translated": 0,
+      "ascii_resources": 32
+    },
+    "fr": {
+      "resources": 131,
+      "records": 278,
+      "unique": 251,
+      "translated": 0,
+      "ascii_resources": 16
+    },
+    "it": {
+      "resources": 131,
+      "records": 278,
+      "unique": 253,
+      "translated": 0,
+      "ascii_resources": 70
+    }
+  },
+  "extracted_text_resources": 655,
+  "text_recognition_coverage": "100% of known loc/* table/document grammar, not all visible text",
+  "unclassified_localization_files": [],
+  "image_text_coverage": "unreviewed",
+  "executable_candidates": 104385,
+  "font": {
+    "resource": "fonts/d2font_12x15.binfont",
+    "size": 7620,
+    "sha256": "a4d07a4bf8b64737baaeae243e7aa0fec6c16dedc3f18a4eb19ed0f9e6ead183",
+    "first_32_bytes": "0100000008000000080400000000000000000000000000000000000000000000",
+    "chinese_coverage": "unverified",
+    "format": "binary; layout and decoder unverified"
+  },
+  "runtime_tested": false
+}

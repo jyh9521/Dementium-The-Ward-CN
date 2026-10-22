@@ -1,0 +1,4678 @@
+[
+  {
+    "name": "CONTENT.TAR",
+    "offset": 1048576,
+    "size": 73072640,
+    "sha256": "a13ad7b06b4f2f3148bea87de30f026c2c6d43edfe41a93c5b976bc103bc7a82",
+    "magic_hex": "33642f00000000000000000000000000"
+  },
+  {
+    "name": "GAME_SPILLER.TOML",
+    "offset": 74121216,
+    "size": 638,
+    "sha256": "b1106ded36a267f913373db8dcfb5172730c99416615d689f25865b1441f1144",
+    "magic_hex": "2320446f6e2774206564697420746869"
+  },
+  {
+    "name": "MOVIES/AMANDA01.AVI.REFORMATTED.AVI.DAT",
+    "offset": 74122240,
+    "size": 8160,
+    "sha256": "994a29b483875773f24b4570773a429ae77f1ad41569a73dd625e1646d2a42f2",
+    "magic_hex": "0100000053010000e1cb010000000000"
+  },
+  {
+    "name": "MOVIES/AMANDA01.AVI.REFORMATTED.AVI.IVF",
+    "offset": 74130432,
+    "size": 19313878,
+    "sha256": "4a3c4a00a34199f6f781b75ced2f24a5d4cb9c1ed1da5034a4b30f28118747c2",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/AMANDA01.AVI.REFORMATTED.AVI.OGG",
+    "offset": 93444608,
+    "size": 119922,
+    "sha256": "cac345116e65ade7a0b4037697bbf28dc95b3b76850bfb50fa4e9423547014e0",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/AMANDA02.AVI.REFORMATTED.AVI.DAT",
+    "offset": 93564928,
+    "size": 8136,
+    "sha256": "0054009e0a98338d1e1929303e19da66516b3ecd5b04f07d78fc9af8d6df54b6",
+    "magic_hex": "0100000052010000fcdb010000000000"
+  },
+  {
+    "name": "MOVIES/AMANDA02.AVI.REFORMATTED.AVI.IVF",
+    "offset": 93573120,
+    "size": 24290461,
+    "sha256": "144051b884e9697f6f5c7d5e8b62d3cdff264d042f2ff733e45678f10a5fe3f7",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/AMANDA02.AVI.REFORMATTED.AVI.OGG",
+    "offset": 117863936,
+    "size": 116951,
+    "sha256": "d395f5448a84dc74bfd3e30cd1c451aa44bc07df056efae5ef59df4d2ef5899c",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/BT_BOSS.AVI.REFORMATTED.AVI.DAT",
+    "offset": 117981184,
+    "size": 7944,
+    "sha256": "eef82675c612ac05f285f6c9fa941df348c2d9b6e135b6306529cdbb2f5c7f54",
+    "magic_hex": "010000004a010000b110020000000000"
+  },
+  {
+    "name": "MOVIES/BT_BOSS.AVI.REFORMATTED.AVI.IVF",
+    "offset": 117989376,
+    "size": 27683422,
+    "sha256": "b5021d2b06e9e0609a9710eb5af2f002ce6a7f575cff5ca79ee104eccbe2f6b1",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/BT_BOSS.AVI.REFORMATTED.AVI.OGG",
+    "offset": 145673216,
+    "size": 114226,
+    "sha256": "7d96d20eb759f2606796f1741a61a0130d26d27e799ccabd0e70e09694489a9d",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/BT_SIGHTING.AVI.REFORMATTED.AVI.DAT",
+    "offset": 145787904,
+    "size": 9360,
+    "sha256": "e42e4d4740dada7ca0ec3e1691d89dd9d97debff3ce78bdd0ca6883bd8233798",
+    "magic_hex": "01000000850100003cfb010000000000"
+  },
+  {
+    "name": "MOVIES/BT_SIGHTING.AVI.REFORMATTED.AVI.IVF",
+    "offset": 145797632,
+    "size": 28337932,
+    "sha256": "c0339dc010588a4ad6bf1abdf8b9cc1a93c0f8274cf07f7231282644d9a00927",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/BT_SIGHTING.AVI.REFORMATTED.AVI.OGG",
+    "offset": 174135808,
+    "size": 152302,
+    "sha256": "ea0f29188eb1c37ed0e6a21dc80614d6cf879d631acf2e99560648c869017278",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER01.AVI.REFORMATTED.AVI.DAT",
+    "offset": 174288384,
+    "size": 2184,
+    "sha256": "2f59807731b5c43041b793a1f6fcdd067df74678141e80a0327c76f6d8228887",
+    "magic_hex": "010000005a0000003011000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER01.AVI.REFORMATTED.AVI.IVF",
+    "offset": 174290944,
+    "size": 70163,
+    "sha256": "3dad2a0c63f28b7a952d9f91fb4a4b1b1a04f82dcd50e0e4c3afd45d4bc14811",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/CHAPTER01.AVI.REFORMATTED.AVI.OGG",
+    "offset": 174361600,
+    "size": 34066,
+    "sha256": "a958f4e830a03fbad3d9068cafa35c93dd31c94c1fbb7182178d2e7972815cac",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER02.AVI.REFORMATTED.AVI.DAT",
+    "offset": 174395904,
+    "size": 2184,
+    "sha256": "48b4b2f5289b0abcc251e91ca9f661eceaa96d818b299ef676f8cd42101b7ae7",
+    "magic_hex": "010000005a0000000a10000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER02.AVI.REFORMATTED.AVI.IVF",
+    "offset": 174398464,
+    "size": 65241,
+    "sha256": "dd55214e35373b31af3fc90bc4b2f437a6031cbc9b3ffb4353528276670739a9",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/CHAPTER02.AVI.REFORMATTED.AVI.OGG",
+    "offset": 174464000,
+    "size": 34066,
+    "sha256": "ed75921ca5a3669bc616079c8532abd2749a1c6ad71bbf6d26dcab96ab58660d",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER03.AVI.REFORMATTED.AVI.DAT",
+    "offset": 174498304,
+    "size": 2184,
+    "sha256": "afecccebc0d487c7aabe10bcbb59b93ea6c465ea85f4800178768dbfe573e74a",
+    "magic_hex": "010000005a0000005312000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER03.AVI.REFORMATTED.AVI.IVF",
+    "offset": 174500864,
+    "size": 74800,
+    "sha256": "5eaeb2513ad8aff42418ca5c434971874686bf0a6a312ea347deca08ca1d3ea7",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/CHAPTER03.AVI.REFORMATTED.AVI.OGG",
+    "offset": 174576128,
+    "size": 34066,
+    "sha256": "dc716602fc159cf72ed15f6419bb65538be16b39a98836bfee363c9655e37ecc",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER04.AVI.REFORMATTED.AVI.DAT",
+    "offset": 174610432,
+    "size": 2184,
+    "sha256": "7418765b7991391eb9dd02ba6a5cffa404c894b46a264c1b65acbb9f5d13da44",
+    "magic_hex": "010000005a000000d30f000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER04.AVI.REFORMATTED.AVI.IVF",
+    "offset": 174612992,
+    "size": 64458,
+    "sha256": "24bcbbc8ebc7ec678f004e26faf8734968d0d8f1503bf812cc58e74db6dfa5fe",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/CHAPTER04.AVI.REFORMATTED.AVI.OGG",
+    "offset": 174677504,
+    "size": 34066,
+    "sha256": "eaa8332309470c68d260bb5f18c40277188e7dac90da36d53c88e97d5660cf62",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER05.AVI.REFORMATTED.AVI.DAT",
+    "offset": 174711808,
+    "size": 2184,
+    "sha256": "7f0fe3cd32d8ec58754c7afa88dc98d8a8b52225e4175a94a8e579684a30250b",
+    "magic_hex": "010000005a000000f610000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER05.AVI.REFORMATTED.AVI.IVF",
+    "offset": 174714368,
+    "size": 69001,
+    "sha256": "9eab1f435f907584741d2e3a8fa62cf64212a58ea25ad8bd60861ac99ea4c044",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/CHAPTER05.AVI.REFORMATTED.AVI.OGG",
+    "offset": 174783488,
+    "size": 34066,
+    "sha256": "4d78751c05579019f899b435780da8d479b4b67f37829644d20352b08c497a2a",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER06.AVI.REFORMATTED.AVI.DAT",
+    "offset": 174817792,
+    "size": 2184,
+    "sha256": "96442ff7621fe6507a7bc450d5b131755aec893e0a0a75ff6013ced07f030db2",
+    "magic_hex": "010000005a000000fc12000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER06.AVI.REFORMATTED.AVI.IVF",
+    "offset": 174820352,
+    "size": 77112,
+    "sha256": "312daae3315fbc241f1af14ab1b5a709c9f520243785964ec564708454758382",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/CHAPTER06.AVI.REFORMATTED.AVI.OGG",
+    "offset": 174897664,
+    "size": 34066,
+    "sha256": "29b86680a83c841a9361aa5a94969900f2dd59f9821d4fb7938c2694f22696f1",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER07.AVI.REFORMATTED.AVI.DAT",
+    "offset": 174931968,
+    "size": 2184,
+    "sha256": "7844287d2ba7e266a66934cb75eb08fe6a14aa67e403ab03c9f785339331bcee",
+    "magic_hex": "010000005a0000007c14000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER07.AVI.REFORMATTED.AVI.IVF",
+    "offset": 174934528,
+    "size": 84428,
+    "sha256": "eb185838da966ad7fd2bd9ee9999502792a41011a35c2397cce76a254012b417",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/CHAPTER07.AVI.REFORMATTED.AVI.OGG",
+    "offset": 175019008,
+    "size": 34066,
+    "sha256": "6a2af1fd0c88c0b22e1e0acf309b1ffeea557b22a11e5e03015dfd620a583362",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER08.AVI.REFORMATTED.AVI.DAT",
+    "offset": 175053312,
+    "size": 2184,
+    "sha256": "2ce9e305001f4e263240cac2731e7c9d612edc6e04e061fe3b703b411b1b1040",
+    "magic_hex": "010000005a000000a711000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER08.AVI.REFORMATTED.AVI.IVF",
+    "offset": 175055872,
+    "size": 71917,
+    "sha256": "9c9faecc396930b97b9923325e97486135b907c81773886bdb64c2536c9e0797",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/CHAPTER08.AVI.REFORMATTED.AVI.OGG",
+    "offset": 175128064,
+    "size": 34066,
+    "sha256": "ed8f6e0ec66057689c0ae66d7ab9ab5197c1637e5874707b92f426294203d451",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER09.AVI.REFORMATTED.AVI.DAT",
+    "offset": 175162368,
+    "size": 2184,
+    "sha256": "27910a88c1c1199976bc68d2f8a306f1fb4ecc0218c7018042e761bb6dfffc35",
+    "magic_hex": "010000005a000000c312000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER09.AVI.REFORMATTED.AVI.IVF",
+    "offset": 175164928,
+    "size": 77072,
+    "sha256": "df8d67abcff6b265562182d23b4928e32ca3789ada435bf7f26eff03c49c7ea3",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/CHAPTER09.AVI.REFORMATTED.AVI.OGG",
+    "offset": 175242240,
+    "size": 34066,
+    "sha256": "ba1707a16774b287869c2985552e241a5663f20395ad7f09d45c87bd1ec7a356",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER10.AVI.REFORMATTED.AVI.DAT",
+    "offset": 175276544,
+    "size": 2184,
+    "sha256": "ba4e2307c8a2baed8d0f51506e51674ea71baecc8ac3d4f9c478c9879641bbab",
+    "magic_hex": "010000005a000000e812000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER10.AVI.REFORMATTED.AVI.IVF",
+    "offset": 175279104,
+    "size": 77375,
+    "sha256": "accee2479f72d22c34a2542c90526aa17e1f452fdd36278b4d299147c29ac161",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/CHAPTER10.AVI.REFORMATTED.AVI.OGG",
+    "offset": 175356928,
+    "size": 34066,
+    "sha256": "97727e3cebc6bc3650e42820e64d7eeb16469b4fb0bf8a7e0928ea81aa5f28ba",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER11.AVI.REFORMATTED.AVI.DAT",
+    "offset": 175391232,
+    "size": 2184,
+    "sha256": "204a74cb2ce9d9a659910a463f2e973a675207c3568c0053c23c7d63fed52151",
+    "magic_hex": "010000005a000000ca12000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER11.AVI.REFORMATTED.AVI.IVF",
+    "offset": 175393792,
+    "size": 76797,
+    "sha256": "a0bf9dbfc51913519cd6a4afeebd6dfba7a436a14afa31d35b8cd0772297300f",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/CHAPTER11.AVI.REFORMATTED.AVI.OGG",
+    "offset": 175470592,
+    "size": 34066,
+    "sha256": "18b11fa8a7275be01eff238e71d6ea7d4f6b184f696bb03227635402fd8c7c4e",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER12.AVI.REFORMATTED.AVI.DAT",
+    "offset": 175504896,
+    "size": 2184,
+    "sha256": "81821f76243e4641db5c108faa26d3e86cbddcf5c630f3007c67416a8769c0b4",
+    "magic_hex": "010000005a0000005914000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER12.AVI.REFORMATTED.AVI.IVF",
+    "offset": 175507456,
+    "size": 83297,
+    "sha256": "908942ada9c4bbc62813bc78fa3e4fb6983f058ecc6f09cba8bc3fb8059c6809",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/CHAPTER12.AVI.REFORMATTED.AVI.OGG",
+    "offset": 175590912,
+    "size": 34066,
+    "sha256": "46355a280ddb66c1483d157885c19840c4d8cf4cca1ad4686f82e27e7b2a2c63",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER13.AVI.REFORMATTED.AVI.DAT",
+    "offset": 175625216,
+    "size": 2184,
+    "sha256": "1115b53311d47683f9fc392bdb2b61ed2a072b933e496622d3e12a2b0ebc930f",
+    "magic_hex": "010000005a000000b215000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER13.AVI.REFORMATTED.AVI.IVF",
+    "offset": 175627776,
+    "size": 89908,
+    "sha256": "6162c2db59181e71c3c308ca55e010aea6990ec30bb8f77a1025cf8c3e83812f",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/CHAPTER13.AVI.REFORMATTED.AVI.OGG",
+    "offset": 175717888,
+    "size": 34066,
+    "sha256": "7e5f13f888b81adcb03f68b8274f123954579d9268a9d67812691616d3ec75b3",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER14.AVI.REFORMATTED.AVI.DAT",
+    "offset": 175752192,
+    "size": 2184,
+    "sha256": "1554791550360cbf7b83895ddf44dd4cf201b7d537b6bc9baba301e24d1427ea",
+    "magic_hex": "010000005a0000008f16000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER14.AVI.REFORMATTED.AVI.IVF",
+    "offset": 175754752,
+    "size": 92830,
+    "sha256": "2a2dedc1962abf0dffa8690996ccc4ffbbee2c9e6cbc17355230529c04fa40f4",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/CHAPTER14.AVI.REFORMATTED.AVI.OGG",
+    "offset": 175847936,
+    "size": 34066,
+    "sha256": "a9efb3fd3e19fd0270ae23f548cd1b5a870d149196465db485db1681547c9a3f",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER15.AVI.REFORMATTED.AVI.DAT",
+    "offset": 175882240,
+    "size": 2184,
+    "sha256": "48f9948e890442d15de54a8fca179c2acdaf0d187ae3b0728a578843b630b8a9",
+    "magic_hex": "010000005a0000008d13000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER15.AVI.REFORMATTED.AVI.IVF",
+    "offset": 175884800,
+    "size": 80337,
+    "sha256": "6b3c1bbc68bec0c96d37b90947d22d26ee7966501e328735e12a0afb10b44209",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/CHAPTER15.AVI.REFORMATTED.AVI.OGG",
+    "offset": 175965184,
+    "size": 34066,
+    "sha256": "72c48dcd288c8b10f2bbeeaf3863b30f9f1c31e5ce764cf3e429b41f9eeaba96",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER16.AVI.REFORMATTED.AVI.DAT",
+    "offset": 175999488,
+    "size": 2184,
+    "sha256": "1f375501ee70ec791f19e952e7e7024d6c1f9c9d19b4d9c44ecff935ff24cc35",
+    "magic_hex": "010000005a000000c913000000000000"
+  },
+  {
+    "name": "MOVIES/CHAPTER16.AVI.REFORMATTED.AVI.IVF",
+    "offset": 176002048,
+    "size": 81173,
+    "sha256": "d3a7f79b5ffe27cb6d5cd8646b9b63898894d383f72be3740f0bfd5a73b25b15",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/CHAPTER16.AVI.REFORMATTED.AVI.OGG",
+    "offset": 176083456,
+    "size": 34066,
+    "sha256": "1b4d1119c21039257d5b10dab438a44a34691329c7f4c6aa35c0880568f950a4",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/CL_BOSS.AVI.REFORMATTED.AVI.DAT",
+    "offset": 176117760,
+    "size": 4776,
+    "sha256": "1807fd90e3a4afe2f566155bd8bd291afe89334d37253af10f6c0b3fb6f412a4",
+    "magic_hex": "01000000c60000001042020000000000"
+  },
+  {
+    "name": "MOVIES/CL_BOSS.AVI.REFORMATTED.AVI.IVF",
+    "offset": 176122880,
+    "size": 15684651,
+    "sha256": "1844d9936bc7480dffd3ab8f350cb23e5f53a87424b9359ab3691b2c07b95cdc",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/CL_BOSS.AVI.REFORMATTED.AVI.OGG",
+    "offset": 191808000,
+    "size": 83208,
+    "sha256": "c05dcb61ef62319aea92899134ac51a256209bfb6aa07a5ef0809673711f3709",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/CL_SIGHTING.AVI.REFORMATTED.AVI.DAT",
+    "offset": 191891456,
+    "size": 7992,
+    "sha256": "d2527ec1fd62c557beaede04381a301c6bbc1d5b08f1e967ca3c81e425dd4738",
+    "magic_hex": "010000004c01000018ee010000000000"
+  },
+  {
+    "name": "MOVIES/CL_SIGHTING.AVI.REFORMATTED.AVI.IVF",
+    "offset": 191899648,
+    "size": 25547852,
+    "sha256": "254cd0a208659e3911dd6d915928a4f4a9dd40791bb4b6a5c53a5c36432610db",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/CL_SIGHTING.AVI.REFORMATTED.AVI.OGG",
+    "offset": 217447936,
+    "size": 139658,
+    "sha256": "607b1b023fb476df2e900cff4cff1ea27a1f2d81a0fc883425433e6b534956bc",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/COURTYARD.AVI.REFORMATTED.AVI.DAT",
+    "offset": 217587712,
+    "size": 9624,
+    "sha256": "78f72b16aee072388244fae354329686fc24a5f24872e0788113c432f8c08e4c",
+    "magic_hex": "0100000090010000720d020000000000"
+  },
+  {
+    "name": "MOVIES/COURTYARD.AVI.REFORMATTED.AVI.IVF",
+    "offset": 217597440,
+    "size": 23763279,
+    "sha256": "789375518a6f7b581c53ae9e88e035cd632ef8a2dbd4c186bd43c9628b165ac7",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/COURTYARD.AVI.REFORMATTED.AVI.OGG",
+    "offset": 241360896,
+    "size": 156961,
+    "sha256": "587eba2bcf891fe8018a34412e6c21573de5a3fc61ffe382552a4a0513338ed4",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/ELEVATOR01.AVI.REFORMATTED.AVI.DAT",
+    "offset": 241518080,
+    "size": 11784,
+    "sha256": "07ce8d048bf45e626538ef10c4414e4360425a6a69ae26e79f3ef72eef265c07",
+    "magic_hex": "01000000ea01000059e8010000000000"
+  },
+  {
+    "name": "MOVIES/ELEVATOR01.AVI.REFORMATTED.AVI.IVF",
+    "offset": 241530368,
+    "size": 26850211,
+    "sha256": "9b68eaca2c6cd4db93af8c9105b253b7b516775c9e7df0b4e537da4b12494f86",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/ELEVATOR01.AVI.REFORMATTED.AVI.OGG",
+    "offset": 268380672,
+    "size": 172971,
+    "sha256": "389185c27643c7274c657775077e6b271e1f8b786f88094962f74040fd964c31",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/FINAL.AVI.REFORMATTED.AVI.DAT",
+    "offset": 268553728,
+    "size": 25272,
+    "sha256": "dfd585320f56bc75075338d90caa2d1f84a2a92953f7d7da7102c03e8877a329",
+    "magic_hex": "010000001c040000b574020000000000"
+  },
+  {
+    "name": "MOVIES/FINAL.AVI.REFORMATTED.AVI.IVF",
+    "offset": 268579328,
+    "size": 82734825,
+    "sha256": "014808ed631e12825b981b7ae64514c26cdbda3dab79c86dcfa0fdc8cf022893",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/FINAL.AVI.REFORMATTED.AVI.OGG",
+    "offset": 351314432,
+    "size": 440839,
+    "sha256": "5d4a588a006a21142233f59bf123ebd64d340ae4988354a25df1bec36a4296bd",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/FLASHBACK.AVI.REFORMATTED.AVI.DAT",
+    "offset": 351755776,
+    "size": 11376,
+    "sha256": "d9da5813a38626172248bee24b647e675211b0489ba8b0d171f68251c6d86fec",
+    "magic_hex": "01000000d90100003429020000000000"
+  },
+  {
+    "name": "MOVIES/FLASHBACK.AVI.REFORMATTED.AVI.IVF",
+    "offset": 351767552,
+    "size": 35329720,
+    "sha256": "77cec42a6ec614c29b3810dd6344dde6aaf2a31f8d1b50eebf03a0f5e7fdb810",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/FLASHBACK.AVI.REFORMATTED.AVI.OGG",
+    "offset": 387097600,
+    "size": 174943,
+    "sha256": "5f6b809e45e7ff9e6624b6648a7695091437bfcb625a889ffebceb4d7332a55f",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/GENERATOR.AVI.REFORMATTED.AVI.DAT",
+    "offset": 387272704,
+    "size": 11328,
+    "sha256": "3a30425ab3464da5879a3cda241bd04416e6f289eac7e732c1c2471103ff098e",
+    "magic_hex": "01000000d701000037ad010000000000"
+  },
+  {
+    "name": "MOVIES/GENERATOR.AVI.REFORMATTED.AVI.IVF",
+    "offset": 387284480,
+    "size": 29529002,
+    "sha256": "27b00476ac5bc5fbfe2f09af28a9435a01605f3fc8ab238b7d639ffdca7898c8",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/GENERATOR.AVI.REFORMATTED.AVI.OGG",
+    "offset": 416813568,
+    "size": 187548,
+    "sha256": "216891b74bcc48604f3f804f24157b2640572d8d5dd574201edbfd9a0408443f",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/INTRO.AVI.REFORMATTED.AVI.DAT",
+    "offset": 417001472,
+    "size": 9936,
+    "sha256": "86daae19d2a423cc9efb5f612f511004b84865c3de7ff7fb2b1a6c02894ec81c",
+    "magic_hex": "010000009d010000318a020000000000"
+  },
+  {
+    "name": "MOVIES/INTRO.AVI.REFORMATTED.AVI.IVF",
+    "offset": 417011712,
+    "size": 26495619,
+    "sha256": "e01b3a23f9a611bbaa8a41ffe039366e81212cac10529a0499397e546b230c48",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/INTRO.AVI.REFORMATTED.AVI.OGG",
+    "offset": 443507712,
+    "size": 163329,
+    "sha256": "820b35e2bb745b423b38c42ba57df0998c4ec3db6503864fea10aaf223bca787",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/LAIR.AVI.REFORMATTED.AVI.DAT",
+    "offset": 443671552,
+    "size": 12144,
+    "sha256": "e6ad18287d21b2e2f1ae128da6faaaf4934325fb91813183c3466124205acd4c",
+    "magic_hex": "01000000f90100002f61020000000000"
+  },
+  {
+    "name": "MOVIES/LAIR.AVI.REFORMATTED.AVI.IVF",
+    "offset": 443683840,
+    "size": 38390343,
+    "sha256": "4c98247e222cd43683e73aa913d849ea3ae883317793411aeff5ed1c73a7a63e",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/LAIR.AVI.REFORMATTED.AVI.OGG",
+    "offset": 482074624,
+    "size": 172995,
+    "sha256": "3526470e94d625da08604aaa3df0acf29841a9324fa54e3e40ac3fa53cc7583e",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/MOLLUSCA01.AVI.REFORMATTED.AVI.DAT",
+    "offset": 482247680,
+    "size": 6192,
+    "sha256": "b8ecbdbafe54930d2e9240a0dc54133371ceb0a646d136f442122e76fd4a5ba7",
+    "magic_hex": "0100000001010000d0cf010000000000"
+  },
+  {
+    "name": "MOVIES/MOLLUSCA01.AVI.REFORMATTED.AVI.IVF",
+    "offset": 482254336,
+    "size": 19736958,
+    "sha256": "a6e0de8e078aed72bb15184703c98cce42986f64bcaa2c400d038127f5b21be1",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/MOLLUSCA01.AVI.REFORMATTED.AVI.OGG",
+    "offset": 501991424,
+    "size": 128165,
+    "sha256": "7882e10a7af31b7023dbb51ccdf4db93895a4408253a303480ce95f95f12edd4",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/MOLLUSCA02.AVI.REFORMATTED.AVI.DAT",
+    "offset": 502119936,
+    "size": 4392,
+    "sha256": "e1f9ccf94ff763f8c09b19127e19bf5f21e3c3776e7c74f7a0b37e8046b9f0e0",
+    "magic_hex": "01000000b6000000cf23020000000000"
+  },
+  {
+    "name": "MOVIES/MOLLUSCA02.AVI.REFORMATTED.AVI.IVF",
+    "offset": 502124544,
+    "size": 12548762,
+    "sha256": "29b841d9c5c2ed23f344877f88eb2d043d1a6ccc610955b7f89815a43f2b2af8",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/MOLLUSCA02.AVI.REFORMATTED.AVI.OGG",
+    "offset": 514673664,
+    "size": 82005,
+    "sha256": "08902a37788dfde3e716ba5b685f311c7bdd37ff8df625db8c7c4c83208c83b5",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/NEWSCAST.AVI.REFORMATTED.AVI.DAT",
+    "offset": 514756096,
+    "size": 27360,
+    "sha256": "72483e08629650a638b97b1a82e7a22062e4e460caa429262782becf59fb5e39",
+    "magic_hex": "0100000073040000fa0d020000000000"
+  },
+  {
+    "name": "MOVIES/NEWSCAST.AVI.REFORMATTED.AVI.IVF",
+    "offset": 514783744,
+    "size": 56813370,
+    "sha256": "41668d0784f0bba87865eaa5f63b6278471e15defc92c25b4633a1b74eadd6ff",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/NEWSCAST.AVI.REFORMATTED.AVI.OGG",
+    "offset": 571597312,
+    "size": 421756,
+    "sha256": "d8d62129398dae2b6f17c3ebffec5608641ba22ca2a2ed31f3c4aa4d9a369344",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/WG_BOSS.AVI.REFORMATTED.AVI.DAT",
+    "offset": 572019200,
+    "size": 7248,
+    "sha256": "5afd0b444ceba29bddf5ea4b05b07dec1e1dc77915c883db8291643e03d6e97c",
+    "magic_hex": "010000002d010000e7d4010000000000"
+  },
+  {
+    "name": "MOVIES/WG_BOSS.AVI.REFORMATTED.AVI.IVF",
+    "offset": 572026880,
+    "size": 19913722,
+    "sha256": "d9cb5673fe86daa32dd15af3780ad8757cfe9100d494075f9f868887458de255",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/WG_BOSS.AVI.REFORMATTED.AVI.OGG",
+    "offset": 591940608,
+    "size": 109005,
+    "sha256": "31879d9bec6150a1b5305b4225240c774b4907212dea34da104644f71c036e55",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MOVIES/WG_BOSS2.AVI.REFORMATTED.AVI.DAT",
+    "offset": 592049664,
+    "size": 7248,
+    "sha256": "fb55a0447b46465b3efd195e9cb2a7a41656c323310bdf21f07bba6e9060806a",
+    "magic_hex": "010000002d010000f191010000000000"
+  },
+  {
+    "name": "MOVIES/WG_BOSS2.AVI.REFORMATTED.AVI.IVF",
+    "offset": 592057344,
+    "size": 20815731,
+    "sha256": "43250e2cee0641354c6215c90081a3af5d0f9c51c2b45ceaa4bd0acca98a6e2b",
+    "magic_hex": "444b494600002000565039309001f000"
+  },
+  {
+    "name": "MOVIES/WG_BOSS2.AVI.REFORMATTED.AVI.OGG",
+    "offset": 612873216,
+    "size": 107951,
+    "sha256": "75c8677955320b00349106173c71411f2d030ef82aafe6fc7e354cd968d06006",
+    "magic_hex": "4f676753000200000000000000000000"
+  },
+  {
+    "name": "MUSIC/SEQ_THEME01.FLAC",
+    "offset": 612981248,
+    "size": 3210837,
+    "sha256": "836a649a4faf610526b00f3c9f18b450b50d570ca14ebb67db7db78f2e755316",
+    "magic_hex": "664c6143000000221000100000094a00"
+  },
+  {
+    "name": "MUSIC/SEQ_THEME02.FLAC",
+    "offset": 616192512,
+    "size": 2560825,
+    "sha256": "f29982d8e715c61a33038aa30ea34845bc8b93bc0cdfc93f6a6e8f8f1f16047e",
+    "magic_hex": "664c6143000000221000100000000d00"
+  },
+  {
+    "name": "MUSIC/SEQ_THEME03.FLAC",
+    "offset": 618753536,
+    "size": 1262700,
+    "sha256": "e391311f85bbc2f195ce86fb2311c46ff86431423d9b28f220db7f601568f5c3",
+    "magic_hex": "664c6143000000221000100000074400"
+  },
+  {
+    "name": "MUSIC/SEQ_THEME04.FLAC",
+    "offset": 620016640,
+    "size": 1070580,
+    "sha256": "ff0d23868955114bb690b78648f7ddb87cfae9574405c3754631c8d1cbafa7b2",
+    "magic_hex": "664c6143000000221000100000022500"
+  },
+  {
+    "name": "MUSIC/SEQ_THEME05.FLAC",
+    "offset": 621087232,
+    "size": 1208824,
+    "sha256": "34cc86a9914dfc76b53cd3194efc419d006f7ff6da956f64bf6bd34386dd2bcd",
+    "magic_hex": "664c6143000000221000100000000e00"
+  },
+  {
+    "name": "MUSIC/SEQ_THEME06.FLAC",
+    "offset": 622296064,
+    "size": 1854945,
+    "sha256": "154037d9023411c13d945a69b4fa9032766cd6d946b6e490c390f5b150dcca98",
+    "magic_hex": "664c6143000000221000100000061300"
+  },
+  {
+    "name": "MUSIC/SEQ_THEME07.FLAC",
+    "offset": 624151040,
+    "size": 1420029,
+    "sha256": "71bd674426cc41571681f9e9de95af75582fd07d1ddb405ce46fc385e810a3ca",
+    "magic_hex": "664c6143000000221000100000059200"
+  },
+  {
+    "name": "MUSIC/SEQ_THEME08.FLAC",
+    "offset": 625571328,
+    "size": 1165121,
+    "sha256": "8f244e73cbd6c5d8a4a3ffa138b75724b47c8c227dc42a8897509fdfb152f7dc",
+    "magic_hex": "664c6143000000221000100000061900"
+  },
+  {
+    "name": "MUSIC/SEQ_THEME09.FLAC",
+    "offset": 626736640,
+    "size": 1237724,
+    "sha256": "28c49ad12b9b01807c1339893cd1825d67b3cb766873fdd4bb916ba3804550e2",
+    "magic_hex": "664c61430000002210001000000b8700"
+  },
+  {
+    "name": "MUSIC/SEQ_THEME10.FLAC",
+    "offset": 627974656,
+    "size": 1521247,
+    "sha256": "67e47bed0e89a898c60476e0520fdd2cd91a163b153f1662ec18af2256e3df1f",
+    "magic_hex": "664c614300000022100010000008c200"
+  },
+  {
+    "name": "MUSIC/SEQ_THEME11.FLAC",
+    "offset": 629496320,
+    "size": 835533,
+    "sha256": "e04fa06dccf0f15856b1c965b139d45c185985a2aeadb8269ddbdf4d680e2746",
+    "magic_hex": "664c61430000002210001000000a1500"
+  },
+  {
+    "name": "MUSIC/SEQ_THEME12.FLAC",
+    "offset": 630331904,
+    "size": 1695143,
+    "sha256": "0d53de98a7a5ed7bf14974f21312ee95f1c8b260b16a848c538ec24d85488142",
+    "magic_hex": "664c6143000000221000100000000d00"
+  },
+  {
+    "name": "MUSIC/SEQ_THEME13.FLAC",
+    "offset": 632027136,
+    "size": 1159614,
+    "sha256": "4c3ae9b98b5ce43a5cc53dab49d7da7e5566955cb9334fc36aafc14405aa1a01",
+    "magic_hex": "664c6143000000221000100000000d00"
+  },
+  {
+    "name": "MUSIC/SEQ_THEME14.FLAC",
+    "offset": 633186816,
+    "size": 1665533,
+    "sha256": "eef3d0c27f26bae664075b93053cec95d93fa4f9a29d11eeec7c43a6df5c7ea9",
+    "magic_hex": "664c61430000002210001000000aa700"
+  },
+  {
+    "name": "MUSIC/SEQ_THEME16.FLAC",
+    "offset": 634852352,
+    "size": 1089611,
+    "sha256": "833ae0e662a9f3323f1d06458113492738a3e1deb7f79a096f38f07e51a2237a",
+    "magic_hex": "664c6143000000221000100000009c00"
+  },
+  {
+    "name": "MUSIC/SEQ_THEME17.FLAC",
+    "offset": 635942400,
+    "size": 2128530,
+    "sha256": "4a43f776f95b456c6a8e801174354d69aa2129f8d3fa617416fee738f6248915",
+    "magic_hex": "664c614300000022100010000002cd00"
+  },
+  {
+    "name": "MUSIC/SEQ_THEME18.FLAC",
+    "offset": 638071296,
+    "size": 2504589,
+    "sha256": "eec4d8fc60f00502aa7ba3eb19dc597ce9dcd497535dcfba7af6820b7cef5195",
+    "magic_hex": "664c6143000000221000100000029400"
+  },
+  {
+    "name": "MUSIC/SEQ_THEME19.FLAC",
+    "offset": 640576000,
+    "size": 1652566,
+    "sha256": "1274d46227e89e35701a6a0a8493e8f0232629d4794bac93ea4e90bb7b53aacf",
+    "magic_hex": "664c6143000000221000100000072900"
+  },
+  {
+    "name": "MUSIC/SEQ_THEME20.FLAC",
+    "offset": 642228736,
+    "size": 2799188,
+    "sha256": "aa31a16d30f01934e574821fc03b53fcf5731e86c9870032a5043ef4a8bbf1c4",
+    "magic_hex": "664c614300000022100010000003c800"
+  },
+  {
+    "name": "MUSIC/SEQ_THEME21.FLAC",
+    "offset": 645028352,
+    "size": 1913375,
+    "sha256": "e6523f9120559ca1eedd510ea6ae8a67c585b66f8cfa93a57736a15d7a11a91c",
+    "magic_hex": "664c6143000000221000100000000e00"
+  },
+  {
+    "name": "MUSIC/SEQ_THEME22.FLAC",
+    "offset": 646942208,
+    "size": 2089748,
+    "sha256": "f5e8c3d81c70414063fee0fbb61280eb20c44d6222a05e84f739e044826838e7",
+    "magic_hex": "664c614300000022100010000002dc00"
+  },
+  {
+    "name": "MUSIC/SEQ_THEME23.FLAC",
+    "offset": 649032192,
+    "size": 1436850,
+    "sha256": "ead2c6c4da9a74f11784c8d2be268b8464e421b00b4863065dd4fc424415177c",
+    "magic_hex": "664c6143000000221000100000064e00"
+  },
+  {
+    "name": "MUSIC/SEQ_THEME24.FLAC",
+    "offset": 650469376,
+    "size": 1914640,
+    "sha256": "a37e0808109aac3bbf0e43277632b08b2e079a1061cf6a38fe2a20b43879cfa6",
+    "magic_hex": "664c6143000000221000100000069f00"
+  },
+  {
+    "name": "MUSIC/SEQ_THEME25.FLAC",
+    "offset": 652384256,
+    "size": 762547,
+    "sha256": "3c26fc6e6567544a8ec456d1560e5c937eb4578d7da06285cdacfef53ee47d59",
+    "magic_hex": "664c6143000000221000100000009800"
+  },
+  {
+    "name": "MUSIC/SEQ_THEME26.FLAC",
+    "offset": 653147136,
+    "size": 625291,
+    "sha256": "e5c543ac4ce3446580881ba02470eb4f1bc70ff9e7243ac0c9776b469791f6b4",
+    "magic_hex": "664c6143000000221000100000047d00"
+  },
+  {
+    "name": "MUSIC/SEQ_THEME27.FLAC",
+    "offset": 653772800,
+    "size": 694593,
+    "sha256": "a258b5b7965983a40c30f62dc2c7821c4a7f87d55b80c891cfe48f7e9326a485",
+    "magic_hex": "664c614300000022100010000000b900"
+  },
+  {
+    "name": "SFX/7FW_000/GASPS8_EDIT_11HZ_8BIT.FLAC",
+    "offset": 654467584,
+    "size": 5517,
+    "sha256": "4a85e7f3bcac8c3af6c8d699de436e49ca58828d7b0bed2594ba29c9994fbabe",
+    "magic_hex": "664c614300000022100010000008ea00"
+  },
+  {
+    "name": "SFX/7FW_001/CREATURE01_VOCAL01_11HZ_8BIT.FLAC",
+    "offset": 654473216,
+    "size": 8171,
+    "sha256": "5df9edc97c2dbc6f023659fe6b3a82f9e9d133251b668053a0e86182c8adcf36",
+    "magic_hex": "664c6143000000221000100000006c00"
+  },
+  {
+    "name": "SFX/7FW_001/CREATURE01_VOCAL02_11HZ_8BIT.FLAC",
+    "offset": 654481408,
+    "size": 10536,
+    "sha256": "60a6ffdf78796d00bbda36449bea0751dfbcb8e34a95178b21ba07c0f7636818",
+    "magic_hex": "664c614300000022100010000006aa00"
+  },
+  {
+    "name": "SFX/7FW_001/GLASSBREAK_EDIT_22HZ_8BIT.FLAC",
+    "offset": 654492160,
+    "size": 29500,
+    "sha256": "f179f677342543dc8a50d212a6daa50eca03805462ee863f947dfd5cad466b99",
+    "magic_hex": "664c6143000000221000100000022700"
+  },
+  {
+    "name": "SFX/7FW_001/SCREAM02_ECHO_11HZ_8BIT.FLAC",
+    "offset": 654521856,
+    "size": 29465,
+    "sha256": "eed8f741678ece998ebebc934518af658f2a88085c277d71f2a5c0a03ef82753",
+    "magic_hex": "664c6143000000221000100000036900"
+  },
+  {
+    "name": "SFX/ALARM/ALARMLOOP01_8HZ_8BIT_MONO.FLAC",
+    "offset": 654551552,
+    "size": 6138,
+    "sha256": "40522d331cad15742e9c9949489c1321c9c45eedca8af28339a4318066944f09",
+    "magic_hex": "664c614300000022100010000009fa00"
+  },
+  {
+    "name": "SFX/ALBUM/REVEAL03_8HZ_8BIT.FLAC",
+    "offset": 654557696,
+    "size": 5441,
+    "sha256": "779f4bfb053f638e1f645af9274c2df5be3b38f7c0c063424736a360f4d0f13a",
+    "magic_hex": "664c6143000000221000100000098000"
+  },
+  {
+    "name": "SFX/ALBUM/SUCCESS01_11HZ_8BIT.FLAC",
+    "offset": 654563328,
+    "size": 8954,
+    "sha256": "30ef791ba29b4787ae1078f8a9d7fe048cd141b30cc56a432b24f29f847961de",
+    "magic_hex": "664c6143000000221000100000022100"
+  },
+  {
+    "name": "SFX/AMBIENT/AMBIENT_NLOOP01_16BIT_8HZ_MONO.FLAC",
+    "offset": 654572544,
+    "size": 10957,
+    "sha256": "3cddeee8af54958010cba3e33bcba7fd57e0794aef7fd3d911e22ee0b6a4ba0b",
+    "magic_hex": "664c6143000000221000100000065500"
+  },
+  {
+    "name": "SFX/BREAK/DOOR_CRASH_COMBO_01_MONO.FLAC",
+    "offset": 654583808,
+    "size": 170437,
+    "sha256": "d42e161e25eda828b01841d60ae539b561ac6b012e779314474f9e88caa84f51",
+    "magic_hex": "664c614300000022100010000000ba00"
+  },
+  {
+    "name": "SFX/BREATHING/BREATHING01_8HZ_8BIT.FLAC",
+    "offset": 654754304,
+    "size": 13955,
+    "sha256": "14596c79ca0de3df8a0c49f4afa8bf68a1fd5ffb402fa49aabf07fa96b60be59",
+    "magic_hex": "664c6143000000221000100000030b00"
+  },
+  {
+    "name": "SFX/CRYING/CRYING_8HZ_8BIT.FLAC",
+    "offset": 654768640,
+    "size": 25446,
+    "sha256": "a6b4e64a4aaa05b863c06eccfc4147af666cb82080057fc0d25f5473280f5d93",
+    "magic_hex": "664c6143000000221000100000012800"
+  },
+  {
+    "name": "SFX/CYE_001/IRONGATE04_11HZ_8BIT.FLAC",
+    "offset": 654794240,
+    "size": 16277,
+    "sha256": "0ac39ee204126af638da8c659c91eac980737209c41e42d01050691564876c00",
+    "magic_hex": "664c6143000000221000100000059300"
+  },
+  {
+    "name": "SFX/EMERGENCY/EMERGENCY_01_MONOMIX_8HZ_8BIT.FLAC",
+    "offset": 654810624,
+    "size": 58250,
+    "sha256": "a0306da90e1722209bae682351ca39563296d37df7bcdeb6feccf86434cc9c22",
+    "magic_hex": "664c6143000000221000100000058000"
+  },
+  {
+    "name": "SFX/ENEMYBT/FLINCH01.FLAC",
+    "offset": 654868992,
+    "size": 7852,
+    "sha256": "e62bb2812d9207339f22bef47384b5d73a97cbadd7148d5141f44e10928f9453",
+    "magic_hex": "664c6143000000221000100000034000"
+  },
+  {
+    "name": "SFX/ENEMYBT/LAUGH01LO.FLAC",
+    "offset": 654877184,
+    "size": 10674,
+    "sha256": "070c2dbdffcc1963f8fe3014f116db53e0936e98b9b7f248cf8a323f4a113f11",
+    "magic_hex": "664c6143000000221000100000018a00"
+  },
+  {
+    "name": "SFX/ENEMYBT/LIFT01.FLAC",
+    "offset": 654887936,
+    "size": 27448,
+    "sha256": "237c771eccdee10b2c774741fca473d9a1504015a8a0750fdad8b5e46dca92b9",
+    "magic_hex": "664c6143000000221000100000014600"
+  },
+  {
+    "name": "SFX/ENEMYBT/TALK01LO.FLAC",
+    "offset": 654915584,
+    "size": 11051,
+    "sha256": "46f3b0d3a67923994123d7c6c632bb4de4d3536e5789cc89dd33220ed1936823",
+    "magic_hex": "664c6143000000221000100000000d00"
+  },
+  {
+    "name": "SFX/ENEMYBT/TALK02LO.FLAC",
+    "offset": 654926848,
+    "size": 9639,
+    "sha256": "e242dfd70d25977dc84e0c031e68bd867f6ecd26b19e085a566cc4d1befede52",
+    "magic_hex": "664c6143000000221000100000014a00"
+  },
+  {
+    "name": "SFX/ENEMYBT/TALK03LO.FLAC",
+    "offset": 654936576,
+    "size": 7606,
+    "sha256": "4b9b501ef198940e8a0bb76b420106e3346f8baef2581aefb182578cec0e382c",
+    "magic_hex": "664c6143000000221000100000029300"
+  },
+  {
+    "name": "SFX/ENEMYBT/TALK04LO.FLAC",
+    "offset": 654944256,
+    "size": 10014,
+    "sha256": "00ed05a894b96e1596d77d5fe7a3d03441a8f039640a2d442e9eee27bf487cee",
+    "magic_hex": "664c6143000000221000100000010a00"
+  },
+  {
+    "name": "SFX/ENEMYBT/TALK05LO.FLAC",
+    "offset": 654954496,
+    "size": 11029,
+    "sha256": "08fa26516f131c55f447d59e97b66c6ed1e577a84eef338ece0f9580b9b0e71c",
+    "magic_hex": "664c6143000000221000100000004800"
+  },
+  {
+    "name": "SFX/ENEMYBT/TAUNT01.FLAC",
+    "offset": 654965760,
+    "size": 9016,
+    "sha256": "3ccdb9869d0e6c0bfa2b2db9977189925fe3a889b477d6a54dea07980dd7061d",
+    "magic_hex": "664c614300000022100010000001d500"
+  },
+  {
+    "name": "SFX/ENEMYBT/THROW01.FLAC",
+    "offset": 654974976,
+    "size": 7632,
+    "sha256": "c1a170eb366d368793b5fccb53c58c5c9e6ab52174c130720b7a484b869b8f25",
+    "magic_hex": "664c614300000022100010000006a700"
+  },
+  {
+    "name": "SFX/ENEMYBT/THWART01.FLAC",
+    "offset": 654982656,
+    "size": 81541,
+    "sha256": "d16f8a4a3be202e363961d4dbd1242ae6fb6c89209c1e8cb498f937389ec9a05",
+    "magic_hex": "664c614300000022100010000001e500"
+  },
+  {
+    "name": "SFX/ENEMYCL/BITE01.FLAC",
+    "offset": 655064576,
+    "size": 5817,
+    "sha256": "6dcba0aa89ad5b1797f916fe5f9083808ce1ea99d0be4f49614f44a81e23f023",
+    "magic_hex": "664c6143000000221000100000055b00"
+  },
+  {
+    "name": "SFX/ENEMYCL/BODYFLINCH01.FLAC",
+    "offset": 655070720,
+    "size": 5353,
+    "sha256": "35cf225ebb669e50ff380a9daf12414dfbd324b1b181eaa2edeaefa262c5e5f2",
+    "magic_hex": "664c6143000000221000100000002700"
+  },
+  {
+    "name": "SFX/ENEMYCL/BODYFLINCH02.FLAC",
+    "offset": 655076352,
+    "size": 4118,
+    "sha256": "cdbc54c2f3ab7b19c30c474fb40ad25587045a0bd030cada0ab6131ee90b1b6c",
+    "magic_hex": "664c6143000000221000100000044300"
+  },
+  {
+    "name": "SFX/ENEMYCL/DEATH01.FLAC",
+    "offset": 655080960,
+    "size": 19045,
+    "sha256": "b56fcd91957d005c3c827f9b32211f86e2ee622e0ef88ccb4fc8a9b0982d06c1",
+    "magic_hex": "664c614300000022100010000005a500"
+  },
+  {
+    "name": "SFX/ENEMYCL/HEADFLINCH01.FLAC",
+    "offset": 655100416,
+    "size": 8126,
+    "sha256": "9fc3e5ccccdf86d0dc39448d72b9f87277e72f1364bbf2a0a04d109204acf9ec",
+    "magic_hex": "664c6143000000221000100000008d00"
+  },
+  {
+    "name": "SFX/ENEMYCL/HEADFLINCH02.FLAC",
+    "offset": 655108608,
+    "size": 6489,
+    "sha256": "4804249611e6e00460aa1d4d236399466d1b55184ebdcdad1f780f4001742582",
+    "magic_hex": "664c614300000022100010000002a100"
+  },
+  {
+    "name": "SFX/ENEMYCL/LAUGH01.FLAC",
+    "offset": 655115264,
+    "size": 14705,
+    "sha256": "ef8f21d8b184daadc58b0d4ba07504edefdc43f48c5d4a9dfc1c7583fc327d83",
+    "magic_hex": "664c6143000000221000100000023200"
+  },
+  {
+    "name": "SFX/ENEMYCL/LEFTATTACK01.FLAC",
+    "offset": 655130112,
+    "size": 4602,
+    "sha256": "92c2f412e3f5a906ab1e665b9630d0ede1c8b510e1af88e4ba0b466e2d3f1d92",
+    "magic_hex": "664c6143000000221000100000042500"
+  },
+  {
+    "name": "SFX/ENEMYCL/ROAR01.FLAC",
+    "offset": 655134720,
+    "size": 11311,
+    "sha256": "e0d48bce1bb649db767553ff8a7963713574323360dbb329c177ae5aab498096",
+    "magic_hex": "664c6143000000221000100000007200"
+  },
+  {
+    "name": "SFX/ENEMYCL/WALKING01.FLAC",
+    "offset": 655146496,
+    "size": 7842,
+    "sha256": "8b2f59153cc21fea309eb23b3b566acda23a7e5239fffe7ec087fec1e4279f5c",
+    "magic_hex": "664c6143000000221000100000043800"
+  },
+  {
+    "name": "SFX/ENEMYCL/WALKING02.FLAC",
+    "offset": 655154688,
+    "size": 8092,
+    "sha256": "077a10bf1b17095b84ee09272f1807ed8e1150b6d548b67e4d713da4a773459f",
+    "magic_hex": "664c6143000000221000100000035500"
+  },
+  {
+    "name": "SFX/ENEMYIM/IM_CHASE01_8HZ_8BIT.FLAC",
+    "offset": 655162880,
+    "size": 5332,
+    "sha256": "fb6f6b9385c246ac2c053072c061efbf88198611d5ea378e4a100950250c38d2",
+    "magic_hex": "664c6143000000221000100000008900"
+  },
+  {
+    "name": "SFX/ENEMYIM/IM_CHASE02_8HZ_8BIT.FLAC",
+    "offset": 655168512,
+    "size": 6578,
+    "sha256": "0acde901eefc0975487a62cabee89ca1f4115ea8f7e7c512b6f9152e4a82d399",
+    "magic_hex": "664c614300000022100010000004d700"
+  },
+  {
+    "name": "SFX/ENEMYIM/IM_CHASE03_8HZ_8BIT.FLAC",
+    "offset": 655175168,
+    "size": 6306,
+    "sha256": "f98afeb03e9b97d0261e68309185e8cf0e1a997c6696386e908e1168daa827f0",
+    "magic_hex": "664c6143000000221000100000048b00"
+  },
+  {
+    "name": "SFX/ENEMYIM/IM_CHASE04_8HZ_8BIT.FLAC",
+    "offset": 655181824,
+    "size": 3208,
+    "sha256": "af8a5b0014dd138bf1dbbd74e5b16f663147975d50c2c0fa43f7461de29d45ff",
+    "magic_hex": "664c6143000000221000100000017600"
+  },
+  {
+    "name": "SFX/ENEMYIM/IM_DEATH01_8HZ_8BIT.FLAC",
+    "offset": 655185408,
+    "size": 7095,
+    "sha256": "d6b77e36ec9e63682a3099bcb98c7955863bf42de70f6934cc40fc5412476439",
+    "magic_hex": "664c614300000022100010000000c300"
+  },
+  {
+    "name": "SFX/ENEMYIM/IM_DEATH02_8HZ_8BIT.FLAC",
+    "offset": 655192576,
+    "size": 6732,
+    "sha256": "5bf61900d453060b4f24f442440a76ebaa8c0618b2d8d5d8e9df027e6b1a2d61",
+    "magic_hex": "664c61430000002210001000000a5600"
+  },
+  {
+    "name": "SFX/ENEMYIM/IM_DEATH03_8HZ_8BIT.FLAC",
+    "offset": 655199744,
+    "size": 4989,
+    "sha256": "8cc1b47cc0bd209d6375d5101959805a4fcb481613313d1f796ff5db8262f7eb",
+    "magic_hex": "664c614300000022100010000005ee00"
+  },
+  {
+    "name": "SFX/ENEMYIM/IM_FLINCH01_8HZ_8BIT.FLAC",
+    "offset": 655204864,
+    "size": 3472,
+    "sha256": "6554b5462c761560b6d94cabbdefd89d7086085a296938437a1c7e88588226f0",
+    "magic_hex": "664c61430000002210001000000aae00"
+  },
+  {
+    "name": "SFX/ENEMYIM/IM_FLINCH02_8HZ_8BIT.FLAC",
+    "offset": 655208448,
+    "size": 3728,
+    "sha256": "e44e07f27d98b063b7b269f1e57545a1f2c518e6ec6764c871d6fa7e6dc5da77",
+    "magic_hex": "664c614300000022100010000000fc00"
+  },
+  {
+    "name": "SFX/ENEMYIM/IM_VENT01_8HZ_8BIT.FLAC",
+    "offset": 655212544,
+    "size": 7354,
+    "sha256": "a2c590d7f77ebb09c590911069e438a97ee17cb132b896a3fe272c26a450a878",
+    "magic_hex": "664c614300000022100010000000f000"
+  },
+  {
+    "name": "SFX/ENEMYIM/IM_WANDER01_8HZ_8BIT.FLAC",
+    "offset": 655220224,
+    "size": 5362,
+    "sha256": "178ad687a1413895a2df8beadd984f675a4c061d06db53540248d1a212555675",
+    "magic_hex": "664c614300000022100010000005d900"
+  },
+  {
+    "name": "SFX/ENEMYIM/IM_WANDER02_8HZ_8BIT.FLAC",
+    "offset": 655225856,
+    "size": 8122,
+    "sha256": "ba23b2fb869eef9edc240991658bf9c14d2253e5efacf7516a5699b2bfec5b38",
+    "magic_hex": "664c6143000000221000100000048c00"
+  },
+  {
+    "name": "SFX/ENEMYIM/IM_WANDER03_8HZ_8BIT.FLAC",
+    "offset": 655234048,
+    "size": 2895,
+    "sha256": "a8d679dd6e03cd332cf8cfa1510a8f6b8a2b4ba1a25b1cb8ce0b0fc06fd40b04",
+    "magic_hex": "664c614300000022100010000000b500"
+  },
+  {
+    "name": "SFX/ENEMYIM/IM_WANDER04_8HZ_8BIT.FLAC",
+    "offset": 655237120,
+    "size": 4197,
+    "sha256": "57daeca92ec5564bfae631ce45dd4aa2bff5e2175440be0b8a6886377444e71b",
+    "magic_hex": "664c6143000000221000100000023e00"
+  },
+  {
+    "name": "SFX/ENEMYIM/IM_WANDER05_8HZ_8BIT.FLAC",
+    "offset": 655241728,
+    "size": 5900,
+    "sha256": "7ae066a6b57d410b8a1a05cd322a0208c0466a1ed4dc5a019557b862005c5704",
+    "magic_hex": "664c6143000000221000100000044700"
+  },
+  {
+    "name": "SFX/ENEMYMF/SCREAM01_EDIT_8HZ_8BIT.FLAC",
+    "offset": 655247872,
+    "size": 16466,
+    "sha256": "0b5a5efb5f4a3419f7efc85ae62d72c2e5a82bbc8bc8b802a47d5aaeea2c3cd7",
+    "magic_hex": "664c6143000000221000100000025800"
+  },
+  {
+    "name": "SFX/ENEMYMF/SCREAM02_EDIT_8HZ_8BIT.FLAC",
+    "offset": 655264768,
+    "size": 19730,
+    "sha256": "a8bfe60961b704a3fce7f1a0c9e9e9eb09b9d6faa6a126b613e85ddac2b61fc6",
+    "magic_hex": "664c6143000000221000100000041500"
+  },
+  {
+    "name": "SFX/ENEMYMF/SCREAM03_EDIT_8HZ_8BIT.FLAC",
+    "offset": 655284736,
+    "size": 6552,
+    "sha256": "9a48bdeb7f056eab0cd33aaed02af73c5291f9e142862fee70c2a14ab845a7a3",
+    "magic_hex": "664c614300000022100010000005f500"
+  },
+  {
+    "name": "SFX/ENEMYMF/SCREAM04_EDIT_8HZ_8BIT.FLAC",
+    "offset": 655291392,
+    "size": 6499,
+    "sha256": "4f387853bdb09bb95f9b000245176a422e068d74b291fe7ca253eb29ac4316ff",
+    "magic_hex": "664c614300000022100010000004c700"
+  },
+  {
+    "name": "SFX/ENEMYMW/BREATHINGIN01_EDIT2_11HZ_8BIT.FLAC",
+    "offset": 655298048,
+    "size": 11962,
+    "sha256": "67d9378edd844ba86befad2e61892cf3433904edb986ba0e86a7e15c50c31378",
+    "magic_hex": "664c6143000000221000100000045a00"
+  },
+  {
+    "name": "SFX/ENEMYMW/BREATHINGIN02_EDIT2_11HZ_8BIT.FLAC",
+    "offset": 655310336,
+    "size": 10515,
+    "sha256": "cae1682696da567c6deb24171b3d26452fe91680e5ab350ef8da7f65213c5bf2",
+    "magic_hex": "664c6143000000221000100000006600"
+  },
+  {
+    "name": "SFX/ENEMYMW/BREATHINGIN03_EDIT2_11HZ_8BIT.FLAC",
+    "offset": 655321088,
+    "size": 9164,
+    "sha256": "17bd303ba13fef0419aedbd5334dc47fddc399a2e3072061ae3e3f4f8fa68b67",
+    "magic_hex": "664c6143000000221000100000002600"
+  },
+  {
+    "name": "SFX/ENEMYMW/BREATHINGIN06_EDIT2_11HZ_8BIT.FLAC",
+    "offset": 655330304,
+    "size": 5577,
+    "sha256": "6e08271d2e771316153e3b52634bf511999d97b048ebd0f27fd0252a77542dc6",
+    "magic_hex": "664c614300000022100010000005c700"
+  },
+  {
+    "name": "SFX/ENEMYMW/BREATHINGOUT01_EDIT2_11HZ_8BIT.FLAC",
+    "offset": 655335936,
+    "size": 12082,
+    "sha256": "606455544b790e7cb8ed3ad364efe9b969df442e98c66deb17af60fdb2e777d2",
+    "magic_hex": "664c6143000000221000100000037800"
+  },
+  {
+    "name": "SFX/ENEMYMW/BREATHINGOUT02_EDIT2_11HZ_8BIT.FLAC",
+    "offset": 655348224,
+    "size": 10952,
+    "sha256": "74a8eb1bdc42352437a09381ed8fae7fd8ff01f0e6914eea75b94c5219fbbfbd",
+    "magic_hex": "664c6143000000221000100000041c00"
+  },
+  {
+    "name": "SFX/ENEMYMW/BREATHINGOUT04_EDIT2_11HZ_8BIT.FLAC",
+    "offset": 655359488,
+    "size": 6124,
+    "sha256": "f079483d4d78687d65a80eea922f131c4fdd3506695a52bb6f58ab63b711e077",
+    "magic_hex": "664c6143000000221000100000012200"
+  },
+  {
+    "name": "SFX/ENEMYMW/BREATHINGOUT05_EDIT2_11HZ_8BIT.FLAC",
+    "offset": 655365632,
+    "size": 4510,
+    "sha256": "926949ebf2eab5f1b9923c0d6abef8a0a7b91519d598d3ba24d6b5f492e2ce0c",
+    "magic_hex": "664c6143000000221000100000001e00"
+  },
+  {
+    "name": "SFX/ENEMYMW/DEATH01_11HZ_8BIT.FLAC",
+    "offset": 655370240,
+    "size": 8089,
+    "sha256": "34e23da607d5b00b11e7fe059c6b786f03f8fb65318e8d8f060a7120e7005f0e",
+    "magic_hex": "664c6143000000221000100000001800"
+  },
+  {
+    "name": "SFX/ENEMYMW/DEATH02_11HZ_8BIT.FLAC",
+    "offset": 655378432,
+    "size": 10274,
+    "sha256": "4b49e6c71f0faa4895536221e59f459c6e64843507ebc84f47c43cc917d82305",
+    "magic_hex": "664c6143000000221000100000062c00"
+  },
+  {
+    "name": "SFX/ENEMYMW/FENCE_22HZ_8BIT_MONO.FLAC",
+    "offset": 655389184,
+    "size": 17678,
+    "sha256": "7d30ae41863225f22f23326f59360986d2f91a4fbd4ec9dd36c021c1282cee14",
+    "magic_hex": "664c6143000000221000100000000c00"
+  },
+  {
+    "name": "SFX/ENEMYMW/GRUNT01_EDIT_11HZ_8BIT.FLAC",
+    "offset": 655407104,
+    "size": 7403,
+    "sha256": "cba5bd9f93483e32ea2dcb7a87c00388899cac912b8d5dab398a1fc10b1f782a",
+    "magic_hex": "664c6143000000221000100000031f00"
+  },
+  {
+    "name": "SFX/ENEMYMW/GRUNT02_EDIT_11HZ_8BIT.FLAC",
+    "offset": 655414784,
+    "size": 7790,
+    "sha256": "0cce56e6f6e10a631b4fd9702b90a21fda6528e0e3ade8c5b2a7fbfc707b1dcf",
+    "magic_hex": "664c6143000000221000100000046500"
+  },
+  {
+    "name": "SFX/ENEMYMW/GRUNT03_EDIT_11HZ_8BIT.FLAC",
+    "offset": 655422976,
+    "size": 4971,
+    "sha256": "16431ffaa0bc13fe7f79db1381ce8a47f10a3cd480badac24af8312d7537d089",
+    "magic_hex": "664c614300000022100010000001fc00"
+  },
+  {
+    "name": "SFX/ENEMYMW/YELP02_EDIT_11HZ_8BIT.FLAC",
+    "offset": 655428096,
+    "size": 3004,
+    "sha256": "563e4f1864d8e35f9a77eb27a48a3e0130571dffa827520cad3794ea12400b80",
+    "magic_hex": "664c6143000000221000100000025600"
+  },
+  {
+    "name": "SFX/ENEMYMW/YELP03_EDIT_11HZ_8BIT.FLAC",
+    "offset": 655431168,
+    "size": 5869,
+    "sha256": "487d5fe8ba078803c982f8e8e7a37105146bbaccc04295dc637a2729443b496d",
+    "magic_hex": "664c6143000000221000100000033700"
+  },
+  {
+    "name": "SFX/ENEMYST/CHASE01.FLAC",
+    "offset": 655437312,
+    "size": 17468,
+    "sha256": "696866b098cb75ea41c201049c8ac1d9f27e589b259a6d337729a54991d64c08",
+    "magic_hex": "664c6143000000221000100000028a00"
+  },
+  {
+    "name": "SFX/ENEMYST/CHASE02.FLAC",
+    "offset": 655455232,
+    "size": 22440,
+    "sha256": "379c29d45b43483e27dd4fb769a99d99b0ade660e22cfe37805b1651fe8274ee",
+    "magic_hex": "664c6143000000221000100000046d00"
+  },
+  {
+    "name": "SFX/ENEMYST/DEATH01.FLAC",
+    "offset": 655477760,
+    "size": 12736,
+    "sha256": "b3d60df8e34705c2478c241edffea18664499695ea65633becd1883fe65aed9a",
+    "magic_hex": "664c614300000022100010000004f500"
+  },
+  {
+    "name": "SFX/ENEMYST/IDLE01.FLAC",
+    "offset": 655490560,
+    "size": 16190,
+    "sha256": "fb96ba0010be1249f145a78898ce24422a2b2676a0c1547fce388e6240bd4914",
+    "magic_hex": "664c614300000022100010000000b900"
+  },
+  {
+    "name": "SFX/ENEMYWG/DEATH.FLAC",
+    "offset": 655506944,
+    "size": 9840,
+    "sha256": "ba93a2e91ed643e17b968f3028ba91602a6e6f3d3c69c3f1007ee06246376bae",
+    "magic_hex": "664c614300000022100010000002cf00"
+  },
+  {
+    "name": "SFX/ENEMYWG/FLINCH.FLAC",
+    "offset": 655517184,
+    "size": 5920,
+    "sha256": "6f23c8e446014cb35fc73a9ab5446b36ace0115cbd439b246ebd15965be0e55c",
+    "magic_hex": "664c6143000000221000100000004c00"
+  },
+  {
+    "name": "SFX/ENEMYWG/IDLEGURGLE.FLAC",
+    "offset": 655523328,
+    "size": 13827,
+    "sha256": "325182c703150e6246d9acb76e958467da17d0bf6b0432929d5a6fef41fb6dff",
+    "magic_hex": "664c6143000000221000100000053a00"
+  },
+  {
+    "name": "SFX/ENEMYWG/LAUGH.FLAC",
+    "offset": 655537664,
+    "size": 8997,
+    "sha256": "647b389edc3b9d78a9039a9c6e0aec13552edf7bbb8a11cbd46139d8d8635ca4",
+    "magic_hex": "664c6143000000221000100000009400"
+  },
+  {
+    "name": "SFX/ENEMYWG/SCRAPE01.FLAC",
+    "offset": 655546880,
+    "size": 11978,
+    "sha256": "85dc8ea9cf3b1b09705ccbadd0de8eaadf346df9f09f4915a988cae7a9976f8f",
+    "magic_hex": "664c614300000022100010000004ba00"
+  },
+  {
+    "name": "SFX/ENEMYWG/SCRAPE02.FLAC",
+    "offset": 655559168,
+    "size": 12504,
+    "sha256": "6e5c232ddecabc2236ce5eb70045f3afed81d46fb03cd2ee28cb3d1fe2934002",
+    "magic_hex": "664c614300000022100010000007a500"
+  },
+  {
+    "name": "SFX/ENEMYWG/SCRAPE03.FLAC",
+    "offset": 655571968,
+    "size": 10704,
+    "sha256": "74c450c48d04b7861ad5e2d504f1525e82f6c84d1e9324c9216c82d60576feb6",
+    "magic_hex": "664c614300000022100010000001b300"
+  },
+  {
+    "name": "SFX/GENERATORS/GENERATOR01_8HZ_8BIT.FLAC",
+    "offset": 655582720,
+    "size": 13131,
+    "sha256": "d9d169bf52061a691294bcf3496e06b12b0369956d5a21c2fd16a5a534bcdddc",
+    "magic_hex": "664c6143000000221000100000093200"
+  },
+  {
+    "name": "SFX/GHOSTLYREVERB/GHOSTLYREVERB_8HZ_8BIT.FLAC",
+    "offset": 655596032,
+    "size": 10344,
+    "sha256": "c65cac430b553acab104ad18ff5e40a433f995a16f575d617e26762e653c257f",
+    "magic_hex": "664c614300000022100010000002b200"
+  },
+  {
+    "name": "SFX/INCUBATORS/INCUBATOR_8HZ_8BIT_MONO.FLAC",
+    "offset": 655606784,
+    "size": 2971,
+    "sha256": "6437dc6067a6e73cdf82492a892067d38f5e2b2ff43b7a5597460fb974001216",
+    "magic_hex": "664c614300000022100010000003cc00"
+  },
+  {
+    "name": "SFX/INCUBATORS/INCUBATOR_ALARM_8HZ_8BIT_MONO.FLAC",
+    "offset": 655609856,
+    "size": 2308,
+    "sha256": "093b8feab37f41666082acde5230420ea1a5e9141f3d3bd6a47e6f6f893697c6",
+    "magic_hex": "664c614300000022100010000007b000"
+  },
+  {
+    "name": "SFX/KEYPAD/DOOR2_EDIT_11HZ_8BIT.FLAC",
+    "offset": 655612416,
+    "size": 4360,
+    "sha256": "8e7103ed87c71878b31e0aa0424fec39021529d981ff1dda33ca77b443a5f759",
+    "magic_hex": "664c6143000000221000100000073d00"
+  },
+  {
+    "name": "SFX/KEYPAD/SWITCH3_EDIT_11HZ_8BIT.FLAC",
+    "offset": 655617024,
+    "size": 551,
+    "sha256": "189bed4c7810f1463c05cd0712d9630a9e5156df4ac1dedae3d23c618968a360",
+    "magic_hex": "664c6143000000221000100000017700"
+  },
+  {
+    "name": "SFX/LAUGHTER/LAUGHTER02_8HZ_8BIT.FLAC",
+    "offset": 655618048,
+    "size": 22926,
+    "sha256": "65f561cbe138a132d190dd0f43621567e5b045236c54e51b7a0c43d57bc0aea2",
+    "magic_hex": "664c6143000000221000100000003500"
+  },
+  {
+    "name": "SFX/LOCK/CAGECREAK01_EDIT_8HZ_8BIT.FLAC",
+    "offset": 655641088,
+    "size": 8054,
+    "sha256": "1e87ffbb0bbbdfc8427d6c4209b20e57836e584b02b2749a3efe71fddae224fa",
+    "magic_hex": "664c614300000022100010000000f300"
+  },
+  {
+    "name": "SFX/LOCK/SWITCH4_EDIT_8HZ_8BIT.FLAC",
+    "offset": 655649280,
+    "size": 962,
+    "sha256": "8f5036d79b3b37925cce55594af07a7512d4dadceadff0c053756dade2489020",
+    "magic_hex": "664c6143000000221000100000028a00"
+  },
+  {
+    "name": "SFX/PIANO/PIANOCREAK01_EDIT_8HZ_8BIT.FLAC",
+    "offset": 655650304,
+    "size": 6999,
+    "sha256": "647ec27af7f89f12ccdca34a6827382e4d234c92ad85ab71c34b2029f1bf7106",
+    "magic_hex": "664c6143000000221000100000099b00"
+  },
+  {
+    "name": "SFX/RAIN.FLAC",
+    "offset": 655657472,
+    "size": 194839,
+    "sha256": "ac0a3dd5ff8c9e807bea56aeb985cadd427d2e36ee59fca80aac0644a99cef4f",
+    "magic_hex": "664c61430000002210001000000e6400"
+  },
+  {
+    "name": "SFX/RAIN/RAIN_LOOP_MONO_22HZ_8BIT.FLAC",
+    "offset": 655852544,
+    "size": 37743,
+    "sha256": "052d691b8b8ae182b104f9ee10be215db7f27378b50c2b2e12ade9e6d7e22211",
+    "magic_hex": "664c6143000000221000100000017f00"
+  },
+  {
+    "name": "SFX/RAIN/THUNDER1_11HZ_8BIT.FLAC",
+    "offset": 655890432,
+    "size": 11085,
+    "sha256": "ab1377a793f314d97115fdefcb5bca3e5c2cd0814ca38d6dac0f58e5987f06c0",
+    "magic_hex": "664c6143000000221000100000054a00"
+  },
+  {
+    "name": "SFX/RAIN/THUNDER2_11HZ_8BIT.FLAC",
+    "offset": 655901696,
+    "size": 8662,
+    "sha256": "b8efedda77d5c622bc90f3a1bbc1b8dd6accd65b2caf0ed2847f4fb03f9375a9",
+    "magic_hex": "664c614300000022100010000004f200"
+  },
+  {
+    "name": "SFX/RAIN/THUNDER2_SMALL_11HZ_8BIT.FLAC",
+    "offset": 655910400,
+    "size": 4420,
+    "sha256": "fda6e6bb0d0c0409b3c386c6ca19062917787a76149f84f6ec9b754d4f880b4f",
+    "magic_hex": "664c614300000022100010000006bc00"
+  },
+  {
+    "name": "SFX/RAIN/THUNDER3_11HZ_8BIT.FLAC",
+    "offset": 655915008,
+    "size": 14386,
+    "sha256": "b9e2100e7cbacc238a35dfe8a7689d5be37df2e5a3a76a8b67cd7aaff001c90b",
+    "magic_hex": "664c614300000022100010000002e000"
+  },
+  {
+    "name": "SFX/RAIN/THUNDER5_11HZ_8BIT.FLAC",
+    "offset": 655929856,
+    "size": 18041,
+    "sha256": "e24b829055b0a6d83db40cae34ebf70650aa0fc3d7e3bd041e73424efb70b4e0",
+    "magic_hex": "664c614300000022100010000003ff00"
+  },
+  {
+    "name": "SFX/SCRAPES/SCRAPES01_8HZ_8BIT.FLAC",
+    "offset": 655948288,
+    "size": 20018,
+    "sha256": "b566ac83e80bbb7e89b3916254aa5ded5952d35d5cfcb06ed7d49e25110d7e79",
+    "magic_hex": "664c614300000022100010000003b000"
+  },
+  {
+    "name": "SFX/SE/ASCREAM7_EDIT_11HZ_8BIT.FLAC",
+    "offset": 655968768,
+    "size": 16477,
+    "sha256": "7edcb7edcf8f7a0974cf98544a882333a36977429c51b0a324fae253660004be",
+    "magic_hex": "664c614300000022100010000002ac00"
+  },
+  {
+    "name": "SFX/SE/BEEP2C_EDIT_11HZ_8BIT.FLAC",
+    "offset": 655985664,
+    "size": 762,
+    "sha256": "2c8077c782e8c02748350f06ce3b4bd353641c76e8fd89e44b1e171f0a9fc41e",
+    "magic_hex": "664c6143000000221000100000024a00"
+  },
+  {
+    "name": "SFX/SE/BUZZ_END_11HZ_8BIT.FLAC",
+    "offset": 655986688,
+    "size": 8472,
+    "sha256": "1357ac933357ca7f7cd4a75d8f4527b2a00bfc729a5b90519ffe2149a928f473",
+    "magic_hex": "664c6143000000221000100000075000"
+  },
+  {
+    "name": "SFX/SE/BUZZ_HIT01_22HZ_8BIT.FLAC",
+    "offset": 655995392,
+    "size": 4885,
+    "sha256": "7f0860a9542e10987fc65c2a648ff7df9f7aad5e68ea99fd57d1954fcd2c84b4",
+    "magic_hex": "664c6143000000221000100000087300"
+  },
+  {
+    "name": "SFX/SE/BUZZ_HIT02_22HZ_8BIT.FLAC",
+    "offset": 656000512,
+    "size": 5349,
+    "sha256": "8f08424923cac4026515995458bac1c0ffee9915b4d85b36bcfe8645bdfe3eb5",
+    "magic_hex": "664c6143000000221000100000018e00"
+  },
+  {
+    "name": "SFX/SE/BUZZ_STARTANDLOOP.FLAC",
+    "offset": 656006144,
+    "size": 13973,
+    "sha256": "ba8ce3ef44f9f6f54550f9f6836aa69bdd051979687f3b9a9412de6f5be5300d",
+    "magic_hex": "664c6143000000221000100000020600"
+  },
+  {
+    "name": "SFX/SE/DOOR_LOCKED_MONO_16BIT_8HZ.FLAC",
+    "offset": 656020480,
+    "size": 4926,
+    "sha256": "9f880c6a16bc131c8e8ed56f56fb623478fd4259fc205e4fa93d3aac44972576",
+    "magic_hex": "664c6143000000221000100000128e00"
+  },
+  {
+    "name": "SFX/SE/DOOR_OPEN_CLOSE_EDIT06_MONO_16BIT_8HZ.FLAC",
+    "offset": 656025600,
+    "size": 27514,
+    "sha256": "e9590ef0535e279bd482fee23eee40f5dd9a67983463ed55f26effcc1e7b94be",
+    "magic_hex": "664c6143000000221000100000057e00"
+  },
+  {
+    "name": "SFX/SE/EMPTY_22HZ_8BIT.FLAC",
+    "offset": 656053248,
+    "size": 1264,
+    "sha256": "53810fc68af0fa9fcb15bb771ce07cf8631cebbcbc81c87b02eed9b851d14667",
+    "magic_hex": "664c614300000022100010000003e800"
+  },
+  {
+    "name": "SFX/SE/ENGINE_IDLE.FLAC",
+    "offset": 656054784,
+    "size": 77066,
+    "sha256": "0de01d568c51491845a1152b64b7cc1d8a11cee6e18c85cfac03e62430e8efa1",
+    "magic_hex": "664c614300000022100010000005c300"
+  },
+  {
+    "name": "SFX/SE/FLASHLIGHTOFF_22HZ_8BIT.FLAC",
+    "offset": 656132096,
+    "size": 1797,
+    "sha256": "cc2a8080c7417f9f99310bd43a8beb2f083cd1aba0793b7b5eb25f0c501e2eae",
+    "magic_hex": "664c6143000000221000100000007400"
+  },
+  {
+    "name": "SFX/SE/FLASHLIGHTON_22HZ_8BIT.FLAC",
+    "offset": 656134144,
+    "size": 1674,
+    "sha256": "7d5fb2a7e74f6df20addcb10313c1e8c64008fb11a03280e5feca6383014fada",
+    "magic_hex": "664c6143000000221000100000005700"
+  },
+  {
+    "name": "SFX/SE/FOOT_TILE01_22HZ_8BIT.FLAC",
+    "offset": 656136192,
+    "size": 3508,
+    "sha256": "77ceafe1e7d237c9ab9de50b70659689e8a81c34dd2a6397c366deec8d7e6801",
+    "magic_hex": "664c6143000000221000100000008000"
+  },
+  {
+    "name": "SFX/SE/FOOT_TILE02_22HZ_8BIT.FLAC",
+    "offset": 656139776,
+    "size": 4479,
+    "sha256": "2c0656309a27ac6d4b281da49ea97c9301e7b02a135976000c054a29de13526e",
+    "magic_hex": "664c6143000000221000100000010d00"
+  },
+  {
+    "name": "SFX/SE/FOOT_TILE03_22HZ_8BIT.FLAC",
+    "offset": 656144384,
+    "size": 3880,
+    "sha256": "023b7ec7cfb1527898c5c94ac9bf0f8d94d4d5edba52497dd4dc2d5e859e56a7",
+    "magic_hex": "664c6143000000221000100000001200"
+  },
+  {
+    "name": "SFX/SE/FOOT_TILE04_22HZ_8BIT.FLAC",
+    "offset": 656148480,
+    "size": 4468,
+    "sha256": "1d4d35b69fbdd69874ea5520ba7bb0f86ccfe825b3892fe50d6da0d25a19dafe",
+    "magic_hex": "664c614300000022100010000001b500"
+  },
+  {
+    "name": "SFX/SE/GRUNT1_8HZ_8BIT.FLAC",
+    "offset": 656153088,
+    "size": 2626,
+    "sha256": "4c227bb28a50c79ae72db52b4fc07a5932e717acaf318e9f8ee1546caba924be",
+    "magic_hex": "664c6143000000221000100000093a00"
+  },
+  {
+    "name": "SFX/SE/GRUNT2_8HZ_8BIT.FLAC",
+    "offset": 656156160,
+    "size": 2200,
+    "sha256": "7cc64575f75506eb51eb5bbf29dd8014c270ed45a644de57251491577cd26bba",
+    "magic_hex": "664c6143000000221000100000079000"
+  },
+  {
+    "name": "SFX/SE/GRUNT3_8HZ_8BIT.FLAC",
+    "offset": 656158720,
+    "size": 2451,
+    "sha256": "714f96b60002c59269cb9f0715bd622ebac1645387a9352e1513ae73a626f78a",
+    "magic_hex": "664c6143000000221000100000088b00"
+  },
+  {
+    "name": "SFX/SE/HEARTBEAT_8HZ_16BIT.FLAC",
+    "offset": 656161280,
+    "size": 5814,
+    "sha256": "64c268e901183f1cb53ae94166e45342a4f1800db187dd23863c0c5c82f34c5e",
+    "magic_hex": "664c614300000022100010000007c900"
+  },
+  {
+    "name": "SFX/SE/IMPACT01_11HZ_8BIT.FLAC",
+    "offset": 656167424,
+    "size": 1229,
+    "sha256": "790e88eca5ee3903127d42f33e9fb8a9e99918f8b3e2ae21bca72f071657ca8f",
+    "magic_hex": "664c614300000022100010000003c500"
+  },
+  {
+    "name": "SFX/SE/IMPACT02_11HZ_8BIT.FLAC",
+    "offset": 656168960,
+    "size": 1360,
+    "sha256": "3c55a3542c0c95b9940ba6b10e530809dba14a258123cf7ab5686dfa09b0c0f9",
+    "magic_hex": "664c6143000000221000100000044800"
+  },
+  {
+    "name": "SFX/SE/KEYS_OPEN_11HZ_8BIT.FLAC",
+    "offset": 656170496,
+    "size": 2686,
+    "sha256": "6c5137746845a648532d7dcfefddb16db2205578b8bd63900fba3d0899ec4582",
+    "magic_hex": "664c614300000022100010000009ce00"
+  },
+  {
+    "name": "SFX/SE/LOW_HEALTH01_MONO_11HZ_8BIT.FLAC",
+    "offset": 656173568,
+    "size": 2581,
+    "sha256": "143c3d7a64045349eca886e17921fcc804d47093ddef822f4d17506220df14d0",
+    "magic_hex": "664c6143000000221000100000000c00"
+  },
+  {
+    "name": "SFX/SE/MGUN_22HZ_8BIT.FLAC",
+    "offset": 656176640,
+    "size": 4819,
+    "sha256": "6e84870993d12d75baa8c6bd07821303a7a6b04e74892e1540d8e2e6e1e33d97",
+    "magic_hex": "664c6143000000221000100000003f00"
+  },
+  {
+    "name": "SFX/SE/NEWRELOADS/357_LOAD_22HZ_8BIT.FLAC",
+    "offset": 656181760,
+    "size": 11764,
+    "sha256": "a68a25dcc894d9d6d513555d1106b1320d590d143fd0c79135d569a449c57c12",
+    "magic_hex": "664c6143000000221000100000000a00"
+  },
+  {
+    "name": "SFX/SE/NEWRELOADS/9MM_LOAD_22HZ_8BIT.FLAC",
+    "offset": 656193536,
+    "size": 6843,
+    "sha256": "13f3c4bd7d35875690729481359368e5e647839ce55ee33fd2ff028276532572",
+    "magic_hex": "664c6143000000221000100000000d00"
+  },
+  {
+    "name": "SFX/SE/NEWRELOADS/AR15_LOAD_22HZ_8BIT.FLAC",
+    "offset": 656200704,
+    "size": 14664,
+    "sha256": "ed7618c551f6677f0680367b33d0d9d810c9723a0b1c47238b2249ac76bbe74d",
+    "magic_hex": "664c6143000000221000100000000a00"
+  },
+  {
+    "name": "SFX/SE/NEWRELOADS/SHOTGUN_LOADSHELL_22HZ_8BIT.FLAC",
+    "offset": 656215552,
+    "size": 7164,
+    "sha256": "a3766b993d64694169a8de3196892fd934b9df9f3f8fc482846bc7e659bb664a",
+    "magic_hex": "664c6143000000221000100000000c00"
+  },
+  {
+    "name": "SFX/SE/NEWRELOADS/SHOTGUN_LOAD_22HZ_8BIT.FLAC",
+    "offset": 656222720,
+    "size": 12843,
+    "sha256": "075fab2d04220695da45540d6290028b3ec0c30b2b02a026a1e113649cede6e1",
+    "magic_hex": "664c6143000000221000100000000a00"
+  },
+  {
+    "name": "SFX/SE/NEWRELOADS/SNIPER_LOAD_22HZ_8BIT.FLAC",
+    "offset": 656236032,
+    "size": 10117,
+    "sha256": "7c571f6a7c1687f8324a399a7a00c2d83b4cefe9e0d0ff1e1321ae1b7270e610",
+    "magic_hex": "664c6143000000221000100000000a00"
+  },
+  {
+    "name": "SFX/SE/PILLS01_22HZ_8BIT.FLAC",
+    "offset": 656246272,
+    "size": 11715,
+    "sha256": "fc03416f36a6895171d3604784278eb17edced48b22a11f1a5ca84349a5370dd",
+    "magic_hex": "664c6143000000221000100000057500"
+  },
+  {
+    "name": "SFX/SE/PILLS02_22HZ_8BIT.FLAC",
+    "offset": 656258048,
+    "size": 12320,
+    "sha256": "a9feae5bf7c79ef6e910e040eb8a522e901d85e3420ae89693321fa210a8ee0f",
+    "magic_hex": "664c614300000022100010000000a000"
+  },
+  {
+    "name": "SFX/SE/PILLS03_22HZ_8BIT.FLAC",
+    "offset": 656270848,
+    "size": 6308,
+    "sha256": "2635a859af2318b04f914775b8e61be9a4334d395210aa1c036a75056b3beb82",
+    "magic_hex": "664c614300000022100010000000e700"
+  },
+  {
+    "name": "SFX/SE/RELOAD_11HZ_8BIT_MONO.FLAC",
+    "offset": 656277504,
+    "size": 2905,
+    "sha256": "dad30217896a626cfbedab1254155005bdfee6f482657f167d51e56927c55a56",
+    "magic_hex": "664c6143000000221000100000046000"
+  },
+  {
+    "name": "SFX/SE/REVOLVERRELOAD_11HZ_8BIT.FLAC",
+    "offset": 656280576,
+    "size": 2686,
+    "sha256": "1c0c6bba23f2eafa1aa4677f6093cabc17c10eecd1c9a70ba7579e48e6fae84b",
+    "magic_hex": "664c614300000022100010000003ef00"
+  },
+  {
+    "name": "SFX/SE/REVOLVERSHOT_22HZ_8BIT.FLAC",
+    "offset": 656283648,
+    "size": 7221,
+    "sha256": "44f1b37265af9b90fd50607302a35af8284f98162554da38c34ea694d59cfde2",
+    "magic_hex": "664c614300000022100010000000e200"
+  },
+  {
+    "name": "SFX/SE/SCRITTERS_8HZ_8BIT_MONO.FLAC",
+    "offset": 656291328,
+    "size": 3285,
+    "sha256": "a77bca7cff253985ebcf37023e7d1a7f797d75368f0adec4d7215f30e943d899",
+    "magic_hex": "664c614300000022100010000002b700"
+  },
+  {
+    "name": "SFX/SE/SHOTGUN_COMBI_22HZ_8BIT.FLAC",
+    "offset": 656294912,
+    "size": 17511,
+    "sha256": "7c6d87af09a81e1f8b37cf575720dce6fa9118c079add0731709075ddd9486e5",
+    "magic_hex": "664c6143000000221000100000027700"
+  },
+  {
+    "name": "SFX/SE/SHOTGUN_RELOAD_22HZ_8BIT.FLAC",
+    "offset": 656312832,
+    "size": 8816,
+    "sha256": "1c1809154ce13dd9af0bc9c5756e0ded24a0c6098a1e1ebcfcace9488f4f4308",
+    "magic_hex": "664c6143000000221000100000026100"
+  },
+  {
+    "name": "SFX/SE/SHOT_22HZ_8BIT_MONO.FLAC",
+    "offset": 656322048,
+    "size": 5058,
+    "sha256": "3ffa2764f0fa1d723db122e47210c8aa71947c05a76ae68fb4a181a9d0011c5a",
+    "magic_hex": "664c614300000022100010000000b800"
+  },
+  {
+    "name": "SFX/SE/SWISH01_11HZ_8BIT.FLAC",
+    "offset": 656327168,
+    "size": 1210,
+    "sha256": "ecef0a3a8f7aa9d1e6c49f420f93a2029c28bf3a333a6b2f9108c483ac0cc386",
+    "magic_hex": "664c6143000000221000100000046400"
+  },
+  {
+    "name": "SFX/SE/SWISH02_11HZ_8BIT.FLAC",
+    "offset": 656328704,
+    "size": 879,
+    "sha256": "60bccd34f3c44f5fa28f64fd407759a98b69bf006ed03ae9001e5081a8aea163",
+    "magic_hex": "664c6143000000221000100000031900"
+  },
+  {
+    "name": "SFX/SE/UI_SELECT_11HZ_8BIT.FLAC",
+    "offset": 656329728,
+    "size": 1152,
+    "sha256": "b2f4c7fa7d54a36b6f644a7fbf9c1bfead983407194b1092b4502b2f71fcd1e7",
+    "magic_hex": "664c6143000000221000100000037800"
+  },
+  {
+    "name": "SFX/SINGING/SINGING_8HZ_8BIT.FLAC",
+    "offset": 656331264,
+    "size": 29719,
+    "sha256": "6b95f100abef5a9b4ec65c8369569f9fa7d34a9f543395e4b3bb08f3d835f34e",
+    "magic_hex": "664c6143000000221000100000000b00"
+  },
+  {
+    "name": "SFX/STATIC/STATIC1_EDIT_8HZ_8BIT.FLAC",
+    "offset": 656361472,
+    "size": 11150,
+    "sha256": "f5df3c58338fd599865ebaad7887d544bdbaf7aaa20336334f80d1d455e3e43a",
+    "magic_hex": "664c6143000000221000100000011c00"
+  },
+  {
+    "name": "SFX/THEME01/CHIORCSHARP4_BOOST_11HZ_8BIT.FLAC",
+    "offset": 656372736,
+    "size": 37828,
+    "sha256": "0bb583cbb5e8bc6be3ed8609f6ecbaff42d54a9861d52a26e38dfa2f3dad6b84",
+    "magic_hex": "664c614300000022100010000000d200"
+  },
+  {
+    "name": "SFX/THEME01/GLOCK_22HZ_16BIT_MONO.FLAC",
+    "offset": 656410624,
+    "size": 25420,
+    "sha256": "ebd533f47007eb88aaae20f439aa8b65b60817e1581d5f12235ef48fd3d23b4a",
+    "magic_hex": "664c6143000000221000100000043a00"
+  },
+  {
+    "name": "SFX/THEME01/PIANOFSHARP4_BOOST_11HZ_8BIT.FLAC",
+    "offset": 656436224,
+    "size": 10647,
+    "sha256": "7be3c5214400965e5132ea650cdd960f7c8315dc26cf3d32c52af176eef68621",
+    "magic_hex": "664c614300000022100010000000b600"
+  },
+  {
+    "name": "SFX/THUNDER.FLAC",
+    "offset": 656446976,
+    "size": 859884,
+    "sha256": "cbd87ff81676c230c5f65b6a3eda9f29309954f00ce133c4d60358dc3e15047e",
+    "magic_hex": "664c6143000000221000100000000d00"
+  },
+  {
+    "name": "SFX/WHISPER/WHISPER01_8HZ_8BIT.FLAC",
+    "offset": 657307136,
+    "size": 19829,
+    "sha256": "3d93300a65669cadd63aefebe903d768950da629b8b2bebcf73ddd55f0560e5c",
+    "magic_hex": "664c6143000000221000100000010a00"
+  },
+  {
+    "name": "SHADERS/D1.PARTICLES.FRAG",
+    "offset": 657327104,
+    "size": 7376,
+    "sha256": "feba9765cffeef7751fa199a841fcf24d0de30f7c9b394dedae04e28a86cd2d9",
+    "magic_hex": "44584243fb007b43a8bf342955cedc45"
+  },
+  {
+    "name": "SHADERS/D1.PARTICLES.FRAG_FXC",
+    "offset": 657334784,
+    "size": 1828,
+    "sha256": "87ef4bc869609a7bba9eee7f5fc6e9c204cf7204cb08c3727c39ed3e273961ef",
+    "magic_hex": "445842430e2344c7c04fd324da0c9cfd"
+  },
+  {
+    "name": "SHADERS/D1.PARTICLES.VERT",
+    "offset": 657336832,
+    "size": 10312,
+    "sha256": "b5261a3a9940fbc59120ca3b02f8ddf4c0f06eedd64658a8435225d1d846d228",
+    "magic_hex": "4458424341d5945e61a9aa41d8a96458"
+  },
+  {
+    "name": "SHADERS/D1.PARTICLES.VERT_FXC",
+    "offset": 657347584,
+    "size": 4684,
+    "sha256": "ace88772832ac08428806f2c9c02980b47a0fa00e197c5cf74b7a03023f7299c",
+    "magic_hex": "445842434f7bf64ca39e6504d87fc07b"
+  },
+  {
+    "name": "SHADERS/D1.RENEGADERENDERMACHINE.FRAG",
+    "offset": 657352704,
+    "size": 12464,
+    "sha256": "64fce1c53d53925e90a686cc7439cfd3cbbd7314062cd2db6c12d50f62263e49",
+    "magic_hex": "445842432a77fabdcb2f48e77bf067a3"
+  },
+  {
+    "name": "SHADERS/D1.RENEGADERENDERMACHINE.FRAG_FXC",
+    "offset": 657365504,
+    "size": 8172,
+    "sha256": "6b177239dbfdba5f98a939cac8fb798fa7e88c580da17d7a2677eb511f7e7229",
+    "magic_hex": "44584243ffbb50bf93c4d7de74d216fe"
+  },
+  {
+    "name": "SHADERS/D1.RENEGADERENDERMACHINE.VERT",
+    "offset": 657373696,
+    "size": 9328,
+    "sha256": "4a89f9aa194f032fa622b05fa8362766f72f3b9c3a36af7490c2fb2bab689445",
+    "magic_hex": "4458424324bb9d4f20832b32fde62a07"
+  },
+  {
+    "name": "SHADERS/D1.RENEGADERENDERMACHINE.VERT_FXC",
+    "offset": 657383424,
+    "size": 3524,
+    "sha256": "8be2a86ab1bed9d9501109dc7159e82c4a746fbc69118d9ed916addca036bd65",
+    "magic_hex": "4458424382a5937962aa69e5fd424af5"
+  },
+  {
+    "name": "SHADERS/D1.SPRITEMACHINE.DAMAGEANDGRIT.FRAG",
+    "offset": 657387008,
+    "size": 8028,
+    "sha256": "35779e0f7e72d34b9907b5a221ee30dc1194c5741f8bd9aa2147e0faf4568d76",
+    "magic_hex": "445842439d4a1b947265b32d7ecf5604"
+  },
+  {
+    "name": "SHADERS/D1.SPRITEMACHINE.DAMAGEANDGRIT.FRAG_FXC",
+    "offset": 657395200,
+    "size": 1716,
+    "sha256": "1dea96930a4cc98be7b2b4c40df279adfb446efd06b1f29986f01eef1019dad4",
+    "magic_hex": "445842432f025393b5c62cb6291d76c3"
+  },
+  {
+    "name": "SHADERS/D1.SPRITEMACHINE.DAMAGEANDGRIT.VERT",
+    "offset": 657397248,
+    "size": 8968,
+    "sha256": "896d0a84de026b838a7b02a7d2ec34588d52ba1c894fdd75a80f73578b54a6dd",
+    "magic_hex": "4458424372a7fc42d5b5dbfca015daad"
+  },
+  {
+    "name": "SHADERS/D1.SPRITEMACHINE.DAMAGEANDGRIT.VERT_FXC",
+    "offset": 657406464,
+    "size": 1808,
+    "sha256": "6dbd82b10acb96933ed0b5599cfb7e41550c2a3dc7bd84a9ca4a258c338f9d45",
+    "magic_hex": "44584243ca2f5c5719f8228b046da2f5"
+  },
+  {
+    "name": "SHADERS/GENERATEMIPMAPS.FRAG",
+    "offset": 657408512,
+    "size": 5452,
+    "sha256": "7656c54029cac7f5c7df13d2111c0a023b664e65dc88849826cf070870a55df9",
+    "magic_hex": "44584243fa5fd0da1841da9a4b1d7488"
+  },
+  {
+    "name": "SHADERS/GENERATEMIPMAPS.FRAG_FXC",
+    "offset": 657414144,
+    "size": 620,
+    "sha256": "2c6304bbdf62df94378d25a677c680dbdaa5eb17028d0243cce2a6659b0e52f5",
+    "magic_hex": "44584243655c5bf8297940ab703e6bbe"
+  },
+  {
+    "name": "SHADERS/GENERATEMIPMAPS.VERT",
+    "offset": 657415168,
+    "size": 4624,
+    "sha256": "ba8303f58999a70749e535b0dbf847f7758b1f1d1f11cc09a5d21742b3fa8dfd",
+    "magic_hex": "44584243e184b4f6de2e7209d01e2e80"
+  },
+  {
+    "name": "SHADERS/GENERATEMIPMAPS.VERT_FXC",
+    "offset": 657420288,
+    "size": 524,
+    "sha256": "91d42dc94c449350be3e9ae8d39a3ef0ce9e317ee140ae7cb2d368eae4528482",
+    "magic_hex": "44584243fc1eba8d02541901861032e3"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.ALPHADITHER.FRAG",
+    "offset": 657421312,
+    "size": 7724,
+    "sha256": "549391c399229784a91215cc1593414cbafa758e3cb51f31ca3c0af0a1cb02fb",
+    "magic_hex": "44584243a204e3c818bd7cc6e394c2df"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.ALPHADITHER.FRAG_FXC",
+    "offset": 657429504,
+    "size": 1912,
+    "sha256": "cb112322364c7102a34c9d2ba77556d2b5a76f56e70a542908a2fc4851bc6a1c",
+    "magic_hex": "445842439dcb6ee057fb39f08b6e5f24"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.BLUR13XFAST.FRAG",
+    "offset": 657431552,
+    "size": 7028,
+    "sha256": "a81d30a2537e9e33aeb00f88e4e5ea49da2be71db85070fccf0a861c28f7ef67",
+    "magic_hex": "4458424317905ad2cb10cc46e7f07c6a"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.BLUR13XFAST.FRAG_FXC",
+    "offset": 657438720,
+    "size": 1488,
+    "sha256": "55e40ae733dd640a5648b61006134d8987af3c3e76df820d094c8d8d4841754f",
+    "magic_hex": "4458424369a7f5a0fb079ce4317b3fdb"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.BLUR13XFASTHORZ.VERT",
+    "offset": 657440256,
+    "size": 8264,
+    "sha256": "61c301eac220691d4cfc74de9f186d14398575639ab7e1e5039545b4517c2007",
+    "magic_hex": "44584243b4e45d9ecc29488f74b4d2a0"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.BLUR13XFASTHORZ.VERT_FXC",
+    "offset": 657448960,
+    "size": 1792,
+    "sha256": "9b2c9a8748a4296f08bf8bf8fa7431c1ebe6d1baea8515506cf70271cc87e5ad",
+    "magic_hex": "44584243672b479e3273e080fdc79fce"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.BLUR13XFASTVERT.VERT",
+    "offset": 657451008,
+    "size": 8264,
+    "sha256": "cb4e4d0a4694d79aa68781d978674a8b6236f1c3d73d558674f6acc4a8bc3f8e",
+    "magic_hex": "44584243f726f81cc978a3bcea5c503c"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.BLUR13XFASTVERT.VERT_FXC",
+    "offset": 657459712,
+    "size": 1792,
+    "sha256": "31b8f316cf6de1a0c72253cc6528adfa6087f8e9d9db0a7fc77d174faa08d44a",
+    "magic_hex": "4458424365a4f7343c5e82ac08588497"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.BLUR17XFAST.FRAG",
+    "offset": 657461760,
+    "size": 7028,
+    "sha256": "0955b49f382ea59d0943e43a49c7cfb12fc79e7c42a1a8b7c9a8bb42d7d0a07e",
+    "magic_hex": "44584243ca55ca10cbab639a162eee27"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.BLUR17XFAST.FRAG_FXC",
+    "offset": 657468928,
+    "size": 1488,
+    "sha256": "6e2dc23d5efa91a826120fe8bcacd32ee0cff150f5d09211f15531a85c08969f",
+    "magic_hex": "445842430b62968a68752081e40d26c1"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.BLUR17XFASTHORZ.VERT",
+    "offset": 657470464,
+    "size": 8264,
+    "sha256": "c0d22d5d1a1139c5bf7f9ef98161a9c7e4b421709690ff771cbafa1f492db856",
+    "magic_hex": "445842437ac75f4178e06a12f085114c"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.BLUR17XFASTHORZ.VERT_FXC",
+    "offset": 657479168,
+    "size": 1792,
+    "sha256": "500e8bde7300a0cd5a0bf0a64116cf68477eeea207a1d7118cdf9bd2befd4180",
+    "magic_hex": "445842432b6b33bc5e9e127bdf28ffc6"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.BLUR17XFASTVERT.VERT",
+    "offset": 657481216,
+    "size": 8264,
+    "sha256": "f04692ef2522aef1e2893cb35103c0efa8db62346527a98c82e779b522dabe93",
+    "magic_hex": "445842433397e8ff467df17784e33d76"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.BLUR17XFASTVERT.VERT_FXC",
+    "offset": 657489920,
+    "size": 1792,
+    "sha256": "02c2e8f4128b8ffc4bc249749d92a62381ffa80da5df11d8c947e213904c84ca",
+    "magic_hex": "445842433e978738e53cd6fd0f981be1"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.BLUR9XFAST.FRAG",
+    "offset": 657491968,
+    "size": 6568,
+    "sha256": "63b14860ae918626f44f8eb8629577e22fd0b528ae1fbbc893a7c716a234f54d",
+    "magic_hex": "445842436d94c5cd1cabd47d309b6b88"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.BLUR9XFAST.FRAG_FXC",
+    "offset": 657498624,
+    "size": 1232,
+    "sha256": "9339d589cd34126dc964963a475c458d78c193ca0899f5b6db2ae277930aee5a",
+    "magic_hex": "445842436e08d4ec8e2d4f138e2d2272"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.BLUR9XFASTHORZ.VERT",
+    "offset": 657500160,
+    "size": 7968,
+    "sha256": "f647902f029fc5c71db56d6e2e784ae35f13a6e29fe6b36446449074dd28e8c4",
+    "magic_hex": "445842434f1f07ea1cea8bf1adfaa8b2"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.BLUR9XFASTHORZ.VERT_FXC",
+    "offset": 657508352,
+    "size": 1608,
+    "sha256": "cb4bfaf337e70a8382d854f5a64576840767ba22bd52d04098d99a881f17240f",
+    "magic_hex": "445842435b87e79ea7f029cc62209c31"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.BLUR9XFASTVERT.VERT",
+    "offset": 657510400,
+    "size": 7972,
+    "sha256": "777bc7035e6ec62707bb821c7a5993a9f5fbca89565ee325fae1cb0f1ba3e5fa",
+    "magic_hex": "44584243c769bb1e69427e81f30cfde8"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.BLUR9XFASTVERT.VERT_FXC",
+    "offset": 657518592,
+    "size": 1608,
+    "sha256": "14c9da01e3949ced00a0632235019c409949f95e98ab7d4c8f927f16e37577a0",
+    "magic_hex": "445842438c7253d8ed6e175ba7d7efad"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.CLEAR.FRAG",
+    "offset": 657520640,
+    "size": 5568,
+    "sha256": "cf5903e0a2136103d8d3b29effbf54a09e3166816b403cef2a11c7e5d20c6f43",
+    "magic_hex": "44584243d7c8e0832c67a2b6c8ce0751"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.CLEAR.FRAG_FXC",
+    "offset": 657526272,
+    "size": 696,
+    "sha256": "dfdd3cc9b31dd0096e277374b1d967e6d3aa084e95f89d36edbab7e3c91e3d21",
+    "magic_hex": "445842432d1a6dd5a610cccb709dc554"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.COLORGRADING.FRAG",
+    "offset": 657527296,
+    "size": 6052,
+    "sha256": "ad78bed8bfe5feafe27078eda613179d334edc23502456b697d407690cd01509",
+    "magic_hex": "445842438dc0b1507ad166b263fcc5d5"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.COLORGRADING.FRAG_FXC",
+    "offset": 657533440,
+    "size": 824,
+    "sha256": "c7b49f46d0798f74c46a5977e3b73f2d1376711876b11f03313e46aa154c7514",
+    "magic_hex": "44584243987f16f56c82072d14dd02a4"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.COLORGRADING.VERT",
+    "offset": 657534464,
+    "size": 6708,
+    "sha256": "805f26f2da3593d19c5b075ad784bc0661bf39ee03620e81fe066643ecd85801",
+    "magic_hex": "445842437fd30119ecec68487b5bad6f"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.COLORGRADING.VERT_FXC",
+    "offset": 657541632,
+    "size": 1108,
+    "sha256": "a35f9cef415a86339f7f957f9b554f1049d3591d6ea8d31dc51c511d9309f513",
+    "magic_hex": "445842433f254af78a196e02acd2d829"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.FAST.FRAG",
+    "offset": 657543168,
+    "size": 6448,
+    "sha256": "146c59acb71109949390071e9b228af9bc5aad0b5d1dc6a9e875e9b2d5dee6b6",
+    "magic_hex": "44584243b85f3183b933b5fe21736f7b"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.FAST.FRAG_FXC",
+    "offset": 657549824,
+    "size": 824,
+    "sha256": "b1dbfc98dc16fe0a416a43d44a3f96c078bce86d261c101ec786ed8967628de4",
+    "magic_hex": "445842436dcf93e1aa7783b9a9e147a8"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.FASTPALETTE.FRAG",
+    "offset": 657550848,
+    "size": 7000,
+    "sha256": "63cc18f1cf853fd7264b4f485b945b369d482ed3b01189bfe3c78dd04a5b0729",
+    "magic_hex": "445842437cc02c8938b5f5100f74a16a"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.FASTPALETTE.FRAG_FXC",
+    "offset": 657558016,
+    "size": 1104,
+    "sha256": "5312e18053af4ed4bdff417d1ca4463571f0c1b3cc208d59740e7f783faebf1f",
+    "magic_hex": "44584243da4296840636d2300efe03a6"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.FRAG",
+    "offset": 657559552,
+    "size": 7100,
+    "sha256": "e7067fc5afca011f6335b9556fbbbd95e2c86da09837738b911191774f2ab454",
+    "magic_hex": "445842439818121eac081a540e9a3ca0"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.FRAG_FXC",
+    "offset": 657566720,
+    "size": 1072,
+    "sha256": "04a75032a98a12b348bcea1d4d90bacb1e829fcb60c65178e8c53c3b811a68c1",
+    "magic_hex": "4458424398933dc481b8e210c9590edc"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.HSLADJUST.FRAG",
+    "offset": 657568256,
+    "size": 7520,
+    "sha256": "2f8d58a33509ba58a860c78ebf4ce3fccb66c2fe971f89aa9f4852f5b9d79911",
+    "magic_hex": "445842432f1f60b35e9b24a08b5cba06"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.HSLADJUST.FRAG_FXC",
+    "offset": 657575936,
+    "size": 1968,
+    "sha256": "2e3f48f749616f777e19fe398a958150ed8da7925d1c7ea810aa9b056a1bb0e7",
+    "magic_hex": "4458424398f222f08d722e2a2db89c43"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.PRRCRTA05.FRAG",
+    "offset": 657577984,
+    "size": 8312,
+    "sha256": "a80f45d5123f50d7aa77909c0348f105ccab7ae5cb521b5cacddfb740d237090",
+    "magic_hex": "44584243e226ef86eacdab1bdec6bf68"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.PRRCRTA05.FRAG_FXC",
+    "offset": 657586688,
+    "size": 6844,
+    "sha256": "743c7450354257f73d726080a446095d274dc874db500ad01194cb647a03c86d",
+    "magic_hex": "44584243f5b0024615759f9086ba47dc"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.PRRCRTA05.VERT",
+    "offset": 657593856,
+    "size": 6812,
+    "sha256": "65e38ef2cc3317c49e838c3e7374dfddb6d5ed098473d8b424a9834045f52773",
+    "magic_hex": "44584243fcf3764fb39e0b4fc085431d"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.PRRCRTA05.VERT_FXC",
+    "offset": 657601024,
+    "size": 1236,
+    "sha256": "07bc1485adfb5c9c56903fff1d910d36166cef389c0732711670d856dbf8d1cf",
+    "magic_hex": "4458424346fbd1fd0c0bc60974530b71"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.SCREEN.FRAG",
+    "offset": 657602560,
+    "size": 5960,
+    "sha256": "850ec854a71c21ab46c1297ad211f6aebf960dc55f6bf1dcf6055ea8a907fd6f",
+    "magic_hex": "44584243b42be21ca3894a6c344ebe21"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.SCREEN.FRAG_FXC",
+    "offset": 657608704,
+    "size": 1008,
+    "sha256": "19e2588dd9ba657ebdc7e09f484c33696322929b9973d61ab6b817cde4adb5ab",
+    "magic_hex": "44584243181fd49b00b0294ce62b9271"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.SWIZZLERB.FRAG",
+    "offset": 657609728,
+    "size": 6452,
+    "sha256": "dcc044e42d7122ba26af2f939c68410eb4529773c76968b755f44d246c1cf32c",
+    "magic_hex": "44584243e589007fac329b225caf0f7f"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.SWIZZLERB.FRAG_FXC",
+    "offset": 657616384,
+    "size": 852,
+    "sha256": "6a84f2d5e4fa144778a5530c3d4cec7c89861e4f9a31220bf1dd517070d6fa26",
+    "magic_hex": "44584243c089964cae4d957a26554416"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.VERT",
+    "offset": 657617408,
+    "size": 8228,
+    "sha256": "0d9d0b2ed16f10ee28618a4b75e0af2dc55356e71db9b32cb9d175690a9fbcf5",
+    "magic_hex": "44584243f1f46dd18b836f1ae56182b4"
+  },
+  {
+    "name": "SHADERS/SPRITEMACHINE.VERT_FXC",
+    "offset": 657626112,
+    "size": 1492,
+    "sha256": "52579adb1aa95bbc5ef70f422a3316f3d4dac0909ac70930656bd7d70e89a5a9",
+    "magic_hex": "44584243d1464a09beb7ee5bd64da806"
+  },
+  {
+    "name": "SHADERS/VENGEFUL.FRAG",
+    "offset": 657627648,
+    "size": 8272,
+    "sha256": "df7a3256d2f0bb9fe5b64de0f6c0035769e6e32c25f5b559155e6ec210a6b681",
+    "magic_hex": "44584243ca9afd89b58a8f9ed3090a90"
+  },
+  {
+    "name": "SHADERS/VENGEFUL.FRAG_FXC",
+    "offset": 657636352,
+    "size": 6744,
+    "sha256": "18a89cf1394f9c6d906bfb2874d57325894c65d5ec2e9868fc58320aba5b4a0e",
+    "magic_hex": "44584243a491dd818da329a6d0ca440e"
+  },
+  {
+    "name": "SHADERS/VENGEFUL.VERT",
+    "offset": 657643520,
+    "size": 6796,
+    "sha256": "ae205568d295462b3c5ad089d7158dd9679d7bb5927eacde18ea477bf056e252",
+    "magic_hex": "44584243ee600cd08e40ca8b3c2e2db2"
+  },
+  {
+    "name": "SHADERS/VENGEFUL.VERT_FXC",
+    "offset": 657650688,
+    "size": 1236,
+    "sha256": "07bc1485adfb5c9c56903fff1d910d36166cef389c0732711670d856dbf8d1cf",
+    "magic_hex": "4458424346fbd1fd0c0bc60974530b71"
+  },
+  {
+    "name": "SHADERS/VENGEFULHD.FRAG",
+    "offset": 657652224,
+    "size": 6960,
+    "sha256": "daf65820daf995a04d8ac26d219adba577a4b278b3851a78247cc16cfc7e8280",
+    "magic_hex": "4458424397d5f788912673738382e61d"
+  },
+  {
+    "name": "SHADERS/VENGEFULHD.FRAG_FXC",
+    "offset": 657659392,
+    "size": 2476,
+    "sha256": "851bb1052a76c6c9420e70346900e86caab3d5b281b33fdd1a8c18949eed00cc",
+    "magic_hex": "4458424372f89439ef6f4003c1144afd"
+  },
+  {
+    "name": "SPISETTINGS.INI",
+    "offset": 657661952,
+    "size": 700,
+    "sha256": "6f43c025c5ac9c9135c6d5f097b2429cff1c505100bbb65f182ab3ebbeec0262",
+    "magic_hex": "5b73657474696e67735d0d0a67616d65"
+  },
+  {
+    "name": "TEXTURES/EXAMINE/EXAMINE000.PNG",
+    "offset": 657662976,
+    "size": 1284,
+    "sha256": "eccad2892a524f53911a806f16b6d4919b29f26cc21fde402bdcaf9a390927e2",
+    "magic_hex": "7a000000200000004000000040000000"
+  },
+  {
+    "name": "TEXTURES/EXAMINE/EXAMINE001.PNG",
+    "offset": 657664512,
+    "size": 860,
+    "sha256": "5317ec8ea4342c0f859d4682af4e60488c3c8d12cbf91055ac85953688b467ff",
+    "magic_hex": "7a000000200000004000000040000000"
+  },
+  {
+    "name": "TEXTURES/EXAMINE/EXAMINE002.PNG",
+    "offset": 657665536,
+    "size": 976,
+    "sha256": "e72b07cd2334be2d36a124e41863e59a15a49a16f56b10aa1a914fd37eafbff7",
+    "magic_hex": "7a000000200000004000000040000000"
+  },
+  {
+    "name": "TEXTURES/EXAMINE/EXAMINE003.PNG",
+    "offset": 657666560,
+    "size": 912,
+    "sha256": "81ceb8f3999268596bb70c2932aa0e51e3e1dbac261d3566ca13cd673382314d",
+    "magic_hex": "7a000000200000004000000040000000"
+  },
+  {
+    "name": "TEXTURES/EXAMINE/EXAMINE004.PNG",
+    "offset": 657667584,
+    "size": 1896,
+    "sha256": "de7c9d06638317e6468d2ab27c193c699161c2de102b89a4fcef0f8036922df6",
+    "magic_hex": "7a000000200000004000000040000000"
+  },
+  {
+    "name": "TEXTURES/EXAMINE/EXAMINE005.PNG",
+    "offset": 657669632,
+    "size": 1684,
+    "sha256": "3aecdc98f18c54f9c9d5058f4b263094b334f6993b323f119830e8471583988f",
+    "magic_hex": "7a000000200000005000000046000000"
+  },
+  {
+    "name": "TEXTURES/EXAMINE/EXAMINE006.PNG",
+    "offset": 657671680,
+    "size": 1544,
+    "sha256": "ed5e2a047727aa7b420929d5fdf8de7b56d8e08b026d040e4daf9b731be42829",
+    "magic_hex": "7a000000200000004000000040000000"
+  },
+  {
+    "name": "TEXTURES/EXAMINE/EXAMINE007.PNG",
+    "offset": 657673728,
+    "size": 1292,
+    "sha256": "ec38eab8e53200f4000d4000ab0eb1abdf020069a01b2888dd00a803f24e7d32",
+    "magic_hex": "7a000000200000006000000040000000"
+  },
+  {
+    "name": "TEXTURES/EXAMINE/EXAMINE008.PNG",
+    "offset": 657675264,
+    "size": 3712,
+    "sha256": "1ac0e91bd62a0aa34501fbfd875b82d6fef04b77e9077bbe5beb90b2ad994932",
+    "magic_hex": "7a000000200000009800000040000000"
+  },
+  {
+    "name": "TEXTURES/EXAMINE/EXAMINE009.PNG",
+    "offset": 657679360,
+    "size": 2664,
+    "sha256": "e72c7d871972dfabbd585fa5c34ce41bd651befc37499d9f33b7f9505eadc198",
+    "magic_hex": "7a000000200000004000000040000000"
+  },
+  {
+    "name": "TEXTURES/EXAMINE/EXAMINE033.PNG",
+    "offset": 657682432,
+    "size": 720,
+    "sha256": "88b9e36a8a92bee0852ea5f77e0fa051607395960c7a2f5f098ca00998249a05",
+    "magic_hex": "7a000000200000004000000040000000"
+  },
+  {
+    "name": "TEXTURES/EXAMINE/EXAMINE034.PNG",
+    "offset": 657683456,
+    "size": 1068,
+    "sha256": "ad0d5fb08a2a0a189cb6b03ee1abcd064aab7f3cc96181b224bf83ce1d167d37",
+    "magic_hex": "7a000000200000004000000040000000"
+  },
+  {
+    "name": "TEXTURES/EXAMINE/EXAMINE036.PNG",
+    "offset": 657684992,
+    "size": 1116,
+    "sha256": "56364aac1d1b80b5c101326501bc95da80615dc9166a869b51665deb666c973d",
+    "magic_hex": "7a000000200000004000000040000000"
+  },
+  {
+    "name": "TEXTURES/EXAMINE/EXAMINE037.PNG",
+    "offset": 657686528,
+    "size": 1152,
+    "sha256": "ceac5adcfbddb2a5c1f8d5474f7b26d7e09ebbe6d6fa13439fab6fb80793f96d",
+    "magic_hex": "7a000000200000004000000040000000"
+  },
+  {
+    "name": "TEXTURES/EXAMINE/EXAMINE038.PNG",
+    "offset": 657688064,
+    "size": 1128,
+    "sha256": "9bd64007da8b3052a457ddc99253aea38d563ebfe25a0171099f32e9dcca06b0",
+    "magic_hex": "7a000000200000004000000040000000"
+  },
+  {
+    "name": "TEXTURES/EXAMINE/EXAMINE040.PNG",
+    "offset": 657689600,
+    "size": 1912,
+    "sha256": "d4758a488e8eed050fb121e6d64aa66b004d926400683f4efa7fb922e4d67cb4",
+    "magic_hex": "7a000000200000004000000040000000"
+  },
+  {
+    "name": "TEXTURES/EXAMINE/EXAMINE041.PNG",
+    "offset": 657691648,
+    "size": 1392,
+    "sha256": "335ebad548ffb36fd422944cfa314208f1d00bbf0edf02c7a70ef8182a84c156",
+    "magic_hex": "7a000000200000004000000040000000"
+  },
+  {
+    "name": "TEXTURES/EXAMINE/EXAMINE042.PNG",
+    "offset": 657693184,
+    "size": 1360,
+    "sha256": "56d78d4f2be1a6a3fc0f5889c66e233c1437850ddf8c1c4dc6d210714bce8691",
+    "magic_hex": "7a000000200000004000000040000000"
+  },
+  {
+    "name": "TEXTURES/EXAMINE/EXAMINE043.PNG",
+    "offset": 657694720,
+    "size": 1412,
+    "sha256": "e4eac1b07b491dc7834f38cd763bd0097f65bd869b987dcfd190725625d4ab8f",
+    "magic_hex": "7a000000200000004000000040000000"
+  },
+  {
+    "name": "TEXTURES/EXAMINE/EXAMINE044.PNG",
+    "offset": 657696256,
+    "size": 1348,
+    "sha256": "dd923bea1c86098b865c850d7c3868d2b4cddc33cffe77039396aef7e445d599",
+    "magic_hex": "7a000000200000004000000040000000"
+  },
+  {
+    "name": "TEXTURES/EXAMINE/EXAMINE045.PNG",
+    "offset": 657697792,
+    "size": 2056,
+    "sha256": "29b652e6630ac99a0d40b3f7e923f7c66eb6a1003250eed845dfefa83a800cd4",
+    "magic_hex": "7a000000200000004000000040000000"
+  },
+  {
+    "name": "TEXTURES/EXAMINE/EXAMINE046.PNG",
+    "offset": 657700352,
+    "size": 1948,
+    "sha256": "748b6e04f1ed73efbd3825dbd2ff7579b198d91614be09f8c8539930e9d591da",
+    "magic_hex": "7a000000200000004000000040000000"
+  },
+  {
+    "name": "TEXTURES/EXAMINE/EXAMINE531.PNG",
+    "offset": 657702400,
+    "size": 7852,
+    "sha256": "7e84c5c72a378ee64dba4143582e51ac22b80cc85410211fc6552e99f1080a9e",
+    "magic_hex": "7a000000200000000001000080000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/BUTTON108.PNG",
+    "offset": 657710592,
+    "size": 5068,
+    "sha256": "137936a62e1f69351c32597bd842d346ccb06f9248e2fb41cfd07ca843ba5411",
+    "magic_hex": "7a000000200000006c0000001e000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/BUTTON148.PNG",
+    "offset": 657715712,
+    "size": 5192,
+    "sha256": "d5410fcbce25de580eb6047b5387ad80d468eca03a8a29687b9a02bf92b81c7f",
+    "magic_hex": "7a00000020000000940000001e000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/BUTTON76.PNG",
+    "offset": 657721344,
+    "size": 3744,
+    "sha256": "a4895af1bf1ca0d84b1ba1aad043f4d18710b1bc97a92468862898787795d5e8",
+    "magic_hex": "7a000000200000004c00000022000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/BUTTON92.PNG",
+    "offset": 657725440,
+    "size": 4404,
+    "sha256": "73c0b178444f6fc2ce9a3bd86ed7bff4d9bc7aa2f6592461d9690e3aa991fe87",
+    "magic_hex": "7a000000200000005c00000020000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/DE/LEGEND_KEYBOARD_BACK.PNG",
+    "offset": 657730048,
+    "size": 440,
+    "sha256": "eff31c4c4226d041aca746d032290947420eea0172d63be85b08a14bbc6828aa",
+    "magic_hex": "7a000000200000003c00000014000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/DE/LEGEND_KEYBOARD_CONFIRM.PNG",
+    "offset": 657730560,
+    "size": 524,
+    "sha256": "5f6018b7fa075bc0d55cada8d6c9bc951c55e05c4f9e81a1eae48b71c709e53d",
+    "magic_hex": "7a000000200000004500000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/DE/LEGEND_KEYBOARD_EQUIP.PNG",
+    "offset": 657731584,
+    "size": 548,
+    "sha256": "e8b5a287bc5c18b2cd437c066cf1a9582bb91d318eb0a9496628cd9926c3a7b8",
+    "magic_hex": "7a000000200000004a00000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/DE/LEGEND_KEYBOARD_PRESS.PNG",
+    "offset": 657732608,
+    "size": 496,
+    "sha256": "f33144e4e87c4dca08e3528f426f3bce4aacb6a9a4f7580c2cffcc3cc99b2382",
+    "magic_hex": "7a000000200000003e00000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/DE/LEGEND_NX_BACK.PNG",
+    "offset": 657733120,
+    "size": 456,
+    "sha256": "77e094bae2aa18c85b67ea7d2a7c5e6b01cc6ffe25f8c5630700bdd160fe44f4",
+    "magic_hex": "7a000000200000004000000014000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/DE/LEGEND_NX_CONFIRM.PNG",
+    "offset": 657733632,
+    "size": 568,
+    "sha256": "64704269decce84b14c4e3f9b7c085cb0af3c0934fc93d56e843abde4683026d",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/DE/LEGEND_NX_EQUIP.PNG",
+    "offset": 657734656,
+    "size": 544,
+    "sha256": "cfee03e3108257057399370f8b901e619a703ad76a4ceaeaef32a7e351e1a6a7",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/DE/LEGEND_NX_PRESS.PNG",
+    "offset": 657735680,
+    "size": 496,
+    "sha256": "e51a21457cc26a84923e3d19ad9d3dcc09b5efbfd02d871c18906c7451903554",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/DE/LEGEND_PS4_BACK.PNG",
+    "offset": 657736192,
+    "size": 456,
+    "sha256": "38e5f35059d308e73c67f7f3787d03b03429736f39df058cdf58ce9bf89a0cff",
+    "magic_hex": "7a000000200000004000000014000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/DE/LEGEND_PS4_BACK_ASIABUTTONS.PNG",
+    "offset": 657736704,
+    "size": 456,
+    "sha256": "0a45c52587b5c208a349e6c07632382031e97316c508e62a97fad878ad974a74",
+    "magic_hex": "7a000000200000004000000014000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/DE/LEGEND_PS4_CONFIRM.PNG",
+    "offset": 657737216,
+    "size": 556,
+    "sha256": "8cbd5f27a550974da539d9713054e346a6789962ba1fc0fc78664e081bd8f301",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/DE/LEGEND_PS4_CONFIRM_ASIABUTTONS.PNG",
+    "offset": 657738240,
+    "size": 552,
+    "sha256": "d8f22bf05c48371b904a0c0c1cc9aaa374a216eb89e7c2a0cf7b5f70e48cc431",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/DE/LEGEND_PS4_EQUIP.PNG",
+    "offset": 657739264,
+    "size": 524,
+    "sha256": "0714bc09657107b14d589d5d59b13af95ddfa4899120e7d1978d9fd7457ea6a9",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/DE/LEGEND_PS4_EQUIP_ASIABUTTONS.PNG",
+    "offset": 657740288,
+    "size": 520,
+    "sha256": "83658c66230de7c98e9c018c9142b579f8db03c5cdbe1c8ec255e37aea061009",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/DE/LEGEND_PS4_PRESS.PNG",
+    "offset": 657741312,
+    "size": 480,
+    "sha256": "f33576da98ac3eb45dda01ce754ecd7be25552884d0b931265c5096376ffecc1",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/DE/LEGEND_PS4_PRESS_ASIABUTTONS.PNG",
+    "offset": 657741824,
+    "size": 480,
+    "sha256": "26744d900b080085f4d3a86bae0759bfc819d66133bad60b6c07f212b91665c4",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/EN/LEGEND_KEYBOARD_BACK.PNG",
+    "offset": 657742336,
+    "size": 368,
+    "sha256": "7a1e48fe64846cc26bbba35985eea52607bad2bec656b2d12e78c0b4c56988a8",
+    "magic_hex": "7a000000200000003000000014000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/EN/LEGEND_KEYBOARD_CONFIRM.PNG",
+    "offset": 657742848,
+    "size": 484,
+    "sha256": "1b15321f31bb71893c2249cc1f8a2c3da14e9372fad56d4266fbfef10c60fca3",
+    "magic_hex": "7a000000200000004100000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/EN/LEGEND_KEYBOARD_EQUIP.PNG",
+    "offset": 657743360,
+    "size": 464,
+    "sha256": "06cb0d19812637fd33e2d052c15a113b211caf8fce69022a184039f826f83d25",
+    "magic_hex": "7a000000200000004100000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/EN/LEGEND_KEYBOARD_PRESS.PNG",
+    "offset": 657743872,
+    "size": 392,
+    "sha256": "6985a4bc9ef4d964814128601a94a06c25d29382492905370bd7e429e93417eb",
+    "magic_hex": "7a000000200000004100000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/EN/LEGEND_NX_BACK.PNG",
+    "offset": 657744384,
+    "size": 408,
+    "sha256": "890c603b94c61e5259537d1b5bce5848dbf58458be24766baab13a5d743cc1e6",
+    "magic_hex": "7a000000200000003000000014000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/EN/LEGEND_NX_CONFIRM.PNG",
+    "offset": 657744896,
+    "size": 512,
+    "sha256": "d51555b347557a1b3dbdbefd75bcb8212e5438c9a608babedbd5b8853f777834",
+    "magic_hex": "7a000000200000004100000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/EN/LEGEND_NX_EQUIP.PNG",
+    "offset": 657745408,
+    "size": 460,
+    "sha256": "7d51d922ecb7e7543cc7cf7c6113d3afcfaa49773387e9b482fdc206d100dbe6",
+    "magic_hex": "7a000000200000003700000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/EN/LEGEND_NX_PRESS.PNG",
+    "offset": 657745920,
+    "size": 424,
+    "sha256": "e3dcfb0d1007f656392a9929e26648a6f9ed453d01453607c04a413761c6d723",
+    "magic_hex": "7a000000200000003600000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/EN/LEGEND_PS4_BACK.PNG",
+    "offset": 657746432,
+    "size": 396,
+    "sha256": "8223e04f859234e4997d1582e819c98ef0c1c995619c0fc479addc6b0f99403d",
+    "magic_hex": "7a000000200000003000000014000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/EN/LEGEND_PS4_BACK_ASIABUTTONS.PNG",
+    "offset": 657746944,
+    "size": 408,
+    "sha256": "bb12e482782515a5fd8a34d090f74326c7a7f4d42f2d5b42173de08c4b2a8c9e",
+    "magic_hex": "7a000000200000003000000014000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/EN/LEGEND_PS4_CONFIRM.PNG",
+    "offset": 657747456,
+    "size": 492,
+    "sha256": "0ac1e017b9896758026e28addd51cc12a1c4f109218fdb22a836499d6de966b9",
+    "magic_hex": "7a000000200000004100000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/EN/LEGEND_PS4_CONFIRM_ASIABUTTONS.PNG",
+    "offset": 657747968,
+    "size": 488,
+    "sha256": "6e18cbed4de19b21bc3072b8bdc5fde97dcbcd8a4f518620f05e422bc3f616fe",
+    "magic_hex": "7a000000200000004100000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/EN/LEGEND_PS4_EQUIP.PNG",
+    "offset": 657748480,
+    "size": 448,
+    "sha256": "613be8e945167b62c1c1265a11e9b79e2cdfc5c26d9f5a77728a57ee1cd5bc0b",
+    "magic_hex": "7a000000200000003700000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/EN/LEGEND_PS4_EQUIP_ASIABUTTONS.PNG",
+    "offset": 657748992,
+    "size": 444,
+    "sha256": "6f4b133bb645a0e505194bfa5c85dbea8a5e17414f6b95bcf13bebc740e40ecd",
+    "magic_hex": "7a000000200000003700000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/EN/LEGEND_PS4_PRESS.PNG",
+    "offset": 657749504,
+    "size": 408,
+    "sha256": "4ec244231d5bdd9ef90193aae121ae46fdc92f2365a4884df152509d0cd8b059",
+    "magic_hex": "7a000000200000003600000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/EN/LEGEND_PS4_PRESS_ASIABUTTONS.PNG",
+    "offset": 657750016,
+    "size": 400,
+    "sha256": "bc7984b55b5e946bc4c2b8f1cac22b560fb3aa81578a5d607747b35519798ed4",
+    "magic_hex": "7a000000200000003600000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/ES/LEGEND_KEYBOARD_BACK.PNG",
+    "offset": 657750528,
+    "size": 416,
+    "sha256": "4fd7af6dbb4773b2f073059e02f564811ab9b718846afff1e2a2903952f950a3",
+    "magic_hex": "7a000000200000003700000014000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/ES/LEGEND_KEYBOARD_CONFIRM.PNG",
+    "offset": 657751040,
+    "size": 528,
+    "sha256": "ebc463568b696b2672c83593b6aa66d76b29d676b4212662b59cf0c8dae24923",
+    "magic_hex": "7a000000200000004600000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/ES/LEGEND_KEYBOARD_EQUIP.PNG",
+    "offset": 657752064,
+    "size": 484,
+    "sha256": "d03d65ccaa2c14e38c64beb091643d690ede429c644095a537b336cbdc05a796",
+    "magic_hex": "7a000000200000004100000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/ES/LEGEND_KEYBOARD_PRESS.PNG",
+    "offset": 657752576,
+    "size": 484,
+    "sha256": "7a64d44e3e136b5624c7e638ab79c853252cc3284617ebccd2785aeb37da9e64",
+    "magic_hex": "7a000000200000004100000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/ES/LEGEND_NX_BACK.PNG",
+    "offset": 657753088,
+    "size": 420,
+    "sha256": "cc83a17cb2901a337bd82d827f7b280f2fdf75c952fd007b1309877facca7c85",
+    "magic_hex": "7a000000200000004000000014000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/ES/LEGEND_NX_CONFIRM.PNG",
+    "offset": 657753600,
+    "size": 524,
+    "sha256": "596773d5bfff887b443d3f0db34d11dbdc4507a6aa4d529e3faf4bd68ec64185",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/ES/LEGEND_NX_EQUIP.PNG",
+    "offset": 657754624,
+    "size": 504,
+    "sha256": "f2cb7bc32c5c324a8ef51004f59b8d805b91d4b5ac1f7a75305d1e4464ff1432",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/ES/LEGEND_NX_PRESS.PNG",
+    "offset": 657755136,
+    "size": 484,
+    "sha256": "4637cbef07838bc607d71240a65c7bdaa7e7775a8297f3491486e7f75b9cd559",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/ES/LEGEND_PS4_BACK.PNG",
+    "offset": 657755648,
+    "size": 420,
+    "sha256": "17d7f82b5b320654f6c4942738f55f6ac4869a3e5ff9afa98fc56091532e7352",
+    "magic_hex": "7a000000200000004000000014000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/ES/LEGEND_PS4_BACK_ASIABUTTONS.PNG",
+    "offset": 657756160,
+    "size": 420,
+    "sha256": "7b49be30da0850223b73be6872369bbd3bc5b49784d11208d5aa573e74396d66",
+    "magic_hex": "7a000000200000004000000014000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/ES/LEGEND_PS4_CONFIRM.PNG",
+    "offset": 657756672,
+    "size": 512,
+    "sha256": "483e64c7e017a87b03d76a70cae38d44bead634e9272d080a7fcc61245a4d03b",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/ES/LEGEND_PS4_CONFIRM_ASIABUTTONS.PNG",
+    "offset": 657757184,
+    "size": 508,
+    "sha256": "798a6c4589b24c44a68e367a75caf1f7d0e90817edff1df3d1786df84ad591b9",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/ES/LEGEND_PS4_EQUIP.PNG",
+    "offset": 657757696,
+    "size": 488,
+    "sha256": "3f9e7a513aefdc98f5c2fa130f29d22579da1e678e9fa5a8a1f47b9c683df907",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/ES/LEGEND_PS4_EQUIP_ASIABUTTONS.PNG",
+    "offset": 657758208,
+    "size": 484,
+    "sha256": "792cf1bdbeee5655b8508e2bad707aeab919243c595d4e50ebe1fe847495240c",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/ES/LEGEND_PS4_PRESS.PNG",
+    "offset": 657758720,
+    "size": 476,
+    "sha256": "465338d94f425d741bf040aa7019880fa829171448240bf4d7230d38a5a66674",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/ES/LEGEND_PS4_PRESS_ASIABUTTONS.PNG",
+    "offset": 657759232,
+    "size": 468,
+    "sha256": "cb99fcc04f48bf890162b793a55c90f73fddfc2afcd494cd651d439f20b03c2e",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/FR/LEGEND_KEYBOARD_BACK.PNG",
+    "offset": 657759744,
+    "size": 424,
+    "sha256": "cbebd1c782ab19c9c5ede861ded5afc4d540fbc588534b9dbd272c170b1d50b7",
+    "magic_hex": "7a000000200000003b00000014000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/FR/LEGEND_KEYBOARD_CONFIRM.PNG",
+    "offset": 657760256,
+    "size": 516,
+    "sha256": "f0a2b425a06cba4ffbda4a4f35f01b6d51c50284032a5b18e02eb33518fa1d0b",
+    "magic_hex": "7a000000200000004500000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/FR/LEGEND_KEYBOARD_EQUIP.PNG",
+    "offset": 657761280,
+    "size": 596,
+    "sha256": "4271e52579031cd7cc76d513dfaff548c36989dccc028a81603c3aabbb79d832",
+    "magic_hex": "7a000000200000004400000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/FR/LEGEND_KEYBOARD_PRESS.PNG",
+    "offset": 657762304,
+    "size": 488,
+    "sha256": "951b6843026c80b09443992bf5d554a502ccf6c653f88c7dd252c38795ec633d",
+    "magic_hex": "7a000000200000004100000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/FR/LEGEND_NX_BACK.PNG",
+    "offset": 657762816,
+    "size": 436,
+    "sha256": "281f12381ecaafd33a1bea6ed918f3677ee655e0837ad25f21438aa2817fa5b7",
+    "magic_hex": "7a000000200000004000000014000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/FR/LEGEND_NX_CONFIRM.PNG",
+    "offset": 657763328,
+    "size": 520,
+    "sha256": "fe30040cdce63b88d61ebfcf4019822d31310cc5f191a344ce41d2155af8fbbe",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/FR/LEGEND_NX_EQUIP.PNG",
+    "offset": 657764352,
+    "size": 588,
+    "sha256": "d2baf9ccf7788942ab9188e04bc5f54df59d429a8c439ee0e9c815995a1c2312",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/FR/LEGEND_NX_PRESS.PNG",
+    "offset": 657765376,
+    "size": 560,
+    "sha256": "ea3061101d824a70ff99c089d2b479ed1e090d7c87e845eb1166160f71f135f0",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/FR/LEGEND_PS4_BACK.PNG",
+    "offset": 657766400,
+    "size": 436,
+    "sha256": "081368205d9d736bbf98e0e2557ca9e4f38db3b06b2e9fadc0c695f5296eb0a9",
+    "magic_hex": "7a000000200000004000000014000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/FR/LEGEND_PS4_BACK_ASIABUTTONS.PNG",
+    "offset": 657766912,
+    "size": 440,
+    "sha256": "272b7b6e841142cec427338d0fdf36e208dd07be03a3e1287fb235b6fb03a1a5",
+    "magic_hex": "7a000000200000004000000014000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/FR/LEGEND_PS4_CONFIRM.PNG",
+    "offset": 657767424,
+    "size": 504,
+    "sha256": "ae404936c1f51250bc551b7cc35c68d9d1697d12389f20f63f6f255c912a45e4",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/FR/LEGEND_PS4_CONFIRM_ASIABUTTONS.PNG",
+    "offset": 657767936,
+    "size": 500,
+    "sha256": "59d47aeb2b43fc5b04d2154901d390caf2978840847be932a0bf337daffcd140",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/FR/LEGEND_PS4_EQUIP.PNG",
+    "offset": 657768448,
+    "size": 576,
+    "sha256": "4e64d68f3687ffaed0273ec6f8812cad20f9863c63cd8ea5d33155de212a99fe",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/FR/LEGEND_PS4_EQUIP_ASIABUTTONS.PNG",
+    "offset": 657769472,
+    "size": 572,
+    "sha256": "b4769702ea9560bd9630c3c9a1dc6917c0d79c56e88d6e5872bedfa6f1eea609",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/FR/LEGEND_PS4_PRESS.PNG",
+    "offset": 657770496,
+    "size": 548,
+    "sha256": "3a30f0e98f8f486a2897b7ff8dcbae6debfe81d0f26cd2381f0fd1c440ab72fe",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/FR/LEGEND_PS4_PRESS_ASIABUTTONS.PNG",
+    "offset": 657771520,
+    "size": 540,
+    "sha256": "ae933ee2670a24bfb0869ba60d31b02e4b53e8ed4ac76e1fa952a36aa78017a5",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/IT/LEGEND_KEYBOARD_BACK.PNG",
+    "offset": 657772544,
+    "size": 448,
+    "sha256": "b34da4024dd431842acb506cb0fbc32912b74408552f34477f5eb7955ad7595e",
+    "magic_hex": "7a000000200000003f00000014000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/IT/LEGEND_KEYBOARD_CONFIRM.PNG",
+    "offset": 657773056,
+    "size": 532,
+    "sha256": "fe220d4873246627226ad23f9fe0a290b6b744678efb8b5f6884b656a62ab02f",
+    "magic_hex": "7a000000200000004200000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/IT/LEGEND_KEYBOARD_EQUIP.PNG",
+    "offset": 657774080,
+    "size": 580,
+    "sha256": "23b1a8bfaa7d840340432fb59e90acac47068a511c78d21baf2703e8b4d3ce81",
+    "magic_hex": "7a000000200000004700000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/IT/LEGEND_KEYBOARD_PRESS.PNG",
+    "offset": 657775104,
+    "size": 424,
+    "sha256": "963957d335a15a89f24d58047159339c16f961a1875a48a59f14dadeea981eee",
+    "magic_hex": "7a000000200000004100000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/IT/LEGEND_NX_BACK.PNG",
+    "offset": 657775616,
+    "size": 456,
+    "sha256": "769a6329f04d1e61d1fce6a4514f4766eaa0c16410bbaeb3da3476243df4bdba",
+    "magic_hex": "7a000000200000004000000014000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/IT/LEGEND_NX_CONFIRM.PNG",
+    "offset": 657776128,
+    "size": 532,
+    "sha256": "531dc89fc73c4dd422314dcf86d52414d5161f5c8dec8b45eb6bb8106d110404",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/IT/LEGEND_NX_EQUIP.PNG",
+    "offset": 657777152,
+    "size": 572,
+    "sha256": "9060daef3a989e2eb95fa95ef5f58869c4c445a57dc04751de1438e2348231eb",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/IT/LEGEND_NX_PRESS.PNG",
+    "offset": 657778176,
+    "size": 408,
+    "sha256": "74d53054ab4bad228113e804f027c50f8524eafb61cdea19dbf99961613551b4",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/IT/LEGEND_PS4_BACK.PNG",
+    "offset": 657778688,
+    "size": 456,
+    "sha256": "f8836d9a3baf64310a00a7944ac4ec026cff3fcb08353ed7f92117c6dd645ac7",
+    "magic_hex": "7a000000200000004000000014000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/IT/LEGEND_PS4_BACK_ASIABUTTONS.PNG",
+    "offset": 657779200,
+    "size": 460,
+    "sha256": "8c1c0a9824c81d45aa492ed987f9564e8ec71ef5dd70c6fd20d423c847cb14d3",
+    "magic_hex": "7a000000200000004000000014000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/IT/LEGEND_PS4_CONFIRM.PNG",
+    "offset": 657779712,
+    "size": 516,
+    "sha256": "ec6abdc9a5d2d72423892263c0ac4ed508c863762a5acee8e6c4d18347f2cfb9",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/IT/LEGEND_PS4_CONFIRM_ASIABUTTONS.PNG",
+    "offset": 657780736,
+    "size": 516,
+    "sha256": "dbdaecb32909dfac285be18e044e1f33a2bee835815191074f6e85256da62bde",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/IT/LEGEND_PS4_EQUIP.PNG",
+    "offset": 657781760,
+    "size": 568,
+    "sha256": "12ff56859d4d412dd6dddd880eb916a5a0eeab25c98b686e59cfed5e36ad7b91",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/IT/LEGEND_PS4_EQUIP_ASIABUTTONS.PNG",
+    "offset": 657782784,
+    "size": 556,
+    "sha256": "68873c79e1beff5e25f8cf96b591b8e18fe33e344890df7654519e956bbe7696",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/IT/LEGEND_PS4_PRESS.PNG",
+    "offset": 657783808,
+    "size": 396,
+    "sha256": "39e62a28407704d407d9697d52a08ab89d1942161a1b8618780fcbdf6f5b3a8d",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/IT/LEGEND_PS4_PRESS_ASIABUTTONS.PNG",
+    "offset": 657784320,
+    "size": 396,
+    "sha256": "9bab6be1d60eb611aa4b9ca149dad6f6b46f7c815f992479342f88fc7d373a3d",
+    "magic_hex": "7a000000200000005000000016000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/PAGELEFT.PNG",
+    "offset": 657784832,
+    "size": 3740,
+    "sha256": "840936bd3090b3f72cb244069de90aa438dc9621408ab814ab33ad21cfb4a998",
+    "magic_hex": "7a00000020000000370000003b000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/PAGELEFT_KEYBOARD.PNG",
+    "offset": 657788928,
+    "size": 3704,
+    "sha256": "9dbd574b2729b2fd67307d2724b26e3fcedbccb20af653e79f28a597a23808f8",
+    "magic_hex": "7a00000020000000370000003b000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/PAGELEFT_PC.PNG",
+    "offset": 657793024,
+    "size": 3816,
+    "sha256": "8d7b23a7ce1394a42be408f58723a77c6cffc6f4153b40f3fe9bf4c189a4e70f",
+    "magic_hex": "7a00000020000000370000003b000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/PAGELEFT_PS4.PNG",
+    "offset": 657797120,
+    "size": 3784,
+    "sha256": "df553b0a6de44ca2ee043056a07a3edb0f185e824859be7861d0d9e1127df46c",
+    "magic_hex": "7a00000020000000370000003b000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/PAGERIGHT.PNG",
+    "offset": 657801216,
+    "size": 3756,
+    "sha256": "f2818385ea529ade193a14e9529f51a248c35e73d55d1de734c2249f9a626813",
+    "magic_hex": "7a00000020000000370000003b000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/PAGERIGHT_KEYBOARD.PNG",
+    "offset": 657805312,
+    "size": 3700,
+    "sha256": "e33bc11122e3acc843678e5e07d894393f58fbfdc552dc9bd4dcd9cb90d907d3",
+    "magic_hex": "7a00000020000000370000003b000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/PAGERIGHT_PC.PNG",
+    "offset": 657809408,
+    "size": 3820,
+    "sha256": "4e18e7805f966dfea8761e87a03e4c4b199ac256775d1d05e58bd4e9d45c1705",
+    "magic_hex": "7a00000020000000370000003b000000"
+  },
+  {
+    "name": "TEXTURES/GENERAL/PAGERIGHT_PS4.PNG",
+    "offset": 657813504,
+    "size": 3792,
+    "sha256": "b48389e7e6bfd7a1e0ea933fc738ca89ed5f3d39c962f383aeec08bd91df0817",
+    "magic_hex": "7a00000020000000370000003b000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_E_KEYBOARD.PNG",
+    "offset": 657817600,
+    "size": 140,
+    "sha256": "f5722ebb641c7c411bf71b8854e2acd64b638b1a7e7ed7874f5d4032603be046",
+    "magic_hex": "7a000000200000000f0000000f000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_DEAD.PNG",
+    "offset": 657818112,
+    "size": 132,
+    "sha256": "e554e564797b42acc95901ab11e354207790c0b545d8d97c9ffa9b0d7854b1d9",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN1.PNG",
+    "offset": 657818624,
+    "size": 760,
+    "sha256": "505f1f731f55a45c38697b13068871d72c63996e5156fb59f13fb91033d053d2",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN10.PNG",
+    "offset": 657819648,
+    "size": 772,
+    "sha256": "70ffcbe1cafc86fbcee6ed152a60998c39e9b351e2ae480545cbe17062384473",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN11.PNG",
+    "offset": 657820672,
+    "size": 772,
+    "sha256": "7aaf101417451b3e7ebd0c4c02303b05032a9bd68c5d8729633f43a078520aa5",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN12.PNG",
+    "offset": 657821696,
+    "size": 772,
+    "sha256": "b5974deefe320ed00cd3b169d54b886b4ef1d105300d89bb2e9ce96374d40380",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN13.PNG",
+    "offset": 657822720,
+    "size": 760,
+    "sha256": "706208e30a7d167d0650a0a1b13c001b61a59692341a2bd9e92421390726c31a",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN2.PNG",
+    "offset": 657823744,
+    "size": 764,
+    "sha256": "03271318df9ca32598c766da9cee06a2d7dfb1dd27efdcb8dd1b9dc665b71031",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN3.PNG",
+    "offset": 657824768,
+    "size": 760,
+    "sha256": "9f12f955691a50f4ac1de31bb47cafe59ff1c7250b54d035e586f5d0139541c3",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN4.PNG",
+    "offset": 657825792,
+    "size": 760,
+    "sha256": "349cd54749084c31180a1dae014ab057efe7f3d0f1334c523f8359dbaac7c154",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN5.PNG",
+    "offset": 657826816,
+    "size": 744,
+    "sha256": "74c8f5f2c619bcf843be2e4230871e8dbbd46c88c90e58151a18be80802f5c31",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN6.PNG",
+    "offset": 657827840,
+    "size": 736,
+    "sha256": "5ac2209b3b3dfb933fa2a1c0dfd3e4b78b139ec98cef68db0ed15f3592a6d0de",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN7.PNG",
+    "offset": 657828864,
+    "size": 748,
+    "sha256": "ae3097d0562a88ba994731a3f6431e28f3c6156f40fa388e1e073ccd0b0d0ed2",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN8.PNG",
+    "offset": 657829888,
+    "size": 760,
+    "sha256": "2b9107a3da6fc9f35744bb512618af9ec808ac99d7f825eccb65772cf4b00782",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN9.PNG",
+    "offset": 657830912,
+    "size": 764,
+    "sha256": "f7c6e5e4876163807d3666b585e7c237bdbc75206737fd1993368ad945ba6404",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_RED1.PNG",
+    "offset": 657831936,
+    "size": 740,
+    "sha256": "5e31b1312c164387e33f0b13847e8d5a30752713ba221ff3eb6f0afc455f792e",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_RED10.PNG",
+    "offset": 657832960,
+    "size": 756,
+    "sha256": "23dded7673c5394efd3cb2ab1c1d2daf553d6295d434f112bcc9dc7481fd1104",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_RED11.PNG",
+    "offset": 657833984,
+    "size": 748,
+    "sha256": "295f74b060d4bc594b3a517b1c1e70d1e1128da43c116445187e72fecd1f69e7",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_RED12.PNG",
+    "offset": 657835008,
+    "size": 748,
+    "sha256": "83652b1b26e2ed955c4e73f5b8048fed7449711d0daa1f21b2f3e0d5f8672cc7",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_RED13.PNG",
+    "offset": 657836032,
+    "size": 744,
+    "sha256": "6ca10552fa31dca20a9eeadbbabd1815ffeeb8add28dfec07b25e088ece8c024",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_RED2.PNG",
+    "offset": 657837056,
+    "size": 736,
+    "sha256": "5ac2320f4dc22b8be1a0f6dce6833e969d47b6747b22b2d037e752d5a16cc780",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_RED3.PNG",
+    "offset": 657838080,
+    "size": 740,
+    "sha256": "839751ebe22ff0fe7e8b3e40ae088641d43f74c29d113c4a907d8dcfa2879b25",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_RED4.PNG",
+    "offset": 657839104,
+    "size": 736,
+    "sha256": "6ec7b2bc988ee449d27c6542211748605021360a1d148652e1d638f6334be727",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_RED5.PNG",
+    "offset": 657840128,
+    "size": 732,
+    "sha256": "7301352520762682e5cc5adec3434c67dded5b8a390b2dbe440b9bb5531bea2a",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_RED6.PNG",
+    "offset": 657841152,
+    "size": 720,
+    "sha256": "8a344d6c6d59160866511f48f8a3f0fde9845e769bd8c678f0bf3b7bf47933e3",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_RED7.PNG",
+    "offset": 657842176,
+    "size": 728,
+    "sha256": "1f5e5d855621a60dccf96632a7a1bd7fce90eed1b2375872eccbab16c9aed2a0",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_RED8.PNG",
+    "offset": 657843200,
+    "size": 740,
+    "sha256": "5bd2b2c2ee64361923f189151cb378b35cff6f035fda4351aa30744afa9e2add",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_RED9.PNG",
+    "offset": 657844224,
+    "size": 744,
+    "sha256": "6cf5a88a4d6a2500762789bc728898bd72d80540725b7a19620c6c20abdd272d",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW1.PNG",
+    "offset": 657845248,
+    "size": 772,
+    "sha256": "766db60679adb964fee0dd270536eb3035c69e803cb974fd513154074629e00e",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW10.PNG",
+    "offset": 657846272,
+    "size": 776,
+    "sha256": "4af56d57ca0db2d067fcbec457c1583078cfddb79fd1e13ed83e42842046d5a5",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW11.PNG",
+    "offset": 657847296,
+    "size": 768,
+    "sha256": "a89ee14074ddcc5004e4e105a93ec014b3c20529c2507f61f438cf02a269c0fd",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW12.PNG",
+    "offset": 657848320,
+    "size": 772,
+    "sha256": "b615021e6119409ab14359d70589ae93bbfb8fe783b665cd0961f87c59c0f39b",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW13.PNG",
+    "offset": 657849344,
+    "size": 772,
+    "sha256": "3d9ec5c9825e965ffe3c7e055e201beeda290f032f2077ae626b36a59c0fbe98",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW2.PNG",
+    "offset": 657850368,
+    "size": 764,
+    "sha256": "77ccc19fa344c03871a1f40a7fc6ff9d8dc8ebcb3d4acf7b1fb6f9bd864fa660",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW3.PNG",
+    "offset": 657851392,
+    "size": 768,
+    "sha256": "850029571f10046669ac3a5402d3d7c37c22f8ba81af7ff12c648ccd77318e97",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW4.PNG",
+    "offset": 657852416,
+    "size": 768,
+    "sha256": "06d1b7ffd743806f5836473b95e3e4890074f23a61a496d64d8da3fb58e8e73e",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW5.PNG",
+    "offset": 657853440,
+    "size": 760,
+    "sha256": "667cd3f8334ee04c29791e9957c1cd682ee634324ef26ea1c9012e0ba7f17e2f",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW6.PNG",
+    "offset": 657854464,
+    "size": 736,
+    "sha256": "c4fff28edb081056fcf03e719308d1c3dc319d83df6d6d64e443592ae6302e72",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW7.PNG",
+    "offset": 657855488,
+    "size": 748,
+    "sha256": "8d068b2290e0ce06982dae00433ba4bdd38a5330cdbe9f23d99759bfa610ef45",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW8.PNG",
+    "offset": 657856512,
+    "size": 760,
+    "sha256": "5e32f2a93d859e8fb8933e96d5997d8cc726a9f850ae7082e316e5deb23da987",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW9.PNG",
+    "offset": 657857536,
+    "size": 764,
+    "sha256": "f8b55615c4d717870acc187e74af0fcd38b1c70a66fe7e2ac966b48090f2835f",
+    "magic_hex": "7a000000200000001c00000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_U_KEYBOARD.PNG",
+    "offset": 657858560,
+    "size": 144,
+    "sha256": "d72e9f4a478739d353c48e1d86a52bdde86a7526e6a3f57d6629524578a37a96",
+    "magic_hex": "7a000000200000000f0000000f000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_WEAPON_BUZZSAW.PNG",
+    "offset": 657859072,
+    "size": 2204,
+    "sha256": "10d4974ff33ed85905e4ac64eb301192571d8f87d449bac46859fef5e9840d76",
+    "magic_hex": "7a000000200000008000000020000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_WEAPON_FLASHLIGHT.PNG",
+    "offset": 657861632,
+    "size": 1268,
+    "sha256": "56b396ea54c5b4776cc575f02cf256b9265b114fdcbace6883e9ec18d808dac5",
+    "magic_hex": "7a000000200000008000000020000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_WEAPON_MACHINEGUN.PNG",
+    "offset": 657863168,
+    "size": 3236,
+    "sha256": "93146557df52fc7afe570e31f87c154a7b09426c4a167f30257ad8b9c3abab72",
+    "magic_hex": "7a000000200000008000000020000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_WEAPON_NIGHTSTICK.PNG",
+    "offset": 657866752,
+    "size": 1568,
+    "sha256": "1098a7b30aa17f101747cc75488f889fa93c3af74948f25e87f0e66fb3f26ca0",
+    "magic_hex": "7a000000200000008000000020000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_WEAPON_PISTOL.PNG",
+    "offset": 657868800,
+    "size": 1368,
+    "sha256": "911386be0d37cfc00c44519333ae477a8d3c15d9ccce8d49f414d608d09b0a73",
+    "magic_hex": "7a000000200000008000000020000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_WEAPON_REVOLVER.PNG",
+    "offset": 657870336,
+    "size": 1832,
+    "sha256": "b8e2d7198810c1d2d3ddd12bfb6519f07a1829409f7b543a065191dd69e6d3da",
+    "magic_hex": "7a000000200000008000000020000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_WEAPON_SHOTGUN.PNG",
+    "offset": 657872384,
+    "size": 2808,
+    "sha256": "0d1de8309dbfcf65e5171f41f7f00ce5b6ce0f1f5814a7ef8f55559bf4d306d5",
+    "magic_hex": "7a000000200000008000000020000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_WEAPON_SNIPER.PNG",
+    "offset": 657875456,
+    "size": 3084,
+    "sha256": "038dc10961fe4a8705a6ace77c284df2de2c8cb0d471e42a4960fcd7df4257ac",
+    "magic_hex": "7a000000200000008000000020000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_ZL.PNG",
+    "offset": 657879040,
+    "size": 192,
+    "sha256": "af045d789514ad255ed9a4357a358fc54fd8f13082c24cb1cd1eb42cda219f65",
+    "magic_hex": "7a00000020000000120000000f000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_ZL_PC.PNG",
+    "offset": 657879552,
+    "size": 196,
+    "sha256": "ac0da961aa69fc8419adc3257f184b9a57fe1c24b04e2f7c9dd968d29e83c57d",
+    "magic_hex": "7a00000020000000140000000d000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_ZL_PS4.PNG",
+    "offset": 657880064,
+    "size": 172,
+    "sha256": "8a2e3a1e28d3e717cff45c9fd7b0bfeaae7bb75b14d4dad13cc3b09ea5160a76",
+    "magic_hex": "7a000000200000001200000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_ZR.PNG",
+    "offset": 657880576,
+    "size": 212,
+    "sha256": "e305b3dcdd6b8f46ced86f397bdddb8b4583fbef102958fa5990fe40ee3b04cd",
+    "magic_hex": "7a00000020000000120000000f000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_ZR_PC.PNG",
+    "offset": 657881088,
+    "size": 208,
+    "sha256": "ba1fd108cce81c3f578e8eabdcebe66989510aa64c25b70569f4017cbe8c6365",
+    "magic_hex": "7a00000020000000140000000d000000"
+  },
+  {
+    "name": "TEXTURES/HUD/HUD_ZR_PS4.PNG",
+    "offset": 657881600,
+    "size": 180,
+    "sha256": "59ae870005e4860667a926329a953d0b6c1b2a1b87c21d46e621029ea2b45ea7",
+    "magic_hex": "7a000000200000001200000012000000"
+  },
+  {
+    "name": "TEXTURES/HUD/SNIPEHUDSCANLINES.PNG",
+    "offset": 657882112,
+    "size": 60,
+    "sha256": "bfdc867e368d89855756300698fd940fc4c0467e4ce7ce034d70986fc15f7945",
+    "magic_hex": "7a000000200000000800000008000000"
+  },
+  {
+    "name": "TEXTURES/HUD/THATWASYOURLASTBREATH.PNG",
+    "offset": 657882624,
+    "size": 44332,
+    "sha256": "19984db0bd01030502d201dc4c893b232a81a4cb57a4259cad945a70c2ec3218",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/HUD/THATWASYOURLASTBREATH2.PNG",
+    "offset": 657927168,
+    "size": 42460,
+    "sha256": "c8dce5f55f05db983a5b211b81884d8fd343614debdb9b8062c7c05e4f08c722",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/ITEMS/BG.PNG",
+    "offset": 657969664,
+    "size": 307828,
+    "sha256": "a4ba03534a36332c48888b736150de724bba704d727c96f3943f315d05a48b50",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/ITEMS/HIGHLIGHT.PNG",
+    "offset": 658277888,
+    "size": 168,
+    "sha256": "7c46673b5cd255220a3d8b0b9765206d6c8d47f7795a3a25d6b8888a32628e68",
+    "magic_hex": "7a000000200000002900000027000000"
+  },
+  {
+    "name": "TEXTURES/ITEMS/ITEMS.PNG",
+    "offset": 658278400,
+    "size": 30880,
+    "sha256": "4a37ceeb24392c628c62c6e110d52fdc26c170910b3cef20fce98416eb218acf",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/MAP/BG.PNG",
+    "offset": 658309632,
+    "size": 108980,
+    "sha256": "240a5bdf9902802dd4350e1f14f0d91d2e9b202c75e3df0f7469119a071c55c2",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/MAPS/1FE_0.PNG",
+    "offset": 658418688,
+    "size": 2100,
+    "sha256": "2696e716c6f32a8fae8d85306d5f7d9b091ae43c55ffd170e10772a0d0554f37",
+    "magic_hex": "7a0000002000000000010000c0000000"
+  },
+  {
+    "name": "TEXTURES/MAPS/1FW_0.PNG",
+    "offset": 658421248,
+    "size": 2732,
+    "sha256": "de7c8c6176585f893ff645fd32778303f13efb1a5071d47cc4ca031f15610a3f",
+    "magic_hex": "7a0000002000000000010000c0000000"
+  },
+  {
+    "name": "TEXTURES/MAPS/2FE_0.PNG",
+    "offset": 658424320,
+    "size": 2612,
+    "sha256": "da5a74c477c3972343aecf1e4f7264ebf2b86cef32c9d7f8450634748e43ff4b",
+    "magic_hex": "7a0000002000000000010000c0000000"
+  },
+  {
+    "name": "TEXTURES/MAPS/2FW_0.PNG",
+    "offset": 658427392,
+    "size": 2180,
+    "sha256": "c30542f212e90e3bebb60c4580b873c4e0722dacfd9a8278af80358935f7929e",
+    "magic_hex": "7a0000002000000000010000c0000000"
+  },
+  {
+    "name": "TEXTURES/MAPS/3FW_0.PNG",
+    "offset": 658429952,
+    "size": 2172,
+    "sha256": "6dc2b488fbcfe430499a9af9ebc60a8dd2673fdf849e1bb0254f09f9f8eca542",
+    "magic_hex": "7a0000002000000000010000c0000000"
+  },
+  {
+    "name": "TEXTURES/MAPS/4FE_0.PNG",
+    "offset": 658432512,
+    "size": 916,
+    "sha256": "181d48c3c8211ced21e97e372e7c74af3c3c0ab9273e305f51569de1e80b8494",
+    "magic_hex": "7a0000002000000000010000c0000000"
+  },
+  {
+    "name": "TEXTURES/MAPS/4FW_0.PNG",
+    "offset": 658433536,
+    "size": 2308,
+    "sha256": "7429c1da238503e77ebb7e9d870b4770314149e73be9d3b94d03a31f6298b05e",
+    "magic_hex": "7a0000002000000000010000c0000000"
+  },
+  {
+    "name": "TEXTURES/MAPS/5FE_0.PNG",
+    "offset": 658436096,
+    "size": 2800,
+    "sha256": "5852da64570d95f3812ddac67f77ef87e8958bf2f4fa9dcff469ab55e9927faf",
+    "magic_hex": "7a0000002000000000010000c0000000"
+  },
+  {
+    "name": "TEXTURES/MAPS/5FW_0.PNG",
+    "offset": 658439168,
+    "size": 3768,
+    "sha256": "3bf353193d316d1e8d21da79c01838ba051edbb3512c6718a3a8e53ec4f49a01",
+    "magic_hex": "7a0000002000000000010000c0000000"
+  },
+  {
+    "name": "TEXTURES/MAPS/6FE_0.PNG",
+    "offset": 658443264,
+    "size": 2024,
+    "sha256": "40b77f0d87771d777fe64201e525bf71f27bcc5872bd46c5e004a941e7445df2",
+    "magic_hex": "7a0000002000000000010000c0000000"
+  },
+  {
+    "name": "TEXTURES/MAPS/6FW_0.PNG",
+    "offset": 658445312,
+    "size": 3012,
+    "sha256": "47c3708ce2404afb1fc77b95c39621f09d66936b7c52b3fff484f0350d0edfd9",
+    "magic_hex": "7a0000002000000000010000c0000000"
+  },
+  {
+    "name": "TEXTURES/MAPS/7FW_0.PNG",
+    "offset": 658448384,
+    "size": 2640,
+    "sha256": "1326ff58f880507cde44c29d3f89c8e64258e3a9e7050e017b3dd3ec659de09f",
+    "magic_hex": "7a0000002000000000010000c0000000"
+  },
+  {
+    "name": "TEXTURES/MOUSE_CURSOR.PNG",
+    "offset": 658451456,
+    "size": 1844,
+    "sha256": "205de81ccff24ba3f6fa3d8f59729470bfe36de44c1d556eb560a1508a872763",
+    "magic_hex": "7a000000200000002800000028000000"
+  },
+  {
+    "name": "TEXTURES/MOVIES/AMANDA01.PNG",
+    "offset": 658453504,
+    "size": 3300,
+    "sha256": "f4e25496e328142edf4a2980ce85b4f841b35a58719462904a2be52647aba42f",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/MOVIES/CHAPTER01.PNG",
+    "offset": 658457088,
+    "size": 3292,
+    "sha256": "850b63420011fdc1709cbd1f36324223e6d08b6cfc7ada510a340eb8c41cda90",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/MOVIES/CHAPTER02.PNG",
+    "offset": 658460672,
+    "size": 3264,
+    "sha256": "bbaae3bc5f0104c4933c41ac98328f6a36e04a325253a6488f325d35b108bb46",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/MOVIES/CHAPTER03.PNG",
+    "offset": 658464256,
+    "size": 3300,
+    "sha256": "f4e25496e328142edf4a2980ce85b4f841b35a58719462904a2be52647aba42f",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/MOVIES/CHAPTER04.PNG",
+    "offset": 658467840,
+    "size": 3240,
+    "sha256": "759b70ba0c1207da835e0253ccb9ead16264d60488b7bb6b61b9eb0eaf632fa8",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/MOVIES/CHAPTER05.PNG",
+    "offset": 658471424,
+    "size": 3260,
+    "sha256": "eccc9f1b2f533ca29ce602c3e5506daff40b9db3c3c42d5ef23fd144fbbb682d",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/MOVIES/CHAPTER06.PNG",
+    "offset": 658475008,
+    "size": 3304,
+    "sha256": "5b61830f61f4950da0643aaa4f72bfde560da25a3c694573bc4e2120c96686cd",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/MOVIES/CHAPTER07.PNG",
+    "offset": 658478592,
+    "size": 3492,
+    "sha256": "f0d14348a32f94795b68aa8692594f8a02be9bbad72fe89f4b1b140347cce7ea",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/MOVIES/CHAPTER08.PNG",
+    "offset": 658482176,
+    "size": 3288,
+    "sha256": "fbe473be6e73c1e35d3243b55974067c8884dbb3f3efd1742f36826164563c82",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/MOVIES/CHAPTER09.PNG",
+    "offset": 658485760,
+    "size": 3324,
+    "sha256": "77af7fd69532cf06781f0521de725ad37908a256375331dc5c89d4ab1c67d75f",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/MOVIES/CHAPTER10.PNG",
+    "offset": 658489344,
+    "size": 3264,
+    "sha256": "2defe71029f1758a0026cf88bbe2ab76f86ed3bc3824d5dbf075d5d36c1f8089",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/MOVIES/CHAPTER11.PNG",
+    "offset": 658492928,
+    "size": 3392,
+    "sha256": "7b25f0b3081439b5c4c599d9ad47dfebf3b2b8022891a69dea75881c823b8555",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/MOVIES/CHAPTER12.PNG",
+    "offset": 658496512,
+    "size": 3488,
+    "sha256": "40d24c91f98b805f5f3c58489c67b131eb93bcb2a25f88994eda98d29783fb90",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/MOVIES/CHAPTER13.PNG",
+    "offset": 658500096,
+    "size": 3500,
+    "sha256": "1d9d21593578f86e318ade691faafa1dacee09b9c653dd9ee95bbabfe4c1cd68",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/MOVIES/CHAPTER14.PNG",
+    "offset": 658503680,
+    "size": 3608,
+    "sha256": "9db9fb3dd58673345f383a775c92ba64ad98217ee2f5326223902e738d25c555",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/MOVIES/CHAPTER15.PNG",
+    "offset": 658507776,
+    "size": 3340,
+    "sha256": "a6014e78de5e7b2c498499d7ce8ddfbd446386bef6fe9f2889835bedac8382cd",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/MOVIES/CHAPTER16.PNG",
+    "offset": 658511360,
+    "size": 3424,
+    "sha256": "9173848b5d532b20f4c0cef85636b75f6548084f54c934d1d805b46fb65bce98",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/MOVIES/INTRO.PNG",
+    "offset": 658514944,
+    "size": 3292,
+    "sha256": "850b63420011fdc1709cbd1f36324223e6d08b6cfc7ada510a340eb8c41cda90",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/BG.PNG",
+    "offset": 658518528,
+    "size": 264260,
+    "sha256": "2963117e7212ceac9279f11e0b3ff9247827b4e064887931e9a7ed1c0be6d5e1",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/BUTTONSTRIP.PNG",
+    "offset": 658783232,
+    "size": 7512,
+    "sha256": "1abffb28771fa5baa4727ebd8d03f820093cbed5cd7733519278af75e56bfb17",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/DE/CONTROLS_KEYBOARD_TYPE1.PNG",
+    "offset": 658790912,
+    "size": 7300,
+    "sha256": "6d81df25d32079c55ca48b127ef66179b36d0e22813435b1598e11de5da10262",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/DE/CONTROLS_KEYBOARD_TYPE2.PNG",
+    "offset": 658798592,
+    "size": 7212,
+    "sha256": "edc287ebf7c3d87bdaf27af9012e3c75b6bb737bae1de2a569ca708723dcad5d",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/DE/CONTROLS_NX_TYPE1.PNG",
+    "offset": 658806272,
+    "size": 16324,
+    "sha256": "12e199a102e74a680b4b64e0b7aaeb2ec160234aab01aac96768469de342e17a",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/DE/CONTROLS_NX_TYPE2.PNG",
+    "offset": 658822656,
+    "size": 16336,
+    "sha256": "7e28b73984aad5b0b9d717d01f4c04f415d2ed07c967b8ba63721cd5954b7b7a",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/DE/CONTROLS_NX_TYPE3.PNG",
+    "offset": 658839040,
+    "size": 16376,
+    "sha256": "836e61709328a1021821c5577e917301d60f9b84a892b7313e07b84f5e3744ab",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/DE/CONTROLS_PC_TYPE1.PNG",
+    "offset": 658855424,
+    "size": 15184,
+    "sha256": "9f33e9dd5d0efe30a4153c165db2ac8b9c824625428df61185722ce3ad30d7f6",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/DE/CONTROLS_PC_TYPE2.PNG",
+    "offset": 658870784,
+    "size": 15232,
+    "sha256": "5dcc2697926af7336c20b93dadf0cca428d7f56822f2489df6a558391cfe8852",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/DE/CONTROLS_PC_TYPE3.PNG",
+    "offset": 658886144,
+    "size": 15240,
+    "sha256": "58cf884f96638152585a5494b082100322897373b85d820b4a66dcba220717c7",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/DE/CONTROLS_PS4_TYPE1.PNG",
+    "offset": 658901504,
+    "size": 10124,
+    "sha256": "60c0ddb88e61a1a05087813debd433b2145d6d7895e403461e782f865bba5edd",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/DE/CONTROLS_PS4_TYPE2.PNG",
+    "offset": 658911744,
+    "size": 10152,
+    "sha256": "353278db40f08280f576fb9e22f0a8dbd067b8b160aea38d072f423a1c84849c",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/DE/CONTROLS_PS4_TYPE3.PNG",
+    "offset": 658921984,
+    "size": 10208,
+    "sha256": "e082c6d29eb3717012e5bfdac625f50c9d41a27c7534ef53915b129517aa1ada",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/DE/LEGEND_KEYBOARD_YAXIS.PNG",
+    "offset": 658932224,
+    "size": 484,
+    "sha256": "6fca50f462ec7ed5febf40278617b6b1654ce518f7d60f3d27b9acb59b451e60",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/DE/LEGEND_NX_YAXIS.PNG",
+    "offset": 658932736,
+    "size": 524,
+    "sha256": "777c052e95fcd18e54e3fb06154e9603c055f5ca9fb4fb42771613024f6c988c",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/DE/LEGEND_PC_YAXIS.PNG",
+    "offset": 658933760,
+    "size": 524,
+    "sha256": "777c052e95fcd18e54e3fb06154e9603c055f5ca9fb4fb42771613024f6c988c",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/DE/LEGEND_PS4_YAXIS.PNG",
+    "offset": 658934784,
+    "size": 476,
+    "sha256": "f78fea804207c79ff0db465e4582d62355ffe9bccbfc5d0b4906e0539a3d2a6c",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/EN/CONTROLS_KEYBOARD_TYPE1.PNG",
+    "offset": 658935296,
+    "size": 7300,
+    "sha256": "6d81df25d32079c55ca48b127ef66179b36d0e22813435b1598e11de5da10262",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/EN/CONTROLS_KEYBOARD_TYPE2.PNG",
+    "offset": 658942976,
+    "size": 7212,
+    "sha256": "edc287ebf7c3d87bdaf27af9012e3c75b6bb737bae1de2a569ca708723dcad5d",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/EN/CONTROLS_NX_TYPE1.PNG",
+    "offset": 658950656,
+    "size": 16704,
+    "sha256": "c8755b8d6a15413d96481ec1820498e0cffedac003541310760f377b70174496",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/EN/CONTROLS_NX_TYPE2.PNG",
+    "offset": 658967552,
+    "size": 16744,
+    "sha256": "5084b13962e031aef2dc670c3b379bb8f112757b7ec534c9034dfe3faba0e803",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/EN/CONTROLS_NX_TYPE3.PNG",
+    "offset": 658984448,
+    "size": 16736,
+    "sha256": "28e1d5b6eec5cb1df0fc9d11c5925b79baab638e1f6e7152e100f891f0489866",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/EN/CONTROLS_PC_TYPE1.PNG",
+    "offset": 659001344,
+    "size": 15184,
+    "sha256": "9f33e9dd5d0efe30a4153c165db2ac8b9c824625428df61185722ce3ad30d7f6",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/EN/CONTROLS_PC_TYPE2.PNG",
+    "offset": 659016704,
+    "size": 15232,
+    "sha256": "5dcc2697926af7336c20b93dadf0cca428d7f56822f2489df6a558391cfe8852",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/EN/CONTROLS_PC_TYPE3.PNG",
+    "offset": 659032064,
+    "size": 15240,
+    "sha256": "58cf884f96638152585a5494b082100322897373b85d820b4a66dcba220717c7",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/EN/CONTROLS_PS4_TYPE1.PNG",
+    "offset": 659047424,
+    "size": 9476,
+    "sha256": "91b9df10714f039b41d19c10aa3baae54a4e3c58f8379cd57095113ee8b200f7",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/EN/CONTROLS_PS4_TYPE2.PNG",
+    "offset": 659057152,
+    "size": 9536,
+    "sha256": "274ce59358786f169b6cea84fe7c0dd9655f962fbec1c559bf50e2632c25ac01",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/EN/CONTROLS_PS4_TYPE3.PNG",
+    "offset": 659066880,
+    "size": 9600,
+    "sha256": "cb3f7fcac2a65b7590189e3ad8a99f6168f31ede4a683efd3e536d9d16ef2013",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/EN/LEGEND_KEYBOARD_YAXIS.PNG",
+    "offset": 659076608,
+    "size": 440,
+    "sha256": "9ea1450fc93496dfc3b6d2eabd78b8c7e8454522dee285de2938ceb468829128",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/EN/LEGEND_NX_YAXIS.PNG",
+    "offset": 659077120,
+    "size": 520,
+    "sha256": "6867bb463144cae96b5b866c5fda88e68e62fefe338fa477283ec71fc73de859",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/EN/LEGEND_PC_YAXIS.PNG",
+    "offset": 659078144,
+    "size": 512,
+    "sha256": "2efa3a4a96c943420995200b0516f3dc6b88b2645d013d2bde546a2fafcabd06",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/EN/LEGEND_PS4_YAXIS.PNG",
+    "offset": 659078656,
+    "size": 440,
+    "sha256": "bb310dbf0f42a3e2a29f5660bee1899a7407510d98df725a28ffd99f0ae3c4af",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/EN/PAGERIGHT_PCMOUSE.PNG",
+    "offset": 659079168,
+    "size": 3700,
+    "sha256": "e33bc11122e3acc843678e5e07d894393f58fbfdc552dc9bd4dcd9cb90d907d3",
+    "magic_hex": "7a00000020000000370000003b000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/ES/CONTROLS_KEYBOARD_TYPE1.PNG",
+    "offset": 659083264,
+    "size": 7300,
+    "sha256": "6d81df25d32079c55ca48b127ef66179b36d0e22813435b1598e11de5da10262",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/ES/CONTROLS_KEYBOARD_TYPE2.PNG",
+    "offset": 659090944,
+    "size": 7212,
+    "sha256": "edc287ebf7c3d87bdaf27af9012e3c75b6bb737bae1de2a569ca708723dcad5d",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/ES/CONTROLS_NX_TYPE1.PNG",
+    "offset": 659098624,
+    "size": 15984,
+    "sha256": "9784fee0b5787b8af052413a582cdacaac936dc66777a3888d6c6df26c71948c",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/ES/CONTROLS_NX_TYPE2.PNG",
+    "offset": 659115008,
+    "size": 16004,
+    "sha256": "2ac0f26440c881d60c0b72e6f88e2cdd3e406a0072fe6985babf8a4cbe793234",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/ES/CONTROLS_NX_TYPE3.PNG",
+    "offset": 659131392,
+    "size": 16032,
+    "sha256": "2c5b9c4a11958b25dd8b6e64589dfd8c23abe15ea7da678f6fc2334d507734ab",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/ES/CONTROLS_PC_TYPE1.PNG",
+    "offset": 659147776,
+    "size": 15184,
+    "sha256": "9f33e9dd5d0efe30a4153c165db2ac8b9c824625428df61185722ce3ad30d7f6",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/ES/CONTROLS_PC_TYPE2.PNG",
+    "offset": 659163136,
+    "size": 15232,
+    "sha256": "5dcc2697926af7336c20b93dadf0cca428d7f56822f2489df6a558391cfe8852",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/ES/CONTROLS_PC_TYPE3.PNG",
+    "offset": 659178496,
+    "size": 15240,
+    "sha256": "58cf884f96638152585a5494b082100322897373b85d820b4a66dcba220717c7",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/ES/CONTROLS_PS4_TYPE1.PNG",
+    "offset": 659193856,
+    "size": 8660,
+    "sha256": "d15c49467eea1ac6ac6e465979d28d5d3e72391248cb7a7d5f4b5412f4ffca81",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/ES/CONTROLS_PS4_TYPE2.PNG",
+    "offset": 659202560,
+    "size": 8680,
+    "sha256": "ecf39f793d5ec6ba979ca202966e671da6e23fbb2d0f85e677adedac0d85eee6",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/ES/CONTROLS_PS4_TYPE3.PNG",
+    "offset": 659211264,
+    "size": 8724,
+    "sha256": "2e961f36c9fc9b1c2f626251bf63aea87fc3cb56f65e44d9126916ece6511055",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/ES/LEGEND_KEYBOARD_YAXIS.PNG",
+    "offset": 659220480,
+    "size": 416,
+    "sha256": "ba594429aa97ce723fbae405bbfc16c37fff61fc845208a2e88a8309956c4fc3",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/ES/LEGEND_NX_YAXIS.PNG",
+    "offset": 659220992,
+    "size": 460,
+    "sha256": "31b59de706099cfbaae249f1ca21e9c3afb4086fa00bb7ef76293c701f238d2f",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/ES/LEGEND_PC_YAXIS.PNG",
+    "offset": 659221504,
+    "size": 460,
+    "sha256": "31b59de706099cfbaae249f1ca21e9c3afb4086fa00bb7ef76293c701f238d2f",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/ES/LEGEND_PS4_YAXIS.PNG",
+    "offset": 659222016,
+    "size": 408,
+    "sha256": "f1f8f601a4b73e566d09f624fe44c38fb0c9efb64bf5b1fff0becec70ce5b676",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/FR/CONTROLS_KEYBOARD_TYPE1.PNG",
+    "offset": 659222528,
+    "size": 7300,
+    "sha256": "6d81df25d32079c55ca48b127ef66179b36d0e22813435b1598e11de5da10262",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/FR/CONTROLS_KEYBOARD_TYPE2.PNG",
+    "offset": 659230208,
+    "size": 7212,
+    "sha256": "edc287ebf7c3d87bdaf27af9012e3c75b6bb737bae1de2a569ca708723dcad5d",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/FR/CONTROLS_NX_TYPE1.PNG",
+    "offset": 659237888,
+    "size": 16120,
+    "sha256": "c0ec02b53c3a07a17841369388eddf834666a74092faa7fc55ab2a7bcabd4dbf",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/FR/CONTROLS_NX_TYPE2.PNG",
+    "offset": 659254272,
+    "size": 16176,
+    "sha256": "72d6b553799c915ebb284e23cef8a3cb9dcf28557f6907ef01159c2a84bb3b9f",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/FR/CONTROLS_NX_TYPE3.PNG",
+    "offset": 659270656,
+    "size": 16188,
+    "sha256": "cd13a9d1531825302001ce4ec8f0fa470046845e43935a98f2e0f053a7786f52",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/FR/CONTROLS_PC_TYPE1.PNG",
+    "offset": 659287040,
+    "size": 15184,
+    "sha256": "9f33e9dd5d0efe30a4153c165db2ac8b9c824625428df61185722ce3ad30d7f6",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/FR/CONTROLS_PC_TYPE2.PNG",
+    "offset": 659302400,
+    "size": 15232,
+    "sha256": "5dcc2697926af7336c20b93dadf0cca428d7f56822f2489df6a558391cfe8852",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/FR/CONTROLS_PC_TYPE3.PNG",
+    "offset": 659317760,
+    "size": 15240,
+    "sha256": "58cf884f96638152585a5494b082100322897373b85d820b4a66dcba220717c7",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/FR/CONTROLS_PS4_TYPE1.PNG",
+    "offset": 659333120,
+    "size": 9808,
+    "sha256": "ef4008a151819f30d25ee5ad0d4ff31a612da75608005af53efe2fafc4ccbf4b",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/FR/CONTROLS_PS4_TYPE2.PNG",
+    "offset": 659343360,
+    "size": 9860,
+    "sha256": "7763f85bedb8941bfa4526abdce31566b9a86e52277f71ac63b12662f4a558d2",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/FR/CONTROLS_PS4_TYPE3.PNG",
+    "offset": 659353600,
+    "size": 9936,
+    "sha256": "6852913d214c1fa07016f6b6473aec1b2d624d990c8f879dc8c6883da1cebb60",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/FR/LEGEND_KEYBOARD_YAXIS.PNG",
+    "offset": 659363840,
+    "size": 452,
+    "sha256": "82a62f347a34e05a559803a136e5c1bc139f6db09df1540430a9a01bb6d6f75d",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/FR/LEGEND_NX_YAXIS.PNG",
+    "offset": 659364352,
+    "size": 504,
+    "sha256": "f7f1c780839ff9b5319e822786fb632f5b825dc73ea7594359d0c5942111f513",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/FR/LEGEND_PC_YAXIS.PNG",
+    "offset": 659364864,
+    "size": 504,
+    "sha256": "f7f1c780839ff9b5319e822786fb632f5b825dc73ea7594359d0c5942111f513",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/FR/LEGEND_PS4_YAXIS.PNG",
+    "offset": 659365376,
+    "size": 464,
+    "sha256": "bc756709eae45986bde6363ed02392ce42e558f22a0b5ca068a1f09c0f5d71ad",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/IT/CONTROLS_KEYBOARD_TYPE1.PNG",
+    "offset": 659365888,
+    "size": 7300,
+    "sha256": "6d81df25d32079c55ca48b127ef66179b36d0e22813435b1598e11de5da10262",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/IT/CONTROLS_KEYBOARD_TYPE2.PNG",
+    "offset": 659373568,
+    "size": 7212,
+    "sha256": "edc287ebf7c3d87bdaf27af9012e3c75b6bb737bae1de2a569ca708723dcad5d",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/IT/CONTROLS_NX_TYPE1.PNG",
+    "offset": 659381248,
+    "size": 16280,
+    "sha256": "f59245e2fdb1f5b2357e29dd9d558b730def674ea307625cfa604f6b2c573b24",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/IT/CONTROLS_NX_TYPE2.PNG",
+    "offset": 659397632,
+    "size": 16268,
+    "sha256": "6c776ca6f9d7bde18862f3e10508b3a9f1675a8aad4c472d4ccbea44bb3fa8dc",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/IT/CONTROLS_NX_TYPE3.PNG",
+    "offset": 659414016,
+    "size": 16252,
+    "sha256": "3d0dc80e76a1514857a0cbe620076456852e7add5252e9217ddd00f636e3a748",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/IT/CONTROLS_PC_TYPE1.PNG",
+    "offset": 659430400,
+    "size": 15184,
+    "sha256": "9f33e9dd5d0efe30a4153c165db2ac8b9c824625428df61185722ce3ad30d7f6",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/IT/CONTROLS_PC_TYPE2.PNG",
+    "offset": 659445760,
+    "size": 15232,
+    "sha256": "5dcc2697926af7336c20b93dadf0cca428d7f56822f2489df6a558391cfe8852",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/IT/CONTROLS_PC_TYPE3.PNG",
+    "offset": 659461120,
+    "size": 15240,
+    "sha256": "58cf884f96638152585a5494b082100322897373b85d820b4a66dcba220717c7",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/IT/CONTROLS_PS4_TYPE1.PNG",
+    "offset": 659476480,
+    "size": 10032,
+    "sha256": "ccdf5c5d3647be4f71c0f2ac668c56ea470ca320f108d0cf1ffdc08c5e465bbb",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/IT/CONTROLS_PS4_TYPE2.PNG",
+    "offset": 659486720,
+    "size": 9896,
+    "sha256": "d3b5d5a5c2d330203895b998b9873788639ee5be2d345e7b8e49d8e4b6844ee3",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/IT/CONTROLS_PS4_TYPE3.PNG",
+    "offset": 659496960,
+    "size": 10020,
+    "sha256": "13db30d7635038c4d2a9a175bd252caf1519a9f6b20bced81941824e97043be0",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/IT/LEGEND_KEYBOARD_YAXIS.PNG",
+    "offset": 659507200,
+    "size": 460,
+    "sha256": "ddcc94aa39ad1400046cd7abfa8cdc0309f49e67ab8b25442d75a1d46c659de1",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/IT/LEGEND_NX_YAXIS.PNG",
+    "offset": 659507712,
+    "size": 504,
+    "sha256": "c004080569bd01e51916e445d58f1f291bec87546a598f28465c249340680e2d",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/IT/LEGEND_PC_YAXIS.PNG",
+    "offset": 659508224,
+    "size": 504,
+    "sha256": "c004080569bd01e51916e445d58f1f291bec87546a598f28465c249340680e2d",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/IT/LEGEND_PS4_YAXIS.PNG",
+    "offset": 659508736,
+    "size": 464,
+    "sha256": "6d5aaa498278b3f94bf6f1d85aa85dae7ca475b44d3d24cfd9337dba8198b15c",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/LEGEND_TEX_KEYBOARD_F.PNG",
+    "offset": 659509248,
+    "size": 156,
+    "sha256": "a7acf4a29b454305c9fae656d1429f8bb7fa6f5cbebe9d9f2829cddc5d31a523",
+    "magic_hex": "7a000000200000001300000018000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/LEGEND_TEX_TRI.PNG",
+    "offset": 659509760,
+    "size": 180,
+    "sha256": "2a46e9d21b022dcbe1b81fa8488d555f8ce8c2035d42360f8f01e06ec07c95ca",
+    "magic_hex": "7a000000200000001300000018000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/LEGEND_TEX_X.PNG",
+    "offset": 659510272,
+    "size": 176,
+    "sha256": "e6693a4875de0b4aa8d3f4a65c3bece1fe2ba305594ede4f0e1d8a2933a4b5b3",
+    "magic_hex": "7a000000200000001300000018000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/LEGEND_TEX_Y.PNG",
+    "offset": 659510784,
+    "size": 176,
+    "sha256": "82d131778f160436ac2d5812f2b388d7790aa78e4d933f513d1a3ea32f7f7a6f",
+    "magic_hex": "7a000000200000001300000018000000"
+  },
+  {
+    "name": "TEXTURES/OPTIONS/SELECTION.PNG",
+    "offset": 659511296,
+    "size": 248,
+    "sha256": "f79a67c39eb1da5fe94863134793dad02abb5a95e93e013bf5e549770eb7701d",
+    "magic_hex": "7a000000200000007000000020000000"
+  },
+  {
+    "name": "TEXTURES/PUZZLES/ALBUM/ALBUM_00.PNG",
+    "offset": 659511808,
+    "size": 165272,
+    "sha256": "e1aa34d041d32ffedf7dc314e8c2c6c1e772a966665fad2cf71f4e1dab9dda93",
+    "magic_hex": "7a0000002000000040010000f0000000"
+  },
+  {
+    "name": "TEXTURES/PUZZLES/ALBUM/ALBUM_01.PNG",
+    "offset": 659677184,
+    "size": 93396,
+    "sha256": "7bceb2cb29caeb60992577c963db75225e397f9b2313b30fdbaf218166e319dd",
+    "magic_hex": "7a0000002000000040010000f0000000"
+  },
+  {
+    "name": "TEXTURES/PUZZLES/ALBUM/ALBUM_02.PNG",
+    "offset": 659770880,
+    "size": 87924,
+    "sha256": "f88d88a643d030fb1bff227b632e5d840619a85d28487483dee7365de64f4e6c",
+    "magic_hex": "7a0000002000000040010000f0000000"
+  },
+  {
+    "name": "TEXTURES/PUZZLES/ALBUM/ALBUM_03.PNG",
+    "offset": 659858944,
+    "size": 108608,
+    "sha256": "145722925a755b2267d9aa79556623a9962c99baf1dba85672f40131b39efa9a",
+    "magic_hex": "7a0000002000000040010000f0000000"
+  },
+  {
+    "name": "TEXTURES/PUZZLES/ALBUM/ALBUM_04.PNG",
+    "offset": 659968000,
+    "size": 73452,
+    "sha256": "d57a640ee54844bc02ab1dad0bcc05d86a293ee3b90e43334446d93207786d60",
+    "magic_hex": "7a0000002000000040010000f0000000"
+  },
+  {
+    "name": "TEXTURES/PUZZLES/ALBUM/ALBUM_05.PNG",
+    "offset": 660041728,
+    "size": 97100,
+    "sha256": "10ec072de3d2c3af2f41e25b682e9d2bcc41c400d0027e2bfe13310873cc9d14",
+    "magic_hex": "7a0000002000000040010000f0000000"
+  },
+  {
+    "name": "TEXTURES/PUZZLES/ALBUM/ALBUM_06.PNG",
+    "offset": 660139008,
+    "size": 90360,
+    "sha256": "da7cafaafac25d3f454a142a0b840e2aa16f501c5b305956b9309697da37cbf3",
+    "magic_hex": "7a0000002000000040010000f0000000"
+  },
+  {
+    "name": "TEXTURES/PUZZLES/ALBUM/ALBUM_07.PNG",
+    "offset": 660229632,
+    "size": 108632,
+    "sha256": "374e95a6a87cff92efec2415b06a439dfba20f4e365d36615b0b97c785761abf",
+    "magic_hex": "7a0000002000000040010000f0000000"
+  },
+  {
+    "name": "TEXTURES/PUZZLES/PIANO/PIANOBG.PNG",
+    "offset": 660338688,
+    "size": 35552,
+    "sha256": "8ae18e1220de5eb1ddaea0e82bc42aab58021ac02b6310d706593f0abc592795",
+    "magic_hex": "7a000000200000000001000000010000"
+  },
+  {
+    "name": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM1.PNG",
+    "offset": 660374528,
+    "size": 38364,
+    "sha256": "027436cb958cf8369ac695c857c5b0032ec52292927fc7b359a5d44ad1fff5bd",
+    "magic_hex": "7a000000200000000001000000010000"
+  },
+  {
+    "name": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM10.PNG",
+    "offset": 660412928,
+    "size": 38160,
+    "sha256": "87a4fef31431967a9f25d64da6971e1b55d804a03bd1b3dd5a11cb7504fc6855",
+    "magic_hex": "7a000000200000000001000000010000"
+  },
+  {
+    "name": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM11.PNG",
+    "offset": 660451328,
+    "size": 37068,
+    "sha256": "1e406aa51508cd91105b7b4a48c50f1f2e280d7fb6aa53c146f934b536df2df5",
+    "magic_hex": "7a000000200000000001000000010000"
+  },
+  {
+    "name": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM12.PNG",
+    "offset": 660488704,
+    "size": 38664,
+    "sha256": "4323500eb0bed12f5e8fe326d9642ba04654cf57b41c056d29b4821ecff3cdf5",
+    "magic_hex": "7a000000200000000001000000010000"
+  },
+  {
+    "name": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM2.PNG",
+    "offset": 660527616,
+    "size": 37156,
+    "sha256": "91ae028599c0c84dc80ec016935470f40e9f496dd61dec7ef948c640659a6e18",
+    "magic_hex": "7a000000200000000001000000010000"
+  },
+  {
+    "name": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM3.PNG",
+    "offset": 660564992,
+    "size": 38020,
+    "sha256": "72dc7e057e16a883f934c4a6ef62ba93575046496bb95b3159fedd165ba91957",
+    "magic_hex": "7a000000200000000001000000010000"
+  },
+  {
+    "name": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM4.PNG",
+    "offset": 660603392,
+    "size": 37056,
+    "sha256": "efb0e45ea835acb85dfb007a055f742c2c9fe55e6b883627e70e45ac3762a4f2",
+    "magic_hex": "7a000000200000000001000000010000"
+  },
+  {
+    "name": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM5.PNG",
+    "offset": 660640768,
+    "size": 39104,
+    "sha256": "0d88ee0bb6c4107374da479a0dfefabf19f214a1b4f9c521c0764e4de6223da2",
+    "magic_hex": "7a000000200000000001000000010000"
+  },
+  {
+    "name": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM6.PNG",
+    "offset": 660680192,
+    "size": 38632,
+    "sha256": "5782e283e338cf57432e233914d3123305e86674065d5bee4e17a318ead2befc",
+    "magic_hex": "7a000000200000000001000000010000"
+  },
+  {
+    "name": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM7.PNG",
+    "offset": 660719104,
+    "size": 37100,
+    "sha256": "528fdbe14a067b57c19a5688a85597875cbe1ea8c22b7ccfaa80a940f82730bc",
+    "magic_hex": "7a000000200000000001000000010000"
+  },
+  {
+    "name": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM8.PNG",
+    "offset": 660756480,
+    "size": 38028,
+    "sha256": "ef959717d85adffe6faf90f8795f9c8c3cce405c0f5f038aca4d83faa5e690ac",
+    "magic_hex": "7a000000200000000001000000010000"
+  },
+  {
+    "name": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM9.PNG",
+    "offset": 660794880,
+    "size": 37088,
+    "sha256": "1907bf0f0d323b21eefa6be3f9c73bb601b3bad9c3f35dfbe337dae18153c80b",
+    "magic_hex": "7a000000200000000001000000010000"
+  },
+  {
+    "name": "TEXTURES/TITLE/BG1.PNG",
+    "offset": 660832256,
+    "size": 317644,
+    "sha256": "309fa4b737249593ec5a50095eba520ab37a8a1eb1bb0a0d7bf2009ab7fa1771",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/TITLE/BG2.PNG",
+    "offset": 661150208,
+    "size": 317548,
+    "sha256": "644d130a7dbe049b96dd7e0cd3a14eeec050d383021cafe90fce5a50733ad7ff",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/TITLE/BG3.PNG",
+    "offset": 661468160,
+    "size": 317588,
+    "sha256": "02434e6dd820fc38f897de4465df42180b6fb2accb13ddc49e3751f5b0f5ee0e",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/TITLE/BG4.PNG",
+    "offset": 661786112,
+    "size": 317460,
+    "sha256": "f3a697bbddc67facb06f43653431f58ea5bd8bed2da3a8472b08ef71d8783d64",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "TEXTURES/TITLE/MAGICPUFF.PNG",
+    "offset": 662104064,
+    "size": 1460,
+    "sha256": "debb730108d2f676fdfebfca82a1faf3f46819828b91524d055007a503fc886e",
+    "magic_hex": "7a000000200000002600000013000000"
+  },
+  {
+    "name": "TEXTURES/WEAPONS/WEAPONSELECTBG.PNG",
+    "offset": 662105600,
+    "size": 116236,
+    "sha256": "f43e0b70fa7afb0099e2f7a2a6f5a231425bc66d422e27b90842d99c746e8e2e",
+    "magic_hex": "7a00000020000000ac010000f0000000"
+  },
+  {
+    "name": "~INDEX",
+    "offset": 662222336,
+    "size": 32616,
+    "sha256": "611e76d4e0d2a7af5581d58e646def4c4aa3e6a539b63cb7dea64281d3a8f3a4",
+    "magic_hex": "5a0200000000000000005b0400000000"
+  }
+]

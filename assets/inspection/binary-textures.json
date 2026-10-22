@@ -1,0 +1,4149 @@
+[
+  {
+    "resource": "TEXTURES/EXAMINE/EXAMINE000.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000040000000400000004c050000e8040000",
+    "header_u32": [
+      122,
+      32,
+      64,
+      64,
+      1356,
+      1256
+    ]
+  },
+  {
+    "resource": "TEXTURES/EXAMINE/EXAMINE001.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004000000040000000c803000043030000",
+    "header_u32": [
+      122,
+      32,
+      64,
+      64,
+      968,
+      835
+    ]
+  },
+  {
+    "resource": "TEXTURES/EXAMINE/EXAMINE002.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004000000040000000d8030000b6030000",
+    "header_u32": [
+      122,
+      32,
+      64,
+      64,
+      984,
+      950
+    ]
+  },
+  {
+    "resource": "TEXTURES/EXAMINE/EXAMINE003.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000040000000400000009803000077030000",
+    "header_u32": [
+      122,
+      32,
+      64,
+      64,
+      920,
+      887
+    ]
+  },
+  {
+    "resource": "TEXTURES/EXAMINE/EXAMINE004.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004000000040000000740700004d070000",
+    "header_u32": [
+      122,
+      32,
+      64,
+      64,
+      1908,
+      1869
+    ]
+  },
+  {
+    "resource": "TEXTURES/EXAMINE/EXAMINE005.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000005000000046000000a40600007b060000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      70,
+      1700,
+      1659
+    ]
+  },
+  {
+    "resource": "TEXTURES/EXAMINE/EXAMINE006.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000400000004000000014060000ee050000",
+    "header_u32": [
+      122,
+      32,
+      64,
+      64,
+      1556,
+      1518
+    ]
+  },
+  {
+    "resource": "TEXTURES/EXAMINE/EXAMINE007.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000060000000400000002c050000f2040000",
+    "header_u32": [
+      122,
+      32,
+      96,
+      64,
+      1324,
+      1266
+    ]
+  },
+  {
+    "resource": "TEXTURES/EXAMINE/EXAMINE008.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000009800000040000000980e0000650e0000",
+    "header_u32": [
+      122,
+      32,
+      152,
+      64,
+      3736,
+      3685
+    ]
+  },
+  {
+    "resource": "TEXTURES/EXAMINE/EXAMINE009.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004000000040000000a00a00004c0a0000",
+    "header_u32": [
+      122,
+      32,
+      64,
+      64,
+      2720,
+      2636
+    ]
+  },
+  {
+    "resource": "TEXTURES/EXAMINE/EXAMINE033.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004000000040000000dc020000b7020000",
+    "header_u32": [
+      122,
+      32,
+      64,
+      64,
+      732,
+      695
+    ]
+  },
+  {
+    "resource": "TEXTURES/EXAMINE/EXAMINE034.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000040000000400000003804000010040000",
+    "header_u32": [
+      122,
+      32,
+      64,
+      64,
+      1080,
+      1040
+    ]
+  },
+  {
+    "resource": "TEXTURES/EXAMINE/EXAMINE036.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000040000000400000005804000040040000",
+    "header_u32": [
+      122,
+      32,
+      64,
+      64,
+      1112,
+      1088
+    ]
+  },
+  {
+    "resource": "TEXTURES/EXAMINE/EXAMINE037.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000040000000400000008c04000067040000",
+    "header_u32": [
+      122,
+      32,
+      64,
+      64,
+      1164,
+      1127
+    ]
+  },
+  {
+    "resource": "TEXTURES/EXAMINE/EXAMINE038.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000040000000400000006c0400004e040000",
+    "header_u32": [
+      122,
+      32,
+      64,
+      64,
+      1132,
+      1102
+    ]
+  },
+  {
+    "resource": "TEXTURES/EXAMINE/EXAMINE040.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004000000040000000780700005e070000",
+    "header_u32": [
+      122,
+      32,
+      64,
+      64,
+      1912,
+      1886
+    ]
+  },
+  {
+    "resource": "TEXTURES/EXAMINE/EXAMINE041.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000040000000400000005c05000054050000",
+    "header_u32": [
+      122,
+      32,
+      64,
+      64,
+      1372,
+      1364
+    ]
+  },
+  {
+    "resource": "TEXTURES/EXAMINE/EXAMINE042.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000040000000400000005c05000034050000",
+    "header_u32": [
+      122,
+      32,
+      64,
+      64,
+      1372,
+      1332
+    ]
+  },
+  {
+    "resource": "TEXTURES/EXAMINE/EXAMINE043.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004000000040000000b00500006b050000",
+    "header_u32": [
+      122,
+      32,
+      64,
+      64,
+      1456,
+      1387
+    ]
+  },
+  {
+    "resource": "TEXTURES/EXAMINE/EXAMINE044.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004000000040000000600500002a050000",
+    "header_u32": [
+      122,
+      32,
+      64,
+      64,
+      1376,
+      1322
+    ]
+  },
+  {
+    "resource": "TEXTURES/EXAMINE/EXAMINE045.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000400000004000000004080000ec070000",
+    "header_u32": [
+      122,
+      32,
+      64,
+      64,
+      2052,
+      2028
+    ]
+  },
+  {
+    "resource": "TEXTURES/EXAMINE/EXAMINE046.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004000000040000000a807000083070000",
+    "header_u32": [
+      122,
+      32,
+      64,
+      64,
+      1960,
+      1923
+    ]
+  },
+  {
+    "resource": "TEXTURES/EXAMINE/EXAMINE531.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000000001000080000000a81f0000911e0000",
+    "header_u32": [
+      122,
+      32,
+      256,
+      128,
+      8104,
+      7825
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/BUTTON108.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000006c0000001e00000088160000b2130000",
+    "header_u32": [
+      122,
+      32,
+      108,
+      30,
+      5768,
+      5042
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/BUTTON148.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000940000001e000000481700002f140000",
+    "header_u32": [
+      122,
+      32,
+      148,
+      30,
+      5960,
+      5167
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/BUTTON76.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004c000000220000004c110000870e0000",
+    "header_u32": [
+      122,
+      32,
+      76,
+      34,
+      4428,
+      3719
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/BUTTON92.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000005c00000020000000d013000019110000",
+    "header_u32": [
+      122,
+      32,
+      92,
+      32,
+      5072,
+      4377
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/DE/LEGEND_KEYBOARD_BACK.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000003c00000014000000a00100009f010000",
+    "header_u32": [
+      122,
+      32,
+      60,
+      20,
+      416,
+      415
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/DE/LEGEND_KEYBOARD_CONFIRM.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004500000016000000f0010000f2010000",
+    "header_u32": [
+      122,
+      32,
+      69,
+      22,
+      496,
+      498
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/DE/LEGEND_KEYBOARD_EQUIP.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004a000000160000000c02000008020000",
+    "header_u32": [
+      122,
+      32,
+      74,
+      22,
+      524,
+      520
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/DE/LEGEND_KEYBOARD_PRESS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000003e00000016000000d4010000d5010000",
+    "header_u32": [
+      122,
+      32,
+      62,
+      22,
+      468,
+      469
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/DE/LEGEND_NX_BACK.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004000000014000000b0010000af010000",
+    "header_u32": [
+      122,
+      32,
+      64,
+      20,
+      432,
+      431
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/DE/LEGEND_NX_CONFIRM.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000005000000016000000200200001e020000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      544,
+      542
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/DE/LEGEND_NX_EQUIP.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000050000000160000000802000005020000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      520,
+      517
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/DE/LEGEND_NX_PRESS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000005000000016000000d4010000d5010000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      468,
+      469
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/DE/LEGEND_PS4_BACK.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004000000014000000b0010000ad010000",
+    "header_u32": [
+      122,
+      32,
+      64,
+      20,
+      432,
+      429
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/DE/LEGEND_PS4_BACK_ASIABUTTONS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004000000014000000b0010000af010000",
+    "header_u32": [
+      122,
+      32,
+      64,
+      20,
+      432,
+      431
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/DE/LEGEND_PS4_CONFIRM.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000050000000160000001402000013020000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      532,
+      531
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/DE/LEGEND_PS4_CONFIRM_ASIABUTTONS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000005000000016000000100200000d020000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      528,
+      525
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/DE/LEGEND_PS4_EQUIP.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000005000000016000000f8010000f3010000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      504,
+      499
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/DE/LEGEND_PS4_EQUIP_ASIABUTTONS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000005000000016000000f0010000ee010000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      496,
+      494
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/DE/LEGEND_PS4_PRESS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000005000000016000000c8010000c6010000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      456,
+      454
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/DE/LEGEND_PS4_PRESS_ASIABUTTONS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000005000000016000000c4010000c5010000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      452,
+      453
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/EN/LEGEND_KEYBOARD_BACK.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000030000000140000005801000056010000",
+    "header_u32": [
+      122,
+      32,
+      48,
+      20,
+      344,
+      342
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/EN/LEGEND_KEYBOARD_CONFIRM.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004100000016000000c8010000c8010000",
+    "header_u32": [
+      122,
+      32,
+      65,
+      22,
+      456,
+      456
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/EN/LEGEND_KEYBOARD_EQUIP.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004100000016000000b8010000b6010000",
+    "header_u32": [
+      122,
+      32,
+      65,
+      22,
+      440,
+      438
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/EN/LEGEND_KEYBOARD_PRESS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000041000000160000006c0100006d010000",
+    "header_u32": [
+      122,
+      32,
+      65,
+      22,
+      364,
+      365
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/EN/LEGEND_NX_BACK.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000003000000014000000800100007e010000",
+    "header_u32": [
+      122,
+      32,
+      48,
+      20,
+      384,
+      382
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/EN/LEGEND_NX_CONFIRM.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004100000016000000e8010000e4010000",
+    "header_u32": [
+      122,
+      32,
+      65,
+      22,
+      488,
+      484
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/EN/LEGEND_NX_EQUIP.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000003700000016000000b8010000b3010000",
+    "header_u32": [
+      122,
+      32,
+      55,
+      22,
+      440,
+      435
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/EN/LEGEND_NX_PRESS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000003600000016000000900100008d010000",
+    "header_u32": [
+      122,
+      32,
+      54,
+      22,
+      400,
+      397
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/EN/LEGEND_PS4_BACK.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000030000000140000007801000073010000",
+    "header_u32": [
+      122,
+      32,
+      48,
+      20,
+      376,
+      371
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/EN/LEGEND_PS4_BACK_ASIABUTTONS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000003000000014000000800100007d010000",
+    "header_u32": [
+      122,
+      32,
+      48,
+      20,
+      384,
+      381
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/EN/LEGEND_PS4_CONFIRM.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004100000016000000d8010000d2010000",
+    "header_u32": [
+      122,
+      32,
+      65,
+      22,
+      472,
+      466
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/EN/LEGEND_PS4_CONFIRM_ASIABUTTONS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004100000016000000d0010000ce010000",
+    "header_u32": [
+      122,
+      32,
+      65,
+      22,
+      464,
+      462
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/EN/LEGEND_PS4_EQUIP.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000003700000016000000a8010000a5010000",
+    "header_u32": [
+      122,
+      32,
+      55,
+      22,
+      424,
+      421
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/EN/LEGEND_PS4_EQUIP_ASIABUTTONS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000003700000016000000a4010000a0010000",
+    "header_u32": [
+      122,
+      32,
+      55,
+      22,
+      420,
+      416
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/EN/LEGEND_PS4_PRESS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000003600000016000000800100007e010000",
+    "header_u32": [
+      122,
+      32,
+      54,
+      22,
+      384,
+      382
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/EN/LEGEND_PS4_PRESS_ASIABUTTONS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000036000000160000007c01000076010000",
+    "header_u32": [
+      122,
+      32,
+      54,
+      22,
+      380,
+      374
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/ES/LEGEND_KEYBOARD_BACK.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000037000000140000008801000085010000",
+    "header_u32": [
+      122,
+      32,
+      55,
+      20,
+      392,
+      389
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/ES/LEGEND_KEYBOARD_CONFIRM.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004600000016000000f4010000f5010000",
+    "header_u32": [
+      122,
+      32,
+      70,
+      22,
+      500,
+      501
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/ES/LEGEND_KEYBOARD_EQUIP.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004100000016000000c8010000ca010000",
+    "header_u32": [
+      122,
+      32,
+      65,
+      22,
+      456,
+      458
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/ES/LEGEND_KEYBOARD_PRESS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004100000016000000cc010000ca010000",
+    "header_u32": [
+      122,
+      32,
+      65,
+      22,
+      460,
+      458
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/ES/LEGEND_NX_BACK.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004000000014000000880100008a010000",
+    "header_u32": [
+      122,
+      32,
+      64,
+      20,
+      392,
+      394
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/ES/LEGEND_NX_CONFIRM.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000005000000016000000f4010000f3010000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      500,
+      499
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/ES/LEGEND_NX_EQUIP.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000005000000016000000e0010000dd010000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      480,
+      477
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/ES/LEGEND_NX_PRESS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000005000000016000000cc010000cb010000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      460,
+      459
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/ES/LEGEND_PS4_BACK.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004000000014000000880100008a010000",
+    "header_u32": [
+      122,
+      32,
+      64,
+      20,
+      392,
+      394
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/ES/LEGEND_PS4_BACK_ASIABUTTONS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000040000000140000008801000088010000",
+    "header_u32": [
+      122,
+      32,
+      64,
+      20,
+      392,
+      392
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/ES/LEGEND_PS4_CONFIRM.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000005000000016000000e8010000e6010000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      488,
+      486
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/ES/LEGEND_PS4_CONFIRM_ASIABUTTONS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000005000000016000000e0010000e0010000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      480,
+      480
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/ES/LEGEND_PS4_EQUIP.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000005000000016000000d0010000cd010000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      464,
+      461
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/ES/LEGEND_PS4_EQUIP_ASIABUTTONS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000005000000016000000cc010000c9010000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      460,
+      457
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/ES/LEGEND_PS4_PRESS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000005000000016000000c0010000c0010000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      448,
+      448
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/ES/LEGEND_PS4_PRESS_ASIABUTTONS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000005000000016000000b8010000b9010000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      440,
+      441
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/FR/LEGEND_KEYBOARD_BACK.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000003b000000140000008c0100008d010000",
+    "header_u32": [
+      122,
+      32,
+      59,
+      20,
+      396,
+      397
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/FR/LEGEND_KEYBOARD_CONFIRM.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004500000016000000ec010000eb010000",
+    "header_u32": [
+      122,
+      32,
+      69,
+      22,
+      492,
+      491
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/FR/LEGEND_KEYBOARD_EQUIP.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000044000000160000003c02000039020000",
+    "header_u32": [
+      122,
+      32,
+      68,
+      22,
+      572,
+      569
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/FR/LEGEND_KEYBOARD_PRESS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004100000016000000cc010000ce010000",
+    "header_u32": [
+      122,
+      32,
+      65,
+      22,
+      460,
+      462
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/FR/LEGEND_NX_BACK.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004000000014000000980100009b010000",
+    "header_u32": [
+      122,
+      32,
+      64,
+      20,
+      408,
+      411
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/FR/LEGEND_NX_CONFIRM.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000005000000016000000f0010000ed010000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      496,
+      493
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/FR/LEGEND_NX_EQUIP.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000050000000160000003402000033020000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      564,
+      563
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/FR/LEGEND_NX_PRESS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000050000000160000001802000015020000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      536,
+      533
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/FR/LEGEND_PS4_BACK.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004000000014000000980100009a010000",
+    "header_u32": [
+      122,
+      32,
+      64,
+      20,
+      408,
+      410
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/FR/LEGEND_PS4_BACK_ASIABUTTONS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000040000000140000009c0100009c010000",
+    "header_u32": [
+      122,
+      32,
+      64,
+      20,
+      412,
+      412
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/FR/LEGEND_PS4_CONFIRM.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000005000000016000000e0010000de010000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      480,
+      478
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/FR/LEGEND_PS4_CONFIRM_ASIABUTTONS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000005000000016000000dc010000da010000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      476,
+      474
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/FR/LEGEND_PS4_EQUIP.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000050000000160000002802000027020000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      552,
+      551
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/FR/LEGEND_PS4_EQUIP_ASIABUTTONS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000050000000160000002402000022020000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      548,
+      546
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/FR/LEGEND_PS4_PRESS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000050000000160000000c02000008020000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      524,
+      520
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/FR/LEGEND_PS4_PRESS_ASIABUTTONS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000050000000160000000402000000020000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      516,
+      512
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/IT/LEGEND_KEYBOARD_BACK.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000003f00000014000000a4010000a5010000",
+    "header_u32": [
+      122,
+      32,
+      63,
+      20,
+      420,
+      421
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/IT/LEGEND_KEYBOARD_CONFIRM.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004200000016000000fc010000fb010000",
+    "header_u32": [
+      122,
+      32,
+      66,
+      22,
+      508,
+      507
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/IT/LEGEND_KEYBOARD_EQUIP.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004700000016000000300200002b020000",
+    "header_u32": [
+      122,
+      32,
+      71,
+      22,
+      560,
+      555
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/IT/LEGEND_KEYBOARD_PRESS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000041000000160000008c0100008d010000",
+    "header_u32": [
+      122,
+      32,
+      65,
+      22,
+      396,
+      397
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/IT/LEGEND_NX_BACK.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004000000014000000ac010000ad010000",
+    "header_u32": [
+      122,
+      32,
+      64,
+      20,
+      428,
+      429
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/IT/LEGEND_NX_CONFIRM.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000005000000016000000f8010000f8010000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      504,
+      504
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/IT/LEGEND_NX_EQUIP.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000050000000160000002c02000020020000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      556,
+      544
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/IT/LEGEND_NX_PRESS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000050000000160000007c0100007c010000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      380,
+      380
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/IT/LEGEND_PS4_BACK.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004000000014000000ac010000ad010000",
+    "header_u32": [
+      122,
+      32,
+      64,
+      20,
+      428,
+      429
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/IT/LEGEND_PS4_BACK_ASIABUTTONS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000004000000014000000b0010000b2010000",
+    "header_u32": [
+      122,
+      32,
+      64,
+      20,
+      432,
+      434
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/IT/LEGEND_PS4_CONFIRM.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000005000000016000000ec010000eb010000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      492,
+      491
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/IT/LEGEND_PS4_CONFIRM_ASIABUTTONS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000005000000016000000e8010000e9010000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      488,
+      489
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/IT/LEGEND_PS4_EQUIP.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000005000000016000000200200001c020000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      544,
+      540
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/IT/LEGEND_PS4_EQUIP_ASIABUTTONS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000050000000160000001c02000013020000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      540,
+      531
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/IT/LEGEND_PS4_PRESS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000050000000160000007001000070010000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      368,
+      368
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/IT/LEGEND_PS4_PRESS_ASIABUTTONS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000050000000160000007001000071010000",
+    "header_u32": [
+      122,
+      32,
+      80,
+      22,
+      368,
+      369
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/PAGELEFT.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000370000003b000000980e0000830e0000",
+    "header_u32": [
+      122,
+      32,
+      55,
+      59,
+      3736,
+      3715
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/PAGELEFT_KEYBOARD.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000370000003b000000700e00005c0e0000",
+    "header_u32": [
+      122,
+      32,
+      55,
+      59,
+      3696,
+      3676
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/PAGELEFT_PC.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000370000003b000000dc0e0000cc0e0000",
+    "header_u32": [
+      122,
+      32,
+      55,
+      59,
+      3804,
+      3788
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/PAGELEFT_PS4.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000370000003b000000c40e0000af0e0000",
+    "header_u32": [
+      122,
+      32,
+      55,
+      59,
+      3780,
+      3759
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/PAGERIGHT.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000370000003b000000980e0000910e0000",
+    "header_u32": [
+      122,
+      32,
+      55,
+      59,
+      3736,
+      3729
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/PAGERIGHT_KEYBOARD.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000370000003b0000005c0e0000580e0000",
+    "header_u32": [
+      122,
+      32,
+      55,
+      59,
+      3676,
+      3672
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/PAGERIGHT_PC.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000370000003b000000d40e0000d10e0000",
+    "header_u32": [
+      122,
+      32,
+      55,
+      59,
+      3796,
+      3793
+    ]
+  },
+  {
+    "resource": "TEXTURES/GENERAL/PAGERIGHT_PS4.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000370000003b000000c00e0000b70e0000",
+    "header_u32": [
+      122,
+      32,
+      55,
+      59,
+      3776,
+      3767
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_E_KEYBOARD.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000000f0000000f0000007000000072000000",
+    "header_u32": [
+      122,
+      32,
+      15,
+      15,
+      112,
+      114
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_DEAD.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000740000006b000000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      116,
+      107
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN1.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000d8020000dc020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      728,
+      732
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN10.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000e4020000e8020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      740,
+      744
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN11.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000e4020000e8020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      740,
+      744
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN12.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000e4020000e8020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      740,
+      744
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN13.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000d8020000dc020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      728,
+      732
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN2.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000dc020000e0020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      732,
+      736
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN3.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000d8020000dc020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      728,
+      732
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN4.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000dc020000df020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      732,
+      735
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN5.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000c8020000cc020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      712,
+      716
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN6.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000c0020000c4020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      704,
+      708
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN7.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000cc020000d0020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      716,
+      720
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN8.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000d8020000dc020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      728,
+      732
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN9.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000dc020000e0020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      732,
+      736
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_RED1.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000c8020000cb020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      712,
+      715
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_RED10.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000d8020000db020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      728,
+      731
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_RED11.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000d0020000d3020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      720,
+      723
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_RED12.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000d0020000d3020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      720,
+      723
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_RED13.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000cc020000cf020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      716,
+      719
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_RED2.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000c4020000c7020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      708,
+      711
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_RED3.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000c4020000c8020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      708,
+      712
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_RED4.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000c4020000c7020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      708,
+      711
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_RED5.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000c0020000c3020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      704,
+      707
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_RED6.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000b4020000b7020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      692,
+      695
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_RED7.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000bc020000bf020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      700,
+      703
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_RED8.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000c8020000cb020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      712,
+      715
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_RED9.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000cc020000cf020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      716,
+      719
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW1.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000e8020000eb020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      744,
+      747
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW10.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000ec020000ef020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      748,
+      751
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW11.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000e4020000e7020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      740,
+      743
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW12.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000e8020000eb020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      744,
+      747
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW13.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000e8020000eb020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      744,
+      747
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW2.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000e0020000e3020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      736,
+      739
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW3.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000e0020000e4020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      736,
+      740
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW4.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000e0020000e4020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      736,
+      740
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW5.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000dc020000de020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      732,
+      734
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW6.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000c4020000c7020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      708,
+      711
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW7.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000d0020000d3020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      720,
+      723
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW8.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000dc020000df020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      732,
+      735
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW9.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001c00000012000000e0020000e3020000",
+    "header_u32": [
+      122,
+      32,
+      28,
+      18,
+      736,
+      739
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_U_KEYBOARD.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000000f0000000f0000007400000076000000",
+    "header_u32": [
+      122,
+      32,
+      15,
+      15,
+      116,
+      118
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_WEAPON_BUZZSAW.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000080000000200000009808000082080000",
+    "header_u32": [
+      122,
+      32,
+      128,
+      32,
+      2200,
+      2178
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_WEAPON_FLASHLIGHT.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000008000000020000000f8040000d9040000",
+    "header_u32": [
+      122,
+      32,
+      128,
+      32,
+      1272,
+      1241
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_WEAPON_MACHINEGUN.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000008000000020000000900c0000890c0000",
+    "header_u32": [
+      122,
+      32,
+      128,
+      32,
+      3216,
+      3209
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_WEAPON_NIGHTSTICK.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000080000000200000002406000007060000",
+    "header_u32": [
+      122,
+      32,
+      128,
+      32,
+      1572,
+      1543
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_WEAPON_PISTOL.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000008000000020000000500500003c050000",
+    "header_u32": [
+      122,
+      32,
+      128,
+      32,
+      1360,
+      1340
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_WEAPON_REVOLVER.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000008000000020000000200700000c070000",
+    "header_u32": [
+      122,
+      32,
+      128,
+      32,
+      1824,
+      1804
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_WEAPON_SHOTGUN.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000008000000020000000f00a0000df0a0000",
+    "header_u32": [
+      122,
+      32,
+      128,
+      32,
+      2800,
+      2783
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_WEAPON_SNIPER.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000008000000020000000f80b0000f10b0000",
+    "header_u32": [
+      122,
+      32,
+      128,
+      32,
+      3064,
+      3057
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_ZL.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000120000000f000000a4000000a6000000",
+    "header_u32": [
+      122,
+      32,
+      18,
+      15,
+      164,
+      166
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_ZL_PC.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000140000000d000000a8000000aa000000",
+    "header_u32": [
+      122,
+      32,
+      20,
+      13,
+      168,
+      170
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_ZL_PS4.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000012000000120000009000000091000000",
+    "header_u32": [
+      122,
+      32,
+      18,
+      18,
+      144,
+      145
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_ZR.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000120000000f000000b8000000ba000000",
+    "header_u32": [
+      122,
+      32,
+      18,
+      15,
+      184,
+      186
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_ZR_PC.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000140000000d000000b8000000b6000000",
+    "header_u32": [
+      122,
+      32,
+      20,
+      13,
+      184,
+      182
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/HUD_ZR_PS4.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000012000000120000009c0000009a000000",
+    "header_u32": [
+      122,
+      32,
+      18,
+      18,
+      156,
+      154
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/SNIPEHUDSCANLINES.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000008000000080000002000000022000000",
+    "header_u32": [
+      122,
+      32,
+      8,
+      8,
+      32,
+      34
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/THATWASYOURLASTBREATH.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000b4b6000010ad0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      46772,
+      44304
+    ]
+  },
+  {
+    "resource": "TEXTURES/HUD/THATWASYOURLASTBREATH2.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f00000001caf0000c0a50000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      44828,
+      42432
+    ]
+  },
+  {
+    "resource": "TEXTURES/ITEMS/BG.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f00000003cb504005ab20400",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      308540,
+      307802
+    ]
+  },
+  {
+    "resource": "TEXTURES/ITEMS/HIGHLIGHT.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000002900000027000000980000008e000000",
+    "header_u32": [
+      122,
+      32,
+      41,
+      39,
+      152,
+      142
+    ]
+  },
+  {
+    "resource": "TEXTURES/ITEMS/ITEMS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000807d000084780000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      32128,
+      30852
+    ]
+  },
+  {
+    "resource": "TEXTURES/MAP/BG.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f000000008b4010098a90100",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      111624,
+      108952
+    ]
+  },
+  {
+    "resource": "TEXTURES/MAPS/1FE_0.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000000010000c0000000740a00001a080000",
+    "header_u32": [
+      122,
+      32,
+      256,
+      192,
+      2676,
+      2074
+    ]
+  },
+  {
+    "resource": "TEXTURES/MAPS/1FW_0.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000000010000c0000000cc0c0000920a0000",
+    "header_u32": [
+      122,
+      32,
+      256,
+      192,
+      3276,
+      2706
+    ]
+  },
+  {
+    "resource": "TEXTURES/MAPS/2FE_0.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000000010000c00000006c0c00001b0a0000",
+    "header_u32": [
+      122,
+      32,
+      256,
+      192,
+      3180,
+      2587
+    ]
+  },
+  {
+    "resource": "TEXTURES/MAPS/2FW_0.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000000010000c0000000c40a000069080000",
+    "header_u32": [
+      122,
+      32,
+      256,
+      192,
+      2756,
+      2153
+    ]
+  },
+  {
+    "resource": "TEXTURES/MAPS/3FW_0.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000000010000c0000000a80a000060080000",
+    "header_u32": [
+      122,
+      32,
+      256,
+      192,
+      2728,
+      2144
+    ]
+  },
+  {
+    "resource": "TEXTURES/MAPS/4FE_0.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000000010000c0000000dc05000078030000",
+    "header_u32": [
+      122,
+      32,
+      256,
+      192,
+      1500,
+      888
+    ]
+  },
+  {
+    "resource": "TEXTURES/MAPS/4FW_0.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000000010000c0000000480b0000e8080000",
+    "header_u32": [
+      122,
+      32,
+      256,
+      192,
+      2888,
+      2280
+    ]
+  },
+  {
+    "resource": "TEXTURES/MAPS/5FE_0.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000000010000c00000001c0d0000d70a0000",
+    "header_u32": [
+      122,
+      32,
+      256,
+      192,
+      3356,
+      2775
+    ]
+  },
+  {
+    "resource": "TEXTURES/MAPS/5FW_0.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000000010000c0000000ec1100009f0e0000",
+    "header_u32": [
+      122,
+      32,
+      256,
+      192,
+      4588,
+      3743
+    ]
+  },
+  {
+    "resource": "TEXTURES/MAPS/6FE_0.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000000010000c0000000240a0000ce070000",
+    "header_u32": [
+      122,
+      32,
+      256,
+      192,
+      2596,
+      1998
+    ]
+  },
+  {
+    "resource": "TEXTURES/MAPS/6FW_0.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000000010000c0000000200e0000a80b0000",
+    "header_u32": [
+      122,
+      32,
+      256,
+      192,
+      3616,
+      2984
+    ]
+  },
+  {
+    "resource": "TEXTURES/MAPS/7FW_0.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000000010000c00000006c0c0000370a0000",
+    "header_u32": [
+      122,
+      32,
+      256,
+      192,
+      3180,
+      2615
+    ]
+  },
+  {
+    "resource": "TEXTURES/MOUSE_CURSOR.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000002800000028000000240700001b070000",
+    "header_u32": [
+      122,
+      32,
+      40,
+      40,
+      1828,
+      1819
+    ]
+  },
+  {
+    "resource": "TEXTURES/MOVIES/AMANDA01.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f00000004c140000cb0c0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      5196,
+      3275
+    ]
+  },
+  {
+    "resource": "TEXTURES/MOVIES/CHAPTER01.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f000000024140000c10c0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      5156,
+      3265
+    ]
+  },
+  {
+    "resource": "TEXTURES/MOVIES/CHAPTER02.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f00000000c140000a40c0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      5132,
+      3236
+    ]
+  },
+  {
+    "resource": "TEXTURES/MOVIES/CHAPTER03.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f00000004c140000cb0c0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      5196,
+      3275
+    ]
+  },
+  {
+    "resource": "TEXTURES/MOVIES/CHAPTER04.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f00000001c1400008f0c0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      5148,
+      3215
+    ]
+  },
+  {
+    "resource": "TEXTURES/MOVIES/CHAPTER05.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f00000000c140000a10c0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      5132,
+      3233
+    ]
+  },
+  {
+    "resource": "TEXTURES/MOVIES/CHAPTER06.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f000000038140000ce0c0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      5176,
+      3278
+    ]
+  },
+  {
+    "resource": "TEXTURES/MOVIES/CHAPTER07.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000f0140000880d0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      5360,
+      3464
+    ]
+  },
+  {
+    "resource": "TEXTURES/MOVIES/CHAPTER08.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f000000038140000be0c0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      5176,
+      3262
+    ]
+  },
+  {
+    "resource": "TEXTURES/MOVIES/CHAPTER09.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f000000058140000e00c0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      5208,
+      3296
+    ]
+  },
+  {
+    "resource": "TEXTURES/MOVIES/CHAPTER10.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f000000008140000a50c0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      5128,
+      3237
+    ]
+  },
+  {
+    "resource": "TEXTURES/MOVIES/CHAPTER11.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f00000008c140000260d0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      5260,
+      3366
+    ]
+  },
+  {
+    "resource": "TEXTURES/MOVIES/CHAPTER12.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000ec140000870d0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      5356,
+      3463
+    ]
+  },
+  {
+    "resource": "TEXTURES/MOVIES/CHAPTER13.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f000000010150000910d0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      5392,
+      3473
+    ]
+  },
+  {
+    "resource": "TEXTURES/MOVIES/CHAPTER14.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f000000080150000ff0d0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      5504,
+      3583
+    ]
+  },
+  {
+    "resource": "TEXTURES/MOVIES/CHAPTER15.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f000000070140000f00c0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      5232,
+      3312
+    ]
+  },
+  {
+    "resource": "TEXTURES/MOVIES/CHAPTER16.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000c0140000440d0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      5312,
+      3396
+    ]
+  },
+  {
+    "resource": "TEXTURES/MOVIES/INTRO.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f000000024140000c10c0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      5156,
+      3265
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/BG.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f00000002c0d040029080400",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      265516,
+      264233
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/BUTTONSTRIP.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f00000000c2600003d1d0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      9740,
+      7485
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/DE/CONTROLS_KEYBOARD_TYPE1.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000cc2200006b1c0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      8908,
+      7275
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/DE/CONTROLS_KEYBOARD_TYPE2.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f000000040220000111c0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      8768,
+      7185
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/DE/CONTROLS_NX_TYPE1.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000c8430000a93f0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      17352,
+      16297
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/DE/CONTROLS_NX_TYPE2.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000d0430000b53f0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      17360,
+      16309
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/DE/CONTROLS_NX_TYPE3.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000e4430000df3f0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      17380,
+      16351
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/DE/CONTROLS_PC_TYPE1.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000d83e0000343b0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      16088,
+      15156
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/DE/CONTROLS_PC_TYPE2.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000f03e0000643b0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      16112,
+      15204
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/DE/CONTROLS_PC_TYPE3.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000f43e00006d3b0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      16116,
+      15213
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/DE/CONTROLS_PS4_TYPE1.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000842d000070270000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      11652,
+      10096
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/DE/CONTROLS_PS4_TYPE2.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000982d00008c270000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      11672,
+      10124
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/DE/CONTROLS_PS4_TYPE3.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000a82d0000c6270000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      11688,
+      10182
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/DE/LEGEND_KEYBOARD_YAXIS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000dc070000c9010000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      2012,
+      457
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/DE/LEGEND_NX_YAXIS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f000000000080000f2010000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      2048,
+      498
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/DE/LEGEND_PC_YAXIS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f000000000080000f2010000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      2048,
+      498
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/DE/LEGEND_PS4_YAXIS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000d4070000c2010000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      2004,
+      450
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/EN/CONTROLS_KEYBOARD_TYPE1.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000cc2200006b1c0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      8908,
+      7275
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/EN/CONTROLS_KEYBOARD_TYPE2.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f000000040220000111c0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      8768,
+      7185
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/EN/CONTROLS_NX_TYPE1.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f00000004445000024410000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      17732,
+      16676
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/EN/CONTROLS_NX_TYPE2.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000604500004c410000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      17760,
+      16716
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/EN/CONTROLS_NX_TYPE3.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f00000006045000047410000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      17760,
+      16711
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/EN/CONTROLS_PC_TYPE1.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000d83e0000343b0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      16088,
+      15156
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/EN/CONTROLS_PC_TYPE2.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000f03e0000643b0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      16112,
+      15204
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/EN/CONTROLS_PC_TYPE3.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000f43e00006d3b0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      16116,
+      15213
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/EN/CONTROLS_PS4_TYPE1.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000fc2a0000ea240000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      11004,
+      9450
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/EN/CONTROLS_PS4_TYPE2.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000202b000026250000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      11040,
+      9510
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/EN/CONTROLS_PS4_TYPE3.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000702b000065250000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      11120,
+      9573
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/EN/LEGEND_KEYBOARD_YAXIS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000b00700009d010000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      1968,
+      413
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/EN/LEGEND_NX_YAXIS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f000000000080000ef010000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      2048,
+      495
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/EN/LEGEND_PC_YAXIS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000f4070000e5010000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      2036,
+      485
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/EN/LEGEND_PS4_YAXIS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000b40700009f010000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      1972,
+      415
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/EN/PAGERIGHT_PCMOUSE.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000370000003b0000005c0e0000580e0000",
+    "header_u32": [
+      122,
+      32,
+      55,
+      59,
+      3676,
+      3672
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/ES/CONTROLS_KEYBOARD_TYPE1.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000cc2200006b1c0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      8908,
+      7275
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/ES/CONTROLS_KEYBOARD_TYPE2.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f000000040220000111c0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      8768,
+      7185
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/ES/CONTROLS_NX_TYPE1.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f00000004c420000563e0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      16972,
+      15958
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/ES/CONTROLS_NX_TYPE2.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f000000064420000693e0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      16996,
+      15977
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/ES/CONTROLS_NX_TYPE3.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f000000074420000873e0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      17012,
+      16007
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/ES/CONTROLS_PC_TYPE1.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000d83e0000343b0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      16088,
+      15156
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/ES/CONTROLS_PC_TYPE2.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000f03e0000643b0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      16112,
+      15204
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/ES/CONTROLS_PC_TYPE3.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000f43e00006d3b0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      16116,
+      15213
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/ES/CONTROLS_PS4_TYPE1.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f00000006c270000bb210000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      10092,
+      8635
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/ES/CONTROLS_PS4_TYPE2.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000a0270000cd210000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      10144,
+      8653
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/ES/CONTROLS_PS4_TYPE3.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000bc270000fa210000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      10172,
+      8698
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/ES/LEGEND_KEYBOARD_YAXIS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000a007000087010000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      1952,
+      391
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/ES/LEGEND_NX_YAXIS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000c4070000b0010000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      1988,
+      432
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/ES/LEGEND_PC_YAXIS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000c4070000b0010000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      1988,
+      432
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/ES/LEGEND_PS4_YAXIS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000980700007c010000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      1944,
+      380
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/FR/CONTROLS_KEYBOARD_TYPE1.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000cc2200006b1c0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      8908,
+      7275
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/FR/CONTROLS_KEYBOARD_TYPE2.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f000000040220000111c0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      8768,
+      7185
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/FR/CONTROLS_NX_TYPE1.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000cc420000df3e0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      17100,
+      16095
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/FR/CONTROLS_NX_TYPE2.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f00000000c430000143f0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      17164,
+      16148
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/FR/CONTROLS_NX_TYPE3.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f000000010430000203f0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      17168,
+      16160
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/FR/CONTROLS_PC_TYPE1.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000d83e0000343b0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      16088,
+      15156
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/FR/CONTROLS_PC_TYPE2.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000f03e0000643b0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      16112,
+      15204
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/FR/CONTROLS_PC_TYPE3.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000f43e00006d3b0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      16116,
+      15213
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/FR/CONTROLS_PS4_TYPE1.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000082c000035260000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      11272,
+      9781
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/FR/CONTROLS_PS4_TYPE2.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f00000004c2c00006a260000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      11340,
+      9834
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/FR/CONTROLS_PS4_TYPE3.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f00000008c2c0000b6260000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      11404,
+      9910
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/FR/LEGEND_KEYBOARD_YAXIS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000c0070000a9010000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      1984,
+      425
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/FR/LEGEND_NX_YAXIS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000f4070000de010000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      2036,
+      478
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/FR/LEGEND_PC_YAXIS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000f4070000de010000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      2036,
+      478
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/FR/LEGEND_PS4_YAXIS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000c8070000b4010000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      1992,
+      436
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/IT/CONTROLS_KEYBOARD_TYPE1.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000cc2200006b1c0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      8908,
+      7275
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/IT/CONTROLS_KEYBOARD_TYPE2.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f000000040220000111c0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      8768,
+      7185
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/IT/CONTROLS_NX_TYPE1.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f00000007c4300007e3f0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      17276,
+      16254
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/IT/CONTROLS_NX_TYPE2.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f00000006c430000723f0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      17260,
+      16242
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/IT/CONTROLS_NX_TYPE3.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f000000070430000633f0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      17264,
+      16227
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/IT/CONTROLS_PC_TYPE1.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000d83e0000343b0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      16088,
+      15156
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/IT/CONTROLS_PC_TYPE2.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000f03e0000643b0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      16112,
+      15204
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/IT/CONTROLS_PC_TYPE3.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000f43e00006d3b0000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      16116,
+      15213
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/IT/CONTROLS_PS4_TYPE1.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000242d000015270000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      11556,
+      10005
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/IT/CONTROLS_PS4_TYPE2.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000c02c00008e260000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      11456,
+      9870
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/IT/CONTROLS_PS4_TYPE3.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000102d000008270000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      11536,
+      9992
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/IT/LEGEND_KEYBOARD_YAXIS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000c4070000b3010000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      1988,
+      435
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/IT/LEGEND_NX_YAXIS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000e4070000dd010000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      2020,
+      477
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/IT/LEGEND_PC_YAXIS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000e4070000dd010000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      2020,
+      477
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/IT/LEGEND_PS4_YAXIS.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000c0070000b7010000",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      1984,
+      439
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/LEGEND_TEX_KEYBOARD_F.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000013000000180000008000000082000000",
+    "header_u32": [
+      122,
+      32,
+      19,
+      24,
+      128,
+      130
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/LEGEND_TEX_TRI.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000001300000018000000a00000009b000000",
+    "header_u32": [
+      122,
+      32,
+      19,
+      24,
+      160,
+      155
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/LEGEND_TEX_X.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000013000000180000009400000096000000",
+    "header_u32": [
+      122,
+      32,
+      19,
+      24,
+      148,
+      150
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/LEGEND_TEX_Y.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000013000000180000009800000097000000",
+    "header_u32": [
+      122,
+      32,
+      19,
+      24,
+      152,
+      151
+    ]
+  },
+  {
+    "resource": "TEXTURES/OPTIONS/SELECTION.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000007000000020000000fc000000dc000000",
+    "header_u32": [
+      122,
+      32,
+      112,
+      32,
+      252,
+      220
+    ]
+  },
+  {
+    "resource": "TEXTURES/PUZZLES/ALBUM/ALBUM_00.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000040010000f0000000fc8702007c850200",
+    "header_u32": [
+      122,
+      32,
+      320,
+      240,
+      165884,
+      165244
+    ]
+  },
+  {
+    "resource": "TEXTURES/PUZZLES/ALBUM/ALBUM_01.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000040010000f000000028700100b86c0100",
+    "header_u32": [
+      122,
+      32,
+      320,
+      240,
+      94248,
+      93368
+    ]
+  },
+  {
+    "resource": "TEXTURES/PUZZLES/ALBUM/ALBUM_02.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000040010000f0000000fc5a010058570100",
+    "header_u32": [
+      122,
+      32,
+      320,
+      240,
+      88828,
+      87896
+    ]
+  },
+  {
+    "resource": "TEXTURES/PUZZLES/ALBUM/ALBUM_03.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000040010000f00000009cab010024a80100",
+    "header_u32": [
+      122,
+      32,
+      320,
+      240,
+      109468,
+      108580
+    ]
+  },
+  {
+    "resource": "TEXTURES/PUZZLES/ALBUM/ALBUM_04.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000040010000f0000000f8210100d11e0100",
+    "header_u32": [
+      122,
+      32,
+      320,
+      240,
+      74232,
+      73425
+    ]
+  },
+  {
+    "resource": "TEXTURES/PUZZLES/ALBUM/ALBUM_05.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000040010000f0000000ec7e0100327b0100",
+    "header_u32": [
+      122,
+      32,
+      320,
+      240,
+      98028,
+      97074
+    ]
+  },
+  {
+    "resource": "TEXTURES/PUZZLES/ALBUM/ALBUM_06.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000040010000f0000000ec640100df600100",
+    "header_u32": [
+      122,
+      32,
+      320,
+      240,
+      91372,
+      90335
+    ]
+  },
+  {
+    "resource": "TEXTURES/PUZZLES/ALBUM/ALBUM_07.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000040010000f0000000f4ab01003ea80100",
+    "header_u32": [
+      122,
+      32,
+      320,
+      240,
+      109556,
+      108606
+    ]
+  },
+  {
+    "resource": "TEXTURES/PUZZLES/PIANO/PIANOBG.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000000010000000100007c930000c68a0000",
+    "header_u32": [
+      122,
+      32,
+      256,
+      256,
+      37756,
+      35526
+    ]
+  },
+  {
+    "resource": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM1.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000000001000000010000b49e0000c1950000",
+    "header_u32": [
+      122,
+      32,
+      256,
+      256,
+      40628,
+      38337
+    ]
+  },
+  {
+    "resource": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM10.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000000001000000010000b49d0000f7940000",
+    "header_u32": [
+      122,
+      32,
+      256,
+      256,
+      40372,
+      38135
+    ]
+  },
+  {
+    "resource": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM11.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000000100000001000034990000b3900000",
+    "header_u32": [
+      122,
+      32,
+      256,
+      256,
+      39220,
+      37043
+    ]
+  },
+  {
+    "resource": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM12.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000000001000000010000c89f0000ed960000",
+    "header_u32": [
+      122,
+      32,
+      256,
+      256,
+      40904,
+      38637
+    ]
+  },
+  {
+    "resource": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM2.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000000001000000010000ac99000009910000",
+    "header_u32": [
+      122,
+      32,
+      256,
+      256,
+      39340,
+      37129
+    ]
+  },
+  {
+    "resource": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM3.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000000001000000010000589d00006b940000",
+    "header_u32": [
+      122,
+      32,
+      256,
+      256,
+      40280,
+      37995
+    ]
+  },
+  {
+    "resource": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM4.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000000100000001000050990000a5900000",
+    "header_u32": [
+      122,
+      32,
+      256,
+      256,
+      39248,
+      37029
+    ]
+  },
+  {
+    "resource": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM5.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000000010000000100004ca10000a6980000",
+    "header_u32": [
+      122,
+      32,
+      256,
+      256,
+      41292,
+      39078
+    ]
+  },
+  {
+    "resource": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM6.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000000001000000010000289f0000cf960000",
+    "header_u32": [
+      122,
+      32,
+      256,
+      256,
+      40744,
+      38607
+    ]
+  },
+  {
+    "resource": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM7.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000000100000001000064990000d0900000",
+    "header_u32": [
+      122,
+      32,
+      256,
+      256,
+      39268,
+      37072
+    ]
+  },
+  {
+    "resource": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM8.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a000000200000000001000000010000849d000071940000",
+    "header_u32": [
+      122,
+      32,
+      256,
+      256,
+      40324,
+      38001
+    ]
+  },
+  {
+    "resource": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM9.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000000100000001000054990000c5900000",
+    "header_u32": [
+      122,
+      32,
+      256,
+      256,
+      39252,
+      37061
+    ]
+  },
+  {
+    "resource": "TEXTURES/TITLE/BG1.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f000000034d70400b1d80400",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      317236,
+      317617
+    ]
+  },
+  {
+    "resource": "TEXTURES/TITLE/BG2.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f0000000bcd6040052d80400",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      317116,
+      317522
+    ]
+  },
+  {
+    "resource": "TEXTURES/TITLE/BG3.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f000000000d7040079d80400",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      317184,
+      317561
+    ]
+  },
+  {
+    "resource": "TEXTURES/TITLE/BG4.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f00000003cd60400f9d70400",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      316988,
+      317433
+    ]
+  },
+  {
+    "resource": "TEXTURES/TITLE/MAGICPUFF.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a0000002000000026000000130000009405000099050000",
+    "header_u32": [
+      122,
+      32,
+      38,
+      19,
+      1428,
+      1433
+    ]
+  },
+  {
+    "resource": "TEXTURES/WEAPONS/WEAPONSELECTBG.PNG",
+    "format": "non-PNG binary container; fields unverified",
+    "first_24_bytes": "7a00000020000000ac010000f000000078d50100f1c50100",
+    "header_u32": [
+      122,
+      32,
+      428,
+      240,
+      120184,
+      116209
+    ]
+  }
+]
