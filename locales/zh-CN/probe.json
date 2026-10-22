@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "id": "loc/en/UISSFrontend.tbl:0000",
+  "resource": "loc/en/UISSFrontend.tbl",
+  "source": "New Game",
+  "target": "新游戏",
+  "source_sha256": "178e7823973058c4cc38e3388e7673b3adf6521a342c8e331aee602aad34b90a",
+  "font_source_sha256": "a4d07a4bf8b64737baaeae243e7aa0fec6c16dedc3f18a4eb19ed0f9e6ead183",
+  "encoding": "single-byte-glyph-slots-v1",
+  "slots": {"新": 129, "游": 141, "戏": 143},
+  "status": "offline-probe-awaiting-user-visual-test"
+}

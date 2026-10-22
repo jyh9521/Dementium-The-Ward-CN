@@ -133,3 +133,6 @@ decompiled/
 *.OGG
 *.ivf
 *.IVF
+*.ttf
+*.otf
+*.ttc

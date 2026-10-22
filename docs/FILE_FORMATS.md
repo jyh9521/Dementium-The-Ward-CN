@@ -1,5 +1,7 @@
 # 文件格式清单（本作 build21501403）
 
+第二阶段：binfont字段、页表、双层zlib及分区/重定位现已交叉验证，完整定义见[BINFONT_FORMAT.md](BINFONT_FORMAT.md)。主菜单单字节入口见[TEXT_DECODING.md](TEXT_DECODING.md)。下面媒体未知项仍保留，不套用PNG扩展名。
+
 ## 已验证：ZAR1
 
 全部小端，头部32字节 `<8I>`：
@@ -41,7 +43,7 @@ u64数量602；每记录 `<IIQ>`：size、flags、name_offset。名称池始于 
 
 | 资源 | 已观察 | 未确认 |
 |---|---|---|
-|fonts/d2font_12x15.binfont|内层7620字节；开头u32 1,8,1032|这三值语义、索引、位图和度量|
+|fonts/d2font_12x15.binfont|内层7620字节；开头u32 1,8,1032|字段/位图/度量与重定位已明确，见BINFONT_FORMAT.md；GPU显示待验证|
 |TEXTURES/*.PNG|319成员；共同前8字节7a00000020000000；非PNG|压缩与像素布局，尺寸字段|
 |内层 *.tex / *.art|分别415/92文件，保留magic及哈希|纹理/图集编码及文字覆盖|
 |*.FLAC|177项fLaC签名|未逐条音频解码/验收|

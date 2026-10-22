@@ -9,3 +9,11 @@
 - ../BUILDING.md：重新生成原始清单和验证
 
 本地LOCALIZATION_STANDARD.md与AGENTS.md不提交。
+
+## 第二阶段
+
+- MINIMAL_PROBE.md：单条中文样本
+- TEXT_DECODING.md / BINFONT_FORMAT.md：解码与字库证据
+- FONT_SOURCE.md：源字体与许可
+- PROBE_VERIFICATION.md：最新实际验证
+- MANUAL_TEST.md：用户手动验收

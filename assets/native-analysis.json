@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "executable_sha256": "26186ceb1142e1c84298aa528627531e3821b8068e4e777e3975403a272c530e",
+  "image_base": 5368709120,
+  "rvas": {
+    "table": 215776,
+    "clear_table": 216864,
+    "read_table": 955216,
+    "log": 193552,
+    "widen": 960256,
+    "compile": 960848,
+    "advance": 957744,
+    "measure": 957968,
+    "memory_manager": 4178752
+  },
+  "note": "Coordinates independently verified for this exact target; instruction replay only, no patch recipes."
+}

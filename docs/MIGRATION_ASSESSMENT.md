@@ -105,3 +105,9 @@ python -X utf8 -m unittest discover -s tests -p test_font_pipeline.py -v
 - 本阶段ASCII探针为 `New Game -> New Game [offline probe]`，**不是中文探针**。当前具备资源定位、重建、身份守卫和恢复条件，但尚未具备将“新游戏”正确显示的完整技术条件。
 - 下一步先只读定位 binfont loader 与文本decoder，明确字体/纹理二进制格式，建立目标专用且locale-neutral的字库后端，再生成仅此条译文和必要字形的离线样本，之后由用户手动进行游戏内显示验收。
 - 不复制上游 F1/阅读器/native RVA，不翻译全量，不制作安装器或Release；本阶段全部证据均为静态或离线，游戏内与中文显示状态均为未测试。
+
+## 6. 第二阶段实施结果（2026-10-23）
+
+第一阶段的目标未知项已按独立本作证据推进：字库页表、metrics、RGBA双zlib、section/relocation有解析和原生loader指令回放。实际菜单是byte→ushort，不是上游UTF-8。当前只做New Game一条，运行时用81/8D/8F三个空slot，真实译文仍在locale数据；不覆盖原180glyph，不改EXE。
+
+font_metadata/discover/resolve_fonts已逐函数复用于tools/font_source.py；原版ZAR/TAR及差分核心继续使用，字体栅格化/身份门禁/原像素保留方法延续。序列化和decoder策略另写本作适配，没有移植旧native patches。单字节空槽只是POC预算，不作为全量汉化方案。当前72项合成测试与实际目标指令/资源回放通过，游戏画面仍待手动验收。详见MINIMAL_PROBE.md、TEXT_DECODING.md、BINFONT_FORMAT.md。

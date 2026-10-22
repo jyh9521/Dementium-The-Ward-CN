@@ -1,0 +1,28 @@
+{
+  "locale": "zh-CN",
+  "field": "loc/en/UISSFrontend.tbl:0000",
+  "source": "New Game",
+  "target": "新游戏",
+  "runtime_encoding": "single-byte-glyph-slots-v1",
+  "runtime_hex": "818d8f",
+  "changed_inner": [
+    "fonts/d2font_12x15.binfont",
+    "loc/en/UISSFrontend.tbl"
+  ],
+  "changed_outer": [
+    "CONTENT.TAR",
+    "~INDEX"
+  ],
+  "original_sha256": "9a9ceffb4bbf5fd9a22d5b9d0b87b963ab3abf1bf4afa7e49c5bdf44875fd42c",
+  "modified_sha256": "0b05719819898d46f11517df26abeca5e15e23bfa0117ddb58659657428eef18",
+  "original_size": 662255104,
+  "modified_size": 735359848,
+  "source_records": 278,
+  "changed_text_records": 1,
+  "font_added": 3,
+  "sample": "C:\\Users\\noway\\Downloads\\Dementium-The-Ward-CN\\build\\phase2\\sample",
+  "executable_modified": false,
+  "reproducible": true,
+  "game_launched": false,
+  "visual_acceptance": "NOT_TESTED"
+}

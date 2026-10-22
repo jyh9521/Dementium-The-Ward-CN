@@ -1,0 +1,116 @@
+{
+  "font_sha256": "60f62ae34b95eea47e5986dd425bcd51c4f785165bf06befade60a059f036066",
+  "font_metadata": {
+    "file": "fusion-pixel-12px-proportional-zh_hans.ttf",
+    "sha256": "60f62ae34b95eea47e5986dd425bcd51c4f785165bf06befade60a059f036066",
+    "format": "\u0000\u0001\u0000\u0000",
+    "names": {
+      "0": [
+        "Copyright (c) 2022, TakWolf (https://takwolf.com)"
+      ],
+      "1": [
+        "Fusion Pixel 12px Prop zh-Hans"
+      ],
+      "2": [
+        "Regular"
+      ],
+      "5": [
+        "2026.10.16"
+      ],
+      "6": [
+        "Fusion-Pixel-12px-Prop-zh-Hans-Regular"
+      ],
+      "13": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1"
+      ],
+      "14": [
+        "https://github.com/TakWolf/fusion-pixel-font/blob/master/LICENSE-OFL"
+      ]
+    },
+    "weight": 400,
+    "units_per_em": 1200,
+    "cmap_count": 37689,
+    "outline_tables": [
+      "glyf"
+    ]
+  },
+  "mapping": {
+    "25103": 143,
+    "26032": 129,
+    "28216": 141
+  },
+  "added_glyphs": [
+    {
+      "unicode": 25103,
+      "slot": 143,
+      "metric": {
+        "x": 0,
+        "y": 256,
+        "height": 15,
+        "width": 12,
+        "advance": 12,
+        "bearing_x": 0,
+        "bearing_y": 0
+      },
+      "ink_box": [
+        0,
+        3,
+        11,
+        14
+      ],
+      "ink_pixels": 44
+    },
+    {
+      "unicode": 26032,
+      "slot": 129,
+      "metric": {
+        "x": 12,
+        "y": 256,
+        "height": 15,
+        "width": 12,
+        "advance": 12,
+        "bearing_x": 0,
+        "bearing_y": 0
+      },
+      "ink_box": [
+        0,
+        3,
+        11,
+        14
+      ],
+      "ink_pixels": 54
+    },
+    {
+      "unicode": 28216,
+      "slot": 141,
+      "metric": {
+        "x": 24,
+        "y": 256,
+        "height": 15,
+        "width": 12,
+        "advance": 12,
+        "bearing_x": 0,
+        "bearing_y": 0
+      },
+      "ink_box": [
+        0,
+        3,
+        11,
+        14
+      ],
+      "ink_pixels": 51
+    }
+  ],
+  "atlas_before": [
+    128,
+    256
+  ],
+  "atlas_after": [
+    128,
+    512
+  ],
+  "serialized_base_height": 8,
+  "base_height_unchanged": true,
+  "original_glyphs_preserved": 180,
+  "original_atlas_rgba_preserved": true
+}

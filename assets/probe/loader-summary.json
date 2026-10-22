@@ -1,0 +1,40 @@
+[
+  {
+    "backend": "Unicorn shipped font-loader and relocation instructions",
+    "native_loader": "0x1400e9980",
+    "native_relocation": "0x1400ea2a0",
+    "glyph_count": 180,
+    "page_count": 1,
+    "sprite_count": 256,
+    "relocation_calls": 1,
+    "image_boundary_calls": 1,
+    "native_pointer_relocation": true,
+    "boundaries": [
+      "VFS open/seek/read/destruct",
+      "allocator/free",
+      "image/GPU",
+      "sprite construction"
+    ],
+    "game_launched": false,
+    "game_visual_acceptance": false
+  },
+  {
+    "backend": "Unicorn shipped font-loader and relocation instructions",
+    "native_loader": "0x1400e9980",
+    "native_relocation": "0x1400ea2a0",
+    "glyph_count": 183,
+    "page_count": 1,
+    "sprite_count": 256,
+    "relocation_calls": 1,
+    "image_boundary_calls": 1,
+    "native_pointer_relocation": true,
+    "boundaries": [
+      "VFS open/seek/read/destruct",
+      "allocator/free",
+      "image/GPU",
+      "sprite construction"
+    ],
+    "game_launched": false,
+    "game_visual_acceptance": false
+  }
+]

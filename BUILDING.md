@@ -1,3 +1,33 @@
+# 第二阶段：最小中文样本构建
+
+## 输入与命令
+
+Python3.11+、requirements.txt固定依赖，以及用户原版AppID3909960/build21501403。字体为已安装Fusion Pixel12px简中，文件名/哈希见locales/zh-CN/font-profile.json；工具只发现并验证，不下载或安装字体。源码不含字体二进制，许可见assets/fonts/Fusion-Pixel-OFL.txt。
+
+```powershell
+$game = "C:/Program Files (x86)/Steam/steamapps/common/Dementium - The Ward"
+python -m pip install -r requirements.txt
+python -X utf8 -m unittest discover -s tests -q
+python -X utf8 tools/build_probe.py baseline --game "$game"
+python -X utf8 tools/build_probe.py modified --game "$game"
+& "C:/Program Files/Git/bin/bash.exe" tools/ROLLBACK_PROBE.sh
+python -X utf8 tools/investigate.py check-input --game "$game"
+```
+
+一键重跑并记录实际输出：
+
+```powershell
+python -X utf8 tools/record_probe_verification.py --game "$game" --bash "C:/Program Files/Git/bin/bash.exe"
+```
+
+默认build/phase2/sample为手动启动副本，MODIFIED_FILE.zar为保留改包，DIFF_FILE.json为本地可逆差分，ROLLBACK_COPY.zar与rollback-sample/rom.zar恢复原身份。VERIFICATION.txt/commands.json记录精确命令/输入/输出/退出码。所有工具均不执行游戏。
+
+构建前校验全部9文件身份，输出限制到仓库build/，拒绝输出树symlink/reparse及多硬链接文件；不把Steam目录当写入目标。两次同输入构建字节相同；重新解包仅两内层成员变化；原生字库loader/重定位与表解析/测宽回放通过。GPU与完整进程仍待用户手动验收。
+
+[用户手动测试](docs/MANUAL_TEST.md) · [最新验证](docs/PROBE_VERIFICATION.md)
+
+---
+
 # 第一阶段复现与恢复
 
 ## 输入

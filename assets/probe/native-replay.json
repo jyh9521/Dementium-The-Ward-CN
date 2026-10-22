@@ -1,0 +1,44 @@
+{
+  "table_rows": 25,
+  "unchanged_other_rows": true,
+  "original_codepoints": [
+    78,
+    101,
+    119,
+    32,
+    71,
+    97,
+    109,
+    101
+  ],
+  "utf8_codepoints": [
+    230,
+    150,
+    176,
+    230,
+    184,
+    184,
+    230,
+    136,
+    143
+  ],
+  "runtime_codepoints": [
+    129,
+    141,
+    143
+  ],
+  "original_advances": [
+    9.0,
+    9.0,
+    9.0
+  ],
+  "modified_advances": [
+    12.0,
+    12.0,
+    12.0
+  ],
+  "measured_width": 39,
+  "backend": "Unicorn isolated instructions; file I/O/compiler boundaries doubled",
+  "game_launched": false,
+  "game_visual_acceptance": false
+}
