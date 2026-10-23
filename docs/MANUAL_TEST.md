@@ -2,6 +2,10 @@
 
 本项目工具没有启动游戏或写Steam安装目录。以下启动、游戏操作和截图均由用户执行；当前只有离线验收。
 
+## 本次 F1 调试菜单候选
+
+请优先按 [F1专用验收步骤](DEBUG_MENU.md#用户手动测试) 使用 `build/debug-menu/sample`，运行 `verify_sample.py --output build/debug-menu`。下文 `build/full` 为此前全量候选，未包含本次独立入口。
+
 ## 1. 核对新副本
 
 副本路径：C:\Users\noway\Downloads\Dementium-The-Ward-CN\build\full\sample

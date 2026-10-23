@@ -40,3 +40,7 @@
 ## 证据入口
 
 `assets/original-identity.json`、`assets/inspection/`为可提交的身份与结构元数据；完整原文/候选扫描/实验原包位于忽略的 `build/phase1/`。详见 `docs/FILE_FORMATS.md`、`docs/MIGRATION_ASSESSMENT.md`、`docs/VERIFICATION.md`。
+
+## 独立 F1 恢复（离线候选）
+
+原生入口、键码、action归一化和命令表已在本作重新定位；当前源码已增加独立 F1、保留原启用门禁的 L3+Y 与简中标签。具体补丁、身份/容量守卫、重定位、验证边界及手动验收见 [DEBUG_MENU.md](docs/DEBUG_MENU.md)。历史入口调查文档保留当时未启用的结论，不代表当前源码状态。

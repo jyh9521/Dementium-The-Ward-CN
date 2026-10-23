@@ -16,3 +16,6 @@
 全量阶段补充：tools/art_delta.py及tests/test_art_delta.py原样复用同一c0ea10f提交的MIT代码。tools/build_image_text.py适配上游tools/image_text.py的可见墨迹居中、字形覆盖、输入按键保护及区域外像素校验方法；本作伪PNG双LZ4和Image双zlib后端均独立验证。tools/executable_text.py的固定槽守卫参考同一作者Dementium-II-CN提交d3fbc4130bca6a1376e36f9f67b569b08d402680（MIT），去除debug_menu等无关分支。当前审计没有额外正常UI字面量需要改写，因此其recipe entries为空；不会为了复用而移植旧地址或开发菜单。
 
 本作UTF-8/BMP解码补丁、binfont扩展、原生离线回放、媒体DAT同步和字幕构建由本项目针对本作实际身份/调用链实现。参考上游术语不等于继承其通关或游戏内验收结论。生成的源依赖美术差分包含修改信息，不提交整张原始/生成商业纹理。
+
+
+调试菜单恢复补充：参考同一锁定c0ea10f提交中tools/debug_menu.py与tests/native_replay.py的F1内部键码、身份/容量守卫、文字池及已有DIR64重定位复用方法；本作tools/debug_menu.py、debug_menu_text.py、replay_debug_menu.py及binfont连接均按本作原生指令和字段独立实现，没有复制上游地址、ImGui接口、TTF字库或鼠标输入补丁。原生菜单与命令回调来自本作原EXE，源码仓库只提交工具、短标签译文及技术元数据。具体覆盖与边界见docs/DEBUG_MENU.md及docs/DEBUG_MENU_TEXT.md。

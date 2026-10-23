@@ -10,6 +10,7 @@ Dementium: The Ward，Steam AppID **3909960**，受支持原版 **build21501403 
 - 独立验证本作UTF-8/BMP解码、binfont双zlib/重定位、字体生成、ZAR/TAR双索引与恢复；不是移植病房2旧偏移。
 - 52张界面图片及26张场景纹理本地化；保护键帽、楼层ID、密码、血迹与UV布局。
 - 16段独立章名及2段过场内嵌章名逐帧本地化；电影中文字幕、新闻及门牌画面词译注，以及按实际音频采样位置触发的场内语音字幕。
+- 独立 F1 原生调试菜单入口，保留原秘密序列启用的 L3+Y；根菜单和全部子菜单名称、布尔状态简体中文。
 - 原版其他四语仅转为UTF-8以适配全局解码器，逻辑原文不变、不计作中文译文。
 - 原件、完整归档、EXE、字体与媒体输出只在忽略目录；不写Steam目录，不自动启动游戏。
 
@@ -22,11 +23,11 @@ Python3.11+、锁定依赖、SHA锁定的Fusion Pixel12px字体及ffmpeg/ffprobe
 ```powershell
 python -m pip install -r requirements.txt
 python -X utf8 -m unittest discover -s tests -v
-python -X utf8 tools/record_locale_verification.py --game "C:/Program Files (x86)/Steam/steamapps/common/Dementium - The Ward"
-python -X utf8 tools/verify_sample.py
+python -X utf8 tools/record_locale_verification.py --game "C:/Program Files (x86)/Steam/steamapps/common/Dementium - The Ward" --output build/debug-menu
+python -X utf8 tools/verify_sample.py --output build/debug-menu
 ```
 
-输出为build/full/sample/；基线/修改/隔离恢复命令与字面输出保存于build/full/VERIFICATION.txt。重复构建比较、全部原输入身份、文本/字形、未改成员、索引和原生指令回放均由工具校验。
+本次输出为build/debug-menu/sample/；基线/修改/隔离恢复命令与字面输出保存于build/debug-menu/VERIFICATION.txt。此前build/full样本未含本次入口，勿混用。重复构建比较、全部原输入身份、文本/字形、未改成员、索引和原生指令回放均由工具校验。
 
 ## 文档
 
@@ -34,5 +35,5 @@ python -X utf8 tools/verify_sample.py
 - [UTF-8解码](docs/UTF8_RUNTIME.md) · [binfont](docs/BINFONT_FORMAT.md) · [场内字幕](docs/AUDIO_SUBTITLES.md)
 - [界面图片](docs/IMAGE_AUDIT.md) · [场景纹理](docs/INNER_TEXTURE_AUDIT.md) · [小字审计](docs/SMALL_PRINT_AUDIT.md)
 - [电影格式](docs/MOVIE_FORMAT.md) · [对白审计](docs/MOVIE_AUDIO_AUDIT.md) · [画面审计](docs/MOVIE_VISUAL_AUDIT.md) · [章名重建](docs/MOVIE_TITLE_REBUILD.md)
-- [隐藏调试菜单离线调查](docs/DEBUG_MENU_RESEARCH.md)（未启用恢复补丁）
+- [F1调试菜单与手动验收](docs/DEBUG_MENU.md) · [文本层](docs/DEBUG_MENU_TEXT.md) · [历史入口调查](docs/DEBUG_MENU_RESEARCH.md)
 - [术语](GLOSSARY.md) · [上游与许可](NOTICE.md) · [许可边界](LICENSING.md) · [历史调查](TECHNICAL.md)

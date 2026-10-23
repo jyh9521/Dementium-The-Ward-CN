@@ -122,3 +122,9 @@ python -X utf8 tools/record_verification.py --game "$game" --bash "C:/Program Fi
 ## 后续阶段门禁
 
 先调查 binfont、文字查字/解码/测宽，再选择有许可的字体；通过三个中文字形的离线构建后，由用户手动运行中文最小样本验证。当前无正式安装、字体下载或发布步骤。
+
+## 独立 F1 与简体中文调试菜单
+
+当前构建从 `locales/<locale>/debug-menu.json` 读取本作原生命令表及状态译文，生成字形并在 UTF-8/音频 overlay 后增加受守卫的独立 F1 层。L3+Y 仍受原手柄秘密序列启用状态控制。不启用整套键盘模拟手柄。新一轮验证使用 `--output build/debug-menu`，样本及恢复均只写该目录。
+
+完整重建、精确入口、复用来源和人工测试见 [调试菜单](docs/DEBUG_MENU.md)。`build/full` 旧样本不是本次调试入口候选。每次变更需完整重复构建、原指令回放及逆序恢复，通过后才使用新 sample。

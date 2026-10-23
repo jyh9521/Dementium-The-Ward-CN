@@ -17,3 +17,9 @@
 - FONT_SOURCE.md：源字体与许可
 - PROBE_VERIFICATION.md：最新实际验证
 - MANUAL_TEST.md：用户手动验收
+
+## 原生调试菜单恢复
+
+- DEBUG_MENU.md：独立F1、原L3+Y启用门禁、离线重建与手动验收
+- DEBUG_MENU_TEXT.md：本作命令表、中文名称/状态、UTF-8容量与原生分页回放
+- DEBUG_MENU_RESEARCH.md：恢复前的原始入口调查与REA证据索引

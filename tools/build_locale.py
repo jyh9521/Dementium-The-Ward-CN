@@ -61,6 +61,11 @@ def assemble(game,locale,include_images=True,media_output=None):
         if path.exists():
             for item in json.loads(path.read_text(encoding='utf-8'))[key]:
                 extra.extend(cue['target'] for cue in item.get(cues,[]))
+    debug_catalog=None
+    if (d/'debug-menu.json').exists():
+        from debug_menu_text import load_catalog, required_text
+        debug_catalog=load_catalog(d/'debug-menu.json')
+        extra.extend(required_text(debug_catalog))
     chars={ord(ch) for text in [r['target'] for r in rows]+extra for ch in text if ord(ch)>=32}
     mapping={cp:cp for cp in sorted(chars-old.glyphs.keys())}
     font,font_report=build_font(original_font,mapping,fp)
@@ -99,12 +104,16 @@ def assemble(game,locale,include_images=True,media_output=None):
         catalog=json.loads((d/'audio-subtitles.json').read_text(encoding='utf-8'))
         members={row['resource']:z.read(row['resource']) for row in catalog['clips'] if row['cues']}
         exe,overlay_recipe=build_native_overlay(exe,runtime_recipe,catalog,members,BinFont(font))
+    debug_recipe=None
+    if debug_catalog is not None:
+        from debug_menu import build_debug_menu
+        exe,debug_recipe=build_debug_menu(exe,(game/p['executable']).read_bytes(),debug_catalog)
     return dict(profile=p,identity=i,rows=rows,original_zar=z,original_content=c,
         archive=archive,executable=exe,utf8_executable=utf8_executable,font=font,font_report=font_report,
         runtime=runtime,layout=layout,hud=hud,images=image_report,
         preserved_records=preserved_records,preserved_runtime=preserved_runtime,preserved_report=preserved_report,
         inner_changes=changes,outer_changes=outer,runtime_recipe=runtime_recipe,literal_recipe=literal_recipe,
-        overlay_recipe=overlay_recipe)
+        overlay_recipe=overlay_recipe,debug_recipe=debug_recipe)
 
 
 def verify_resources(result):
@@ -141,6 +150,9 @@ def modified(game,out,locale,include_images=True):
     if apply_delta(original,delta)!=result['archive'] or apply_delta(result['archive'],delta,True)!=original:
         raise ValueError('Archive delta inverse failed')
     exe_restore=result['executable']
+    if result['debug_recipe']:
+        from debug_menu import rollback_debug
+        exe_restore=rollback_debug(exe_restore,result['debug_recipe'])
     if result['overlay_recipe']:
         from audio_subtitles import rollback_overlay
         exe_restore=rollback_overlay(exe_restore,result['overlay_recipe'])
@@ -149,13 +161,13 @@ def modified(game,out,locale,include_images=True):
     # Repeat independently from exact same sources before producing a manual sample.
     again=assemble(game,locale,include_images,media_output)
     if again['archive']!=result['archive'] or again['executable']!=result['executable']:
-        raise ValueError('Nondeterministic build')
+        raise ValueError(f'Nondeterministic build archive={digest(result["archive"])}!={digest(again["archive"])} exe={digest(result["executable"])}!={digest(again["executable"])}')
     (out/'MODIFIED_FILE.zar').write_bytes(result['archive'])
     (out/'MODIFIED_EXECUTABLE.exe').write_bytes(result['executable'])
     (out/'UTF8_RUNTIME.exe').write_bytes(result['utf8_executable'])
     (out/'full.binfont').write_bytes(result['font'])
     write_json(out/'DIFF_FILE.json',dict(schema=1,archive=delta,
-        runtime=result['runtime_recipe'],literals=result['literal_recipe'],audio_overlay=result['overlay_recipe']))
+        runtime=result['runtime_recipe'],literals=result['literal_recipe'],audio_overlay=result['overlay_recipe'],debug_menu=result['debug_recipe']))
     for key in ('font_report','layout','hud','images','runtime'):
         write_json(out/(key.replace('_','-')+'.json'),result[key])
     from verify_locale_runtime import verify_locale_runtime
@@ -171,7 +183,12 @@ def modified(game,out,locale,include_images=True):
     if result['overlay_recipe']:
         from audio_subtitles import NativeOverlayReplay,verify_native_dispatch,verify_overlay_font,build_resource
         catalog=json.loads((ROOT/'locales'/locale/'audio-subtitles.json').read_text(encoding='utf-8'))
-        overlay=result['overlay_recipe'];replay=NativeOverlayReplay(game/p['executable'],result['executable'],overlay)
+        overlay=result['overlay_recipe']
+        overlay_exe=result['executable']
+        if result['debug_recipe']:
+            from debug_menu import rollback_debug
+            overlay_exe=rollback_debug(overlay_exe,result['debug_recipe'])
+        replay=NativeOverlayReplay(game/p['executable'],overlay_exe,overlay)
         replay_rows=[]
         for row in overlay['rows']:
             event=dict(cue_id=row['cue_id'],sample_rate=row['sample_rate'],position=(row['start']+row['end'])/2)
@@ -183,6 +200,13 @@ def modified(game,out,locale,include_images=True):
             font=verify_overlay_font(game/p['executable'],result['font'],overlay['rows']),
             game_launched=False))
         (out/'subtitles.sub1').write_bytes(build_resource(catalog))
+    if result['debug_recipe']:
+        from replay_debug_menu import verify_debug
+        from debug_menu_text import load_catalog, verify_text, replay_debug_menu_text
+        write_json(out/'debug-replay.json',verify_debug((game/p['executable']).read_bytes(),result['executable'],result['debug_recipe']))
+        catalog=load_catalog(ROOT/'locales'/locale/'debug-menu.json')
+        write_json(out/'debug-text.json',verify_text(result['executable'],catalog,result['debug_recipe']['text'],BinFont(result['font'])))
+        write_json(out/'debug-text-replay.json',replay_debug_menu_text(game/p['executable'],result['executable'],catalog,result['debug_recipe']['text'],BinFont(result['font'])))
     sample=out/'sample';sample.mkdir(exist_ok=True)
     if any(f.name not in {row['path'] for row in identity['files']} for f in sample.iterdir()):
         raise ValueError('Unexpected sample file')
@@ -192,7 +216,7 @@ def modified(game,out,locale,include_images=True):
         shutil.copyfile(source,sample/name)
         if filehash(source)!=filehash(sample/name):raise ValueError('Sample identity mismatch')
     if manifest(game)!=identity['files']:raise ValueError('Original installation changed')
-    report=dict(schema=1,locale=locale,field='loc/en/*; other-locale encoding; BMP font; decoder RVA 0xEA700; audio HUD RVA 0xBFF10; reviewed images; IVF/DAT',
+    report=dict(schema=1,locale=locale,field='loc/en/*; other-locale encoding; BMP font; decoder RVA 0xEA700; audio HUD RVA 0xBFF10; reviewed images; IVF/DAT'+('; independent F1 raw48/action18; native enabled L3+Y; localized debug menu' if result['debug_recipe'] else ''),
         source_text_records=len(result['rows']),translated=sum(r['status']=='translated' for r in result['rows']),
         preserved=sum(r['status']!='translated' for r in result['rows']),added_glyphs=len(result['font_report']['added_glyphs']),
         ui_procedural=result['images'].get('image_count',0),ui_art=result['images'].get('art',{}).get('outer_count',0),
@@ -214,6 +238,9 @@ def rollback(out):
     recipes=json.loads((out/'DIFF_FILE.json').read_text(encoding='utf-8'))
     restored=apply_delta((out/'MODIFIED_FILE.zar').read_bytes(),recipes['archive'],True)
     exe=(out/'MODIFIED_EXECUTABLE.exe').read_bytes()
+    if recipes.get('debug_menu'):
+        from debug_menu import rollback_debug
+        exe=rollback_debug(exe,recipes['debug_menu'])
     if recipes.get('audio_overlay'):
         from audio_subtitles import rollback_overlay
         exe=rollback_overlay(exe,recipes['audio_overlay'])

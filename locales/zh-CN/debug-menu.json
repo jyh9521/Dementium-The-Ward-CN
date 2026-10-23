@@ -1,0 +1,3998 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "encoding": "utf-8",
+  "source_sha256": "26186ceb1142e1c84298aa528627531e3821b8068e4e777e3975403a272c530e",
+  "tables": [
+    {
+      "id": "root",
+      "rva": 3056912,
+      "count": 70,
+      "sha256": "df90aa74406185fa6f5f566caeb9f2ec831b70244d86b14b34cc8c8dcea46b39"
+    },
+    {
+      "id": "submenu_c6010",
+      "rva": 3052816,
+      "count": 9,
+      "sha256": "4292a90a081dd36b19e4ae81c679a20f568fd4afe36f9c8afc532a13a2fd0df4"
+    },
+    {
+      "id": "submenu_c6030",
+      "rva": 3054432,
+      "count": 11,
+      "sha256": "c6afef9cf114e93182e16e312b488a6a838ae4f68a109b2de5a3d9c46ee968e4"
+    },
+    {
+      "id": "submenu_c6050",
+      "rva": 3055664,
+      "count": 3,
+      "sha256": "b4760f8d85fc604da1ad816e34ddd7b7a29a15f4172423f37c7d4f9dce19d503"
+    },
+    {
+      "id": "submenu_c6070",
+      "rva": 3052960,
+      "count": 15,
+      "sha256": "2eac3d493e4c60afeb75c2d3ab7029c72ecd1b39a01e1532535775202707736e"
+    },
+    {
+      "id": "submenu_c6090",
+      "rva": 3056688,
+      "count": 14,
+      "sha256": "2f9ac0596e204262fb204d6b9d8bb28061f56c03c430b42aa5127be68f657777"
+    },
+    {
+      "id": "submenu_c60b0",
+      "rva": 3054960,
+      "count": 5,
+      "sha256": "58e72b4f034f03a6a47415ac3bfe9b6f338ba23ddc12118c49ccce0f1948a5ea"
+    },
+    {
+      "id": "submenu_c60d0",
+      "rva": 3056208,
+      "count": 28,
+      "sha256": "150b983f1f789fdacc5b046a690040b758b4f83f465520a6e3c968cbf7948196"
+    },
+    {
+      "id": "submenu_c60f0",
+      "rva": 3053760,
+      "count": 4,
+      "sha256": "be115d9907e39543333043922501b059499d385f082c4f28107644f8e743bed1"
+    },
+    {
+      "id": "submenu_c6110",
+      "rva": 3053216,
+      "count": 29,
+      "sha256": "5aae3a1aeaf40edd07cd7b4a528906debc0f8a3c50fd7c4cf728bead84563fd8"
+    },
+    {
+      "id": "submenu_c6130",
+      "rva": 3055040,
+      "count": 21,
+      "sha256": "6020316a8dbb775ed32f1a3d76c6a819ae30134a2483af0762cddf06d1908054"
+    },
+    {
+      "id": "submenu_c6150",
+      "rva": 3055376,
+      "count": 18,
+      "sha256": "ec3f5c466d8f35cad4a65558571a540cd876a54819f8cf0f322943225237d084"
+    },
+    {
+      "id": "submenu_c6170",
+      "rva": 3055712,
+      "count": 12,
+      "sha256": "d6fd9de9fbb1c24b05b37a8658e52f0ecd4cc95a7bbcef471e7a2e036537af40"
+    },
+    {
+      "id": "submenu_c6190",
+      "rva": 3053680,
+      "count": 5,
+      "sha256": "888bd68fb77b9be053fbd98831c07ccd53fc36eb80f1039eab0828898479d6e8"
+    },
+    {
+      "id": "submenu_c61b0",
+      "rva": 3054656,
+      "count": 19,
+      "sha256": "9d7cc67276fad624b0ce8b0bd4a928a3e590bb32e0564ce156857fecacf32821"
+    },
+    {
+      "id": "submenu_c61d0",
+      "rva": 3055904,
+      "count": 19,
+      "sha256": "22d11bd9751616a04b0cb66eb8ebcbd245ca36ac645ba8fe3bc35c538595d4c5"
+    },
+    {
+      "id": "submenu_c61f0",
+      "rva": 3054608,
+      "count": 3,
+      "sha256": "7b04805481942d6ada5eec7b705444890d8a67590b30f82530e6de55c30adddb"
+    },
+    {
+      "id": "submenu_c6210",
+      "rva": 3053824,
+      "count": 13,
+      "sha256": "c470cfd82d382ec70166561a5d88f9d72cbbe4f3f374fd12dbd32ca3c12c4690"
+    },
+    {
+      "id": "submenu_c6230",
+      "rva": 3054192,
+      "count": 15,
+      "sha256": "187e1f8d21eea5b5e662c900841a1ee76ba29b275f9af1ef389b6cd2a5b8672f"
+    },
+    {
+      "id": "submenu_c6250",
+      "rva": 3054032,
+      "count": 10,
+      "sha256": "88ab328359d6ae07dd4908d0300ca541a9261d33e43c4ee7443e2d92a151058f"
+    },
+    {
+      "id": "submenu_c6270",
+      "rva": 3056656,
+      "count": 2,
+      "sha256": "81ee36ba63c87b79dcb44cf3fecdeda171adc04fb5c6645112df3a819884b78f"
+    }
+  ],
+  "entries": [
+    {
+      "id": "debug:TESTLOC",
+      "source": "TESTLOC",
+      "target": "位置测试",
+      "source_rva": 3218872,
+      "pointers": [
+        {
+          "rva": 3056912,
+          "callback_rva": 810352
+        }
+      ]
+    },
+    {
+      "id": "debug:Invincible",
+      "source": "Invincible",
+      "target": "无敌",
+      "source_rva": 3218856,
+      "pointers": [
+        {
+          "rva": 3056928,
+          "callback_rva": 810416
+        }
+      ]
+    },
+    {
+      "id": "debug:Vsync",
+      "source": "Vsync",
+      "target": "垂直同步",
+      "source_rva": 3219028,
+      "pointers": [
+        {
+          "rva": 3056944,
+          "callback_rva": 810496
+        }
+      ]
+    },
+    {
+      "id": "debug:RelockAchievements",
+      "source": "RelockAchievements",
+      "target": "重锁成就",
+      "source_rva": 3219008,
+      "pointers": [
+        {
+          "rva": 3056960,
+          "callback_rva": 810224
+        }
+      ]
+    },
+    {
+      "id": "debug:Weapons",
+      "source": "Weapons",
+      "target": "武器",
+      "source_rva": 3219048,
+      "pointers": [
+        {
+          "rva": 3056976,
+          "callback_rva": 811024
+        }
+      ]
+    },
+    {
+      "id": "debug:Paused",
+      "source": "Paused",
+      "target": "暂停",
+      "source_rva": 3219036,
+      "pointers": [
+        {
+          "rva": 3056992,
+          "callback_rva": 810784
+        }
+      ]
+    },
+    {
+      "id": "debug:ShowDebugUi",
+      "source": "ShowDebugUi",
+      "target": "调试信息",
+      "source_rva": 3218960,
+      "pointers": [
+        {
+          "rva": 3057008,
+          "callback_rva": 810848
+        }
+      ]
+    },
+    {
+      "id": "debug:EZHealthHack",
+      "source": "EZHealthHack",
+      "target": "简易生命修改",
+      "source_rva": 3218944,
+      "pointers": [
+        {
+          "rva": 3057024,
+          "callback_rva": 810912
+        }
+      ]
+    },
+    {
+      "id": "debug:TestCollision",
+      "source": "TestCollision",
+      "target": "碰撞测试",
+      "source_rva": 3218992,
+      "pointers": [
+        {
+          "rva": 3057040,
+          "callback_rva": 810608
+        }
+      ]
+    },
+    {
+      "id": "debug:TestDamage",
+      "source": "TestDamage",
+      "target": "伤害测试",
+      "source_rva": 3218976,
+      "pointers": [
+        {
+          "rva": 3057056,
+          "callback_rva": 810720
+        }
+      ]
+    },
+    {
+      "id": "debug:StartEpisode",
+      "source": "StartEpisode",
+      "target": "开始章节",
+      "source_rva": 3219112,
+      "pointers": [
+        {
+          "rva": 3057072,
+          "callback_rva": 811632
+        }
+      ]
+    },
+    {
+      "id": "debug:CompleteMission",
+      "source": "CompleteMission",
+      "target": "完成任务",
+      "source_rva": 3219096,
+      "pointers": [
+        {
+          "rva": 3057088,
+          "callback_rva": 810976
+        }
+      ]
+    },
+    {
+      "id": "debug:RefillHealth",
+      "source": "RefillHealth",
+      "target": "补满生命",
+      "source_rva": 3219144,
+      "pointers": [
+        {
+          "rva": 3057104,
+          "callback_rva": 810256
+        }
+      ]
+    },
+    {
+      "id": "debug:AddAllItems",
+      "source": "AddAllItems",
+      "target": "全部物品",
+      "source_rva": 3219128,
+      "pointers": [
+        {
+          "rva": 3057120,
+          "callback_rva": 810080
+        }
+      ]
+    },
+    {
+      "id": "debug:AddAllItems50",
+      "source": "AddAllItems50",
+      "target": "全部物品50份",
+      "source_rva": 3219072,
+      "pointers": [
+        {
+          "rva": 3057136,
+          "callback_rva": 810112
+        }
+      ]
+    },
+    {
+      "id": "debug:AddAllMaps",
+      "source": "AddAllMaps",
+      "target": "全部地图",
+      "source_rva": 3219056,
+      "pointers": [
+        {
+          "rva": 3057152,
+          "callback_rva": 810144
+        }
+      ]
+    },
+    {
+      "id": "debug:7fw",
+      "source": "7fw",
+      "target": "关卡 7fw",
+      "source_rva": 3219092,
+      "pointers": [
+        {
+          "rva": 3057168,
+          "callback_rva": 811056
+        }
+      ]
+    },
+    {
+      "id": "debug:Rtw",
+      "source": "Rtw",
+      "target": "关卡 Rtw",
+      "source_rva": 3219088,
+      "pointers": [
+        {
+          "rva": 3057184,
+          "callback_rva": 811088
+        }
+      ]
+    },
+    {
+      "id": "debug:6fw",
+      "source": "6fw",
+      "target": "关卡 6fw",
+      "source_rva": 3219180,
+      "pointers": [
+        {
+          "rva": 3057200,
+          "callback_rva": 811120
+        }
+      ]
+    },
+    {
+      "id": "debug:6fe",
+      "source": "6fe",
+      "target": "关卡 6fe",
+      "source_rva": 3219176,
+      "pointers": [
+        {
+          "rva": 3057216,
+          "callback_rva": 811152
+        }
+      ]
+    },
+    {
+      "id": "debug:6fc",
+      "source": "6fc",
+      "target": "关卡 6fc",
+      "source_rva": 3219188,
+      "pointers": [
+        {
+          "rva": 3057232,
+          "callback_rva": 811184
+        }
+      ]
+    },
+    {
+      "id": "debug:5fw",
+      "source": "5fw",
+      "target": "关卡 5fw",
+      "source_rva": 3219184,
+      "pointers": [
+        {
+          "rva": 3057248,
+          "callback_rva": 811216
+        }
+      ]
+    },
+    {
+      "id": "debug:5fe",
+      "source": "5fe",
+      "target": "关卡 5fe",
+      "source_rva": 3219164,
+      "pointers": [
+        {
+          "rva": 3057264,
+          "callback_rva": 811280
+        }
+      ]
+    },
+    {
+      "id": "debug:Cye",
+      "source": "Cye",
+      "target": "关卡 Cye",
+      "source_rva": 3219160,
+      "pointers": [
+        {
+          "rva": 3057280,
+          "callback_rva": 811248
+        }
+      ]
+    },
+    {
+      "id": "debug:4fe",
+      "source": "4fe",
+      "target": "关卡 4fe",
+      "source_rva": 3219172,
+      "pointers": [
+        {
+          "rva": 3057296,
+          "callback_rva": 811312
+        }
+      ]
+    },
+    {
+      "id": "debug:4fw",
+      "source": "4fw",
+      "target": "关卡 4fw",
+      "source_rva": 3219168,
+      "pointers": [
+        {
+          "rva": 3057312,
+          "callback_rva": 811344
+        }
+      ]
+    },
+    {
+      "id": "debug:3fw",
+      "source": "3fw",
+      "target": "关卡 3fw",
+      "source_rva": 3219212,
+      "pointers": [
+        {
+          "rva": 3057328,
+          "callback_rva": 811376
+        }
+      ]
+    },
+    {
+      "id": "debug:2fc",
+      "source": "2fc",
+      "target": "关卡 2fc",
+      "source_rva": 3219208,
+      "pointers": [
+        {
+          "rva": 3057344,
+          "callback_rva": 811408
+        }
+      ]
+    },
+    {
+      "id": "debug:2fe",
+      "source": "2fe",
+      "target": "关卡 2fe",
+      "source_rva": 3219220,
+      "pointers": [
+        {
+          "rva": 3057360,
+          "callback_rva": 811440
+        }
+      ]
+    },
+    {
+      "id": "debug:2fw",
+      "source": "2fw",
+      "target": "关卡 2fw",
+      "source_rva": 3219216,
+      "pointers": [
+        {
+          "rva": 3057376,
+          "callback_rva": 811472
+        }
+      ]
+    },
+    {
+      "id": "debug:1fc",
+      "source": "1fc",
+      "target": "关卡 1fc",
+      "source_rva": 3219196,
+      "pointers": [
+        {
+          "rva": 3057392,
+          "callback_rva": 811504
+        }
+      ]
+    },
+    {
+      "id": "debug:1fe",
+      "source": "1fe",
+      "target": "关卡 1fe",
+      "source_rva": 3219192,
+      "pointers": [
+        {
+          "rva": 3057408,
+          "callback_rva": 811536
+        }
+      ]
+    },
+    {
+      "id": "debug:1fw",
+      "source": "1fw",
+      "target": "关卡 1fw",
+      "source_rva": 3219204,
+      "pointers": [
+        {
+          "rva": 3057424,
+          "callback_rva": 811568
+        }
+      ]
+    },
+    {
+      "id": "debug:Bmw",
+      "source": "Bmw",
+      "target": "关卡 Bmw",
+      "source_rva": 3219200,
+      "pointers": [
+        {
+          "rva": 3057440,
+          "callback_rva": 811600
+        }
+      ]
+    },
+    {
+      "id": "debug:Sky0Red",
+      "source": "Sky0Red",
+      "target": "天空0红",
+      "source_rva": 3219296,
+      "pointers": [
+        {
+          "rva": 3057456,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:Sky0Green",
+      "source": "Sky0Green",
+      "target": "天空0绿",
+      "source_rva": 3219280,
+      "pointers": [
+        {
+          "rva": 3057472,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:Sky0Blue",
+      "source": "Sky0Blue",
+      "target": "天空0蓝",
+      "source_rva": 3219312,
+      "pointers": [
+        {
+          "rva": 3057488,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:Sky1Red",
+      "source": "Sky1Red",
+      "target": "天空1红",
+      "source_rva": 3219304,
+      "pointers": [
+        {
+          "rva": 3057504,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:Sky1Green",
+      "source": "Sky1Green",
+      "target": "天空1绿",
+      "source_rva": 3219240,
+      "pointers": [
+        {
+          "rva": 3057520,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:Sky1Blue",
+      "source": "Sky1Blue",
+      "target": "天空1蓝",
+      "source_rva": 3219224,
+      "pointers": [
+        {
+          "rva": 3057536,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:Sky2Red",
+      "source": "Sky2Red",
+      "target": "天空2红",
+      "source_rva": 3219272,
+      "pointers": [
+        {
+          "rva": 3057552,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:Sky2Green",
+      "source": "Sky2Green",
+      "target": "天空2绿",
+      "source_rva": 3219256,
+      "pointers": [
+        {
+          "rva": 3057568,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:Sky2Blue",
+      "source": "Sky2Blue",
+      "target": "天空2蓝",
+      "source_rva": 3219384,
+      "pointers": [
+        {
+          "rva": 3057584,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:Sky3Red",
+      "source": "Sky3Red",
+      "target": "天空3红",
+      "source_rva": 3219376,
+      "pointers": [
+        {
+          "rva": 3057600,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:Sky3Green",
+      "source": "Sky3Green",
+      "target": "天空3绿",
+      "source_rva": 3219416,
+      "pointers": [
+        {
+          "rva": 3057616,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:Sky3Blue",
+      "source": "Sky3Blue",
+      "target": "天空3蓝",
+      "source_rva": 3219400,
+      "pointers": [
+        {
+          "rva": 3057632,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:FogRed",
+      "source": "FogRed",
+      "target": "雾红",
+      "source_rva": 3219340,
+      "pointers": [
+        {
+          "rva": 3057648,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:FogGreen",
+      "source": "FogGreen",
+      "target": "雾绿",
+      "source_rva": 3219328,
+      "pointers": [
+        {
+          "rva": 3057664,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:FogBlue",
+      "source": "FogBlue",
+      "target": "雾蓝",
+      "source_rva": 3219368,
+      "pointers": [
+        {
+          "rva": 3057680,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:AmbientRed",
+      "source": "AmbientRed",
+      "target": "环境光红",
+      "source_rva": 3219352,
+      "pointers": [
+        {
+          "rva": 3057696,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:AmbientGreen",
+      "source": "AmbientGreen",
+      "target": "环境光绿",
+      "source_rva": 3219512,
+      "pointers": [
+        {
+          "rva": 3057712,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:AmbientBlue",
+      "source": "AmbientBlue",
+      "target": "环境光蓝",
+      "source_rva": 3219496,
+      "pointers": [
+        {
+          "rva": 3057728,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:FogNear",
+      "source": "FogNear",
+      "target": "雾近距",
+      "source_rva": 3219536,
+      "pointers": [
+        {
+          "rva": 3057744,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:FogFar",
+      "source": "FogFar",
+      "target": "雾远距",
+      "source_rva": 3219528,
+      "pointers": [
+        {
+          "rva": 3057760,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:FogNearDens",
+      "source": "FogNearDens",
+      "target": "雾近密度",
+      "source_rva": 3219448,
+      "pointers": [
+        {
+          "rva": 3057776,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:FogFarDens",
+      "source": "FogFarDens",
+      "target": "雾远密度",
+      "source_rva": 3219432,
+      "pointers": [
+        {
+          "rva": 3057792,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:Fl_Intensity",
+      "source": "Fl_Intensity",
+      "target": "手电强度",
+      "source_rva": 3219480,
+      "pointers": [
+        {
+          "rva": 3057808,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:Fl_Light0Red",
+      "source": "Fl_Light0Red",
+      "target": "手电光0红",
+      "source_rva": 3219464,
+      "pointers": [
+        {
+          "rva": 3057824,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:Fl_Light0Green",
+      "source": "Fl_Light0Green",
+      "target": "手电光0绿",
+      "source_rva": 3219624,
+      "pointers": [
+        {
+          "rva": 3057840,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:Fl_Light0Blue",
+      "source": "Fl_Light0Blue",
+      "target": "手电光0蓝",
+      "source_rva": 3219608,
+      "pointers": [
+        {
+          "rva": 3057856,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:Fl_AmbientRed",
+      "source": "Fl_AmbientRed",
+      "target": "手电环境光红",
+      "source_rva": 3219656,
+      "pointers": [
+        {
+          "rva": 3057872,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:Fl_AmbientGreen",
+      "source": "Fl_AmbientGreen",
+      "target": "手电环境光绿",
+      "source_rva": 3219640,
+      "pointers": [
+        {
+          "rva": 3057888,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:Fl_AmbientBlue",
+      "source": "Fl_AmbientBlue",
+      "target": "手电环境光蓝",
+      "source_rva": 3219560,
+      "pointers": [
+        {
+          "rva": 3057904,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:Fl_FogNear",
+      "source": "Fl_FogNear",
+      "target": "手电雾近距",
+      "source_rva": 3219544,
+      "pointers": [
+        {
+          "rva": 3057920,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:Fl_FogFar",
+      "source": "Fl_FogFar",
+      "target": "手电雾远距",
+      "source_rva": 3219592,
+      "pointers": [
+        {
+          "rva": 3057936,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:Fl_FogNearDens",
+      "source": "Fl_FogNearDens",
+      "target": "手电雾近密度",
+      "source_rva": 3219576,
+      "pointers": [
+        {
+          "rva": 3057952,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:Fl_FogFarDens",
+      "source": "Fl_FogFarDens",
+      "target": "手电雾远密度",
+      "source_rva": 3219704,
+      "pointers": [
+        {
+          "rva": 3057968,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:HwAmbientRed",
+      "source": "HwAmbientRed",
+      "target": "硬件环境光红",
+      "source_rva": 3219688,
+      "pointers": [
+        {
+          "rva": 3057984,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:HwAmbientGreen",
+      "source": "HwAmbientGreen",
+      "target": "硬件环境光绿",
+      "source_rva": 3219736,
+      "pointers": [
+        {
+          "rva": 3058000,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:HwAmbientBlue",
+      "source": "HwAmbientBlue",
+      "target": "硬件环境光蓝",
+      "source_rva": 3219720,
+      "pointers": [
+        {
+          "rva": 3058016,
+          "callback_rva": 192000
+        }
+      ]
+    },
+    {
+      "id": "debug:Back",
+      "source": "Back",
+      "target": "返回",
+      "source_rva": 3215204,
+      "pointers": [
+        {
+          "rva": 3052816,
+          "callback_rva": 811664
+        },
+        {
+          "rva": 3054432,
+          "callback_rva": 811664
+        },
+        {
+          "rva": 3055664,
+          "callback_rva": 811664
+        },
+        {
+          "rva": 3052960,
+          "callback_rva": 811664
+        },
+        {
+          "rva": 3056688,
+          "callback_rva": 811664
+        },
+        {
+          "rva": 3054960,
+          "callback_rva": 811664
+        },
+        {
+          "rva": 3056208,
+          "callback_rva": 811664
+        },
+        {
+          "rva": 3053760,
+          "callback_rva": 811664
+        },
+        {
+          "rva": 3053216,
+          "callback_rva": 811664
+        },
+        {
+          "rva": 3055040,
+          "callback_rva": 811664
+        },
+        {
+          "rva": 3055376,
+          "callback_rva": 811664
+        },
+        {
+          "rva": 3055712,
+          "callback_rva": 811664
+        },
+        {
+          "rva": 3053680,
+          "callback_rva": 811664
+        },
+        {
+          "rva": 3054656,
+          "callback_rva": 811664
+        },
+        {
+          "rva": 3055904,
+          "callback_rva": 811664
+        },
+        {
+          "rva": 3054608,
+          "callback_rva": 811664
+        },
+        {
+          "rva": 3053824,
+          "callback_rva": 811664
+        },
+        {
+          "rva": 3054192,
+          "callback_rva": 811664
+        },
+        {
+          "rva": 3054032,
+          "callback_rva": 811664
+        },
+        {
+          "rva": 3056656,
+          "callback_rva": 811664
+        }
+      ]
+    },
+    {
+      "id": "debug:Flashlight",
+      "source": "Flashlight",
+      "target": "手电筒",
+      "source_rva": 3193888,
+      "pointers": [
+        {
+          "rva": 3052832,
+          "callback_rva": 816832
+        }
+      ]
+    },
+    {
+      "id": "debug:Nightstick",
+      "source": "Nightstick",
+      "target": "警棍",
+      "source_rva": 3215192,
+      "pointers": [
+        {
+          "rva": 3052848,
+          "callback_rva": 816848
+        }
+      ]
+    },
+    {
+      "id": "debug:9mmHandgun",
+      "source": "9mmHandgun",
+      "target": "9毫米手枪",
+      "source_rva": 3215232,
+      "pointers": [
+        {
+          "rva": 3052864,
+          "callback_rva": 816864
+        }
+      ]
+    },
+    {
+      "id": "debug:AR15Rifle",
+      "source": "AR15Rifle",
+      "target": "AR15步枪",
+      "source_rva": 3215216,
+      "pointers": [
+        {
+          "rva": 3052880,
+          "callback_rva": 816880
+        }
+      ]
+    },
+    {
+      "id": "debug:SniperRifle",
+      "source": "SniperRifle",
+      "target": "狙击步枪",
+      "source_rva": 3215328,
+      "pointers": [
+        {
+          "rva": 3052896,
+          "callback_rva": 816896
+        }
+      ]
+    },
+    {
+      "id": "debug:Shotgun",
+      "source": "Shotgun",
+      "target": "霰弹枪",
+      "source_rva": 3193880,
+      "pointers": [
+        {
+          "rva": 3052912,
+          "callback_rva": 816912
+        }
+      ]
+    },
+    {
+      "id": "debug:357Revolver",
+      "source": "357Revolver",
+      "target": ".357左轮",
+      "source_rva": 3215312,
+      "pointers": [
+        {
+          "rva": 3052928,
+          "callback_rva": 816928
+        }
+      ]
+    },
+    {
+      "id": "debug:BoneSaw",
+      "source": "BoneSaw",
+      "target": "骨锯",
+      "source_rva": 3215360,
+      "pointers": [
+        {
+          "rva": 3052944,
+          "callback_rva": 816944
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 7fw_000",
+      "source": "Load 7fw_000",
+      "target": "载入 7fw_000",
+      "source_rva": 3215344,
+      "pointers": [
+        {
+          "rva": 3054448,
+          "callback_rva": 816960
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 7fw_001",
+      "source": "Load 7fw_001",
+      "target": "载入 7fw_001",
+      "source_rva": 3215264,
+      "pointers": [
+        {
+          "rva": 3054464,
+          "callback_rva": 817088
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 7fw_002",
+      "source": "Load 7fw_002",
+      "target": "载入 7fw_002",
+      "source_rva": 3215248,
+      "pointers": [
+        {
+          "rva": 3054480,
+          "callback_rva": 817200
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 7fw_003",
+      "source": "Load 7fw_003",
+      "target": "载入 7fw_003",
+      "source_rva": 3215296,
+      "pointers": [
+        {
+          "rva": 3054496,
+          "callback_rva": 817312
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 7fw_004",
+      "source": "Load 7fw_004",
+      "target": "载入 7fw_004",
+      "source_rva": 3215280,
+      "pointers": [
+        {
+          "rva": 3054512,
+          "callback_rva": 817424
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 7fw_005",
+      "source": "Load 7fw_005",
+      "target": "载入 7fw_005",
+      "source_rva": 3215448,
+      "pointers": [
+        {
+          "rva": 3054528,
+          "callback_rva": 817536
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 7fw_006",
+      "source": "Load 7fw_006",
+      "target": "载入 7fw_006",
+      "source_rva": 3215432,
+      "pointers": [
+        {
+          "rva": 3054544,
+          "callback_rva": 817648
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 7fw_007",
+      "source": "Load 7fw_007",
+      "target": "载入 7fw_007",
+      "source_rva": 3215480,
+      "pointers": [
+        {
+          "rva": 3054560,
+          "callback_rva": 817760
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 7fw_008",
+      "source": "Load 7fw_008",
+      "target": "载入 7fw_008",
+      "source_rva": 3215464,
+      "pointers": [
+        {
+          "rva": 3054576,
+          "callback_rva": 817872
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 7fw_009",
+      "source": "Load 7fw_009",
+      "target": "载入 7fw_009",
+      "source_rva": 3215384,
+      "pointers": [
+        {
+          "rva": 3054592,
+          "callback_rva": 817984
+        }
+      ]
+    },
+    {
+      "id": "debug:Load Rtw_000",
+      "source": "Load Rtw_000",
+      "target": "载入 Rtw_000",
+      "source_rva": 3215368,
+      "pointers": [
+        {
+          "rva": 3055680,
+          "callback_rva": 818096
+        }
+      ]
+    },
+    {
+      "id": "debug:Load Rtw_001",
+      "source": "Load Rtw_001",
+      "target": "载入 Rtw_001",
+      "source_rva": 3215416,
+      "pointers": [
+        {
+          "rva": 3055696,
+          "callback_rva": 818224
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 6fw_000",
+      "source": "Load 6fw_000",
+      "target": "载入 6fw_000",
+      "source_rva": 3215400,
+      "pointers": [
+        {
+          "rva": 3052976,
+          "callback_rva": 818336
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 6fw_001",
+      "source": "Load 6fw_001",
+      "target": "载入 6fw_001",
+      "source_rva": 3215576,
+      "pointers": [
+        {
+          "rva": 3052992,
+          "callback_rva": 818464
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 6fw_002",
+      "source": "Load 6fw_002",
+      "target": "载入 6fw_002",
+      "source_rva": 3215560,
+      "pointers": [
+        {
+          "rva": 3053008,
+          "callback_rva": 818576
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 6fw_003",
+      "source": "Load 6fw_003",
+      "target": "载入 6fw_003",
+      "source_rva": 3215608,
+      "pointers": [
+        {
+          "rva": 3053024,
+          "callback_rva": 818688
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 6fw_004",
+      "source": "Load 6fw_004",
+      "target": "载入 6fw_004",
+      "source_rva": 3215592,
+      "pointers": [
+        {
+          "rva": 3053040,
+          "callback_rva": 818800
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 6fw_005",
+      "source": "Load 6fw_005",
+      "target": "载入 6fw_005",
+      "source_rva": 3215512,
+      "pointers": [
+        {
+          "rva": 3053056,
+          "callback_rva": 818912
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 6fw_006",
+      "source": "Load 6fw_006",
+      "target": "载入 6fw_006",
+      "source_rva": 3215496,
+      "pointers": [
+        {
+          "rva": 3053072,
+          "callback_rva": 819024
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 6fw_007",
+      "source": "Load 6fw_007",
+      "target": "载入 6fw_007",
+      "source_rva": 3215544,
+      "pointers": [
+        {
+          "rva": 3053088,
+          "callback_rva": 819136
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 6fw_008",
+      "source": "Load 6fw_008",
+      "target": "载入 6fw_008",
+      "source_rva": 3215528,
+      "pointers": [
+        {
+          "rva": 3053104,
+          "callback_rva": 819248
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 6fw_009",
+      "source": "Load 6fw_009",
+      "target": "载入 6fw_009",
+      "source_rva": 3215704,
+      "pointers": [
+        {
+          "rva": 3053120,
+          "callback_rva": 819360
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 6fw_010",
+      "source": "Load 6fw_010",
+      "target": "载入 6fw_010",
+      "source_rva": 3215688,
+      "pointers": [
+        {
+          "rva": 3053136,
+          "callback_rva": 819472
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 6fw_011",
+      "source": "Load 6fw_011",
+      "target": "载入 6fw_011",
+      "source_rva": 3215736,
+      "pointers": [
+        {
+          "rva": 3053152,
+          "callback_rva": 819584
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 6fw_012",
+      "source": "Load 6fw_012",
+      "target": "载入 6fw_012",
+      "source_rva": 3215720,
+      "pointers": [
+        {
+          "rva": 3053168,
+          "callback_rva": 819696
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 6fw_013",
+      "source": "Load 6fw_013",
+      "target": "载入 6fw_013",
+      "source_rva": 3215640,
+      "pointers": [
+        {
+          "rva": 3053184,
+          "callback_rva": 819808
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 6fe_000",
+      "source": "Load 6fe_000",
+      "target": "载入 6fe_000",
+      "source_rva": 3215624,
+      "pointers": [
+        {
+          "rva": 3056704,
+          "callback_rva": 819920
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 6fe_001",
+      "source": "Load 6fe_001",
+      "target": "载入 6fe_001",
+      "source_rva": 3215672,
+      "pointers": [
+        {
+          "rva": 3056720,
+          "callback_rva": 820048
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 6fe_002",
+      "source": "Load 6fe_002",
+      "target": "载入 6fe_002",
+      "source_rva": 3215656,
+      "pointers": [
+        {
+          "rva": 3056736,
+          "callback_rva": 820160
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 6fe_003",
+      "source": "Load 6fe_003",
+      "target": "载入 6fe_003",
+      "source_rva": 3215832,
+      "pointers": [
+        {
+          "rva": 3056752,
+          "callback_rva": 820272
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 6fe_004",
+      "source": "Load 6fe_004",
+      "target": "载入 6fe_004",
+      "source_rva": 3215816,
+      "pointers": [
+        {
+          "rva": 3056768,
+          "callback_rva": 820384
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 6fe_005",
+      "source": "Load 6fe_005",
+      "target": "载入 6fe_005",
+      "source_rva": 3215864,
+      "pointers": [
+        {
+          "rva": 3056784,
+          "callback_rva": 820496
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 6fe_006",
+      "source": "Load 6fe_006",
+      "target": "载入 6fe_006",
+      "source_rva": 3215848,
+      "pointers": [
+        {
+          "rva": 3056800,
+          "callback_rva": 820608
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 6fe_007",
+      "source": "Load 6fe_007",
+      "target": "载入 6fe_007",
+      "source_rva": 3215768,
+      "pointers": [
+        {
+          "rva": 3056816,
+          "callback_rva": 820720
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 6fe_008",
+      "source": "Load 6fe_008",
+      "target": "载入 6fe_008",
+      "source_rva": 3215752,
+      "pointers": [
+        {
+          "rva": 3056832,
+          "callback_rva": 820832
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 6fe_009",
+      "source": "Load 6fe_009",
+      "target": "载入 6fe_009",
+      "source_rva": 3215800,
+      "pointers": [
+        {
+          "rva": 3056848,
+          "callback_rva": 820944
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 6fe_010",
+      "source": "Load 6fe_010",
+      "target": "载入 6fe_010",
+      "source_rva": 3215784,
+      "pointers": [
+        {
+          "rva": 3056864,
+          "callback_rva": 821056
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 6fe_011",
+      "source": "Load 6fe_011",
+      "target": "载入 6fe_011",
+      "source_rva": 3215960,
+      "pointers": [
+        {
+          "rva": 3056880,
+          "callback_rva": 821168
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 6fe_012",
+      "source": "Load 6fe_012",
+      "target": "载入 6fe_012",
+      "source_rva": 3215944,
+      "pointers": [
+        {
+          "rva": 3056896,
+          "callback_rva": 821280
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 6fc_000",
+      "source": "Load 6fc_000",
+      "target": "载入 6fc_000",
+      "source_rva": 3215992,
+      "pointers": [
+        {
+          "rva": 3054976,
+          "callback_rva": 821392
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 6fc_001",
+      "source": "Load 6fc_001",
+      "target": "载入 6fc_001",
+      "source_rva": 3215976,
+      "pointers": [
+        {
+          "rva": 3054992,
+          "callback_rva": 821520
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 6fc_002",
+      "source": "Load 6fc_002",
+      "target": "载入 6fc_002",
+      "source_rva": 3215896,
+      "pointers": [
+        {
+          "rva": 3055008,
+          "callback_rva": 821632
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 6fc_003",
+      "source": "Load 6fc_003",
+      "target": "载入 6fc_003",
+      "source_rva": 3215880,
+      "pointers": [
+        {
+          "rva": 3055024,
+          "callback_rva": 821744
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fw_000",
+      "source": "Load 5fw_000",
+      "target": "载入 5fw_000",
+      "source_rva": 3215928,
+      "pointers": [
+        {
+          "rva": 3056224,
+          "callback_rva": 821856
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fw_001",
+      "source": "Load 5fw_001",
+      "target": "载入 5fw_001",
+      "source_rva": 3215912,
+      "pointers": [
+        {
+          "rva": 3056240,
+          "callback_rva": 821984
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fw_002",
+      "source": "Load 5fw_002",
+      "target": "载入 5fw_002",
+      "source_rva": 3216088,
+      "pointers": [
+        {
+          "rva": 3056256,
+          "callback_rva": 822096
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fw_003",
+      "source": "Load 5fw_003",
+      "target": "载入 5fw_003",
+      "source_rva": 3216072,
+      "pointers": [
+        {
+          "rva": 3056272,
+          "callback_rva": 822208
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fw_004",
+      "source": "Load 5fw_004",
+      "target": "载入 5fw_004",
+      "source_rva": 3216120,
+      "pointers": [
+        {
+          "rva": 3056288,
+          "callback_rva": 822320
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fw_005",
+      "source": "Load 5fw_005",
+      "target": "载入 5fw_005",
+      "source_rva": 3216104,
+      "pointers": [
+        {
+          "rva": 3056304,
+          "callback_rva": 822432
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fw_006",
+      "source": "Load 5fw_006",
+      "target": "载入 5fw_006",
+      "source_rva": 3216024,
+      "pointers": [
+        {
+          "rva": 3056320,
+          "callback_rva": 822544
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fw_007",
+      "source": "Load 5fw_007",
+      "target": "载入 5fw_007",
+      "source_rva": 3216008,
+      "pointers": [
+        {
+          "rva": 3056336,
+          "callback_rva": 822656
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fw_008",
+      "source": "Load 5fw_008",
+      "target": "载入 5fw_008",
+      "source_rva": 3216056,
+      "pointers": [
+        {
+          "rva": 3056352,
+          "callback_rva": 822768
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fw_009",
+      "source": "Load 5fw_009",
+      "target": "载入 5fw_009",
+      "source_rva": 3216040,
+      "pointers": [
+        {
+          "rva": 3056368,
+          "callback_rva": 822880
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fw_010",
+      "source": "Load 5fw_010",
+      "target": "载入 5fw_010",
+      "source_rva": 3216216,
+      "pointers": [
+        {
+          "rva": 3056384,
+          "callback_rva": 822992
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fw_011",
+      "source": "Load 5fw_011",
+      "target": "载入 5fw_011",
+      "source_rva": 3216200,
+      "pointers": [
+        {
+          "rva": 3056400,
+          "callback_rva": 823104
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fw_012",
+      "source": "Load 5fw_012",
+      "target": "载入 5fw_012",
+      "source_rva": 3216248,
+      "pointers": [
+        {
+          "rva": 3056416,
+          "callback_rva": 823216
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fw_013",
+      "source": "Load 5fw_013",
+      "target": "载入 5fw_013",
+      "source_rva": 3216232,
+      "pointers": [
+        {
+          "rva": 3056432,
+          "callback_rva": 823328
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fw_014",
+      "source": "Load 5fw_014",
+      "target": "载入 5fw_014",
+      "source_rva": 3216152,
+      "pointers": [
+        {
+          "rva": 3056448,
+          "callback_rva": 823440
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fw_015",
+      "source": "Load 5fw_015",
+      "target": "载入 5fw_015",
+      "source_rva": 3216136,
+      "pointers": [
+        {
+          "rva": 3056464,
+          "callback_rva": 823552
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fw_016",
+      "source": "Load 5fw_016",
+      "target": "载入 5fw_016",
+      "source_rva": 3216184,
+      "pointers": [
+        {
+          "rva": 3056480,
+          "callback_rva": 823664
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fw_017",
+      "source": "Load 5fw_017",
+      "target": "载入 5fw_017",
+      "source_rva": 3216168,
+      "pointers": [
+        {
+          "rva": 3056496,
+          "callback_rva": 823776
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fw_018",
+      "source": "Load 5fw_018",
+      "target": "载入 5fw_018",
+      "source_rva": 3216344,
+      "pointers": [
+        {
+          "rva": 3056512,
+          "callback_rva": 823888
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fw_019",
+      "source": "Load 5fw_019",
+      "target": "载入 5fw_019",
+      "source_rva": 3216328,
+      "pointers": [
+        {
+          "rva": 3056528,
+          "callback_rva": 824000
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fw_020",
+      "source": "Load 5fw_020",
+      "target": "载入 5fw_020",
+      "source_rva": 3216376,
+      "pointers": [
+        {
+          "rva": 3056544,
+          "callback_rva": 824112
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fw_021",
+      "source": "Load 5fw_021",
+      "target": "载入 5fw_021",
+      "source_rva": 3216360,
+      "pointers": [
+        {
+          "rva": 3056560,
+          "callback_rva": 824224
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fw_022",
+      "source": "Load 5fw_022",
+      "target": "载入 5fw_022",
+      "source_rva": 3216280,
+      "pointers": [
+        {
+          "rva": 3056576,
+          "callback_rva": 824336
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fw_023",
+      "source": "Load 5fw_023",
+      "target": "载入 5fw_023",
+      "source_rva": 3216264,
+      "pointers": [
+        {
+          "rva": 3056592,
+          "callback_rva": 824448
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fw_024",
+      "source": "Load 5fw_024",
+      "target": "载入 5fw_024",
+      "source_rva": 3216312,
+      "pointers": [
+        {
+          "rva": 3056608,
+          "callback_rva": 824560
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fw_025",
+      "source": "Load 5fw_025",
+      "target": "载入 5fw_025",
+      "source_rva": 3216296,
+      "pointers": [
+        {
+          "rva": 3056624,
+          "callback_rva": 824672
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fw_026",
+      "source": "Load 5fw_026",
+      "target": "载入 5fw_026",
+      "source_rva": 3216472,
+      "pointers": [
+        {
+          "rva": 3056640,
+          "callback_rva": 824784
+        }
+      ]
+    },
+    {
+      "id": "debug:Load Cye_000",
+      "source": "Load Cye_000",
+      "target": "载入 Cye_000",
+      "source_rva": 3216456,
+      "pointers": [
+        {
+          "rva": 3053776,
+          "callback_rva": 824896
+        }
+      ]
+    },
+    {
+      "id": "debug:Load Cye_001",
+      "source": "Load Cye_001",
+      "target": "载入 Cye_001",
+      "source_rva": 3216504,
+      "pointers": [
+        {
+          "rva": 3053792,
+          "callback_rva": 825024
+        }
+      ]
+    },
+    {
+      "id": "debug:Load Cye_002",
+      "source": "Load Cye_002",
+      "target": "载入 Cye_002",
+      "source_rva": 3216488,
+      "pointers": [
+        {
+          "rva": 3053808,
+          "callback_rva": 825136
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fe_000",
+      "source": "Load 5fe_000",
+      "target": "载入 5fe_000",
+      "source_rva": 3216408,
+      "pointers": [
+        {
+          "rva": 3053232,
+          "callback_rva": 825248
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fe_001",
+      "source": "Load 5fe_001",
+      "target": "载入 5fe_001",
+      "source_rva": 3216392,
+      "pointers": [
+        {
+          "rva": 3053248,
+          "callback_rva": 825376
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fe_002",
+      "source": "Load 5fe_002",
+      "target": "载入 5fe_002",
+      "source_rva": 3216440,
+      "pointers": [
+        {
+          "rva": 3053264,
+          "callback_rva": 825488
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fe_003",
+      "source": "Load 5fe_003",
+      "target": "载入 5fe_003",
+      "source_rva": 3216424,
+      "pointers": [
+        {
+          "rva": 3053280,
+          "callback_rva": 825600
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fe_004",
+      "source": "Load 5fe_004",
+      "target": "载入 5fe_004",
+      "source_rva": 3216600,
+      "pointers": [
+        {
+          "rva": 3053296,
+          "callback_rva": 825712
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fe_005",
+      "source": "Load 5fe_005",
+      "target": "载入 5fe_005",
+      "source_rva": 3216584,
+      "pointers": [
+        {
+          "rva": 3053312,
+          "callback_rva": 825824
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fe_006",
+      "source": "Load 5fe_006",
+      "target": "载入 5fe_006",
+      "source_rva": 3216632,
+      "pointers": [
+        {
+          "rva": 3053328,
+          "callback_rva": 825936
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fe_007",
+      "source": "Load 5fe_007",
+      "target": "载入 5fe_007",
+      "source_rva": 3216616,
+      "pointers": [
+        {
+          "rva": 3053344,
+          "callback_rva": 826048
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fe_008",
+      "source": "Load 5fe_008",
+      "target": "载入 5fe_008",
+      "source_rva": 3216536,
+      "pointers": [
+        {
+          "rva": 3053360,
+          "callback_rva": 826160
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fe_009",
+      "source": "Load 5fe_009",
+      "target": "载入 5fe_009",
+      "source_rva": 3216520,
+      "pointers": [
+        {
+          "rva": 3053376,
+          "callback_rva": 826272
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fe_010",
+      "source": "Load 5fe_010",
+      "target": "载入 5fe_010",
+      "source_rva": 3216568,
+      "pointers": [
+        {
+          "rva": 3053392,
+          "callback_rva": 826384
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fe_011",
+      "source": "Load 5fe_011",
+      "target": "载入 5fe_011",
+      "source_rva": 3216552,
+      "pointers": [
+        {
+          "rva": 3053408,
+          "callback_rva": 826496
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fe_012",
+      "source": "Load 5fe_012",
+      "target": "载入 5fe_012",
+      "source_rva": 3216728,
+      "pointers": [
+        {
+          "rva": 3053424,
+          "callback_rva": 826608
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fe_013",
+      "source": "Load 5fe_013",
+      "target": "载入 5fe_013",
+      "source_rva": 3216712,
+      "pointers": [
+        {
+          "rva": 3053440,
+          "callback_rva": 826720
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fe_014",
+      "source": "Load 5fe_014",
+      "target": "载入 5fe_014",
+      "source_rva": 3216760,
+      "pointers": [
+        {
+          "rva": 3053456,
+          "callback_rva": 826832
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fe_015",
+      "source": "Load 5fe_015",
+      "target": "载入 5fe_015",
+      "source_rva": 3216744,
+      "pointers": [
+        {
+          "rva": 3053472,
+          "callback_rva": 826944
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fe_016",
+      "source": "Load 5fe_016",
+      "target": "载入 5fe_016",
+      "source_rva": 3216664,
+      "pointers": [
+        {
+          "rva": 3053488,
+          "callback_rva": 827056
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fe_017",
+      "source": "Load 5fe_017",
+      "target": "载入 5fe_017",
+      "source_rva": 3216648,
+      "pointers": [
+        {
+          "rva": 3053504,
+          "callback_rva": 827168
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fe_018",
+      "source": "Load 5fe_018",
+      "target": "载入 5fe_018",
+      "source_rva": 3216696,
+      "pointers": [
+        {
+          "rva": 3053520,
+          "callback_rva": 827280
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fe_019",
+      "source": "Load 5fe_019",
+      "target": "载入 5fe_019",
+      "source_rva": 3216680,
+      "pointers": [
+        {
+          "rva": 3053536,
+          "callback_rva": 827392
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fe_020",
+      "source": "Load 5fe_020",
+      "target": "载入 5fe_020",
+      "source_rva": 3216856,
+      "pointers": [
+        {
+          "rva": 3053552,
+          "callback_rva": 827504
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fe_021",
+      "source": "Load 5fe_021",
+      "target": "载入 5fe_021",
+      "source_rva": 3216840,
+      "pointers": [
+        {
+          "rva": 3053568,
+          "callback_rva": 827616
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fe_022",
+      "source": "Load 5fe_022",
+      "target": "载入 5fe_022",
+      "source_rva": 3216888,
+      "pointers": [
+        {
+          "rva": 3053584,
+          "callback_rva": 827728
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fe_023",
+      "source": "Load 5fe_023",
+      "target": "载入 5fe_023",
+      "source_rva": 3216872,
+      "pointers": [
+        {
+          "rva": 3053600,
+          "callback_rva": 827840
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fe_024",
+      "source": "Load 5fe_024",
+      "target": "载入 5fe_024",
+      "source_rva": 3216792,
+      "pointers": [
+        {
+          "rva": 3053616,
+          "callback_rva": 827952
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fe_025",
+      "source": "Load 5fe_025",
+      "target": "载入 5fe_025",
+      "source_rva": 3216776,
+      "pointers": [
+        {
+          "rva": 3053632,
+          "callback_rva": 828064
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fe_026",
+      "source": "Load 5fe_026",
+      "target": "载入 5fe_026",
+      "source_rva": 3216824,
+      "pointers": [
+        {
+          "rva": 3053648,
+          "callback_rva": 828176
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 5fe_027",
+      "source": "Load 5fe_027",
+      "target": "载入 5fe_027",
+      "source_rva": 3216808,
+      "pointers": [
+        {
+          "rva": 3053664,
+          "callback_rva": 828288
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fe_000",
+      "source": "Load 4fe_000",
+      "target": "载入 4fe_000",
+      "source_rva": 3216984,
+      "pointers": [
+        {
+          "rva": 3055056,
+          "callback_rva": 828400
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fe_001",
+      "source": "Load 4fe_001",
+      "target": "载入 4fe_001",
+      "source_rva": 3216968,
+      "pointers": [
+        {
+          "rva": 3055072,
+          "callback_rva": 828528
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fe_002",
+      "source": "Load 4fe_002",
+      "target": "载入 4fe_002",
+      "source_rva": 3217016,
+      "pointers": [
+        {
+          "rva": 3055088,
+          "callback_rva": 828640
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fe_003",
+      "source": "Load 4fe_003",
+      "target": "载入 4fe_003",
+      "source_rva": 3217000,
+      "pointers": [
+        {
+          "rva": 3055104,
+          "callback_rva": 828752
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fe_004",
+      "source": "Load 4fe_004",
+      "target": "载入 4fe_004",
+      "source_rva": 3216920,
+      "pointers": [
+        {
+          "rva": 3055120,
+          "callback_rva": 828864
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fe_005",
+      "source": "Load 4fe_005",
+      "target": "载入 4fe_005",
+      "source_rva": 3216904,
+      "pointers": [
+        {
+          "rva": 3055136,
+          "callback_rva": 828976
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fe_006",
+      "source": "Load 4fe_006",
+      "target": "载入 4fe_006",
+      "source_rva": 3216952,
+      "pointers": [
+        {
+          "rva": 3055152,
+          "callback_rva": 829088
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fe_007",
+      "source": "Load 4fe_007",
+      "target": "载入 4fe_007",
+      "source_rva": 3216936,
+      "pointers": [
+        {
+          "rva": 3055168,
+          "callback_rva": 829200
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fe_008",
+      "source": "Load 4fe_008",
+      "target": "载入 4fe_008",
+      "source_rva": 3217112,
+      "pointers": [
+        {
+          "rva": 3055184,
+          "callback_rva": 829312
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fe_009",
+      "source": "Load 4fe_009",
+      "target": "载入 4fe_009",
+      "source_rva": 3217096,
+      "pointers": [
+        {
+          "rva": 3055200,
+          "callback_rva": 829424
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fe_010",
+      "source": "Load 4fe_010",
+      "target": "载入 4fe_010",
+      "source_rva": 3217144,
+      "pointers": [
+        {
+          "rva": 3055216,
+          "callback_rva": 829536
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fe_011",
+      "source": "Load 4fe_011",
+      "target": "载入 4fe_011",
+      "source_rva": 3217128,
+      "pointers": [
+        {
+          "rva": 3055232,
+          "callback_rva": 829648
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fe_012",
+      "source": "Load 4fe_012",
+      "target": "载入 4fe_012",
+      "source_rva": 3217048,
+      "pointers": [
+        {
+          "rva": 3055248,
+          "callback_rva": 829760
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fe_013",
+      "source": "Load 4fe_013",
+      "target": "载入 4fe_013",
+      "source_rva": 3217032,
+      "pointers": [
+        {
+          "rva": 3055264,
+          "callback_rva": 829872
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fe_014",
+      "source": "Load 4fe_014",
+      "target": "载入 4fe_014",
+      "source_rva": 3217080,
+      "pointers": [
+        {
+          "rva": 3055280,
+          "callback_rva": 829984
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fe_015",
+      "source": "Load 4fe_015",
+      "target": "载入 4fe_015",
+      "source_rva": 3217064,
+      "pointers": [
+        {
+          "rva": 3055296,
+          "callback_rva": 830096
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fe_016",
+      "source": "Load 4fe_016",
+      "target": "载入 4fe_016",
+      "source_rva": 3217240,
+      "pointers": [
+        {
+          "rva": 3055312,
+          "callback_rva": 830208
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fe_017",
+      "source": "Load 4fe_017",
+      "target": "载入 4fe_017",
+      "source_rva": 3217224,
+      "pointers": [
+        {
+          "rva": 3055328,
+          "callback_rva": 830320
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fe_018",
+      "source": "Load 4fe_018",
+      "target": "载入 4fe_018",
+      "source_rva": 3217272,
+      "pointers": [
+        {
+          "rva": 3055344,
+          "callback_rva": 830432
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fe_019",
+      "source": "Load 4fe_019",
+      "target": "载入 4fe_019",
+      "source_rva": 3217256,
+      "pointers": [
+        {
+          "rva": 3055360,
+          "callback_rva": 830544
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fw_000",
+      "source": "Load 4fw_000",
+      "target": "载入 4fw_000",
+      "source_rva": 3217176,
+      "pointers": [
+        {
+          "rva": 3055392,
+          "callback_rva": 830656
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fw_001",
+      "source": "Load 4fw_001",
+      "target": "载入 4fw_001",
+      "source_rva": 3217160,
+      "pointers": [
+        {
+          "rva": 3055408,
+          "callback_rva": 830784
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fw_002",
+      "source": "Load 4fw_002",
+      "target": "载入 4fw_002",
+      "source_rva": 3217208,
+      "pointers": [
+        {
+          "rva": 3055424,
+          "callback_rva": 830896
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fw_003",
+      "source": "Load 4fw_003",
+      "target": "载入 4fw_003",
+      "source_rva": 3217192,
+      "pointers": [
+        {
+          "rva": 3055440,
+          "callback_rva": 831008
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fw_004",
+      "source": "Load 4fw_004",
+      "target": "载入 4fw_004",
+      "source_rva": 3217368,
+      "pointers": [
+        {
+          "rva": 3055456,
+          "callback_rva": 831120
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fw_005",
+      "source": "Load 4fw_005",
+      "target": "载入 4fw_005",
+      "source_rva": 3217352,
+      "pointers": [
+        {
+          "rva": 3055472,
+          "callback_rva": 831232
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fw_006",
+      "source": "Load 4fw_006",
+      "target": "载入 4fw_006",
+      "source_rva": 3217400,
+      "pointers": [
+        {
+          "rva": 3055488,
+          "callback_rva": 831344
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fw_007",
+      "source": "Load 4fw_007",
+      "target": "载入 4fw_007",
+      "source_rva": 3217384,
+      "pointers": [
+        {
+          "rva": 3055504,
+          "callback_rva": 831456
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fw_008",
+      "source": "Load 4fw_008",
+      "target": "载入 4fw_008",
+      "source_rva": 3217304,
+      "pointers": [
+        {
+          "rva": 3055520,
+          "callback_rva": 831568
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fw_009",
+      "source": "Load 4fw_009",
+      "target": "载入 4fw_009",
+      "source_rva": 3217288,
+      "pointers": [
+        {
+          "rva": 3055536,
+          "callback_rva": 831680
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fw_010",
+      "source": "Load 4fw_010",
+      "target": "载入 4fw_010",
+      "source_rva": 3217336,
+      "pointers": [
+        {
+          "rva": 3055552,
+          "callback_rva": 831792
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fw_011",
+      "source": "Load 4fw_011",
+      "target": "载入 4fw_011",
+      "source_rva": 3217320,
+      "pointers": [
+        {
+          "rva": 3055568,
+          "callback_rva": 831904
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fw_012",
+      "source": "Load 4fw_012",
+      "target": "载入 4fw_012",
+      "source_rva": 3217496,
+      "pointers": [
+        {
+          "rva": 3055584,
+          "callback_rva": 832016
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fw_013",
+      "source": "Load 4fw_013",
+      "target": "载入 4fw_013",
+      "source_rva": 3217480,
+      "pointers": [
+        {
+          "rva": 3055600,
+          "callback_rva": 832128
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fw_014",
+      "source": "Load 4fw_014",
+      "target": "载入 4fw_014",
+      "source_rva": 3217528,
+      "pointers": [
+        {
+          "rva": 3055616,
+          "callback_rva": 832240
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fw_015",
+      "source": "Load 4fw_015",
+      "target": "载入 4fw_015",
+      "source_rva": 3217512,
+      "pointers": [
+        {
+          "rva": 3055632,
+          "callback_rva": 832352
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 4fw_016",
+      "source": "Load 4fw_016",
+      "target": "载入 4fw_016",
+      "source_rva": 3217432,
+      "pointers": [
+        {
+          "rva": 3055648,
+          "callback_rva": 832464
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 3fw_000",
+      "source": "Load 3fw_000",
+      "target": "载入 3fw_000",
+      "source_rva": 3217416,
+      "pointers": [
+        {
+          "rva": 3055728,
+          "callback_rva": 832576
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 3fw_001",
+      "source": "Load 3fw_001",
+      "target": "载入 3fw_001",
+      "source_rva": 3217464,
+      "pointers": [
+        {
+          "rva": 3055744,
+          "callback_rva": 832704
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 3fw_002",
+      "source": "Load 3fw_002",
+      "target": "载入 3fw_002",
+      "source_rva": 3217448,
+      "pointers": [
+        {
+          "rva": 3055760,
+          "callback_rva": 832816
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 3fw_003",
+      "source": "Load 3fw_003",
+      "target": "载入 3fw_003",
+      "source_rva": 3217624,
+      "pointers": [
+        {
+          "rva": 3055776,
+          "callback_rva": 832928
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 3fw_004",
+      "source": "Load 3fw_004",
+      "target": "载入 3fw_004",
+      "source_rva": 3217608,
+      "pointers": [
+        {
+          "rva": 3055792,
+          "callback_rva": 833040
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 3fw_005",
+      "source": "Load 3fw_005",
+      "target": "载入 3fw_005",
+      "source_rva": 3217656,
+      "pointers": [
+        {
+          "rva": 3055808,
+          "callback_rva": 833152
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 3fw_006",
+      "source": "Load 3fw_006",
+      "target": "载入 3fw_006",
+      "source_rva": 3217640,
+      "pointers": [
+        {
+          "rva": 3055824,
+          "callback_rva": 833264
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 3fw_007",
+      "source": "Load 3fw_007",
+      "target": "载入 3fw_007",
+      "source_rva": 3217560,
+      "pointers": [
+        {
+          "rva": 3055840,
+          "callback_rva": 833376
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 3fw_008",
+      "source": "Load 3fw_008",
+      "target": "载入 3fw_008",
+      "source_rva": 3217544,
+      "pointers": [
+        {
+          "rva": 3055856,
+          "callback_rva": 833488
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 3fw_009",
+      "source": "Load 3fw_009",
+      "target": "载入 3fw_009",
+      "source_rva": 3217592,
+      "pointers": [
+        {
+          "rva": 3055872,
+          "callback_rva": 833600
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 3fw_010",
+      "source": "Load 3fw_010",
+      "target": "载入 3fw_010",
+      "source_rva": 3217576,
+      "pointers": [
+        {
+          "rva": 3055888,
+          "callback_rva": 833712
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fc_000",
+      "source": "Load 2fc_000",
+      "target": "载入 2fc_000",
+      "source_rva": 3217752,
+      "pointers": [
+        {
+          "rva": 3053696,
+          "callback_rva": 833824
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fc_001",
+      "source": "Load 2fc_001",
+      "target": "载入 2fc_001",
+      "source_rva": 3217736,
+      "pointers": [
+        {
+          "rva": 3053712,
+          "callback_rva": 833952
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fc_002",
+      "source": "Load 2fc_002",
+      "target": "载入 2fc_002",
+      "source_rva": 3217784,
+      "pointers": [
+        {
+          "rva": 3053728,
+          "callback_rva": 834064
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fc_003",
+      "source": "Load 2fc_003",
+      "target": "载入 2fc_003",
+      "source_rva": 3217768,
+      "pointers": [
+        {
+          "rva": 3053744,
+          "callback_rva": 834176
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fe_000",
+      "source": "Load 2fe_000",
+      "target": "载入 2fe_000",
+      "source_rva": 3217688,
+      "pointers": [
+        {
+          "rva": 3054672,
+          "callback_rva": 834288
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fe_001",
+      "source": "Load 2fe_001",
+      "target": "载入 2fe_001",
+      "source_rva": 3217672,
+      "pointers": [
+        {
+          "rva": 3054688,
+          "callback_rva": 834416
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fe_002",
+      "source": "Load 2fe_002",
+      "target": "载入 2fe_002",
+      "source_rva": 3217720,
+      "pointers": [
+        {
+          "rva": 3054704,
+          "callback_rva": 834528
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fe_003",
+      "source": "Load 2fe_003",
+      "target": "载入 2fe_003",
+      "source_rva": 3217704,
+      "pointers": [
+        {
+          "rva": 3054720,
+          "callback_rva": 834640
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fe_004",
+      "source": "Load 2fe_004",
+      "target": "载入 2fe_004",
+      "source_rva": 3217880,
+      "pointers": [
+        {
+          "rva": 3054736,
+          "callback_rva": 834752
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fe_005",
+      "source": "Load 2fe_005",
+      "target": "载入 2fe_005",
+      "source_rva": 3217864,
+      "pointers": [
+        {
+          "rva": 3054752,
+          "callback_rva": 834864
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fe_006",
+      "source": "Load 2fe_006",
+      "target": "载入 2fe_006",
+      "source_rva": 3217912,
+      "pointers": [
+        {
+          "rva": 3054768,
+          "callback_rva": 834976
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fe_007",
+      "source": "Load 2fe_007",
+      "target": "载入 2fe_007",
+      "source_rva": 3217896,
+      "pointers": [
+        {
+          "rva": 3054784,
+          "callback_rva": 835088
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fe_008",
+      "source": "Load 2fe_008",
+      "target": "载入 2fe_008",
+      "source_rva": 3217816,
+      "pointers": [
+        {
+          "rva": 3054800,
+          "callback_rva": 835200
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fe_009",
+      "source": "Load 2fe_009",
+      "target": "载入 2fe_009",
+      "source_rva": 3217800,
+      "pointers": [
+        {
+          "rva": 3054816,
+          "callback_rva": 835312
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fe_010",
+      "source": "Load 2fe_010",
+      "target": "载入 2fe_010",
+      "source_rva": 3217848,
+      "pointers": [
+        {
+          "rva": 3054832,
+          "callback_rva": 835424
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fe_011",
+      "source": "Load 2fe_011",
+      "target": "载入 2fe_011",
+      "source_rva": 3217832,
+      "pointers": [
+        {
+          "rva": 3054848,
+          "callback_rva": 835536
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fe_012",
+      "source": "Load 2fe_012",
+      "target": "载入 2fe_012",
+      "source_rva": 3218008,
+      "pointers": [
+        {
+          "rva": 3054864,
+          "callback_rva": 835648
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fe_013",
+      "source": "Load 2fe_013",
+      "target": "载入 2fe_013",
+      "source_rva": 3217992,
+      "pointers": [
+        {
+          "rva": 3054880,
+          "callback_rva": 835760
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fe_014",
+      "source": "Load 2fe_014",
+      "target": "载入 2fe_014",
+      "source_rva": 3218040,
+      "pointers": [
+        {
+          "rva": 3054896,
+          "callback_rva": 835872
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fe_015",
+      "source": "Load 2fe_015",
+      "target": "载入 2fe_015",
+      "source_rva": 3218024,
+      "pointers": [
+        {
+          "rva": 3054912,
+          "callback_rva": 835984
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fe_016",
+      "source": "Load 2fe_016",
+      "target": "载入 2fe_016",
+      "source_rva": 3217944,
+      "pointers": [
+        {
+          "rva": 3054928,
+          "callback_rva": 836096
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fe_017",
+      "source": "Load 2fe_017",
+      "target": "载入 2fe_017",
+      "source_rva": 3217928,
+      "pointers": [
+        {
+          "rva": 3054944,
+          "callback_rva": 836208
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fw_000",
+      "source": "Load 2fw_000",
+      "target": "载入 2fw_000",
+      "source_rva": 3217976,
+      "pointers": [
+        {
+          "rva": 3055920,
+          "callback_rva": 836320
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fw_001",
+      "source": "Load 2fw_001",
+      "target": "载入 2fw_001",
+      "source_rva": 3217960,
+      "pointers": [
+        {
+          "rva": 3055936,
+          "callback_rva": 836448
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fw_002",
+      "source": "Load 2fw_002",
+      "target": "载入 2fw_002",
+      "source_rva": 3218136,
+      "pointers": [
+        {
+          "rva": 3055952,
+          "callback_rva": 836560
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fw_003",
+      "source": "Load 2fw_003",
+      "target": "载入 2fw_003",
+      "source_rva": 3218120,
+      "pointers": [
+        {
+          "rva": 3055968,
+          "callback_rva": 836672
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fw_004",
+      "source": "Load 2fw_004",
+      "target": "载入 2fw_004",
+      "source_rva": 3218168,
+      "pointers": [
+        {
+          "rva": 3055984,
+          "callback_rva": 836784
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fw_005",
+      "source": "Load 2fw_005",
+      "target": "载入 2fw_005",
+      "source_rva": 3218152,
+      "pointers": [
+        {
+          "rva": 3056000,
+          "callback_rva": 836896
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fw_006",
+      "source": "Load 2fw_006",
+      "target": "载入 2fw_006",
+      "source_rva": 3218072,
+      "pointers": [
+        {
+          "rva": 3056016,
+          "callback_rva": 837008
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fw_007",
+      "source": "Load 2fw_007",
+      "target": "载入 2fw_007",
+      "source_rva": 3218056,
+      "pointers": [
+        {
+          "rva": 3056032,
+          "callback_rva": 837120
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fw_008",
+      "source": "Load 2fw_008",
+      "target": "载入 2fw_008",
+      "source_rva": 3218104,
+      "pointers": [
+        {
+          "rva": 3056048,
+          "callback_rva": 837232
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fw_009",
+      "source": "Load 2fw_009",
+      "target": "载入 2fw_009",
+      "source_rva": 3218088,
+      "pointers": [
+        {
+          "rva": 3056064,
+          "callback_rva": 837344
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fw_010",
+      "source": "Load 2fw_010",
+      "target": "载入 2fw_010",
+      "source_rva": 3218264,
+      "pointers": [
+        {
+          "rva": 3056080,
+          "callback_rva": 837456
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fw_011",
+      "source": "Load 2fw_011",
+      "target": "载入 2fw_011",
+      "source_rva": 3218248,
+      "pointers": [
+        {
+          "rva": 3056096,
+          "callback_rva": 837568
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fw_012",
+      "source": "Load 2fw_012",
+      "target": "载入 2fw_012",
+      "source_rva": 3218296,
+      "pointers": [
+        {
+          "rva": 3056112,
+          "callback_rva": 837680
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fw_013",
+      "source": "Load 2fw_013",
+      "target": "载入 2fw_013",
+      "source_rva": 3218280,
+      "pointers": [
+        {
+          "rva": 3056128,
+          "callback_rva": 837792
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fw_014",
+      "source": "Load 2fw_014",
+      "target": "载入 2fw_014",
+      "source_rva": 3218200,
+      "pointers": [
+        {
+          "rva": 3056144,
+          "callback_rva": 837904
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fw_015",
+      "source": "Load 2fw_015",
+      "target": "载入 2fw_015",
+      "source_rva": 3218184,
+      "pointers": [
+        {
+          "rva": 3056160,
+          "callback_rva": 838016
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fw_016",
+      "source": "Load 2fw_016",
+      "target": "载入 2fw_016",
+      "source_rva": 3218232,
+      "pointers": [
+        {
+          "rva": 3056176,
+          "callback_rva": 838128
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 2fw_017",
+      "source": "Load 2fw_017",
+      "target": "载入 2fw_017",
+      "source_rva": 3218216,
+      "pointers": [
+        {
+          "rva": 3056192,
+          "callback_rva": 838240
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 1fc_000",
+      "source": "Load 1fc_000",
+      "target": "载入 1fc_000",
+      "source_rva": 3218392,
+      "pointers": [
+        {
+          "rva": 3054624,
+          "callback_rva": 838352
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 1fc_001",
+      "source": "Load 1fc_001",
+      "target": "载入 1fc_001",
+      "source_rva": 3218376,
+      "pointers": [
+        {
+          "rva": 3054640,
+          "callback_rva": 838480
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 1fe_000",
+      "source": "Load 1fe_000",
+      "target": "载入 1fe_000",
+      "source_rva": 3218424,
+      "pointers": [
+        {
+          "rva": 3053840,
+          "callback_rva": 838592
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 1fe_001",
+      "source": "Load 1fe_001",
+      "target": "载入 1fe_001",
+      "source_rva": 3218408,
+      "pointers": [
+        {
+          "rva": 3053856,
+          "callback_rva": 838720
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 1fe_002",
+      "source": "Load 1fe_002",
+      "target": "载入 1fe_002",
+      "source_rva": 3218328,
+      "pointers": [
+        {
+          "rva": 3053872,
+          "callback_rva": 838832
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 1fe_003",
+      "source": "Load 1fe_003",
+      "target": "载入 1fe_003",
+      "source_rva": 3218312,
+      "pointers": [
+        {
+          "rva": 3053888,
+          "callback_rva": 838944
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 1fe_004",
+      "source": "Load 1fe_004",
+      "target": "载入 1fe_004",
+      "source_rva": 3218360,
+      "pointers": [
+        {
+          "rva": 3053904,
+          "callback_rva": 839056
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 1fe_005",
+      "source": "Load 1fe_005",
+      "target": "载入 1fe_005",
+      "source_rva": 3218344,
+      "pointers": [
+        {
+          "rva": 3053920,
+          "callback_rva": 839168
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 1fe_006",
+      "source": "Load 1fe_006",
+      "target": "载入 1fe_006",
+      "source_rva": 3218520,
+      "pointers": [
+        {
+          "rva": 3053936,
+          "callback_rva": 839280
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 1fe_007",
+      "source": "Load 1fe_007",
+      "target": "载入 1fe_007",
+      "source_rva": 3218504,
+      "pointers": [
+        {
+          "rva": 3053952,
+          "callback_rva": 839392
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 1fe_008",
+      "source": "Load 1fe_008",
+      "target": "载入 1fe_008",
+      "source_rva": 3218552,
+      "pointers": [
+        {
+          "rva": 3053968,
+          "callback_rva": 839504
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 1fe_009",
+      "source": "Load 1fe_009",
+      "target": "载入 1fe_009",
+      "source_rva": 3218536,
+      "pointers": [
+        {
+          "rva": 3053984,
+          "callback_rva": 839616
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 1fe_010",
+      "source": "Load 1fe_010",
+      "target": "载入 1fe_010",
+      "source_rva": 3218456,
+      "pointers": [
+        {
+          "rva": 3054000,
+          "callback_rva": 839728
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 1fe_011",
+      "source": "Load 1fe_011",
+      "target": "载入 1fe_011",
+      "source_rva": 3218440,
+      "pointers": [
+        {
+          "rva": 3054016,
+          "callback_rva": 839840
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 1fw_000",
+      "source": "Load 1fw_000",
+      "target": "载入 1fw_000",
+      "source_rva": 3218488,
+      "pointers": [
+        {
+          "rva": 3054208,
+          "callback_rva": 839952
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 1fw_001",
+      "source": "Load 1fw_001",
+      "target": "载入 1fw_001",
+      "source_rva": 3218472,
+      "pointers": [
+        {
+          "rva": 3054224,
+          "callback_rva": 840080
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 1fw_002",
+      "source": "Load 1fw_002",
+      "target": "载入 1fw_002",
+      "source_rva": 3218648,
+      "pointers": [
+        {
+          "rva": 3054240,
+          "callback_rva": 840192
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 1fw_003",
+      "source": "Load 1fw_003",
+      "target": "载入 1fw_003",
+      "source_rva": 3218632,
+      "pointers": [
+        {
+          "rva": 3054256,
+          "callback_rva": 840304
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 1fw_004",
+      "source": "Load 1fw_004",
+      "target": "载入 1fw_004",
+      "source_rva": 3218680,
+      "pointers": [
+        {
+          "rva": 3054272,
+          "callback_rva": 840416
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 1fw_005",
+      "source": "Load 1fw_005",
+      "target": "载入 1fw_005",
+      "source_rva": 3218664,
+      "pointers": [
+        {
+          "rva": 3054288,
+          "callback_rva": 840528
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 1fw_006",
+      "source": "Load 1fw_006",
+      "target": "载入 1fw_006",
+      "source_rva": 3218584,
+      "pointers": [
+        {
+          "rva": 3054304,
+          "callback_rva": 840640
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 1fw_007",
+      "source": "Load 1fw_007",
+      "target": "载入 1fw_007",
+      "source_rva": 3218568,
+      "pointers": [
+        {
+          "rva": 3054320,
+          "callback_rva": 840752
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 1fw_008",
+      "source": "Load 1fw_008",
+      "target": "载入 1fw_008",
+      "source_rva": 3218616,
+      "pointers": [
+        {
+          "rva": 3054336,
+          "callback_rva": 840864
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 1fw_009",
+      "source": "Load 1fw_009",
+      "target": "载入 1fw_009",
+      "source_rva": 3218600,
+      "pointers": [
+        {
+          "rva": 3054352,
+          "callback_rva": 840976
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 1fw_010",
+      "source": "Load 1fw_010",
+      "target": "载入 1fw_010",
+      "source_rva": 3218776,
+      "pointers": [
+        {
+          "rva": 3054368,
+          "callback_rva": 841088
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 1fw_011",
+      "source": "Load 1fw_011",
+      "target": "载入 1fw_011",
+      "source_rva": 3218760,
+      "pointers": [
+        {
+          "rva": 3054384,
+          "callback_rva": 841200
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 1fw_012",
+      "source": "Load 1fw_012",
+      "target": "载入 1fw_012",
+      "source_rva": 3218808,
+      "pointers": [
+        {
+          "rva": 3054400,
+          "callback_rva": 841312
+        }
+      ]
+    },
+    {
+      "id": "debug:Load 1fw_013",
+      "source": "Load 1fw_013",
+      "target": "载入 1fw_013",
+      "source_rva": 3218792,
+      "pointers": [
+        {
+          "rva": 3054416,
+          "callback_rva": 841424
+        }
+      ]
+    },
+    {
+      "id": "debug:Load Bmw_000",
+      "source": "Load Bmw_000",
+      "target": "载入 Bmw_000",
+      "source_rva": 3218712,
+      "pointers": [
+        {
+          "rva": 3054048,
+          "callback_rva": 841536
+        }
+      ]
+    },
+    {
+      "id": "debug:Load Bmw_001",
+      "source": "Load Bmw_001",
+      "target": "载入 Bmw_001",
+      "source_rva": 3218696,
+      "pointers": [
+        {
+          "rva": 3054064,
+          "callback_rva": 841664
+        }
+      ]
+    },
+    {
+      "id": "debug:Load Bmw_002",
+      "source": "Load Bmw_002",
+      "target": "载入 Bmw_002",
+      "source_rva": 3218744,
+      "pointers": [
+        {
+          "rva": 3054080,
+          "callback_rva": 841776
+        }
+      ]
+    },
+    {
+      "id": "debug:Load Bmw_003",
+      "source": "Load Bmw_003",
+      "target": "载入 Bmw_003",
+      "source_rva": 3218728,
+      "pointers": [
+        {
+          "rva": 3054096,
+          "callback_rva": 841888
+        }
+      ]
+    },
+    {
+      "id": "debug:Load Bmw_004",
+      "source": "Load Bmw_004",
+      "target": "载入 Bmw_004",
+      "source_rva": 3218896,
+      "pointers": [
+        {
+          "rva": 3054112,
+          "callback_rva": 842000
+        }
+      ]
+    },
+    {
+      "id": "debug:Load Bmw_005",
+      "source": "Load Bmw_005",
+      "target": "载入 Bmw_005",
+      "source_rva": 3218880,
+      "pointers": [
+        {
+          "rva": 3054128,
+          "callback_rva": 842112
+        }
+      ]
+    },
+    {
+      "id": "debug:Load Bmw_006",
+      "source": "Load Bmw_006",
+      "target": "载入 Bmw_006",
+      "source_rva": 3218928,
+      "pointers": [
+        {
+          "rva": 3054144,
+          "callback_rva": 842224
+        }
+      ]
+    },
+    {
+      "id": "debug:Load Bmw_007",
+      "source": "Load Bmw_007",
+      "target": "载入 Bmw_007",
+      "source_rva": 3218912,
+      "pointers": [
+        {
+          "rva": 3054160,
+          "callback_rva": 842336
+        }
+      ]
+    },
+    {
+      "id": "debug:Load Bmw_008",
+      "source": "Load Bmw_008",
+      "target": "载入 Bmw_008",
+      "source_rva": 3218840,
+      "pointers": [
+        {
+          "rva": 3054176,
+          "callback_rva": 842448
+        }
+      ]
+    },
+    {
+      "id": "debug:Episode 0",
+      "source": "Episode 0",
+      "target": "第0章",
+      "source_rva": 3218824,
+      "pointers": [
+        {
+          "rva": 3056672,
+          "callback_rva": 842560
+        }
+      ]
+    }
+  ],
+  "states": [
+    {
+      "id": "debug:state:false",
+      "source": "false",
+      "target": "关闭",
+      "source_rva": 3167468,
+      "references": [
+        {
+          "rva": 810383,
+          "old": "4c8d0556f72300",
+          "disp_offset": 3,
+          "disp_size": 4
+        },
+        {
+          "rva": 810470,
+          "old": "4c8d05fff62300",
+          "disp_offset": 3,
+          "disp_size": 4
+        },
+        {
+          "rva": 810545,
+          "old": "4c8d05b4f62300",
+          "disp_offset": 3,
+          "disp_size": 4
+        },
+        {
+          "rva": 810682,
+          "old": "4c8d052bf62300",
+          "disp_offset": 3,
+          "disp_size": 4
+        },
+        {
+          "rva": 810751,
+          "old": "4c8d05e6f52300",
+          "disp_offset": 3,
+          "disp_size": 4
+        },
+        {
+          "rva": 810815,
+          "old": "4c8d05a6f52300",
+          "disp_offset": 3,
+          "disp_size": 4
+        },
+        {
+          "rva": 810879,
+          "old": "4c8d0566f52300",
+          "disp_offset": 3,
+          "disp_size": 4
+        },
+        {
+          "rva": 810943,
+          "old": "4c8d0526f52300",
+          "disp_offset": 3,
+          "disp_size": 4
+        }
+      ]
+    },
+    {
+      "id": "debug:state:true",
+      "source": "true",
+      "target": "开启",
+      "source_rva": 3167476,
+      "references": [
+        {
+          "rva": 810376,
+          "old": "488d0d65f72300",
+          "disp_offset": 3,
+          "disp_size": 4
+        },
+        {
+          "rva": 810463,
+          "old": "488d050ef72300",
+          "disp_offset": 3,
+          "disp_size": 4
+        },
+        {
+          "rva": 810560,
+          "old": "488d05adf62300",
+          "disp_offset": 3,
+          "disp_size": 4
+        },
+        {
+          "rva": 810675,
+          "old": "488d053af62300",
+          "disp_offset": 3,
+          "disp_size": 4
+        },
+        {
+          "rva": 810744,
+          "old": "488d0df5f52300",
+          "disp_offset": 3,
+          "disp_size": 4
+        },
+        {
+          "rva": 810808,
+          "old": "488d0db5f52300",
+          "disp_offset": 3,
+          "disp_size": 4
+        },
+        {
+          "rva": 810872,
+          "old": "488d0d75f52300",
+          "disp_offset": 3,
+          "disp_size": 4
+        },
+        {
+          "rva": 810936,
+          "old": "488d0d35f52300",
+          "disp_offset": 3,
+          "disp_size": 4
+        }
+      ]
+    }
+  ]
+}

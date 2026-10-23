@@ -34,7 +34,7 @@ def main():
     report=json.loads((out/'build-report.json').read_text(encoding='utf-8'))
     artifacts={name:str((out/name).resolve()) for name in ['MODIFIED_FILE.zar','DIFF_FILE.json','VERIFICATION.txt','ROLLBACK.sh']}
     receipt=dict(field=report['field'],locale=a.locale,artifacts=artifacts,steps=steps,
-                 restored_behavior='Original New Game, original font and byte-widen decoder in isolated rollback-sample',
+                 restored_behavior='Original New Game, original font, byte-widen decoder and original debug entry/gate in isolated rollback-sample',
                  modified_retained=True,original_input_unchanged=True,game_launched=False,
                  visual_acceptance='NOT_TESTED',modified_archive_sha256=filehash(out/'MODIFIED_FILE.zar'))
     write_json(out/'verification.json',receipt)
