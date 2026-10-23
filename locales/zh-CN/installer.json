@@ -1,0 +1,12 @@
+{
+  "title": "《病房：封闭病区》简体中文汉化补丁",
+  "subtitle": "DEMENTIUM: THE WARD · STEAM",
+  "archive_file": "rom.zar",
+  "executable_file": "Dementium.exe",
+  "backup_folder": "cn-backup",
+  "notice": "请选择游戏根目录的 rom.zar",
+  "footer": "已验证支持 Steam build 21501403",
+  "build_label": "Steam build 21501403",
+  "supported_builds": "21501403",
+  "version": "1.0.0"
+}

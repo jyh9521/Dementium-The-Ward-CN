@@ -19,3 +19,6 @@
 
 
 调试菜单恢复补充：参考同一锁定c0ea10f提交中tools/debug_menu.py与tests/native_replay.py的F1内部键码、身份/容量守卫、文字池及已有DIR64重定位复用方法；本作tools/debug_menu.py、debug_menu_text.py、replay_debug_menu.py及binfont连接均按本作原生指令和字段独立实现，没有复制上游地址、ImGui接口、TTF字库或鼠标输入补丁。原生菜单与命令回调来自本作原EXE，源码仓库只提交工具、短标签译文及技术元数据。具体覆盖与边界见docs/DEBUG_MENU.md及docs/DEBUG_MENU_TEXT.md。
+
+
+安装器补充：MaterialWindow.xaml/.xaml.cs、SteamLocator.cs、Directory.Build.props、app.manifest和包锁定配置改编自同一c0ea10f提交（MIT jyh9521），保留其Material Design 3主题、圆角卡片、按钮样式、动效、检测、日志与确认弹层。InstallerEngine.cs为适配本作完整双文件身份及流式copy/add载荷的新实现，事务/备份/恢复模式参考旧引擎；不复用其资源宽松识别。tools/source_delta.py及build_installer.py独立生成/校验本作载荷，未包含整原始游戏。installer/licenses保留MaterialDesign、XAML Behaviors与.NET运行时第三方许可。installer/branding两图来自用户本轮上传；图标仅为原PNG的ICO封装，顶图字节原样复制，不宣称另有字体或美术授权。

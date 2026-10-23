@@ -114,9 +114,22 @@ def build_art(z,c,config_path):
     config=json.loads(path.read_text(encoding='utf-8'))
     if config.get('schema')!=1 or not isinstance(config.get('patches'),list):
         raise ValueError('Unsupported artwork configuration')
-    inner={};outer={};records=[]
+    inner={};outer={};records=[];preserved=[]
+    protected=set()
+    for entry in config.get('preserve_source',[]):
+        scope=entry['scope'];name=entry['resource']
+        if scope not in ('inner','outer') or (scope,name) in protected:
+            raise ValueError('Invalid or duplicate artwork source preservation entry')
+        protected.add((scope,name))
+        raw=(c if scope=='inner' else z).read(name)
+        if _sha(raw)!=entry['source_sha256']:
+            raise ValueError('Preserved artwork source hash mismatch: '+name)
+        preserved.append(dict(scope=scope,resource=name,source_sha256=_sha(raw),
+                              disposition='original-resource-byte-identical',reason=entry['reason']))
     for entry in config['patches']:
         scope=entry['scope'];name=entry['resource'];relative=Path(entry['patch'])
+        if (scope,name) in protected:
+            raise ValueError('Artwork patch conflicts with required source preservation: '+name)
         if relative.is_absolute() or '..' in relative.parts or relative.suffix!='.json':
             raise ValueError('Artwork patch path must remain relative to locale configuration')
         patch_path=(path.parent/relative).resolve()
@@ -155,4 +168,5 @@ def build_art(z,c,config_path):
                             output_pixels_sha256=patch['output_pixels_sha256'],changed_pixels=changed,
                             dimensions_unchanged=True,**extra))
     return inner,outer,dict(schema=1,images=records,image_count=len(records),inner_count=len(inner),
-                            outer_count=len(outer),verification='offline source-dependent art and complete mipmap rebuild; no game launch')
+                            outer_count=len(outer),preserved_sources=preserved,
+                            verification='offline source-dependent art and complete mipmap rebuild; no game launch')

@@ -1,5 +1,7 @@
 # CONTENT.TAR 内层图片格式与可见文字审计
 
+> 2026-10-23严格可读性复审优先：已撤回notepad、wboard02、code03三项重绘；当前23 inner + 3 outer美术差分。下文旧转录与计数保留研究历史，不代表当前可读性确认；详见[IMAGE_READABILITY_REVIEW.md](IMAGE_READABILITY_REVIEW.md)。
+
 ## 已验证范围
 
 只读扫描本机 build21501403 的415个`.tex`和92个`.art`，共507个成员。工具`tools/engine_image.py`成功解码504个：全部415个`.tex`和89个`.art`。生成14张接触表并全部查看，重要文字候选另打开原尺寸PNG查看。预览、中间图像与接触表仅在Git忽略的`build/full-research/inner-textures/`。清单`locales/zh-CN/inner-image-inventory.json`只包含资源名、尺寸、哈希、头部字段和视觉分类，不含商业图像二进制。

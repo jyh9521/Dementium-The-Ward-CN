@@ -8583,17 +8583,10 @@
       "raw_size": 86016,
       "noop_byte_identical": true,
       "preview_local": "build/full-research/inner-textures/121.png",
-      "visual_review": "localized-art-delta-offline-reviewed",
-      "text_segments": [
-        "IF YOU DARE!"
-      ],
-      "recommendation": "source-dependent Chinese art delta; manual UV/scene QA pending",
-      "art_patch": "art/code03.json",
-      "target_segments": [
-        "有胆就来！"
-      ],
+      "visual_review": "unreadable-source-preserved",
+      "recommendation": "preserve complete original resource; no localization redraw",
       "alpha_policy": "reviewed-regions",
-      "protected_regions": "all RGBA pixels outside original label interiors"
+      "notes": "红色破损笔迹的完整短语不能达到明确可读标准；旧IF YOU DARE!转录不作为已验证事实，撤回中文重绘。"
     },
     {
       "index": 122,
@@ -20513,17 +20506,9 @@
       "raw_size": 5120,
       "noop_byte_identical": true,
       "preview_local": "build/full-research/inner-textures/293.png",
-      "visual_review": "localized-art-delta-offline-reviewed",
-      "text_segments": [
-        "WHY DID YOU DO IT?"
-      ],
-      "recommendation": "source-dependent Chinese art delta; manual UV/scene QA pending",
-      "art_patch": "art/notepad.json",
-      "target_segments": [
-        "你为什么/要这么做？"
-      ],
-      "protected_regions": "all pixels outside original label interiors",
-      "notes": "原生32x32微缩封面字迹不具舒适逐字可读尺寸；未宣称可读性验收，正文通过examine/item中文呈现；钥匙/圈/装订保持。"
+      "visual_review": "unreadable-source-preserved",
+      "recommendation": "preserve complete original resource; no localization redraw",
+      "notes": "原生32×32封面不能独立逐字辨读；旧译取自关联examine文本，不属于图片逐字证据，撤回中文重绘。"
     },
     {
       "index": 294,
@@ -32908,20 +32893,9 @@
       "raw_size": 87040,
       "noop_byte_identical": true,
       "preview_local": "build/full-research/inner-textures/466.png",
-      "visual_review": "localized-art-delta-offline-reviewed",
-      "text_segments": [
-        "EVERYONE SHOULD",
-        "NIGHT SHIFT SCHEDULE",
-        "SMILE!"
-      ],
-      "recommendation": "source-dependent Chinese labels; staff schedule/doodles and bloody occlusion preserved; manual scene QA pending",
-      "notes": "原顶部灰字为EVERYONE SHOULD；左上红色两行才是NIGHT SHIFT / SCHEDULE，右上蓝字为SMILE!。姓名、排班简称、其余涂写保留，不猜写。血迹版原血遮挡按源像素恢复，不显露被遮信息。",
-      "art_patch": "art/wboard02.json",
-      "target_segments": [
-        "大家都该",
-        "夜班排班表",
-        "微笑！"
-      ]
+      "visual_review": "unreadable-source-preserved",
+      "recommendation": "preserve complete original resource; no localization redraw",
+      "notes": "血迹遮挡后标签不能独立完整辨读；不再借清晰wboard01推补血迹版标签，整张保留原图。"
     },
     {
       "index": 467,

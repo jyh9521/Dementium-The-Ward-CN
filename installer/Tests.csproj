@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0-windows10.0.17763.0</TargetFramework><EnableDefaultCompileItems>false</EnableDefaultCompileItems><AssemblyName>InstallerTests</AssemblyName><OutputPath>../build/installer/tests/</OutputPath></PropertyGroup>
+ <ItemGroup><Compile Include="InstallerEngine.cs;InstallerTests.cs;SteamLocator.cs;Platform.cs" /></ItemGroup>
+ <ItemGroup Condition="Exists('../build/installer/payload.manifest.json')"><EmbeddedResource Include="../build/installer/payload.manifest.json" LogicalName="payload.manifest.json" /><EmbeddedResource Include="../build/installer/rom.delta.gz" LogicalName="rom.delta.gz" /><EmbeddedResource Include="../build/installer/exe.delta.gz" LogicalName="exe.delta.gz" /></ItemGroup>
+</Project>

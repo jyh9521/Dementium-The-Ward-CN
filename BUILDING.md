@@ -14,9 +14,9 @@
 $game = "C:/Program Files (x86)/Steam/steamapps/common/Dementium - The Ward"
 python -m pip install -r requirements.txt
 python -X utf8 -m unittest discover -s tests -v
-python -X utf8 tools/record_locale_verification.py --game "$game"
-python -X utf8 tools/verify_sample.py
-& "C:/Program Files/Git/bin/bash.exe" ./ROLLBACK_LOCALE.sh
+python -X utf8 tools/record_locale_verification.py --game "$game" --output build/release-candidate
+python -X utf8 tools/verify_sample.py --output build/release-candidate
+& "C:/Program Files/Git/bin/bash.exe" ./build/release-candidate/ROLLBACK.sh
 python -X utf8 tools/investigate.py check-input --game "$game"
 ```
 
@@ -27,7 +27,7 @@ python -X utf8 tools/investigate.py check-input --game "$game"
 1. 只读验证全部原输入，ZAR/TAR/binfont无修改回写逐字节一致。
 2. 校验278记录原身份、ID、控制码，收集正文及媒体字幕字形，生成保留原180glyph的BMP字体。
 3. 中文按已验证宽度/高度自动折行；四语原文只做Latin1字节映射到UTF-8，1112记录逻辑不变，所有HUD字段仍守255byte。
-4. 构建49张程序化UI图、3张界面美术差分、26张场景纹理差分及完整mipmap，保护区域外像素、按键、UV、血迹。
+4. 构建49张程序化UI图、3张界面美术差分、23张场景纹理差分及完整mipmap，保护区域外像素、按键、UV、血迹。
 5. 18个影片文件的章名逐帧改写（16段独立章名、2段内嵌章名），573帧后续剧情原样保留，保持源fade/红装饰；电影对白及新闻/门牌画面词译注重编码，独立ffprobe更新DAT关键帧/偏移/尺寸。原音轨不变，VP9帧率/帧数/PTS保持；YUV区域外字节校验。
 6. 仅副本EXE增加受完整SHA/邻域守卫的UTF-8 decoder和PCM采样时钟字幕overlay，保持ASLR/Win64 unwind；本作真实指令离线回放，不运行游戏进程。
 7. 重复完整构建比较；差分正反向验证；准备sample后复核原9文件身份。
@@ -125,6 +125,23 @@ python -X utf8 tools/record_verification.py --game "$game" --bash "C:/Program Fi
 
 ## 独立 F1 与简体中文调试菜单
 
-当前构建从 `locales/<locale>/debug-menu.json` 读取本作原生命令表及状态译文，生成字形并在 UTF-8/音频 overlay 后增加受守卫的独立 F1 层。L3+Y 仍受原手柄秘密序列启用状态控制。不启用整套键盘模拟手柄。新一轮验证使用 `--output build/debug-menu`，样本及恢复均只写该目录。
+当前构建从 `locales/<locale>/debug-menu.json` 读取本作原生命令表及状态译文，生成字形并在 UTF-8/音频 overlay 后增加受守卫的独立 F1 层。L3+Y 仍受原手柄秘密序列启用状态控制。不启用整套键盘模拟手柄。新一轮验证使用 `--output build/release-candidate`，样本及恢复均只写该目录。
 
 完整重建、精确入口、复用来源和人工测试见 [调试菜单](docs/DEBUG_MENU.md)。`build/full` 旧样本不是本次调试入口候选。每次变更需完整重复构建、原指令回放及逆序恢复，通过后才使用新 sample。
+
+
+## v1.0 安装器与本轮修正
+
+当前候选是 `build/release-candidate/sample`。31条单句短说明只删最后句号，文档/信件/对白不改；分类与回归见 [PUNCTUATION_STYLE.md](docs/PUNCTUATION_STYLE.md)。撤回notepad、wboard02、code03三张推补式重绘并锁定原资源；现为23 inner +3 outer美术差分、49张程序化UI，见 [图片复审](docs/IMAGE_READABILITY_REVIEW.md)。此前build/full及build/debug-menu样本保留历史，不能用于验收本轮修正。
+
+安装器复用病房2 Material Design 3 / MaterialDesignThemes 5.3.2布局、动效、自动检测、日志和确认弹层；图标和顶图直接使用用户提供文件，ICO嵌入原PNG不重绘。引擎与载荷为本作重写，完整SHA/大小绑定EXE+ZAR，不继承病房2宽松资源识别或偏移。
+
+需要.NET 10 SDK（本轮10.0.402），不是只有runtime。显式指定SDK，可用全新机器的任意安装路径，不依赖旧项目未记录中间文件：
+
+```powershell
+python -X utf8 tools/build_installer.py --game "$game" --build build/release-candidate --dotnet "C:/path/to/dotnet.exe"
+```
+
+生成 `dist/Dementium-The-Ward-zh-CN-Setup.exe`，自包含Windows x64，不要求玩家安装Python或.NET。先独立生成两次gzip source-copy/add差分并比对；Python重建后核对修改目标SHA；锁定依赖发布两次并比对EXE；C#实际嵌入资源在额外原件副本完成安装→重复安装→恢复，所有原输入仍只读。
+
+`build/installer/payload.manifest.json`记录源/目标大小和SHA；差分中的COPY引用用户自己的原文件，ADD仅写新增/修改字节。测试与UI预览均不启动游戏。安装/恢复总是两个文件一起处理，先生成并校验所有临时结果再提交；提交失败逆序恢复。`cn-backup`仅存对应完整原件，恢复时只删除已校验的已知备份，保留未知用户内容。详见 [安装与恢复](docs/INSTALLER.md)。

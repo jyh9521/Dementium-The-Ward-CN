@@ -1,0 +1,188 @@
+[
+  {
+    "file": "strings-ui-items.json",
+    "id": "loc/en/examine.006:0000",
+    "before": "左轮手枪\r\n\r\n这是一把\u0002.357口径左轮手枪\u0001。\r\n\r\n",
+    "after": "左轮手枪\r\n\r\n这是一把\u0002.357口径左轮手枪\u0001\r\n\r\n"
+  },
+  {
+    "file": "strings-ui-items.json",
+    "id": "loc/en/examine.034:0000",
+    "before": "铁钥匙\r\n\r\n这是一把\u0002铁钥匙\u0001。\r\n\r\n",
+    "after": "铁钥匙\r\n\r\n这是一把\u0002铁钥匙\u0001\r\n\r\n"
+  },
+  {
+    "file": "strings-ui-items.json",
+    "id": "loc/en/examine.036:0000",
+    "before": "金钥匙\r\n\r\n这是一把\u0002金钥匙\u0001。\r\n\r\n",
+    "after": "金钥匙\r\n\r\n这是一把\u0002金钥匙\u0001\r\n\r\n"
+  },
+  {
+    "file": "strings-ui-items.json",
+    "id": "loc/en/examine.037:0000",
+    "before": "银钥匙\r\n\r\n这是一把\u0002银钥匙\u0001。\r\n",
+    "after": "银钥匙\r\n\r\n这是一把\u0002银钥匙\u0001\r\n"
+  },
+  {
+    "file": "strings-ui-items.json",
+    "id": "loc/en/item.000:0000",
+    "before": "这是一支手电筒。",
+    "after": "这是一支手电筒"
+  },
+  {
+    "file": "strings-ui-items.json",
+    "id": "loc/en/item.001:0000",
+    "before": "这是一根警棍。",
+    "after": "这是一根警棍"
+  },
+  {
+    "file": "strings-ui-items.json",
+    "id": "loc/en/item.002:0000",
+    "before": "这是一把9毫米手枪。",
+    "after": "这是一把9毫米手枪"
+  },
+  {
+    "file": "strings-ui-items.json",
+    "id": "loc/en/item.003:0000",
+    "before": "这是一把霰弹枪。",
+    "after": "这是一把霰弹枪"
+  },
+  {
+    "file": "strings-ui-items.json",
+    "id": "loc/en/item.004:0000",
+    "before": "这是一把电锯。",
+    "after": "这是一把电锯"
+  },
+  {
+    "file": "strings-ui-items.json",
+    "id": "loc/en/item.005:0000",
+    "before": "这是一把机枪。",
+    "after": "这是一把机枪"
+  },
+  {
+    "file": "strings-ui-items.json",
+    "id": "loc/en/item.006:0000",
+    "before": "这是一把.357口径左轮手枪。",
+    "after": "这是一把.357口径左轮手枪"
+  },
+  {
+    "file": "strings-ui-items.json",
+    "id": "loc/en/item.007:0000",
+    "before": "这是一把狙击步枪。",
+    "after": "这是一把狙击步枪"
+  },
+  {
+    "file": "strings-ui-items.json",
+    "id": "loc/en/item.009:0000",
+    "before": "\n这片区域的平面图。\n",
+    "after": "\n这片区域的平面图\n"
+  },
+  {
+    "file": "strings-ui-items.json",
+    "id": "loc/en/item.016:0000",
+    "before": "\n这片区域的平面图。\n",
+    "after": "\n这片区域的平面图\n"
+  },
+  {
+    "file": "strings-ui-items.json",
+    "id": "loc/en/item.036:0000",
+    "before": "金钥匙\n\n在西南楼梯间找到的金钥匙。",
+    "after": "金钥匙\n\n在西南楼梯间找到的金钥匙"
+  },
+  {
+    "file": "strings-ui-items.json",
+    "id": "loc/en/item.037:0000",
+    "before": "银钥匙\n\n在办公室找到的银钥匙。",
+    "after": "银钥匙\n\n在办公室找到的银钥匙"
+  },
+  {
+    "file": "strings-ui-items.json",
+    "id": "loc/en/item.040:0000",
+    "before": "留声机唱片\n\n在椅子上找到的留声机唱片。",
+    "after": "留声机唱片\n\n在椅子上找到的留声机唱片"
+  },
+  {
+    "file": "strings-ui-items.json",
+    "id": "loc/en/item.041:0000",
+    "before": "门把手\n\n在字母谜题盒里找到的门把手。",
+    "after": "门把手\n\n在字母谜题盒里找到的门把手"
+  },
+  {
+    "file": "strings-ui-items.json",
+    "id": "loc/en/item.045:0000",
+    "before": "维修手套\n\n在检查室的壁橱里找到的维修手套。",
+    "after": "维修手套\n\n在检查室的壁橱里找到的维修手套"
+  },
+  {
+    "file": "strings-ui-items.json",
+    "id": "loc/en/open.000:0000",
+    "before": "锁住了。",
+    "after": "锁住了"
+  },
+  {
+    "file": "strings-ui-items.json",
+    "id": "loc/en/open.001:0000",
+    "before": "上面有铁链和挂锁。",
+    "after": "上面有铁链和挂锁"
+  },
+  {
+    "file": "strings-ui-items.json",
+    "id": "loc/en/open.003:0000",
+    "before": "需要\u0002门禁卡\u0001才能开锁。",
+    "after": "需要\u0002门禁卡\u0001才能开锁"
+  },
+  {
+    "file": "strings-ui-items.json",
+    "id": "loc/en/open.005:0000",
+    "before": "铁门锁住了。",
+    "after": "铁门锁住了"
+  },
+  {
+    "file": "strings-ui-items.json",
+    "id": "loc/en/open.006:0000",
+    "before": "这扇门卡住了。",
+    "after": "这扇门卡住了"
+  },
+  {
+    "file": "strings-ui-items.json",
+    "id": "loc/en/UISSFrontend.tbl:0014",
+    "before": "这些设置将在重启游戏后生效。",
+    "after": "这些设置将在重启游戏后生效"
+  },
+  {
+    "file": "strings-ui-items.json",
+    "id": "loc/en/unlock.000:0000",
+    "before": "用\u0002小\u0001\u0002钥匙\u0001打开了这扇门。",
+    "after": "用\u0002小\u0001\u0002钥匙\u0001打开了这扇门"
+  },
+  {
+    "file": "strings-ui-items.json",
+    "id": "loc/en/unlock.001:0000",
+    "before": "用\u0002门禁卡\u0001打开了这扇门。",
+    "after": "用\u0002门禁卡\u0001打开了这扇门"
+  },
+  {
+    "file": "strings-ui-items.json",
+    "id": "loc/en/unlock.003:0000",
+    "before": "用\u0002铁钥匙\u0001打开了铁门。",
+    "after": "用\u0002铁钥匙\u0001打开了铁门"
+  },
+  {
+    "file": "strings-ui-items.json",
+    "id": "loc/en/unlock.004:0000",
+    "before": "戴上手套就行了。",
+    "after": "戴上手套就行了"
+  },
+  {
+    "file": "strings-documents.json",
+    "id": "loc/en/examine.515:0000",
+    "before": "锁住了。\r\n",
+    "after": "锁住了\r\n"
+  },
+  {
+    "file": "strings-documents.json",
+    "id": "loc/en/examine.531:0000",
+    "before": "这是一本钢琴曲谱。\r\n",
+    "after": "这是一本钢琴曲谱\r\n"
+  }
+]

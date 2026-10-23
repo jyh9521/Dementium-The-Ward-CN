@@ -33,3 +33,8 @@
 ## 原生调试菜单译文
 
 `debug-menu.json` 独立保存本作21张表的稳定name指针/原callback/源表SHA与306个唯一标签，以及开/关状态引用。表ID、原始source、关卡ID和callback不是译文；仅修改target。标签最多63 UTF-8 bytes，布尔状态最多15 bytes；字符集合自动并入binfont。不要给普通工具添加中文硬编码，也不要替换全局共享true/false原文。详见 [调试菜单](docs/DEBUG_MENU.md)。
+
+
+## 单句短提示句号与图片证据
+
+[句末规范](docs/PUNCTUATION_STYLE.md)维护显式资源分类和受保护文本SHA。仅无内部标点的单句物品/系统/按键说明去掉最后句号；不能对文档/对白全局替换。原图不清楚时保留原资源，不能用关联文档或清晰同类图补写；[严格图片复审](docs/IMAGE_READABILITY_REVIEW.md)锁住本轮三项撤回资源。

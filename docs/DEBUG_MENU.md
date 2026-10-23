@@ -1,6 +1,6 @@
 # 独立 F1 与简体中文原生调试菜单
 
-日期：2026-10-23。只支持 AppID3909960 / build21501403；原 EXE SHA-256 为 `26186ceb1142e1c84298aa528627531e3821b8068e4e777e3975403a272c530e`。
+日期：2026-10-23。当前手测包已更新为release-candidate，包含短说明句号调整与三项图片撤回；此前debug-menu输出为历史候选。只支持 AppID3909960 / build21501403；原 EXE SHA-256 为 `26186ceb1142e1c84298aa528627531e3821b8068e4e777e3975403a272c530e`。
 
 ## 实现与复用来源
 
@@ -25,17 +25,17 @@
 
 ```powershell
 python -X utf8 -m unittest discover -s tests -q
-python -X utf8 tools/record_locale_verification.py --game "C:/Program Files (x86)/Steam/steamapps/common/Dementium - The Ward" --output build/debug-menu
-python -X utf8 tools/verify_sample.py --output build/debug-menu
-& "C:/Program Files/Git/bin/bash.exe" ./build/debug-menu/ROLLBACK.sh
+python -X utf8 tools/record_locale_verification.py --game "C:/Program Files (x86)/Steam/steamapps/common/Dementium - The Ward" --output build/release-candidate
+python -X utf8 tools/verify_sample.py --output build/release-candidate
+& "C:/Program Files/Git/bin/bash.exe" ./build/release-candidate/ROLLBACK.sh
 python -X utf8 tools/investigate.py check-input --game "C:/Program Files (x86)/Steam/steamapps/common/Dementium - The Ward"
 ```
 
-基线只读校验原件和无修改往返；修改阶段从原件完整重复构建并比较；恢复阶段只写 `build/debug-menu/rollback-sample`。`VERIFICATION.txt` 记录实际命令、输入、字面输出、退出状态与四个产物路径。含完整游戏资源的改件、差分和样本只在忽略目录保留，不提交。
+基线只读校验原件和无修改往返；修改阶段从原件完整重复构建并比较；恢复阶段只写 `build/release-candidate/rollback-sample`。`VERIFICATION.txt` 记录实际命令、输入、字面输出、退出状态与四个产物路径。含完整游戏资源的改件、差分和样本只在忽略目录保留，不提交。
 
 ## 用户手动测试
 
-1. 先运行 `verify_sample.py --output build/debug-menu`。待测目录为仓库 `build/debug-menu/sample`，不再使用旧 `build/full/sample` 检验本次功能。
+1. 先运行 `verify_sample.py --output build/release-candidate`。待测目录为仓库 `build/release-candidate/sample`，不再使用旧 `build/full/sample` 检验本次功能。
 2. 自行备份存档/配置。保持 Steam 运行、选择 English，从该 sample 手动启动 `Dementium.exe`；用 [通用手测说明](MANUAL_TEST.md) 中的进程路径查询确认没有重定向到 Steam 原版。工具没有启动游戏；副本也不是独立存档沙盒。
 3. 不输入秘密序列，进入正常游戏后短按 F1；应打开简体中文原生调试菜单，且无敌等开关应保持原状态。按住 F1 不应反复触发；以 Esc/手柄返回退出，释放后再次 F1 应可进入。F1 是入口，不额外实现菜单内 F1 关闭。
 4. 检查上下选择、左右减/增、Enter/Space 确认、Esc 返回；检查全部根菜单和子菜单、开/关状态、章节/关卡 ID、长名称、字体、分页末行和裁切。先用可逆显示项测试，记录每次状态；关卡跳转/物品/完成任务等操作不要用作正常进度存档。

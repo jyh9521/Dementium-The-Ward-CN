@@ -3,3 +3,11 @@
 *.md text eol=lf
 *.json text eol=lf
 *.sh text eol=lf
+*.cs text eol=lf
+*.csproj text eol=lf
+*.props text eol=lf
+*.xaml text eol=lf
+*.manifest text eol=lf
+installer/licenses/*.txt text eol=lf
+*.png binary
+*.ico binary

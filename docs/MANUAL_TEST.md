@@ -1,5 +1,7 @@
 # 用户手动测试：全量离线候选
 
+> 最新候选：`build/release-candidate/sample`，使用`verify_sample.py --output build/release-candidate`。安装器操作见[INSTALLER.md](INSTALLER.md)。下文build/full和F1阶段build/debug-menu路径属于此前样本；本轮短说明及图片撤回须使用最新候选。
+
 本项目工具没有启动游戏或写Steam安装目录。以下启动、游戏操作和截图均由用户执行；当前只有离线验收。
 
 ## 本次 F1 调试菜单候选

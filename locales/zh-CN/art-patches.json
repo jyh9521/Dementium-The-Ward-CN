@@ -89,14 +89,6 @@
     },
     {
       "scope": "inner",
-      "resource": "3d/tex/notepad.tex",
-      "source_sha256": "20718a534bf0146f5b9350f050dd89d747d7b5c041368b4a7478f86b54d78400",
-      "patch": "art/notepad.json",
-      "prefix_size": 4,
-      "alpha_policy": "preserve-source"
-    },
-    {
-      "scope": "inner",
       "resource": "3d/tex/alert01.tex",
       "source_sha256": "c0b9a0ab8e86753fba05a5ea17078497cc9e5d5e2d5d8aeb22f3c012f4958d58",
       "patch": "art/alert01.json",
@@ -137,14 +129,6 @@
     },
     {
       "scope": "inner",
-      "resource": "3d/tex/code03.tex",
-      "source_sha256": "e8f4ef497faec927c4c4b2a153c66ef002b052c37e5646762d439c298180b03a",
-      "patch": "art/code03.json",
-      "prefix_size": 4,
-      "alpha_policy": "reviewed-regions"
-    },
-    {
-      "scope": "inner",
       "resource": "3d/tex/sign08.tex",
       "source_sha256": "8e6901260fd03d04675b2ab8b66516d8f39aab516d35b4a33ba4abc5eb42b33f",
       "patch": "art/sign08.json",
@@ -156,14 +140,6 @@
       "resource": "3d/tex/wboard01.tex",
       "source_sha256": "ff51bc53aad5d8d9f8a118baa86fadf79e1124e5eb6c8f2d827c88bc823fe0fc",
       "patch": "art/wboard01.json",
-      "prefix_size": 4,
-      "alpha_policy": "preserve-source"
-    },
-    {
-      "scope": "inner",
-      "resource": "3d/tex/wboard02.tex",
-      "source_sha256": "89dfa9b2832b1cae903118c7916c3f93c2da46beb6cedc6158a99f85ac685c0f",
-      "patch": "art/wboard02.json",
       "prefix_size": 4,
       "alpha_policy": "preserve-source"
     },
@@ -238,6 +214,26 @@
       "patch": "art/vend03.json",
       "prefix_size": 4,
       "alpha_policy": "preserve-source"
+    }
+  ],
+  "preserve_source": [
+    {
+      "scope": "inner",
+      "resource": "3d/tex/notepad.tex",
+      "source_sha256": "20718a534bf0146f5b9350f050dd89d747d7b5c041368b4a7478f86b54d78400",
+      "reason": "原生32×32封面不能独立逐字辨读；旧译取自关联examine文本，不属于图片逐字证据，撤回中文重绘。"
+    },
+    {
+      "scope": "inner",
+      "resource": "3d/tex/code03.tex",
+      "source_sha256": "e8f4ef497faec927c4c4b2a153c66ef002b052c37e5646762d439c298180b03a",
+      "reason": "红色破损笔迹的完整短语不能达到明确可读标准；旧IF YOU DARE!转录不作为已验证事实，撤回中文重绘。"
+    },
+    {
+      "scope": "inner",
+      "resource": "3d/tex/wboard02.tex",
+      "source_sha256": "89dfa9b2832b1cae903118c7916c3f93c2da46beb6cedc6158a99f85ac685c0f",
+      "reason": "血迹遮挡后标签不能独立完整辨读；不再借清晰wboard01推补血迹版标签，整张保留原图。"
     }
   ]
 }

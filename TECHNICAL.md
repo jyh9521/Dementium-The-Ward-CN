@@ -44,3 +44,8 @@
 ## 独立 F1 恢复（离线候选）
 
 原生入口、键码、action归一化和命令表已在本作重新定位；当前源码已增加独立 F1、保留原启用门禁的 L3+Y 与简中标签。具体补丁、身份/容量守卫、重定位、验证边界及手动验收见 [DEBUG_MENU.md](docs/DEBUG_MENU.md)。历史入口调查文档保留当时未启用的结论，不代表当前源码状态。
+
+
+## v1.0 候选收尾
+
+31条已分类短说明只删除末尾句号，受保护文档/对白指纹不变；图片严格复审撤回notepad、wboard02、code03推补式重绘，保留26项可读源美术差分。Material Design 3安装器沿用病房2界面但以本作完整双文件SHA+流式source-relative载荷替换后端，独立副本验证安装/恢复。见[句末规范](docs/PUNCTUATION_STYLE.md)、[图片复审](docs/IMAGE_READABILITY_REVIEW.md)、[安装器](docs/INSTALLER.md)。

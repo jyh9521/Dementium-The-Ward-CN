@@ -35,6 +35,34 @@ class Archive:
 
 
 class BuildArtTests(unittest.TestCase):
+    def test_source_preservation_contract_and_conflict(self):
+        raw=b'preserved original';digest=hashlib.sha256(raw).hexdigest()
+        entry=dict(scope='inner',resource='sample',source_sha256=digest,reason='unreadable')
+        with tempfile.TemporaryDirectory() as folder:
+            path=Path(folder)/'art-patches.json'
+            config=dict(schema=1,patches=[],preserve_source=[entry])
+            path.write_text(json.dumps(config),encoding='utf8')
+            inner,outer,report=build_art(Archive(b''),Archive(raw),path)
+            self.assertEqual((inner,outer),({},{}))
+            self.assertEqual(report['preserved_sources'][0]['source_sha256'],digest)
+            self.assertEqual(report['preserved_sources'][0]['disposition'],'original-resource-byte-identical')
+            config['patches']=[dict(scope='inner',resource='sample',patch='art/sample.json')]
+            path.write_text(json.dumps(config),encoding='utf8')
+            with self.assertRaisesRegex(ValueError,'conflicts'):build_art(Archive(b''),Archive(raw),path)
+            config['patches']=[];entry['source_sha256']='0'*64
+            path.write_text(json.dumps(config),encoding='utf8')
+            with self.assertRaisesRegex(ValueError,'source hash'):build_art(Archive(b''),Archive(raw),path)
+
+    def test_locale_withdrawn_art_cannot_reenter_build(self):
+        folder=Path(__file__).resolve().parents[1]/'locales/zh-CN'
+        config=json.loads((folder/'art-patches.json').read_text(encoding='utf8'))
+        protected={e['resource'] for e in config['preserve_source']}
+        self.assertEqual(protected,{'3d/tex/notepad.tex','3d/tex/code03.tex','3d/tex/wboard02.tex'})
+        self.assertFalse(protected & {e['resource'] for e in config['patches']})
+        self.assertEqual(len(config['patches']),26)
+        for name in ('notepad','code03','wboard02'):
+            self.assertFalse((folder/f'art/{name}.json').exists())
+
     def test_complete_mips_and_padding_alpha_metadata(self):
         raw=fixture();source=EngineImage(raw,4);edited=original_image(source)
         edited.putpixel((1,1),(255,32,18,edited.getpixel((1,1))[3]))

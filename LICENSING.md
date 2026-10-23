@@ -7,3 +7,6 @@
 - 字体使用本机已安装、SHA锁定的Fusion Pixel12px简中字库，TakWolf，版本2026.10.16，SIL OFL1.1；许可全文保留assets/fonts/Fusion-Pixel-OFL.txt。可复现生成所需字形、图片标签与字幕，不提交字体二进制或含原游戏字形的完整字库。
 - build/、dist/、out/、work/为忽略目录，原件副本、完整文本清单与含整TAR的实验差分只能留本地。
 - AGENTS.md与docs/LOCALIZATION_STANDARD.md为本地规范，Git忽略，不提交。
+
+
+安装器界面沿用上述MIT上游，第三方依赖许可见installer/licenses；Windows x64自包含运行时及MaterialDesignThemes固定依赖打包在安装器内。两张branding图片由用户指定提供用于本安装器，未生成或重绘，不扩张其原有权利声明。源码仅跟踪用户指定branding、代码与元数据；dist和源依赖差分载荷仍在忽略目录，不提交整原件/生成游戏资源。

@@ -23,3 +23,11 @@
 - DEBUG_MENU.md：独立F1、原L3+Y启用门禁、离线重建与手动验收
 - DEBUG_MENU_TEXT.md：本作命令表、中文名称/状态、UTF-8容量与原生分页回放
 - DEBUG_MENU_RESEARCH.md：恢复前的原始入口调查与REA证据索引
+
+## 安装器与修正版
+
+- INSTALLER.md：同款Material Design 3安装器、用户图标/顶图、完整身份与恢复
+- PUNCTUATION_STYLE.md / PUNCTUATION_CHANGES.json：31条短说明句末变更与保护清单
+- IMAGE_READABILITY_REVIEW.md：3张证据不足的图片撤回及26张保留美术
+
+- INSTALLER_VERIFICATION.md：本轮228项Python、59项安装器、三种界面预览及真实载荷安装/恢复证据

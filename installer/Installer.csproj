@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType><TargetFramework>net10.0-windows10.0.17763.0</TargetFramework><UseWPF>true</UseWPF>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems><EnableDefaultPageItems>false</EnableDefaultPageItems>
+    <AssemblyName>Dementium-The-Ward-zh-CN-Setup</AssemblyName><GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <ApplicationManifest>app.manifest</ApplicationManifest><ApplicationIcon>branding/app.ico</ApplicationIcon>
+    <PublishSingleFile>true</PublishSingleFile><SelfContained>true</SelfContained><RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract><EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    <DebugType>none</DebugType><RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    <NuGetLockFilePath>Installer.lock.json</NuGetLockFilePath>
+    <OutputPath>../build/installer/bin/</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="5.3.2" />
+    <Compile Include="InstallerEngine.cs;SteamLocator.cs;MaterialWindow.xaml.cs;AssemblyInfo.cs;Platform.cs" />
+    <Page Include="MaterialWindow.xaml" />
+    <Resource Include="branding/logo.png;branding/app.ico" />
+    <EmbeddedResource Include="../build/installer/payload.manifest.json" LogicalName="payload.manifest.json" />
+    <EmbeddedResource Include="../build/installer/rom.delta.gz" LogicalName="rom.delta.gz" />
+    <EmbeddedResource Include="../build/installer/exe.delta.gz" LogicalName="exe.delta.gz" />
+    <EmbeddedResource Include="licenses/*.txt" />
+  </ItemGroup>
+</Project>

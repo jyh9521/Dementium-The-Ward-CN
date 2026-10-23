@@ -51,3 +51,8 @@ u64数量602；每记录 `<IIQ>`：size、flags、name_offset。名称池始于 
 |EXE/DLL|6个PE均Machine0x8664；节表与哈希已保存|文字调用链、原生补丁位置|
 
 不要复制《病房2》的JSON字库结构、NFTR路径或EXE地址作为本作事实。
+
+
+## 安装器source-copy/add差分（已验证）
+
+本作安装器使用gzip包裹LOCDLT1\0二进制流，COPY从完整SHA锁定原件读偏移/长度，ADD携带修改字节，END后要求EOF；源/目标大小、SHA及嵌入资源名放在小型JSON清单。没有把含整个CONTENT.TAR的317MB JSON逆向差分直接塞入安装器。命令结构、流式边界和验证见[INSTALLER.md](INSTALLER.md#构建与载荷)，Python生成器与C#应用器独立核对相同目标。

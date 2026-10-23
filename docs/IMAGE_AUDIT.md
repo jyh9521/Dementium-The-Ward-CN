@@ -1,5 +1,7 @@
 # 图片资源离线审计与容器格式
 
+> 2026-10-23严格可读性复审优先：已撤回notepad、wboard02、code03三项重绘；当前23 inner + 3 outer美术差分。下文旧转录与计数保留研究历史，不代表当前可读性确认；详见[IMAGE_READABILITY_REVIEW.md](IMAGE_READABILITY_REVIEW.md)。
+
 ## 证据范围
 
 - 只读读取安装目录原版 `rom.zar`，解码319个 `.PNG` 名称成员；这些不是标准PNG文件。

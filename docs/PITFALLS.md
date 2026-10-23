@@ -53,3 +53,12 @@ F8E50 原raw48 keydown路径还会置3FC416直接请求位。只加F1到原键�
 ## 重复构建门禁：保留失败与摘要诊断
 
 开发期间首次整包重复构建被 `Nondeterministic build` 门禁拒绝，未进入样本交付阶段；当时异常未记录两次输出摘要，因此不把具体成因列为已证实。该次命令/错误保留于本地 `build/debug-menu-research/first-build-failure.json`。冻结本轮源码后完整重跑，两个归档及两个EXE逐字节一致，基线/修改/隔离恢复全部退出0。异常现补充两次归档与EXE的SHA，避免未来再次只留下无定位信息的错误。最终证据见 `DEBUG_MENU_VERIFICATION.md`；失败输出不作为待测样本。
+
+
+## 图片可读性：关联文字不能替代源像素
+
+旧notepad重绘借用了关联examine原文，wboard02借用清晰白板，code03把不清晰的红色笔迹补成确定短语。严格复审后撤回这三项，构建以原资源SHA锁定并拒绝重新覆盖。源字不清楚就保留，不能把关联文档或同型材质当作该图已验证文字；具体旧转录/处置保留于IMAGE_READABILITY_REVIEW.md和Git历史。
+
+## 安装器载荷：不要直接加载整包JSON逆向差分
+
+本地DIFF_FILE.json可能约317MB并携带整个追加TAR；病房2旧Payload.Read有64MiB JSON上限，直接移植既不适合体积也缺少源片段复用。本作新载荷采用gzip copy/add二进制流、边界/EOF/全SHA检查，保留UI设计而不照搬后端格式。两个文件所有临时结果验证后才提交，提交异常须恢复两者，不能只测成功路径。
