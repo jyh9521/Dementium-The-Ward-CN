@@ -63,3 +63,7 @@
 - 原生C72B0三个同尺寸指令将nameX0/valueX64改为16/112，坐标常量放只读.locdbg池；不改输入/枚举/Win64 unwind。21表650行双基址回放最小间距从-14变18。
 - 字面量译文加入字体收集，新字“高”必须实际入字库；纯UTF8_RUNTIME必须保存在字面量前。字幕层接受并严格反向验证非空字面量配方，防止组合误报基线不符。
 - `tools/verify_ui_feedback.py --game <original> --build build/ui-feedback-release`对最终产物逆向剥离电影/debug后实际执行场内字幕；报告绑定完整最终EXE SHA，不以合成fixture代替交付核对。
+
+## 纵轴图例对齐（已验证）
+
+四张YAXIS贴图与动态状态来自不同绘制路径：原caller双基址回放给出贴图(-68,0)、状态(125,220)；binfont状态墨迹Y223..234。标签补冒号并移至同墨迹范围，原按键图标逐像素下移1px，图标/标签中心Y228.5一致，前后间距6/4px。通用纹理工具新增受区域/尺寸/像素守卫的relocations，未改EXE或输入。详见docs/YAXIS_LAYOUT.md。

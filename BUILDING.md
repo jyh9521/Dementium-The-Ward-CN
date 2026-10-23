@@ -1,3 +1,5 @@
+> 当前纵轴布局测试输出：build/yaxis-alignment。本轮暂不运行build_installer.py；现有dist安装器保持原SHA。构建/回放命令见docs/YAXIS_LAYOUT.md，待用户确认后再打包。
+
 # 全量离线构建与隔离恢复
 
 ## 可复现输入

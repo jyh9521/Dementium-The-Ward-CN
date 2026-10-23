@@ -240,7 +240,7 @@ def modified(game,out,locale,include_images=True):
         shutil.copyfile(source,sample/name)
         if filehash(source)!=filehash(sample/name):raise ValueError('Sample identity mismatch')
     if manifest(game)!=identity['files']:raise ValueError('Original installation changed')
-    report=dict(schema=1,locale=locale,field='loc/en/*; other-locale encoding; BMP font; decoder RVA 0xEA700; audio HUD RVA 0xBFF10 mixer/delay/gain + modal exclusion + cue-ID dedup; display classic/high-resolution fixed literals; debug nameX16/valueX112; reviewed images; original IVF/DAT/OGG preserved; decoded-frame movie captions/annotations/titles RVA 0xBDBCA'+('; independent F1 raw48/action18; native enabled L3+Y; localized debug menu' if result['debug_recipe'] else ''),
+    report=dict(schema=1,locale=locale,field='loc/en/*; other-locale encoding; BMP font; decoder RVA 0xEA700; audio HUD RVA 0xBFF10 mixer/delay/gain + modal exclusion + cue-ID dedup; display classic/high-resolution fixed literals; debug nameX16/valueX112; Y-axis legend colon/icon spacing/baseline; reviewed images; original IVF/DAT/OGG preserved; decoded-frame movie captions/annotations/titles RVA 0xBDBCA'+('; independent F1 raw48/action18; native enabled L3+Y; localized debug menu' if result['debug_recipe'] else ''),
         source_text_records=len(result['rows']),translated=sum(r['status']=='translated' for r in result['rows']),
         preserved=sum(r['status']!='translated' for r in result['rows']),added_glyphs=len(result['font_report']['added_glyphs']),
         ui_procedural=result['images'].get('image_count',0),ui_art=result['images'].get('art',{}).get('outer_count',0),

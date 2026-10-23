@@ -86,6 +86,28 @@ def render_recipe(original, recipe, font_loader):
             raise ValueError('Unknown ink selection')
         else:
             result.paste(tuple(color), box)
+    # Relocate existing artwork without resampling/redrawing it. Both rectangles
+    # remain explicit editable areas; copied pixels always come from the input.
+    relocated = Image.new('L', original.size)
+    touched = Image.new('L', original.size)
+    moves = []
+    for move in recipe.get('relocations', []):
+        source = checked_box(move['source_box'], original.size)
+        destination = checked_box(move['destination_box'], original.size)
+        if (source[2]-source[0], source[3]-source[1]) != (destination[2]-destination[0], destination[3]-destination[1]):
+            raise ValueError('Relocation must preserve dimensions')
+        for box in (source, destination):
+            if allowed.crop(box).getextrema() != (255,255) or protected.crop(box).getbbox():
+                raise ValueError('Relocation outside allowed regions or inside protected regions')
+            if touched.crop(box).getbbox():
+                raise ValueError('Overlapping artwork relocations')
+        # The source and destination of one move may overlap (e.g. a 1px shift).
+        for box in (source, destination):
+            ImageDraw.Draw(touched).rectangle((box[0],box[1],box[2]-1,box[3]-1),fill=255)
+        result.paste((0,0,0,0), source)
+        result.paste(original.crop(source), destination)
+        ImageDraw.Draw(relocated).rectangle((destination[0],destination[1],destination[2]-1,destination[3]-1),fill=255)
+        moves.append(dict(source_box=list(source),destination_box=list(destination),pixels_preserved=True))
     ink_areas = Image.new('L', original.size)
     layouts = []
     for label in recipe['labels']:
@@ -102,6 +124,8 @@ def render_recipe(original, recipe, font_loader):
         covered = protected.crop(area)
         if any(a and b for a,b in zip(covered.get_flattened_data(), ink.get_flattened_data())):
             raise ValueError('Translated label overlaps protected input symbol')
+        if any(a and b for a,b in zip(relocated.crop(area).get_flattened_data(), ink.get_flattened_data())):
+            raise ValueError('Translated label overlaps relocated input symbol')
         if any(a and b for a,b in zip(ink_areas.crop(area).get_flattened_data(), ink.get_flattened_data())):
             raise ValueError('Translated labels overlap')
         color = tuple(label.get('color', [255,255,255,255]))
@@ -121,6 +145,9 @@ def render_recipe(original, recipe, font_loader):
     # only after explicitly rejecting any overlap by new text above.
     for box in recipe.get('protected_regions', []):
         result.paste(original.crop(box), (box[0],box[1]))
+    for move in moves:
+        if result.crop(move['destination_box']).tobytes() != original.crop(move['source_box']).tobytes():
+            raise ValueError('Relocated input symbol pixels changed')
     before = original.get_flattened_data()
     after = result.get_flattened_data()
     changed = 0
@@ -132,7 +159,8 @@ def render_recipe(original, recipe, font_loader):
     if not changed:
         raise ValueError('Image recipe made no change')
     return result,dict(changed_pixels=changed,outside_regions_unchanged=True,
-                       protected_regions_unchanged=True,dimensions_unchanged=True,labels=layouts)
+                       protected_regions_unchanged=True,dimensions_unchanged=True,labels=layouts,
+                       relocations=moves)
 
 
 def build_images(zar, config, fontpath):
