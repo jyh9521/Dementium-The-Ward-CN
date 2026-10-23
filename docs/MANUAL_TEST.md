@@ -1,21 +1,29 @@
 # 用户手动测试：全量离线候选
 
-> 最新候选：`build/release-candidate/sample`，使用`verify_sample.py --output build/release-candidate`。安装器操作见[INSTALLER.md](INSTALLER.md)。下文build/full和F1阶段build/debug-menu路径属于此前样本；本轮短说明及图片撤回须使用最新候选。
+> v1.1 原视频覆盖层候选：`build/release-candidate/sample`，使用`verify_sample.py --output build/release-candidate`。安装器操作见[INSTALLER.md](INSTALLER.md)。全文使用最新候选；历史build/full及build/debug-menu不用于本轮验收。
 
 本项目工具没有启动游戏或写Steam安装目录。以下启动、游戏操作和截图均由用户执行；当前只有离线验收。
 
-## 本次 F1 调试菜单候选
+## 本轮优先验收
 
-请优先按 [F1专用验收步骤](DEBUG_MENU.md#用户手动测试) 使用 `build/debug-menu/sample`，运行 `verify_sample.py --output build/debug-menu`。下文 `build/full` 为此前全量候选，未包含本次独立入口。
+1. 建议先对最新 `build/release-candidate/sample` 测试，不必先改 Steam 安装目录；新版安装器也可对另建的原版完整副本测试安装/恢复。
+2. 若实际目录已装旧 v1.0，请先用旧安装器检查资源→恢复原版，再用 v1.1 安装。不要直接覆盖旧版两文件或删除 `cn-backup`。保留的旧安装器为 `build/movie-overlay-release/previous-setup.exe`。
+3. 电影内容顺序优先：INTRO/AMANDA01内嵌章名→独立章节卡→NEWSCAST上下同时字幕→GENERATOR对白→门牌顶部译注。检查英文标题不残留、红饰未遮挡、渐隐正确、剧情开始后遮罩消失。
+4. 对电影执行跳过/重播、连续切片、暂停/恢复（游戏该路径支持时）；检查前片字幕没有黏在下一片，声音/画面时轴没有累计漂移。
+5. 测试16:9与窗口/全屏及可用的其他画幅；中文应跟随电影缩放，而非固定桌面像素。
+6. 然后回归原场内广播/首领字幕、F1菜单及秘密序列启用后的L3+Y，步骤见[调试菜单](DEBUG_MENU.md#用户手动测试)。统一使用最新样本，不使用历史调试样本。
+7. 最后退出游戏，在副本上恢复原版并重新检查资源；保留存档、设置和未知用户文件。
+
+实际GPU显示、帧时、声音同步以及实体手柄仍由用户验收。离线生成的PNG是覆盖层参考，不是本轮游戏截图。
 
 ## 1. 核对新副本
 
-副本路径：C:\Users\noway\Downloads\Dementium-The-Ward-CN\build\full\sample
+副本路径：C:\Users\noway\Downloads\Dementium-The-Ward-CN\build\release-candidate\sample
 
 ```powershell
 $root = "C:/Users/noway/Downloads/Dementium-The-Ward-CN"
-python -X utf8 "$root/tools/verify_sample.py"
-Get-Content -LiteralPath "$root/build/full/VERIFICATION.txt"
+python -X utf8 "$root/tools/verify_sample.py" --output "$root/build/release-candidate"
+Get-Content -LiteralPath "$root/build/release-candidate/VERIFICATION.txt"
 ```
 
 预期SAMPLE PASS files=9 mode=localized hashes=exact game-launched=false。原版仅支持AppID3909960/build21501403。当前EXE和rom.zar都经过修改，不再使用旧phase2的原EXE哈希；准确身份见build-report.json。
@@ -30,7 +38,7 @@ Get-Content -LiteralPath "$root/build/full/VERIFICATION.txt"
 Get-CimInstance Win32_Process -Filter "name='Dementium.exe'" | Select-Object ExecutablePath,CommandLine
 ```
 
-实际路径应在build/full/sample。若出现要求Steam启动、重定向、报错或崩溃，记录提示、进程路径与日志后结束本轮；不向Steam安装目录复制改件。
+实际路径应在build/release-candidate/sample。若出现要求Steam启动、重定向、报错或崩溃，记录提示、进程路径与日志后结束本轮；不向Steam安装目录复制改件。
 
 ## 3. 手动验收清单
 
@@ -49,10 +57,10 @@ Get-CimInstance Win32_Process -Filter "name='Dementium.exe'" | Select-Object Exe
 先退出副本。以下只恢复额外副本，再由用户选择覆盖sample两文件：
 
 ```powershell
-& "C:/Program Files/Git/bin/bash.exe" "$root/ROLLBACK_LOCALE.sh"
-Copy-Item -LiteralPath "$root/build/full/rollback-sample/rom.zar" -Destination "$root/build/full/sample/rom.zar"
-Copy-Item -LiteralPath "$root/build/full/rollback-sample/Dementium.exe" -Destination "$root/build/full/sample/Dementium.exe"
-python -X utf8 "$root/tools/verify_sample.py" --restored
+& "C:/Program Files/Git/bin/bash.exe" "$root/ROLLBACK_LOCALE.sh" "$root/build/release-candidate"
+Copy-Item -LiteralPath "$root/build/release-candidate/rollback-sample/rom.zar" -Destination "$root/build/release-candidate/sample/rom.zar"
+Copy-Item -LiteralPath "$root/build/release-candidate/rollback-sample/Dementium.exe" -Destination "$root/build/release-candidate/sample/Dementium.exe"
+python -X utf8 "$root/tools/verify_sample.py" --output "$root/build/release-candidate" --restored
 ```
 
 预期SAMPLE PASS files=9 mode=original hashes=exact game-launched=false。恢复原归档SHA9a9ceffb4bbf5fd9a22d5b9d0b87b963ab3abf1bf4afa7e49c5bdf44875fd42c、原EXE SHA26186ceb1142e1c84298aa528627531e3821b8068e4e777e3975403a272c530e。

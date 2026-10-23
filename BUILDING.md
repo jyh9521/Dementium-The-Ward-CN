@@ -5,7 +5,7 @@
 - 原版Steam AppID3909960/build21501403，9文件身份在assets/original-identity.json。未知版本拒绝，不自动重写受支持身份。
 - Python3.11+与requirements.txt固定版本；实际本机Python3.14.2。
 - Fusion Pixel12px简中，SHA与发现规则见locales/zh-CN/font-full-profile.json和docs/FONT_SOURCE.md；许可assets/fonts/Fusion-Pixel-OFL.txt。不下载或安装字体。
-- ffmpeg/ffprobe9.0.2（libvpx-vp9），实际工具身份会写入媒体报告。媒体构建为单线程、bitexact、lossless VP9；不改原OGG/FLAC音轨。
+- ffmpeg/ffprobe9.0.2，工具身份写入媒体报告。当前仅离线解码原视频以生成稀疏覆盖层，不调用视频编码；全部原IVF/DAT/OGG及FLAC音轨保持原字节。
 - 语音识别及美术编辑只在研究阶段使用；已审校locale数据与源依赖差分足够重建，不需要缓存模型或生成服务。
 
 ## 仓库根目录命令
@@ -28,12 +28,12 @@ python -X utf8 tools/investigate.py check-input --game "$game"
 2. 校验278记录原身份、ID、控制码，收集正文及媒体字幕字形，生成保留原180glyph的BMP字体。
 3. 中文按已验证宽度/高度自动折行；四语原文只做Latin1字节映射到UTF-8，1112记录逻辑不变，所有HUD字段仍守255byte。
 4. 构建49张程序化UI图、3张界面美术差分、23张场景纹理差分及完整mipmap，保护区域外像素、按键、UV、血迹。
-5. 18个影片文件的章名逐帧改写（16段独立章名、2段内嵌章名），573帧后续剧情原样保留，保持源fade/红装饰；电影对白及新闻/门牌画面词译注重编码，独立ffprobe更新DAT关键帧/偏移/尺寸。原音轨不变，VP9帧率/帧数/PTS保持；YUV区域外字节校验。
+5. 全部102个电影成员保持原样；离线解码24个需汉化片段生成对白、顶部译注及章节标题的稀疏RGB覆盖层，保持标题fade/红装饰及后续剧情。原生BDBCA上传前复制BGRA并叠层，按实际打开DAT和选定帧PTS定位，不重编码或更新DAT。详见docs/MOVIE_OVERLAY.md。
 6. 仅副本EXE增加受完整SHA/邻域守卫的UTF-8 decoder和PCM采样时钟字幕overlay，保持ASLR/Win64 unwind；本作真实指令离线回放，不运行游戏进程。
 7. 重复完整构建比较；差分正反向验证；准备sample后复核原9文件身份。
-8. 恢复只写rollback-sample的两文件，不覆盖modified及sample。逆序移除overlay、固定字面量层、UTF-8补丁，归档恢复原SHA。
+8. 恢复只写rollback-sample的两文件，不覆盖modified及sample。逆序移除电影覆盖、debug、场内字幕、固定字面量层、UTF-8补丁，归档恢复原SHA。
 
-默认输出build/full/。MODIFIED_FILE.zar、MODIFIED_EXECUTABLE.exe为待测改件；DIFF_FILE.json包含本地可逆差分，可能携带整个变更TAR/媒体，禁止提交。VERIFICATION.txt/verification.json记录实际命令、输入、字面输出与退出码；ROLLBACK.sh是可执行恢复包装器。native-replay.json、preserved-locales-replay.json、audio-replay.json、images.json记录分层证据。
+建议显式使用--output build/release-candidate；未指定时工具默认build/full/只为历史兼容。MODIFIED_FILE.zar、MODIFIED_EXECUTABLE.exe为待测改件；DIFF_FILE.json包含本地可逆差分，可能携带整个变更TAR/媒体，禁止提交。VERIFICATION.txt/verification.json记录实际命令、输入、字面输出与退出码；ROLLBACK.sh是可执行恢复包装器。native-replay.json、preserved-locales-replay.json、audio-replay.json、images.json记录分层证据。
 
 输出树必须位于仓库build/，并拒绝symlink、reparse与多硬链接普通文件。原版目录不是写入目标。用户实际测试后产生的未知文件不会被构建工具擅自删除；先自行归档日志再重建。
 

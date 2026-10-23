@@ -9,7 +9,7 @@ Dementium: The Ward，Steam AppID **3909960**，受支持原版 **build21501403 
 - 英语槽位278条表格/文档记录：241条翻译，37条制作人员姓名/公司保留。
 - 独立验证本作UTF-8/BMP解码、binfont双zlib/重定位、字体生成、ZAR/TAR双索引与恢复；不是移植病房2旧偏移。
 - 52张界面图片及23张场景纹理本地化；保护键帽、楼层ID、密码、血迹与UV布局。
-- 16段独立章名及2段过场内嵌章名逐帧本地化；电影中文字幕、新闻及门牌画面词译注，以及按实际音频采样位置触发的场内语音字幕。
+- 保留全部原视频/索引/音轨；运行时稀疏覆盖保留16段独立章名、2段内嵌章名、电影中文字幕及新闻/门牌画面译注；场内字幕仍按PCM采样位置触发。
 - 独立 F1 原生调试菜单入口，保留原秘密序列启用的 L3+Y；根菜单和全部子菜单名称、布尔状态简体中文。
 - 原版其他四语仅转为UTF-8以适配全局解码器，逻辑原文不变、不计作中文译文。
 - 原件、完整归档、EXE、字体与媒体输出只在忽略目录；不写Steam目录，不自动启动游戏。
@@ -31,7 +31,7 @@ python -X utf8 tools/verify_sample.py --output build/release-candidate
 
 ## 安装器
 
-`dist/Dementium-The-Ward-zh-CN-Setup.exe`：病房2同款Material Design 3界面，采用用户提供图标与顶图；自动检测/选择rom.zar、检查资源、安装汉化、恢复原版。仅支持受支持原版或本版已安装文件的完整身份；存档/设置不变，不启动游戏。[使用与重建](docs/INSTALLER.md)。
+`dist/Dementium-The-Ward-zh-CN-Setup.exe`（v1.1）：病房2同款Material Design 3界面，采用用户提供图标与顶图；自动检测/选择rom.zar、检查资源、安装汉化、恢复原版。仅支持受支持原版或本版已安装文件的完整身份；存档/设置不变，不启动游戏。[使用与重建](docs/INSTALLER.md)。
 
 本轮31条短说明去掉末尾句号；真正文档/信件/对白不变。确认旧版3张重绘证据不足，已撤回并原样保留，见[图片复审](docs/IMAGE_READABILITY_REVIEW.md)。
 
@@ -40,6 +40,6 @@ python -X utf8 tools/verify_sample.py --output build/release-candidate
 - [构建与恢复](BUILDING.md) · [手动测试](docs/MANUAL_TEST.md) · [已知边界](docs/KNOWN_ISSUES.md)
 - [UTF-8解码](docs/UTF8_RUNTIME.md) · [binfont](docs/BINFONT_FORMAT.md) · [场内字幕](docs/AUDIO_SUBTITLES.md)
 - [界面图片](docs/IMAGE_AUDIT.md) · [场景纹理](docs/INNER_TEXTURE_AUDIT.md) · [小字审计](docs/SMALL_PRINT_AUDIT.md)
-- [电影格式](docs/MOVIE_FORMAT.md) · [对白审计](docs/MOVIE_AUDIO_AUDIT.md) · [画面审计](docs/MOVIE_VISUAL_AUDIT.md) · [章名重建](docs/MOVIE_TITLE_REBUILD.md)
+- [原视频覆盖层](docs/MOVIE_OVERLAY.md) · [电影格式](docs/MOVIE_FORMAT.md) · [对白审计](docs/MOVIE_AUDIO_AUDIT.md) · [画面审计](docs/MOVIE_VISUAL_AUDIT.md) · [章名重建](docs/MOVIE_TITLE_REBUILD.md)
 - [F1调试菜单与手动验收](docs/DEBUG_MENU.md) · [文本层](docs/DEBUG_MENU_TEXT.md) · [历史入口调查](docs/DEBUG_MENU_RESEARCH.md)
 - [术语](GLOSSARY.md) · [上游与许可](NOTICE.md) · [许可边界](LICENSING.md) · [历史调查](TECHNICAL.md)

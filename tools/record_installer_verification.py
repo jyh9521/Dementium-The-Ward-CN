@@ -38,7 +38,7 @@ def main():
     result=subprocess.run(command,cwd=ROOT,capture_output=True,text=True,encoding='utf-8')
     if result.returncode:raise RuntimeError(result.stderr)
     artifacts={name:str(work/name) for name in ('MODIFIED_FILE.exe','DIFF_FILE.json','VERIFICATION.txt','ROLLBACK.sh')}
-    field='31 terminal full stops removed; documents/dialogue preserved; 3 unsupported image redraws withdrawn; F1/L3+Y retained; Material Design 3 installer with supplied icon/logo'
+    field='102 original movie members preserved; decoded-frame dialogue/onscreen/title layers at RVA BDBCA; text/image corrections and F1/L3+Y retained; unchanged Material Design 3 installer UI'
     lines=['FIELD: '+field]
     lines.extend(k+': '+v for k,v in artifacts.items())
     for step in full['steps']:

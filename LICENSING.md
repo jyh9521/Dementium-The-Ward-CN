@@ -10,3 +10,5 @@
 
 
 安装器界面沿用上述MIT上游，第三方依赖许可见installer/licenses；Windows x64自包含运行时及MaterialDesignThemes固定依赖打包在安装器内。两张branding图片由用户指定提供用于本安装器，未生成或重绘，不扩张其原有权利声明。源码仅跟踪用户指定branding、代码与元数据；dist和源依赖差分载荷仍在忽略目录，不提交整原件/生成游戏资源。
+
+v1.1的稀疏电影中文字形沿用同一Fusion Pixel源字库；其完整OFL许可也嵌入安装器的installer/licenses/Fusion-Pixel-OFL.txt，与assets/fonts中的原许可一致。覆盖数据和改后EXE仅留build/dist，不跟踪完整原电影或完整原游戏程序。

@@ -5,7 +5,7 @@
 - 主数据为`locales/zh-CN/strings-ui-items.json`与`strings-documents.json`，合计278条。稳定ID采用TAR资源路径与物理行号；241条中文译文、37条姓名/公司按清单保留。术语参考`GLOSSARY.md`及注明commit的《病房2》资料，不凭同系列关系猜测技术结构。
 - 维护source、资源SHA、ID、原始换行及控制标记；修改target时保留占位符、颜色标记、谜题字母/数字、资源路径和机器令牌。构建拒绝未知ID、源身份漂移、缺字、超宽与编码错误。
 - 译文保存为Unicode；运行时用经本作原生代码离线回放验证的UTF-8/BMP解码及扩展binfont。不再使用POC单字节空槽。自动折行是构建步骤，逻辑段落不改；字库来自全部正文、画面译注与音频字幕的字符集合。
-- 图片标签、影片章名、画面词译注、对白与场内音频字幕分别维护于image-text/movie-titles/movie-onscreen-text/movie-subtitles/audio-subtitles；美术源依赖差分在art/。修改时一并更新对应视觉/音频审计，不猜补无法可靠完整辨读的小字。
+- 原视频不重编码；movie-titles/movie-onscreen-text/movie-subtitles生成运行时解码帧覆盖，修改后重建EXE和覆盖报告，不手改视频。图片标签、影片章名、画面词译注、对白与场内音频字幕分别维护于image-text/movie-titles/movie-onscreen-text/movie-subtitles/audio-subtitles；美术源依赖差分在art/。修改时一并更新对应视觉/音频审计，不猜补无法可靠完整辨读的小字。
 - 语音转写状态区分交叉转写共识与高置信推断；离线听辨/识别不等于玩家实际听校。所有字幕时间轴仍待游戏内核验。
 - 其他四种原语言仅无损转为UTF-8以保持全局解码合同，原逻辑文字不翻译，也不算中文覆盖率。
 - 每次数据变更运行完整合成测试及`tools/record_locale_verification.py`；重新生成本地sample，检查重复构建、未改成员、控制码、字体、原生回放及独立回滚。提交源码/译文/元数据，不提交整游戏资产或含整TAR的差分。

@@ -75,7 +75,7 @@ def assemble(game,locale,include_images=True,media_output=None):
     changes.update(preserved)
     changes[p['font']]=font
     hud=validate_hud_capacity([dict(row,target=runtime[row['id']]) for row in rows])
-    outer={};image_report={}
+    outer={};image_report={};movie_frames=[]
     if include_images:
         from build_image_text import build_images
         from font_source import resolve_fonts
@@ -88,10 +88,9 @@ def assemble(game,locale,include_images=True,media_output=None):
             if changes.keys()&art_inner.keys() or outer.keys()&art_outer.keys():raise ValueError('Overlapping resource edits')
             changes.update(art_inner);outer.update(art_outer);image_report['art']=art_report
         if media_output is not None:
-            from build_movie_subtitles import build_movies
-            movies,movie_report=build_movies(z,d/'movie-subtitles.json',source,media_output)
-            if outer.keys()&movies.keys():raise ValueError('Overlapping movie edits')
-            outer.update(movies);image_report['movies']=movie_report
+            from movie_layers import compile_layers
+            movie_frames,movie_report=compile_layers(z,d/'movie-subtitles.json',source,media_output)
+            image_report['movies']=movie_report
     new_content=c.rebuild(changes)
     outer[p['content']]=new_content
     archive=z.rebuild(outer)
@@ -108,12 +107,17 @@ def assemble(game,locale,include_images=True,media_output=None):
     if debug_catalog is not None:
         from debug_menu import build_debug_menu
         exe,debug_recipe=build_debug_menu(exe,(game/p['executable']).read_bytes(),debug_catalog)
+    movie_recipe=None
+    if movie_frames:
+        from movie_overlay import build_movie_overlay
+        exe,movie_recipe=build_movie_overlay(exe,(game/p['executable']).read_bytes(),movie_frames,
+                                            expected_input_sha256=digest(exe))
     return dict(profile=p,identity=i,rows=rows,original_zar=z,original_content=c,
         archive=archive,executable=exe,utf8_executable=utf8_executable,font=font,font_report=font_report,
         runtime=runtime,layout=layout,hud=hud,images=image_report,
         preserved_records=preserved_records,preserved_runtime=preserved_runtime,preserved_report=preserved_report,
         inner_changes=changes,outer_changes=outer,runtime_recipe=runtime_recipe,literal_recipe=literal_recipe,
-        overlay_recipe=overlay_recipe,debug_recipe=debug_recipe)
+        overlay_recipe=overlay_recipe,debug_recipe=debug_recipe,movie_recipe=movie_recipe,movie_frames=movie_frames)
 
 
 def verify_resources(result):
@@ -126,6 +130,9 @@ def verify_resources(result):
     for name in z.entries:
         if name!='~INDEX' and after_z.read(name)!=result['outer_changes'].get(name,z.read(name)):
             raise ValueError('Unexpected outer change: '+name)
+    movies=[name for name in z.entries if name.startswith('MOVIES/')]
+    if any(after_z.read(name)!=z.read(name) for name in movies):
+        raise ValueError('Original movie media changed')
     # Source identifiers/line counts survive the UTF-8 serialization; offsets may grow.
     reread=extract(after,p['source_locale'],'utf-8')
     if {r['id']:r['source'] for r in reread}!=result['runtime']:raise ValueError('UTF-8 re-extraction mismatch')
@@ -137,7 +144,8 @@ def verify_resources(result):
                 changed_outer=[n for n in z.entries if z.read(n)!=after_z.read(n)],
                 member_order_preserved=True,dual_index_consistent=True,
                 utf8_reextraction_records=len(result['rows']),
-                preserved_locale_records=len(result['preserved_records']))
+                preserved_locale_records=len(result['preserved_records']),
+                original_movie_members_preserved=len(movies))
 
 
 def modified(game,out,locale,include_images=True):
@@ -150,6 +158,9 @@ def modified(game,out,locale,include_images=True):
     if apply_delta(original,delta)!=result['archive'] or apply_delta(result['archive'],delta,True)!=original:
         raise ValueError('Archive delta inverse failed')
     exe_restore=result['executable']
+    if result['movie_recipe']:
+        from movie_overlay import rollback_movie_overlay
+        exe_restore=rollback_movie_overlay(exe_restore,result['movie_recipe'])
     if result['debug_recipe']:
         from debug_menu import rollback_debug
         exe_restore=rollback_debug(exe_restore,result['debug_recipe'])
@@ -167,7 +178,7 @@ def modified(game,out,locale,include_images=True):
     (out/'UTF8_RUNTIME.exe').write_bytes(result['utf8_executable'])
     (out/'full.binfont').write_bytes(result['font'])
     write_json(out/'DIFF_FILE.json',dict(schema=1,archive=delta,
-        runtime=result['runtime_recipe'],literals=result['literal_recipe'],audio_overlay=result['overlay_recipe'],debug_menu=result['debug_recipe']))
+        runtime=result['runtime_recipe'],literals=result['literal_recipe'],audio_overlay=result['overlay_recipe'],debug_menu=result['debug_recipe'],movie_overlay=result['movie_recipe']))
     for key in ('font_report','layout','hud','images','runtime'):
         write_json(out/(key.replace('_','-')+'.json'),result[key])
     from verify_locale_runtime import verify_locale_runtime
@@ -185,6 +196,9 @@ def modified(game,out,locale,include_images=True):
         catalog=json.loads((ROOT/'locales'/locale/'audio-subtitles.json').read_text(encoding='utf-8'))
         overlay=result['overlay_recipe']
         overlay_exe=result['executable']
+        if result['movie_recipe']:
+            from movie_overlay import rollback_movie_overlay
+            overlay_exe=rollback_movie_overlay(overlay_exe,result['movie_recipe'])
         if result['debug_recipe']:
             from debug_menu import rollback_debug
             overlay_exe=rollback_debug(overlay_exe,result['debug_recipe'])
@@ -203,10 +217,17 @@ def modified(game,out,locale,include_images=True):
     if result['debug_recipe']:
         from replay_debug_menu import verify_debug
         from debug_menu_text import load_catalog, verify_text, replay_debug_menu_text
-        write_json(out/'debug-replay.json',verify_debug((game/p['executable']).read_bytes(),result['executable'],result['debug_recipe']))
+        debug_exe=result['executable']
+        if result['movie_recipe']:
+            from movie_overlay import rollback_movie_overlay
+            debug_exe=rollback_movie_overlay(debug_exe,result['movie_recipe'])
+        write_json(out/'debug-replay.json',verify_debug((game/p['executable']).read_bytes(),debug_exe,result['debug_recipe']))
         catalog=load_catalog(ROOT/'locales'/locale/'debug-menu.json')
-        write_json(out/'debug-text.json',verify_text(result['executable'],catalog,result['debug_recipe']['text'],BinFont(result['font'])))
-        write_json(out/'debug-text-replay.json',replay_debug_menu_text(game/p['executable'],result['executable'],catalog,result['debug_recipe']['text'],BinFont(result['font'])))
+        write_json(out/'debug-text.json',verify_text(debug_exe,catalog,result['debug_recipe']['text'],BinFont(result['font'])))
+        write_json(out/'debug-text-replay.json',replay_debug_menu_text(game/p['executable'],debug_exe,catalog,result['debug_recipe']['text'],BinFont(result['font'])))
+    if result['movie_recipe']:
+        from movie_overlay import verify_movie_overlay
+        write_json(out/'movie-replay.json',verify_movie_overlay(game/p['executable'],result['executable'],result['movie_recipe'],result['movie_frames']))
     sample=out/'sample';sample.mkdir(exist_ok=True)
     if any(f.name not in {row['path'] for row in identity['files']} for f in sample.iterdir()):
         raise ValueError('Unexpected sample file')
@@ -216,7 +237,7 @@ def modified(game,out,locale,include_images=True):
         shutil.copyfile(source,sample/name)
         if filehash(source)!=filehash(sample/name):raise ValueError('Sample identity mismatch')
     if manifest(game)!=identity['files']:raise ValueError('Original installation changed')
-    report=dict(schema=1,locale=locale,field='loc/en/*; other-locale encoding; BMP font; decoder RVA 0xEA700; audio HUD RVA 0xBFF10; reviewed images; IVF/DAT'+('; independent F1 raw48/action18; native enabled L3+Y; localized debug menu' if result['debug_recipe'] else ''),
+    report=dict(schema=1,locale=locale,field='loc/en/*; other-locale encoding; BMP font; decoder RVA 0xEA700; audio HUD RVA 0xBFF10; reviewed images; original IVF/DAT/OGG preserved; decoded-frame movie captions/annotations/titles RVA 0xBDBCA'+('; independent F1 raw48/action18; native enabled L3+Y; localized debug menu' if result['debug_recipe'] else ''),
         source_text_records=len(result['rows']),translated=sum(r['status']=='translated' for r in result['rows']),
         preserved=sum(r['status']!='translated' for r in result['rows']),added_glyphs=len(result['font_report']['added_glyphs']),
         ui_procedural=result['images'].get('image_count',0),ui_art=result['images'].get('art',{}).get('outer_count',0),
@@ -238,6 +259,9 @@ def rollback(out):
     recipes=json.loads((out/'DIFF_FILE.json').read_text(encoding='utf-8'))
     restored=apply_delta((out/'MODIFIED_FILE.zar').read_bytes(),recipes['archive'],True)
     exe=(out/'MODIFIED_EXECUTABLE.exe').read_bytes()
+    if recipes.get('movie_overlay'):
+        from movie_overlay import rollback_movie_overlay
+        exe=rollback_movie_overlay(exe,recipes['movie_overlay'])
     if recipes.get('debug_menu'):
         from debug_menu import rollback_debug
         exe=rollback_debug(exe,recipes['debug_menu'])
