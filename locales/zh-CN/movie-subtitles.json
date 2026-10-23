@@ -1,0 +1,1231 @@
+{
+  "schema": 1,
+  "locale": "zh-CN",
+  "source_language": "en",
+  "time_unit": "seconds",
+  "models": {
+    "small": {
+      "model_sha256": "3e305921506d8872816023e4c273e75d2419fb89b24da97b4fe7bce14170d671",
+      "device": "cpu",
+      "compute_type": "int8",
+      "local_files_only": true,
+      "language": "en",
+      "beam_size": 5,
+      "condition_on_previous_text": false,
+      "vad_filter": true,
+      "word_timestamps": true,
+      "model_snapshot": "536b0662742c02347bc0e980a01041f333bce120"
+    },
+    "medium": {
+      "model_sha256": "9b45e1009dcc4ab601eff815b61d80e60ce3fd8c74c1a14f4a282258286b51ae",
+      "device": "cpu",
+      "compute_type": "int8",
+      "local_files_only": true,
+      "language": "en",
+      "beam_size": 5,
+      "condition_on_previous_text": false,
+      "vad_filter": true,
+      "word_timestamps": true,
+      "model_snapshot": "08e178d48790749d25932bbc082711ddcfdfbc4f"
+    },
+    "large": {
+      "model_sha256": "69f74147e3334731bc3a76048724833325d2ec74642fb52620eda87352e3d4f1",
+      "device": "cpu",
+      "compute_type": "int8",
+      "local_files_only": true,
+      "language": "en",
+      "beam_size": 5,
+      "condition_on_previous_text": false,
+      "vad_filter": true,
+      "word_timestamps": true,
+      "model_snapshot": "edaa852ec7e145841d8ffdb056a99866b5f0a478"
+    }
+  },
+  "scope": "34 original movie OGG/IVF/DAT triplets; offline local ASR candidates and subtitle translations; no burned-in subtitles added here",
+  "evidence": "34 source OGG hashes and 19 distinct decoded mono16k PCM hashes. Chapter01-16 PCM identical. No external ASR service.",
+  "pending": [
+    "Human listening and timing review for all translated movie cues; no in-game acceptance",
+    "Reporter Latin spelling Karina/Carina; Redmoor spelling selected from large-v3 and project glossary"
+  ],
+  "movies": [
+    {
+      "resource": "MOVIES/AMANDA01.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "cac345116e65ade7a0b4037697bbf28dc95b3b76850bfb50fa4e9423547014e0",
+      "size": 119922,
+      "ivf_sha256": "4a3c4a00a34199f6f781b75ced2f24a5d4cb9c1ed1da5034a4b30f28118747c2",
+      "dat_sha256": "994a29b483875773f24b4570773a429ae77f1ad41569a73dd625e1646d2a42f2",
+      "duration": 11.298688,
+      "pcm_sha256": "9ca1193cafba5da674620c45faa887fb2cf3d7fbc73756e140a28da34a83ca35",
+      "movie": "AMANDA01",
+      "asr_models": [
+        "small",
+        "medium"
+      ],
+      "segments": [],
+      "classification": "no-intelligible-speech-detected",
+      "status": "two-model-no-speech-detection",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent."
+    },
+    {
+      "resource": "MOVIES/AMANDA02.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "d395f5448a84dc74bfd3e30cd1c451aa44bc07df056efae5ef59df4d2ef5899c",
+      "size": 116951,
+      "ivf_sha256": "144051b884e9697f6f5c7d5e8b62d3cdff264d042f2ff733e45678f10a5fe3f7",
+      "dat_sha256": "0054009e0a98338d1e1929303e19da66516b3ecd5b04f07d78fc9af8d6df54b6",
+      "duration": 11.26525,
+      "pcm_sha256": "57609c727febdd1a5b1221e6c66333d48dd3e8284f38bc865014ddcd146dd232",
+      "movie": "AMANDA02",
+      "asr_models": [
+        "small",
+        "medium"
+      ],
+      "segments": [],
+      "classification": "no-intelligible-speech-detected",
+      "status": "two-model-no-speech-detection",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent."
+    },
+    {
+      "resource": "MOVIES/BT_BOSS.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "7d96d20eb759f2606796f1741a61a0130d26d27e799ccabd0e70e09694489a9d",
+      "size": 114226,
+      "ivf_sha256": "b5021d2b06e9e0609a9710eb5af2f002ce6a7f575cff5ca79ee104eccbe2f6b1",
+      "dat_sha256": "eef82675c612ac05f285f6c9fa941df348c2d9b6e135b6306529cdbb2f5c7f54",
+      "duration": 10.997813,
+      "pcm_sha256": "6434f48372d4f22c47591d78048776c9bd0215bd4423c464d1e38cb76f21151b",
+      "movie": "BT_BOSS",
+      "asr_models": [
+        "small",
+        "medium"
+      ],
+      "segments": [],
+      "classification": "no-intelligible-speech-detected",
+      "status": "two-model-no-speech-detection",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent."
+    },
+    {
+      "resource": "MOVIES/BT_SIGHTING.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "ea0f29188eb1c37ed0e6a21dc80614d6cf879d631acf2e99560648c869017278",
+      "size": 152302,
+      "ivf_sha256": "c0339dc010588a4ad6bf1abdf8b9cc1a93c0f8274cf07f7231282644d9a00927",
+      "dat_sha256": "e42e4d4740dada7ca0ec3e1691d89dd9d97debff3ce78bdd0ca6883bd8233798",
+      "duration": 12.970063,
+      "pcm_sha256": "79f28b83f76581b7a2504ae5c3c2b5fb13448ccbbc71b25a34f8dabd9e6dc08a",
+      "movie": "BT_SIGHTING",
+      "asr_models": [
+        "small",
+        "medium",
+        "large-v3"
+      ],
+      "segments": [
+        {
+          "id": "BT_SIGHTING:000",
+          "start": 0.59,
+          "end": 3.97,
+          "source": "Mr. Redmoor, we meet at last.",
+          "target": "雷德穆尔先生，我们终于见面了。",
+          "status": "translated-asr-consensus",
+          "notes": "large-v3辨为Redmoor，与病房2术语一致；small/medium为Redmore，姓氏拼写采large，待人工听校。"
+        },
+        {
+          "id": "BT_SIGHTING:001",
+          "start": 6.01,
+          "end": 8.43,
+          "source": "It will all be over soon.",
+          "target": "一切很快就会结束。",
+          "status": "translated-asr-consensus",
+          "notes": ""
+        }
+      ],
+      "classification": "speech",
+      "status": "translated-offline-audio-review-pending",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent.",
+      "asr_candidates": {
+        "small": [
+          {
+            "start": 0.59,
+            "end": 3.61,
+            "text": "Mr. Redmore, we meet at last.",
+            "avg_logprob": -0.340411207892678
+          },
+          {
+            "start": 6.41,
+            "end": 8.23,
+            "text": "It will all be over soon.",
+            "avg_logprob": -0.340411207892678
+          }
+        ],
+        "medium": [
+          {
+            "start": 0.59,
+            "end": 3.97,
+            "text": "Mr. Redmore, we meet at last.",
+            "avg_logprob": -0.32045436989177356
+          },
+          {
+            "start": 6.71,
+            "end": 8.43,
+            "text": "It will all be over soon.",
+            "avg_logprob": -0.32045436989177356
+          }
+        ],
+        "large": [
+          {
+            "start": 0.59,
+            "end": 3.41,
+            "text": "Mr. Redmoor, we meet at last.",
+            "avg_logprob": -0.28141804881717847
+          },
+          {
+            "start": 6.01,
+            "end": 8.05,
+            "text": "It will all be over soon.",
+            "avg_logprob": -0.28141804881717847
+          }
+        ]
+      }
+    },
+    {
+      "resource": "MOVIES/CHAPTER01.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "a958f4e830a03fbad3d9068cafa35c93dd31c94c1fbb7182178d2e7972815cac",
+      "size": 34066,
+      "ivf_sha256": "3dad2a0c63f28b7a952d9f91fb4a4b1b1a04f82dcd50e0e4c3afd45d4bc14811",
+      "dat_sha256": "2f59807731b5c43041b793a1f6fcdd067df74678141e80a0327c76f6d8228887",
+      "duration": 3.0085,
+      "pcm_sha256": "3eada344d3236360cedabe98a2b36381719fdfbb27b8d7cd01ed749e15f5ea66",
+      "movie": "CHAPTER01",
+      "asr_models": [
+        "small",
+        "medium"
+      ],
+      "segments": [],
+      "classification": "no-intelligible-speech-detected",
+      "status": "two-model-no-speech-detection",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent.",
+      "audio_reuse_group": "CHAPTER01-16-identical-decoded-PCM"
+    },
+    {
+      "resource": "MOVIES/CHAPTER02.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "ed75921ca5a3669bc616079c8532abd2749a1c6ad71bbf6d26dcab96ab58660d",
+      "size": 34066,
+      "ivf_sha256": "dd55214e35373b31af3fc90bc4b2f437a6031cbc9b3ffb4353528276670739a9",
+      "dat_sha256": "48b4b2f5289b0abcc251e91ca9f661eceaa96d818b299ef676f8cd42101b7ae7",
+      "duration": 3.0085,
+      "pcm_sha256": "3eada344d3236360cedabe98a2b36381719fdfbb27b8d7cd01ed749e15f5ea66",
+      "movie": "CHAPTER02",
+      "asr_models": [
+        "small",
+        "medium"
+      ],
+      "segments": [],
+      "classification": "no-intelligible-speech-detected",
+      "status": "two-model-no-speech-detection",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent.",
+      "pcm_duplicate_of": "MOVIES/CHAPTER01.AVI.REFORMATTED.AVI.OGG",
+      "audio_reuse_group": "CHAPTER01-16-identical-decoded-PCM"
+    },
+    {
+      "resource": "MOVIES/CHAPTER03.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "dc716602fc159cf72ed15f6419bb65538be16b39a98836bfee363c9655e37ecc",
+      "size": 34066,
+      "ivf_sha256": "5eaeb2513ad8aff42418ca5c434971874686bf0a6a312ea347deca08ca1d3ea7",
+      "dat_sha256": "afecccebc0d487c7aabe10bcbb59b93ea6c465ea85f4800178768dbfe573e74a",
+      "duration": 3.0085,
+      "pcm_sha256": "3eada344d3236360cedabe98a2b36381719fdfbb27b8d7cd01ed749e15f5ea66",
+      "movie": "CHAPTER03",
+      "asr_models": [
+        "small",
+        "medium"
+      ],
+      "segments": [],
+      "classification": "no-intelligible-speech-detected",
+      "status": "two-model-no-speech-detection",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent.",
+      "pcm_duplicate_of": "MOVIES/CHAPTER01.AVI.REFORMATTED.AVI.OGG",
+      "audio_reuse_group": "CHAPTER01-16-identical-decoded-PCM"
+    },
+    {
+      "resource": "MOVIES/CHAPTER04.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "eaa8332309470c68d260bb5f18c40277188e7dac90da36d53c88e97d5660cf62",
+      "size": 34066,
+      "ivf_sha256": "24bcbbc8ebc7ec678f004e26faf8734968d0d8f1503bf812cc58e74db6dfa5fe",
+      "dat_sha256": "7418765b7991391eb9dd02ba6a5cffa404c894b46a264c1b65acbb9f5d13da44",
+      "duration": 3.0085,
+      "pcm_sha256": "3eada344d3236360cedabe98a2b36381719fdfbb27b8d7cd01ed749e15f5ea66",
+      "movie": "CHAPTER04",
+      "asr_models": [
+        "small",
+        "medium"
+      ],
+      "segments": [],
+      "classification": "no-intelligible-speech-detected",
+      "status": "two-model-no-speech-detection",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent.",
+      "pcm_duplicate_of": "MOVIES/CHAPTER01.AVI.REFORMATTED.AVI.OGG",
+      "audio_reuse_group": "CHAPTER01-16-identical-decoded-PCM"
+    },
+    {
+      "resource": "MOVIES/CHAPTER05.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "4d78751c05579019f899b435780da8d479b4b67f37829644d20352b08c497a2a",
+      "size": 34066,
+      "ivf_sha256": "9eab1f435f907584741d2e3a8fa62cf64212a58ea25ad8bd60861ac99ea4c044",
+      "dat_sha256": "7f0fe3cd32d8ec58754c7afa88dc98d8a8b52225e4175a94a8e579684a30250b",
+      "duration": 3.0085,
+      "pcm_sha256": "3eada344d3236360cedabe98a2b36381719fdfbb27b8d7cd01ed749e15f5ea66",
+      "movie": "CHAPTER05",
+      "asr_models": [
+        "small",
+        "medium"
+      ],
+      "segments": [],
+      "classification": "no-intelligible-speech-detected",
+      "status": "two-model-no-speech-detection",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent.",
+      "pcm_duplicate_of": "MOVIES/CHAPTER01.AVI.REFORMATTED.AVI.OGG",
+      "audio_reuse_group": "CHAPTER01-16-identical-decoded-PCM"
+    },
+    {
+      "resource": "MOVIES/CHAPTER06.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "29b86680a83c841a9361aa5a94969900f2dd59f9821d4fb7938c2694f22696f1",
+      "size": 34066,
+      "ivf_sha256": "312daae3315fbc241f1af14ab1b5a709c9f520243785964ec564708454758382",
+      "dat_sha256": "96442ff7621fe6507a7bc450d5b131755aec893e0a0a75ff6013ced07f030db2",
+      "duration": 3.0085,
+      "pcm_sha256": "3eada344d3236360cedabe98a2b36381719fdfbb27b8d7cd01ed749e15f5ea66",
+      "movie": "CHAPTER06",
+      "asr_models": [
+        "small",
+        "medium"
+      ],
+      "segments": [],
+      "classification": "no-intelligible-speech-detected",
+      "status": "two-model-no-speech-detection",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent.",
+      "pcm_duplicate_of": "MOVIES/CHAPTER01.AVI.REFORMATTED.AVI.OGG",
+      "audio_reuse_group": "CHAPTER01-16-identical-decoded-PCM"
+    },
+    {
+      "resource": "MOVIES/CHAPTER07.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "6a2af1fd0c88c0b22e1e0acf309b1ffeea557b22a11e5e03015dfd620a583362",
+      "size": 34066,
+      "ivf_sha256": "eb185838da966ad7fd2bd9ee9999502792a41011a35c2397cce76a254012b417",
+      "dat_sha256": "7844287d2ba7e266a66934cb75eb08fe6a14aa67e403ab03c9f785339331bcee",
+      "duration": 3.0085,
+      "pcm_sha256": "3eada344d3236360cedabe98a2b36381719fdfbb27b8d7cd01ed749e15f5ea66",
+      "movie": "CHAPTER07",
+      "asr_models": [
+        "small",
+        "medium"
+      ],
+      "segments": [],
+      "classification": "no-intelligible-speech-detected",
+      "status": "two-model-no-speech-detection",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent.",
+      "pcm_duplicate_of": "MOVIES/CHAPTER01.AVI.REFORMATTED.AVI.OGG",
+      "audio_reuse_group": "CHAPTER01-16-identical-decoded-PCM"
+    },
+    {
+      "resource": "MOVIES/CHAPTER08.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "ed8f6e0ec66057689c0ae66d7ab9ab5197c1637e5874707b92f426294203d451",
+      "size": 34066,
+      "ivf_sha256": "9c9faecc396930b97b9923325e97486135b907c81773886bdb64c2536c9e0797",
+      "dat_sha256": "2ce9e305001f4e263240cac2731e7c9d612edc6e04e061fe3b703b411b1b1040",
+      "duration": 3.0085,
+      "pcm_sha256": "3eada344d3236360cedabe98a2b36381719fdfbb27b8d7cd01ed749e15f5ea66",
+      "movie": "CHAPTER08",
+      "asr_models": [
+        "small",
+        "medium"
+      ],
+      "segments": [],
+      "classification": "no-intelligible-speech-detected",
+      "status": "two-model-no-speech-detection",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent.",
+      "pcm_duplicate_of": "MOVIES/CHAPTER01.AVI.REFORMATTED.AVI.OGG",
+      "audio_reuse_group": "CHAPTER01-16-identical-decoded-PCM"
+    },
+    {
+      "resource": "MOVIES/CHAPTER09.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "ba1707a16774b287869c2985552e241a5663f20395ad7f09d45c87bd1ec7a356",
+      "size": 34066,
+      "ivf_sha256": "df8d67abcff6b265562182d23b4928e32ca3789ada435bf7f26eff03c49c7ea3",
+      "dat_sha256": "27910a88c1c1199976bc68d2f8a306f1fb4ecc0218c7018042e761bb6dfffc35",
+      "duration": 3.0085,
+      "pcm_sha256": "3eada344d3236360cedabe98a2b36381719fdfbb27b8d7cd01ed749e15f5ea66",
+      "movie": "CHAPTER09",
+      "asr_models": [
+        "small",
+        "medium"
+      ],
+      "segments": [],
+      "classification": "no-intelligible-speech-detected",
+      "status": "two-model-no-speech-detection",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent.",
+      "pcm_duplicate_of": "MOVIES/CHAPTER01.AVI.REFORMATTED.AVI.OGG",
+      "audio_reuse_group": "CHAPTER01-16-identical-decoded-PCM"
+    },
+    {
+      "resource": "MOVIES/CHAPTER10.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "97727e3cebc6bc3650e42820e64d7eeb16469b4fb0bf8a7e0928ea81aa5f28ba",
+      "size": 34066,
+      "ivf_sha256": "accee2479f72d22c34a2542c90526aa17e1f452fdd36278b4d299147c29ac161",
+      "dat_sha256": "ba4e2307c8a2baed8d0f51506e51674ea71baecc8ac3d4f9c478c9879641bbab",
+      "duration": 3.0085,
+      "pcm_sha256": "3eada344d3236360cedabe98a2b36381719fdfbb27b8d7cd01ed749e15f5ea66",
+      "movie": "CHAPTER10",
+      "asr_models": [
+        "small",
+        "medium"
+      ],
+      "segments": [],
+      "classification": "no-intelligible-speech-detected",
+      "status": "two-model-no-speech-detection",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent.",
+      "pcm_duplicate_of": "MOVIES/CHAPTER01.AVI.REFORMATTED.AVI.OGG",
+      "audio_reuse_group": "CHAPTER01-16-identical-decoded-PCM"
+    },
+    {
+      "resource": "MOVIES/CHAPTER11.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "18b11fa8a7275be01eff238e71d6ea7d4f6b184f696bb03227635402fd8c7c4e",
+      "size": 34066,
+      "ivf_sha256": "a0bf9dbfc51913519cd6a4afeebd6dfba7a436a14afa31d35b8cd0772297300f",
+      "dat_sha256": "204a74cb2ce9d9a659910a463f2e973a675207c3568c0053c23c7d63fed52151",
+      "duration": 3.0085,
+      "pcm_sha256": "3eada344d3236360cedabe98a2b36381719fdfbb27b8d7cd01ed749e15f5ea66",
+      "movie": "CHAPTER11",
+      "asr_models": [
+        "small",
+        "medium"
+      ],
+      "segments": [],
+      "classification": "no-intelligible-speech-detected",
+      "status": "two-model-no-speech-detection",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent.",
+      "pcm_duplicate_of": "MOVIES/CHAPTER01.AVI.REFORMATTED.AVI.OGG",
+      "audio_reuse_group": "CHAPTER01-16-identical-decoded-PCM"
+    },
+    {
+      "resource": "MOVIES/CHAPTER12.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "46355a280ddb66c1483d157885c19840c4d8cf4cca1ad4686f82e27e7b2a2c63",
+      "size": 34066,
+      "ivf_sha256": "908942ada9c4bbc62813bc78fa3e4fb6983f058ecc6f09cba8bc3fb8059c6809",
+      "dat_sha256": "81821f76243e4641db5c108faa26d3e86cbddcf5c630f3007c67416a8769c0b4",
+      "duration": 3.0085,
+      "pcm_sha256": "3eada344d3236360cedabe98a2b36381719fdfbb27b8d7cd01ed749e15f5ea66",
+      "movie": "CHAPTER12",
+      "asr_models": [
+        "small",
+        "medium"
+      ],
+      "segments": [],
+      "classification": "no-intelligible-speech-detected",
+      "status": "two-model-no-speech-detection",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent.",
+      "pcm_duplicate_of": "MOVIES/CHAPTER01.AVI.REFORMATTED.AVI.OGG",
+      "audio_reuse_group": "CHAPTER01-16-identical-decoded-PCM"
+    },
+    {
+      "resource": "MOVIES/CHAPTER13.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "7e5f13f888b81adcb03f68b8274f123954579d9268a9d67812691616d3ec75b3",
+      "size": 34066,
+      "ivf_sha256": "6162c2db59181e71c3c308ca55e010aea6990ec30bb8f77a1025cf8c3e83812f",
+      "dat_sha256": "1115b53311d47683f9fc392bdb2b61ed2a072b933e496622d3e12a2b0ebc930f",
+      "duration": 3.0085,
+      "pcm_sha256": "3eada344d3236360cedabe98a2b36381719fdfbb27b8d7cd01ed749e15f5ea66",
+      "movie": "CHAPTER13",
+      "asr_models": [
+        "small",
+        "medium"
+      ],
+      "segments": [],
+      "classification": "no-intelligible-speech-detected",
+      "status": "two-model-no-speech-detection",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent.",
+      "pcm_duplicate_of": "MOVIES/CHAPTER01.AVI.REFORMATTED.AVI.OGG",
+      "audio_reuse_group": "CHAPTER01-16-identical-decoded-PCM"
+    },
+    {
+      "resource": "MOVIES/CHAPTER14.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "a9efb3fd3e19fd0270ae23f548cd1b5a870d149196465db485db1681547c9a3f",
+      "size": 34066,
+      "ivf_sha256": "2a2dedc1962abf0dffa8690996ccc4ffbbee2c9e6cbc17355230529c04fa40f4",
+      "dat_sha256": "1554791550360cbf7b83895ddf44dd4cf201b7d537b6bc9baba301e24d1427ea",
+      "duration": 3.0085,
+      "pcm_sha256": "3eada344d3236360cedabe98a2b36381719fdfbb27b8d7cd01ed749e15f5ea66",
+      "movie": "CHAPTER14",
+      "asr_models": [
+        "small",
+        "medium"
+      ],
+      "segments": [],
+      "classification": "no-intelligible-speech-detected",
+      "status": "two-model-no-speech-detection",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent.",
+      "pcm_duplicate_of": "MOVIES/CHAPTER01.AVI.REFORMATTED.AVI.OGG",
+      "audio_reuse_group": "CHAPTER01-16-identical-decoded-PCM"
+    },
+    {
+      "resource": "MOVIES/CHAPTER15.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "72c48dcd288c8b10f2bbeeaf3863b30f9f1c31e5ce764cf3e429b41f9eeaba96",
+      "size": 34066,
+      "ivf_sha256": "6b3c1bbc68bec0c96d37b90947d22d26ee7966501e328735e12a0afb10b44209",
+      "dat_sha256": "48f9948e890442d15de54a8fca179c2acdaf0d187ae3b0728a578843b630b8a9",
+      "duration": 3.0085,
+      "pcm_sha256": "3eada344d3236360cedabe98a2b36381719fdfbb27b8d7cd01ed749e15f5ea66",
+      "movie": "CHAPTER15",
+      "asr_models": [
+        "small",
+        "medium"
+      ],
+      "segments": [],
+      "classification": "no-intelligible-speech-detected",
+      "status": "two-model-no-speech-detection",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent.",
+      "pcm_duplicate_of": "MOVIES/CHAPTER01.AVI.REFORMATTED.AVI.OGG",
+      "audio_reuse_group": "CHAPTER01-16-identical-decoded-PCM"
+    },
+    {
+      "resource": "MOVIES/CHAPTER16.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "1b4d1119c21039257d5b10dab438a44a34691329c7f4c6aa35c0880568f950a4",
+      "size": 34066,
+      "ivf_sha256": "d3a7f79b5ffe27cb6d5cd8646b9b63898894d383f72be3740f0bfd5a73b25b15",
+      "dat_sha256": "1f375501ee70ec791f19e952e7e7024d6c1f9c9d19b4d9c44ecff935ff24cc35",
+      "duration": 3.0085,
+      "pcm_sha256": "3eada344d3236360cedabe98a2b36381719fdfbb27b8d7cd01ed749e15f5ea66",
+      "movie": "CHAPTER16",
+      "asr_models": [
+        "small",
+        "medium"
+      ],
+      "segments": [],
+      "classification": "no-intelligible-speech-detected",
+      "status": "two-model-no-speech-detection",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent.",
+      "pcm_duplicate_of": "MOVIES/CHAPTER01.AVI.REFORMATTED.AVI.OGG",
+      "audio_reuse_group": "CHAPTER01-16-identical-decoded-PCM"
+    },
+    {
+      "resource": "MOVIES/CL_BOSS.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "c05dcb61ef62319aea92899134ac51a256209bfb6aa07a5ef0809673711f3709",
+      "size": 83208,
+      "ivf_sha256": "1844d9936bc7480dffd3ab8f350cb23e5f53a87424b9359ab3691b2c07b95cdc",
+      "dat_sha256": "1807fd90e3a4afe2f566155bd8bd291afe89334d37253af10f6c0b3fb6f412a4",
+      "duration": 6.585313,
+      "pcm_sha256": "37bea994d9c17816ac3abdd1cbb9094985d1091cd2b1fbd55cba4ec41a405bde",
+      "movie": "CL_BOSS",
+      "asr_models": [
+        "small",
+        "medium"
+      ],
+      "segments": [],
+      "classification": "no-intelligible-speech-detected",
+      "status": "two-model-no-speech-detection",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent."
+    },
+    {
+      "resource": "MOVIES/CL_SIGHTING.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "607b1b023fb476df2e900cff4cff1ea27a1f2d81a0fc883425433e6b534956bc",
+      "size": 139658,
+      "ivf_sha256": "254cd0a208659e3911dd6d915928a4f4a9dd40791bb4b6a5c53a5c36432610db",
+      "dat_sha256": "d2527ec1fd62c557beaede04381a301c6bbc1d5b08f1e967ca3c81e425dd4738",
+      "duration": 11.064688,
+      "pcm_sha256": "5dff1cc05d534a8c00ed3670659519604f1d17b3be9674fc639e92decdac0aa8",
+      "movie": "CL_SIGHTING",
+      "asr_models": [
+        "small",
+        "medium"
+      ],
+      "segments": [],
+      "classification": "no-intelligible-speech-detected",
+      "status": "two-model-no-speech-detection",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent."
+    },
+    {
+      "resource": "MOVIES/COURTYARD.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "587eba2bcf891fe8018a34412e6c21573de5a3fc61ffe382552a4a0513338ed4",
+      "size": 156961,
+      "ivf_sha256": "789375518a6f7b581c53ae9e88e035cd632ef8a2dbd4c186bd43c9628b165ac7",
+      "dat_sha256": "78f72b16aee072388244fae354329686fc24a5f24872e0788113c432f8c08e4c",
+      "duration": 13.33775,
+      "pcm_sha256": "33222c314c8ae00f4f2cf4243816541ebfc1f3ce28ad15d77effb82bde67a175",
+      "movie": "COURTYARD",
+      "asr_models": [
+        "small",
+        "medium"
+      ],
+      "segments": [],
+      "classification": "no-intelligible-speech-detected",
+      "status": "two-model-no-speech-detection",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent."
+    },
+    {
+      "resource": "MOVIES/ELEVATOR01.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "389185c27643c7274c657775077e6b271e1f8b786f88094962f74040fd964c31",
+      "size": 172971,
+      "ivf_sha256": "9b68eaca2c6cd4db93af8c9105b253b7b516775c9e7df0b4e537da4b12494f86",
+      "dat_sha256": "07ce8d048bf45e626538ef10c4414e4360425a6a69ae26e79f3ef72eef265c07",
+      "duration": 16.346313,
+      "pcm_sha256": "8f52a547c09cc79c3c522021caca8c27b22904e41eca6a08aadd167d89d09d5e",
+      "movie": "ELEVATOR01",
+      "asr_models": [
+        "small",
+        "medium"
+      ],
+      "segments": [],
+      "classification": "no-intelligible-speech-detected",
+      "status": "two-model-no-speech-detection",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent."
+    },
+    {
+      "resource": "MOVIES/FINAL.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "5d4a588a006a21142233f59bf123ebd64d340ae4988354a25df1bec36a4296bd",
+      "size": 440839,
+      "ivf_sha256": "014808ed631e12825b981b7ae64514c26cdbda3dab79c86dcfa0fdc8cf022893",
+      "dat_sha256": "dfd585320f56bc75075338d90caa2d1f84a2a92953f7d7da7102c03e8877a329",
+      "duration": 35.066,
+      "pcm_sha256": "785a3cbb0146f66bb9dcdf2ed49b9c4d27007331cd0bbc45d5981852101c4c8c",
+      "movie": "FINAL",
+      "asr_models": [
+        "small",
+        "medium",
+        "large-v3"
+      ],
+      "segments": [
+        {
+          "id": "FINAL:000",
+          "start": 20.52,
+          "end": 24.72,
+          "source": "Let the record show that as of 3:33 a.m.,",
+          "target": "记录：截至凌晨3点33分，",
+          "status": "translated-asr-consensus",
+          "notes": "按small/medium开始时间，large-v3首词错对齐到0.08秒而其余词在20.94秒后；不得直接使用large首词时间。"
+        },
+        {
+          "id": "FINAL:001",
+          "start": 24.72,
+          "end": 28.3,
+          "source": "the patient has survived phase one of the operation.",
+          "target": "患者在第一阶段手术中存活下来。",
+          "status": "translated-asr-consensus",
+          "notes": ""
+        },
+        {
+          "id": "FINAL:002",
+          "start": 31.89,
+          "end": 34.07,
+          "source": "Prepare for phase two.",
+          "target": "准备进行第二阶段。",
+          "status": "translated-asr-consensus",
+          "notes": ""
+        }
+      ],
+      "classification": "speech",
+      "status": "translated-offline-audio-review-pending",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent.",
+      "asr_candidates": {
+        "small": [
+          {
+            "start": 20.52,
+            "end": 27.96,
+            "text": "Let the record show that as of 3.33 a.m. the patient has survived phase one of the operation.",
+            "avg_logprob": -0.33521219825043397
+          },
+          {
+            "start": 31.89,
+            "end": 33.85,
+            "text": "Prepare for phase two.",
+            "avg_logprob": -0.33521219825043397
+          }
+        ],
+        "medium": [
+          {
+            "start": 20.64,
+            "end": 28.3,
+            "text": "Let the records show that as of 3.33am, the patient has survived phase one of the operation.",
+            "avg_logprob": -0.3159090494737029
+          },
+          {
+            "start": 32.49,
+            "end": 34.07,
+            "text": "Prepare for phase two.",
+            "avg_logprob": -0.3159090494737029
+          }
+        ],
+        "large": [
+          {
+            "start": 0.08,
+            "end": 27.74,
+            "text": "Let the record show that as of 3.33 a.m., the patient has survived phase one of the operation.",
+            "avg_logprob": -0.1982177206698586
+          },
+          {
+            "start": 32.13,
+            "end": 33.71,
+            "text": "Prepare for phase two.",
+            "avg_logprob": -0.1982177206698586
+          }
+        ]
+      }
+    },
+    {
+      "resource": "MOVIES/FLASHBACK.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "5f6b809e45e7ff9e6624b6648a7695091437bfcb625a889ffebceb4d7332a55f",
+      "size": 174943,
+      "ivf_sha256": "77cec42a6ec614c29b3810dd6344dde6aaf2a31f8d1b50eebf03a0f5e7fdb810",
+      "dat_sha256": "d9da5813a38626172248bee24b647e675211b0489ba8b0d171f68251c6d86fec",
+      "duration": 15.778,
+      "pcm_sha256": "8b826dafe0f162312768f961b6d39f17f6e6d903f87580b6a33d677ea7198b28",
+      "movie": "FLASHBACK",
+      "asr_models": [
+        "small",
+        "medium",
+        "large-v3"
+      ],
+      "segments": [],
+      "classification": "processed-reversed-voice-effect",
+      "status": "high-confidence-deduction; not forward-intelligible plot dialogue",
+      "notes": "medium和large-v3在areverse、areverse+tempo0.8、areverse±3半音四类逆转变体均得到I am whispering now（部分重复三遍），无initial_prompt；正放各变体互不相容。高置信为反向处理人声效果，不把逆向恢复的元录音句当剧情字幕。未做人工听校，不声明已验证录音原意。",
+      "asr_candidates": {
+        "small": [
+          {
+            "start": 1.74,
+            "end": 3.58,
+            "text": "Here I see one there",
+            "avg_logprob": -0.5906687866557728
+          },
+          {
+            "start": 3.58,
+            "end": 8.33,
+            "text": "Here I see one there",
+            "avg_logprob": -0.5906687866557728
+          },
+          {
+            "start": 8.33,
+            "end": 9.37,
+            "text": "Here I see one there",
+            "avg_logprob": -0.5906687866557728
+          }
+        ],
+        "medium": [
+          {
+            "start": 1.74,
+            "end": 9.21,
+            "text": "I'm here, I've seen one, I've seen one, I've seen one.",
+            "avg_logprob": -0.7185551226139069
+          }
+        ],
+        "large": [
+          {
+            "start": 1.74,
+            "end": 3.04,
+            "text": "Erepsilum.",
+            "avg_logprob": -0.7260290033677045
+          },
+          {
+            "start": 6.15,
+            "end": 7.55,
+            "text": "Erepsilum.",
+            "avg_logprob": -0.7260290033677045
+          }
+        ]
+      },
+      "recovered_reverse_source": "I am whispering now.",
+      "recovered_reverse_target": "我现在正在低声说话。",
+      "original_voice_relation": {
+        "resource": "SFX/WHISPER/WHISPER01_8HZ_8BIT.FLAC",
+        "status": "high-confidence-deduction; not byte identity",
+        "method": "mono16k PCM normalized FFT cross-correlation",
+        "lags_seconds": [
+          0.0,
+          4.5045,
+          9.009
+        ],
+        "correlations": [
+          0.7207570992,
+          0.4220388318,
+          0.2082636983
+        ]
+      },
+      "voice_research_evidence": "Two-model reverse-variant ASR and normalized waveform correlation; research audio only under build/full-research/movie-voice-variants/."
+    },
+    {
+      "resource": "MOVIES/GENERATOR.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "216891b74bcc48604f3f804f24157b2640572d8d5dd574201edbfd9a0408443f",
+      "size": 187548,
+      "ivf_sha256": "27b00476ac5bc5fbfe2f09af28a9435a01605f3fc8ab238b7d639ffdca7898c8",
+      "dat_sha256": "3a30425ab3464da5879a3cda241bd04416e6f289eac7e732c1c2471103ff098e",
+      "duration": 15.711188,
+      "pcm_sha256": "36be0cfea19b8e7002ba0069300b101e05d197bfdfef57b19aa1ab2b31798793",
+      "movie": "GENERATOR",
+      "asr_models": [
+        "small",
+        "medium",
+        "large-v3"
+      ],
+      "segments": [
+        {
+          "id": "GENERATOR:000",
+          "start": 0.98,
+          "end": 3.32,
+          "source": "You want me? Come on over and get me,",
+          "target": "想抓我？那就过来抓我啊！",
+          "status": "translated-asr-consensus",
+          "notes": ""
+        },
+        {
+          "id": "GENERATOR:001",
+          "start": 3.32,
+          "end": 4.72,
+          "source": "freak! That's right.",
+          "target": "怪物！对，就是这样。",
+          "status": "translated-high-confidence-deduction",
+          "notes": "large-v3在tempo1.2且只给已知前后台词context（无候选词）时输出Freak, that’s right；medium/large慢放均识别freak。结合原音three cats ride/free cat’s ride的近音判为高置信推断；没有人工听校，不列为Verified。"
+        },
+        {
+          "id": "GENERATOR:002",
+          "start": 4.72,
+          "end": 6.38,
+          "source": "A little closer.",
+          "target": "再靠近一点。",
+          "status": "translated-asr-consensus",
+          "notes": ""
+        },
+        {
+          "id": "GENERATOR:003",
+          "start": 6.5,
+          "end": 8.38,
+          "source": "Wait, you're not one of them!",
+          "target": "等等，你不是它们一伙的！",
+          "status": "translated-asr-consensus",
+          "notes": ""
+        },
+        {
+          "id": "GENERATOR:004",
+          "start": 8.54,
+          "end": 10.72,
+          "source": "Oh man, we're gonna—",
+          "target": "天哪，我们要——",
+          "status": "translated-asr-consensus",
+          "notes": "medium/large均为被打断的句子；不采small hallucinated fall，不擅自补全死/掉下去。"
+        }
+      ],
+      "classification": "speech",
+      "status": "translated-offline-audio-review-pending",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent.",
+      "asr_candidates": {
+        "small": [
+          {
+            "start": 0.98,
+            "end": 6.22,
+            "text": "You want me? Come on over and get me three cats, right? A little closer.",
+            "avg_logprob": -0.4621441499753432
+          },
+          {
+            "start": 6.76,
+            "end": 8.22,
+            "text": "Wait, you're not one of them?",
+            "avg_logprob": -0.4621441499753432
+          },
+          {
+            "start": 8.9,
+            "end": 10.54,
+            "text": "Oh, man, we're gonna fall!",
+            "avg_logprob": -0.4621441499753432
+          }
+        ],
+        "medium": [
+          {
+            "start": 0.98,
+            "end": 6.38,
+            "text": "You want me? Come on over and get me three cats right, a little closer.",
+            "avg_logprob": -0.36226548799654334
+          },
+          {
+            "start": 6.96,
+            "end": 8.38,
+            "text": "Wait, you're not one of them!",
+            "avg_logprob": -0.36226548799654334
+          },
+          {
+            "start": 9.1,
+            "end": 10.72,
+            "text": "Oh man, we're gonna-",
+            "avg_logprob": -0.36226548799654334
+          }
+        ],
+        "large": [
+          {
+            "start": 0.98,
+            "end": 6.12,
+            "text": "You want me? Come on over and get me free cat's ride a little closer.",
+            "avg_logprob": -0.3704606905216124
+          },
+          {
+            "start": 6.5,
+            "end": 8.14,
+            "text": "Wait, you're not one of them!",
+            "avg_logprob": -0.3704606905216124
+          },
+          {
+            "start": 8.54,
+            "end": 10.16,
+            "text": "Oh man, we're gonna-",
+            "avg_logprob": -0.3704606905216124
+          }
+        ]
+      },
+      "voice_research_evidence": "Local-only 19-variant/two-model experiment; build/full-research/movie-voice-variants/voice-variants.json; no processed audio written into game."
+    },
+    {
+      "resource": "MOVIES/INTRO.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "820b35e2bb745b423b38c42ba57df0998c4ec3db6503864fea10aaf223bca787",
+      "size": 163329,
+      "ivf_sha256": "e01b3a23f9a611bbaa8a41ffe039366e81212cac10529a0499397e546b230c48",
+      "dat_sha256": "86daae19d2a423cc9efb5f612f511004b84865c3de7ff7fb2b1a6c02894ec81c",
+      "duration": 13.772375,
+      "pcm_sha256": "a2146c2e406837e8c47acd5cb554f71611bceaa275c5bd8fcdb9eee1d8363e48",
+      "movie": "INTRO",
+      "asr_models": [
+        "small",
+        "medium"
+      ],
+      "segments": [],
+      "classification": "no-intelligible-speech-detected",
+      "status": "two-model-no-speech-detection",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent."
+    },
+    {
+      "resource": "MOVIES/LAIR.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "3526470e94d625da08604aaa3df0acf29841a9324fa54e3e40ac3fa53cc7583e",
+      "size": 172995,
+      "ivf_sha256": "4c98247e222cd43683e73aa913d849ea3ae883317793411aeff5ed1c73a7a63e",
+      "dat_sha256": "e6ad18287d21b2e2f1ae128da6faaaf4934325fb91813183c3466124205acd4c",
+      "duration": 16.84775,
+      "pcm_sha256": "39671c4b7db9abbca4e7da60a2078f98f9596c4f44f1b6b6c2e4630988328e56",
+      "movie": "LAIR",
+      "asr_models": [
+        "small",
+        "medium"
+      ],
+      "segments": [],
+      "classification": "no-intelligible-speech-detected",
+      "status": "two-model-no-speech-detection",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent."
+    },
+    {
+      "resource": "MOVIES/MOLLUSCA01.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "7882e10a7af31b7023dbb51ccdf4db93895a4408253a303480ce95f95f12edd4",
+      "size": 128165,
+      "ivf_sha256": "a6e0de8e078aed72bb15184703c98cce42986f64bcaa2c400d038127f5b21be1",
+      "dat_sha256": "b8ecbdbafe54930d2e9240a0dc54133371ceb0a646d136f442122e76fd4a5ba7",
+      "duration": 8.557563,
+      "pcm_sha256": "c94047552dff2a8db3c23f9ab1362b89b5bb47d482a9a349b39d8a71e7697769",
+      "movie": "MOLLUSCA01",
+      "asr_models": [
+        "small",
+        "medium"
+      ],
+      "segments": [],
+      "classification": "no-intelligible-speech-detected",
+      "status": "two-model-no-speech-detection",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent."
+    },
+    {
+      "resource": "MOVIES/MOLLUSCA02.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "08902a37788dfde3e716ba5b685f311c7bdd37ff8df625db8c7c4c83208c83b5",
+      "size": 82005,
+      "ivf_sha256": "29b841d9c5c2ed23f344877f88eb2d043d1a6ccc610955b7f89815a43f2b2af8",
+      "dat_sha256": "e1f9ccf94ff763f8c09b19127e19bf5f21e3c3776e7c74f7a0b37e8046b9f0e0",
+      "duration": 6.050438,
+      "pcm_sha256": "33a1d831df0c7304b0dabb0f6ab8dfebf8e891727d699ac3aa70357c72e1f23d",
+      "movie": "MOLLUSCA02",
+      "asr_models": [
+        "small",
+        "medium"
+      ],
+      "segments": [],
+      "classification": "no-intelligible-speech-detected",
+      "status": "two-model-no-speech-detection",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent."
+    },
+    {
+      "resource": "MOVIES/NEWSCAST.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "d8d62129398dae2b6f17c3ebffec5608641ba22ca2a2ed31f3c4aa4d9a369344",
+      "size": 421756,
+      "ivf_sha256": "41668d0784f0bba87865eaa5f63b6278471e15defc92c25b4633a1b74eadd6ff",
+      "dat_sha256": "72483e08629650a638b97b1a82e7a22062e4e460caa429262782becf59fb5e39",
+      "duration": 37.97425,
+      "pcm_sha256": "a3859e00f932ff18072ef0bc0d4a4104c7f8c055835db1abac89cb69390db077",
+      "movie": "NEWSCAST",
+      "asr_models": [
+        "small",
+        "medium",
+        "large-v3"
+      ],
+      "segments": [
+        {
+          "id": "NEWSCAST:000",
+          "start": 2.58,
+          "end": 6.18,
+          "source": "Good evening. I'm Karina Phillips reporting from Redmoor News.",
+          "target": "晚上好，我是雷德穆尔新闻的\n卡里娜·菲利普斯。",
+          "status": "translated-asr-consensus",
+          "notes": "记者姓名按large转写作Karina；medium为Carina，音译一致但Latin拼写仍待人工确认。"
+        },
+        {
+          "id": "NEWSCAST:001",
+          "start": 6.18,
+          "end": 11.24,
+          "source": "Our top story tonight: a 30-year-old woman was found shot dead in her home last night.",
+          "target": "今晚的头条新闻：一名30岁女子\n昨晚被发现遭枪杀，死于家中。",
+          "status": "translated-asr-consensus",
+          "notes": ""
+        },
+        {
+          "id": "NEWSCAST:002",
+          "start": 11.24,
+          "end": 15.24,
+          "source": "Police were called to the scene after neighbors reported hearing gunshots from the home.",
+          "target": "邻居称听见屋内传来枪声，\n警方随后接报赶往现场。",
+          "status": "translated-asr-consensus",
+          "notes": ""
+        },
+        {
+          "id": "NEWSCAST:003",
+          "start": 15.72,
+          "end": 20.18,
+          "source": "Officers arrived at the scene to find an armed gunman standing over the victim's body.",
+          "target": "警员抵达后发现，一名持枪男子\n正站在受害者的尸体旁。",
+          "status": "translated-asr-consensus",
+          "notes": ""
+        },
+        {
+          "id": "NEWSCAST:004",
+          "start": 20.18,
+          "end": 24.84,
+          "source": "The confrontation resulted in the police firing gunshots, injuring the suspect.",
+          "target": "双方对峙后，警方开枪，\n击伤了嫌疑人。",
+          "status": "translated-asr-consensus",
+          "notes": ""
+        },
+        {
+          "id": "NEWSCAST:005",
+          "start": 25.26,
+          "end": 28.52,
+          "source": "Officers found the victim's 8-year-old daughter unharmed in the home.",
+          "target": "警员还在屋内找到了受害者8岁的女儿，\n她并未受伤。",
+          "status": "translated-asr-consensus",
+          "notes": ""
+        },
+        {
+          "id": "NEWSCAST:006",
+          "start": 28.52,
+          "end": 33.28,
+          "source": "They believe she may have witnessed the killing, but police are still investigating the scene.",
+          "target": "警方认为她可能目睹了凶案，\n目前仍在对现场展开调查。",
+          "status": "translated-asr-consensus",
+          "notes": ""
+        },
+        {
+          "id": "NEWSCAST:007",
+          "start": 33.44,
+          "end": 34.86,
+          "source": "After the break...",
+          "target": "广告之后……",
+          "status": "translated-asr-consensus",
+          "notes": ""
+        }
+      ],
+      "classification": "speech",
+      "status": "translated-offline-audio-review-pending",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent.",
+      "asr_candidates": {
+        "small": [
+          {
+            "start": 2.62,
+            "end": 6.04,
+            "text": "Good evening, I'm Karina Phillips reporting from Redmore News.",
+            "avg_logprob": -0.11984693543133089
+          },
+          {
+            "start": 6.46,
+            "end": 11.12,
+            "text": "Our top story tonight, a 30-year-old woman was found shot dead in her home last night.",
+            "avg_logprob": -0.11984693543133089
+          },
+          {
+            "start": 11.6,
+            "end": 15.14,
+            "text": "Police were called to the scene after neighbors reported hearing gunshots from the home.",
+            "avg_logprob": -0.11984693543133089
+          },
+          {
+            "start": 15.84,
+            "end": 20.02,
+            "text": "Officers arrived at the scene to find an armed gunman standing over the victim's body.",
+            "avg_logprob": -0.11984693543133089
+          },
+          {
+            "start": 20.62,
+            "end": 24.64,
+            "text": "The confrontation resulted in the police firing gunshots injuring the suspect.",
+            "avg_logprob": -0.11984693543133089
+          },
+          {
+            "start": 25.26,
+            "end": 28.44,
+            "text": "Officers found the victim's 8-year-old daughter unharmed in the home.",
+            "avg_logprob": -0.11984693543133089
+          },
+          {
+            "start": 28.44,
+            "end": 34.56,
+            "text": "They believe she may have witnessed the killing but police are still investigating the scene after the break",
+            "avg_logprob": -0.17196851117270334
+          }
+        ],
+        "medium": [
+          {
+            "start": 2.68,
+            "end": 6.18,
+            "text": "Good evening, I'm Carina Phillips reporting from Redmore News.",
+            "avg_logprob": -0.12527052528602034
+          },
+          {
+            "start": 6.6,
+            "end": 11.24,
+            "text": "Our top story tonight, a 30-year-old woman was found shot dead in her home last night.",
+            "avg_logprob": -0.12527052528602034
+          },
+          {
+            "start": 11.7,
+            "end": 15.24,
+            "text": "Police were called to the scene after neighbors reported hearing gunshots from the home.",
+            "avg_logprob": -0.12527052528602034
+          },
+          {
+            "start": 16.02,
+            "end": 19.9,
+            "text": "Officers arrived at the scene to find an armed gunman standing over the victim's",
+            "avg_logprob": -0.12527052528602034
+          },
+          {
+            "start": 19.9,
+            "end": 20.18,
+            "text": "body.",
+            "avg_logprob": -0.12527052528602034
+          },
+          {
+            "start": 20.64,
+            "end": 24.84,
+            "text": "The confrontation resulted in the police firing gunshots, injuring the suspect.",
+            "avg_logprob": -0.12527052528602034
+          },
+          {
+            "start": 25.54,
+            "end": 28.52,
+            "text": "Officers found the victim's 8-year-old daughter unharmed in the home.",
+            "avg_logprob": -0.12527052528602034
+          },
+          {
+            "start": 28.52,
+            "end": 33.28,
+            "text": "They believe she may have witnessed the killing, but police are still investigating the scene.",
+            "avg_logprob": -0.3320662734600214
+          },
+          {
+            "start": 33.88,
+            "end": 34.86,
+            "text": "After the break...",
+            "avg_logprob": -0.3320662734600214
+          }
+        ],
+        "large": [
+          {
+            "start": 2.58,
+            "end": 5.9,
+            "text": "Good evening. I'm Karina Phillips reporting from Redmoor News.",
+            "avg_logprob": -0.11401449386030435
+          },
+          {
+            "start": 6.12,
+            "end": 11.0,
+            "text": "Our top story tonight, a 30-year-old woman was found shot dead in her home last night.",
+            "avg_logprob": -0.11401449386030435
+          },
+          {
+            "start": 11.22,
+            "end": 15.06,
+            "text": "Police were called to the scene after neighbors reported hearing gunshots from the home.",
+            "avg_logprob": -0.11401449386030435
+          },
+          {
+            "start": 15.72,
+            "end": 19.88,
+            "text": "Officers arrived at the scene to find an armed gunman standing over the victim's body.",
+            "avg_logprob": -0.11401449386030435
+          },
+          {
+            "start": 20.18,
+            "end": 24.46,
+            "text": "The confrontation resulted in the police firing gunshots, injuring the suspect.",
+            "avg_logprob": -0.11401449386030435
+          },
+          {
+            "start": 25.26,
+            "end": 28.32,
+            "text": "Officers found the victim's 8-year-old daughter unharmed in the home.",
+            "avg_logprob": -0.11401449386030435
+          },
+          {
+            "start": 28.32,
+            "end": 32.98,
+            "text": "They believe she may have witnessed the killing, but police are still investigating the scene.",
+            "avg_logprob": -0.26951558314836943
+          },
+          {
+            "start": 33.44,
+            "end": 34.54,
+            "text": "After the break...",
+            "avg_logprob": -0.26951558314836943
+          }
+        ]
+      }
+    },
+    {
+      "resource": "MOVIES/WG_BOSS.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "31879d9bec6150a1b5305b4225240c774b4907212dea34da104644f71c036e55",
+      "size": 109005,
+      "ivf_sha256": "d9cb5673fe86daa32dd15af3780ad8757cfe9100d494075f9f868887458de255",
+      "dat_sha256": "5afd0b444ceba29bddf5ea4b05b07dec1e1dc77915c883db8291643e03d6e97c",
+      "duration": 10.028375,
+      "pcm_sha256": "17e57754f754604a71bef427ea0e2348c4a7a89f96016c57b0b49a614d1a0b4f",
+      "movie": "WG_BOSS",
+      "asr_models": [
+        "small",
+        "medium"
+      ],
+      "segments": [],
+      "classification": "no-intelligible-speech-detected",
+      "status": "two-model-no-speech-detection",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent."
+    },
+    {
+      "resource": "MOVIES/WG_BOSS2.AVI.REFORMATTED.AVI.OGG",
+      "sha256": "75c8677955320b00349106173c71411f2d030ef82aafe6fc7e354cd968d06006",
+      "size": 107951,
+      "ivf_sha256": "43250e2cee0641354c6215c90081a3af5d0f9c51c2b45ceaa4bd0acca98a6e2b",
+      "dat_sha256": "fb55a0447b46465b3efd195e9cb2a7a41656c323310bdf21f07bba6e9060806a",
+      "duration": 10.028375,
+      "pcm_sha256": "071d15e1de52f6a8ce26a8d6cdb9a3d4a732e02772f67db33dea2056746d8a39",
+      "movie": "WG_BOSS2",
+      "asr_models": [
+        "small",
+        "medium"
+      ],
+      "segments": [],
+      "classification": "no-intelligible-speech-detected",
+      "status": "two-model-no-speech-detection",
+      "notes": "ASR only; no game launch, no in-game acceptance. Empty ASR is not proof that all voices are absent."
+    }
+  ]
+}

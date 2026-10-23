@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "encoding": "utf-8",
+  "source_size": 4673536,
+  "source_sha256": "5f2b955b9af968107cadb6af8ec5121be8dc39ae599b9b88cc215343035d007d",
+  "source_stage": "runtime_patch.py UTF-8/BMP output",
+  "entries": [],
+  "audit": {
+    "candidate_count": 14980,
+    "status": "No independently verified additional normal-player UI literals selected; resource tables retain ownership of options labels",
+    "protected": [
+      "logs",
+      "API names",
+      "resource paths",
+      "brands",
+      "keys",
+      "machine enum identifiers",
+      "developer-only controls"
+    ],
+    "game_launched": false
+  }
+}

@@ -111,3 +111,13 @@ python -X utf8 -m unittest discover -s tests -p test_font_pipeline.py -v
 第一阶段的目标未知项已按独立本作证据推进：字库页表、metrics、RGBA双zlib、section/relocation有解析和原生loader指令回放。实际菜单是byte→ushort，不是上游UTF-8。当前只做New Game一条，运行时用81/8D/8F三个空slot，真实译文仍在locale数据；不覆盖原180glyph，不改EXE。
 
 font_metadata/discover/resolve_fonts已逐函数复用于tools/font_source.py；原版ZAR/TAR及差分核心继续使用，字体栅格化/身份门禁/原像素保留方法延续。序列化和decoder策略另写本作适配，没有移植旧native patches。单字节空槽只是POC预算，不作为全量汉化方案。当前72项合成测试与实际目标指令/资源回放通过，游戏画面仍待手动验收。详见MINIMAL_PROBE.md、TEXT_DECODING.md、BINFONT_FORMAT.md。
+
+## 7. 全量阶段复用与独立适配（当前）
+
+- **原样复用**：ZAR/VFS/资源差分的8个定义及其成熟测试；font_source的font_metadata/discover/resolve_fonts三函数；art_delta.py与其6项上游测试。来源、作者、commit与MIT见NOTICE.md。
+- **按本作修改/适配**：上游Pillow字体生成及字形覆盖思路接入本作binfont后端；image_text的墨迹居中、按键保护和区域约束接入本作双LZ4容器；executable_text固定槽守卫独立审计，目前entries为空，不强造本作不需要的字面量补丁。
+- **本作独立实现**：TAR文本结构、UTF-8/BMP入口RVA0xEA700、binfont扩页/重定位/双zlib、PCM采样时钟HUD字幕RVA0xBFF10、Image格式0/1/5/8读取、VP9 IVF/DAT同步与影片章名重建。它们没有复用病房2的JSON字库、旧EXE偏移、开发菜单或作弊功能。
+- **已具备的最小中文条件**：New Game源身份、3个Unicode码点、字体生成/查字/测宽、归档回写与隔离恢复均已通过；现在由可扩展全量UTF-8构建覆盖，不再依赖81/8D/8F单字节POC空槽。全量278记录/855glyphs的具体输出见FULL_VERIFICATION.md。
+- **仍待实际确认**：游戏内GPU、裁切、输入、存读档、完整流程与字幕听校/同步；低清装饰字与splat01额外尾部语义如实保留。离线回放不是游戏内通过，已保存的上游实机截图也不作为本作证据。
+
+其他四语1112记录只做Latin1字节映射→UTF-8的无损编码迁移；原/新解码流逐条一致，既有French双角引号不被新工具臆断为待修改的markup。其测宽未额外声称已全量验证，兼容性证据是原decoded stream、原glyph与调用合同保持。

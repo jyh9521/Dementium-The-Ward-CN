@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "format": "source-rgba-xor-zlib-v1",
+  "resource": "3d/tex/ammo_snp.tex",
+  "size": [
+    64,
+    64
+  ],
+  "source_pixels_sha256": "27fc7ac6d3cc40da3281d3e567a5152a4858657ee5ee9dd8108ad7974f3e27db",
+  "output_pixels_sha256": "f9c1c61aca21bccf22d91c09df4da7ccd446999ee9bcf706c85b573584f3aee6",
+  "xor": "eNrt1+lPE2YcwPGvFIrQWlBOKSig5dQih0yQAt66IREDiqigTgwqIFIKglzBI75wUzdmtsl0joll84ibmIjcKqgVEMXO4FHU6XTqNB5zLmas/8ReNHs+b59X3+f4JQ8IgiAIgiAIgiAIgiAIgiAIgiAIgvB/oZRBlq0NxeFl5E8swtW6nBGUorAppjxKS3GgjpyojWTFFlIcXEDBuCwqwvPImVxK5iQtFX5FbAorw0ZTjptDAas1eZSb11c55ltGv7l135M1dDQsYODnxfy6ey373rrx27YYqvUqLmxfgOcwLZsD1tPTtJCO5qU4KByZ3idj3S+ZdB9PZm5qNKbmLlovjeJq1WJuNSTTX5VqEf1OVvls/TadKaG2uHs40XE0mXtnfDDU92OLKzKHUbzY683HEwowNaaxqjiMiKjHPK0OYtbLHPJ0GrZq2+ip78F44hxv9an0nFrOH1vTLKJ/dKSWLX+uICJ0JNvXhtBXuwSTJprL+kusdpGjK5VyZMiDBN9yavL9yJl2g666dgZau3gYoEBq/zcHE4209DrRfuAG5SskPP4qBbvoQovol8TpOB/nSLhmJGX5anaW+fN90jh6jl0jsSSULXXjWXZHjtUwNzpPZOCriqH76CX2vFPh4Gbel5lSvOyVeNoXU/2XJ3PyovhnxzLcpSUW0b/8lhWz5/njJVOikDoyKWY0jdUXaavvRqW+j5/3IBcPnedRdxC3W5YzNmSQ+ebzvtnUy++udoRFK/k6OxjT6ancrwzn4Fw1hh/TeXY6wCL65ea5/sK4kj3r/YnPi+RQUghPdsRx7rCBunmR7D2Vbn77cnLtdNRVqpF4vWa6epCzP0wlxEcDw9/TEu/DF68COVt7hVkbNbw5tpDnTcGWMf8/KGRbTYb5/jtSVBZEfVUyLYvM9/94G4tmRuDlpMTYGMEIiQunq0JYlm6ivbWDR7vi6AkMQ+Lwnjducpb0j6Cz1kTahxouVyYhiS2wiH7P8E2MyYpmrPcDuqYGcVU/m892X6H7u17Cpjgz3u81T3eFoY0tY//acSQm+HKr2cCDvdG0LNBgLR9iYEo4dxrPmeefCf2cMAzfJDEmpNQi+q0khegKrfGbKCX2URYPm+OxsnKh+lkgE1TPUavuYs4mXaWjJjeGrIqR3G4yMPS5P3MzIpE7D5K0LoroN67E90n4tGEJQztSqbmZYRH9MorYVqviTE0AMnd3cjOCeKVScP3kBVzc3hGvi8TZpYAi3zVsyFRTLJdx7adOXu8PZmFCIMOkg3w0Q0mvScm9ygjsZB50fplC/6H5FtGf66RgZ2kQJZk3ObCln7zkO+grr3PkkyvMWDqZ5vdpuESWsiFci3yyPa+8FbTpO9GfdeWlj4LspD7yUozUlF7lQp2B7IoBTrat5HD7aovod051JLchl8TWEjI8ZKwMtmednwNjUrywsSlE7gbro4rIiS1irHwztlbZGNsVOIRaI3G1JuFMGWlGOdPPVxB4F5JuSLCWbsRz+GbxuRIEQRAEQRAEQRAEQRAEQRCE/8i/enN48A==",
+  "reviewed_regions": [
+    [
+      8,
+      28,
+      31,
+      41
+    ]
+  ],
+  "workflow": "imagegen artwork edit, reviewed import; no runtime pixel-font overlay",
+  "prompt": "Reviewed Chinese label-only crop; original atlas UV, technical symbols, Japanese partial microtext and blood occlusion preserved.",
+  "alpha_policy": "preserve-source",
+  "protected_regions": [],
+  "import_recipe": {
+    "generated_png_sha256": "e42dfa1f59b52dc6b705e9327068d39cab185bb9082e41641ef65fcb85bc070d",
+    "generated_size": [
+      1254,
+      1254
+    ],
+    "crop_mappings": [
+      {
+        "generated_box": [
+          160,
+          480,
+          620,
+          730
+        ],
+        "native_box": [
+          8,
+          28,
+          31,
+          41
+        ]
+      }
+    ],
+    "resampling": "LANCZOS",
+    "source_alpha_preserved": true,
+    "target": "步枪"
+  }
+}

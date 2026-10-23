@@ -1,33 +1,37 @@
 # 《病房》Steam PC 简体中文汉化工程
 
-Dementium: The Ward，当前阶段：**仅 New Game → 新游戏的最小离线实验**（2026-10-23）。尚未游戏内验收，不是正式汉化发行包。
+Dementium: The Ward，Steam AppID **3909960**，受支持原版 **build21501403 / Windows x64**。
 
-## 输入与范围
+当前为全量汉化的可复现离线候选构建，**未启动游戏，尚待玩家实际画面与流程验收**。不是正式安装器或Release。
 
-Steam AppID **3909960**，本机实测 build **21501403**，Windows x64。原件身份见 `assets/original-identity.json`；不套用《病房2》的版本、EXE偏移或F1功能。
+## 内容与技术
 
-- 278条英语记录中仅改1条：`CONTENT.TAR/loc/en/UISSFrontend.tbl:0000`。
-- 仅两个内层成员改变：菜单表与 `.binfont`。EXE及其他输入文件保持原样。
-- 原180字形及原图集像素保留；追加Fusion Pixel12px三字，图集128×256→128×512。
-- 本作菜单不是UTF-8解码；逻辑译文保持真实中文，构建期可逆映射到未使用单字节槽位 `81 8D 8F`。这是有限字槽POC，不是全游戏中文编码方案。
-- 原版目录只读，样本位于 `build/phase2/sample/`，未启动游戏。
+- 英语槽位278条表格/文档记录：241条翻译，37条制作人员姓名/公司保留。
+- 独立验证本作UTF-8/BMP解码、binfont双zlib/重定位、字体生成、ZAR/TAR双索引与恢复；不是移植病房2旧偏移。
+- 52张界面图片及26张场景纹理本地化；保护键帽、楼层ID、密码、血迹与UV布局。
+- 16段独立章名及2段过场内嵌章名逐帧本地化；电影中文字幕、新闻及门牌画面词译注，以及按实际音频采样位置触发的场内语音字幕。
+- 原版其他四语仅转为UTF-8以适配全局解码器，逻辑原文不变、不计作中文译文。
+- 原件、完整归档、EXE、字体与媒体输出只在忽略目录；不写Steam目录，不自动启动游戏。
 
-## 重现
+品牌、人员姓名、解谜字母/数字、运输符号及不可可靠辨读的小字有独立清单，不将它们虚构为确定台词。媒体转写包含明确分级的推断，详见调查文档。
 
-Python 3.11+及锁定依赖；本机已安装并按哈希验证的Fusion Pixel字体。详见[构建说明](BUILDING.md)。
+## 构建与验证
+
+Python3.11+、锁定依赖、SHA锁定的Fusion Pixel12px字体及ffmpeg/ffprobe9.0.2。无需研究阶段的识别模型或美术生成服务即可重建。
 
 ```powershell
 python -m pip install -r requirements.txt
-python -X utf8 -m unittest discover -s tests -q
-python -X utf8 tools/record_probe_verification.py --game "C:/Program Files (x86)/Steam/steamapps/common/Dementium - The Ward" --bash "C:/Program Files/Git/bin/bash.exe"
+python -X utf8 -m unittest discover -s tests -v
+python -X utf8 tools/record_locale_verification.py --game "C:/Program Files (x86)/Steam/steamapps/common/Dementium - The Ward"
+python -X utf8 tools/verify_sample.py
 ```
 
-所有构建、测试、指令仿真与恢复均不执行游戏。完整原件、字库、样本与差分只留Git忽略目录；不包含安装器或Release。
+输出为build/full/sample/；基线/修改/隔离恢复命令与字面输出保存于build/full/VERIFICATION.txt。重复构建比较、全部原输入身份、文本/字形、未改成员、索引和原生指令回放均由工具校验。
 
 ## 文档
 
-- [第二阶段调查与最小实验](docs/MINIMAL_PROBE.md) · [中文解码证据](docs/TEXT_DECODING.md)
-- [binfont格式](docs/BINFONT_FORMAT.md) · [字体来源](docs/FONT_SOURCE.md)
-- [手动测试步骤](docs/MANUAL_TEST.md) · [实际验证记录](docs/PROBE_VERIFICATION.md)
-- [第一阶段原始调查](TECHNICAL.md) · [上游迁移评估](docs/MIGRATION_ASSESSMENT.md)
-- [文件格式](docs/FILE_FORMATS.md) · [已知问题](docs/KNOWN_ISSUES.md) · [许可](LICENSING.md)
+- [构建与恢复](BUILDING.md) · [手动测试](docs/MANUAL_TEST.md) · [已知边界](docs/KNOWN_ISSUES.md)
+- [UTF-8解码](docs/UTF8_RUNTIME.md) · [binfont](docs/BINFONT_FORMAT.md) · [场内字幕](docs/AUDIO_SUBTITLES.md)
+- [界面图片](docs/IMAGE_AUDIT.md) · [场景纹理](docs/INNER_TEXTURE_AUDIT.md) · [小字审计](docs/SMALL_PRINT_AUDIT.md)
+- [电影格式](docs/MOVIE_FORMAT.md) · [对白审计](docs/MOVIE_AUDIO_AUDIT.md) · [画面审计](docs/MOVIE_VISUAL_AUDIT.md) · [章名重建](docs/MOVIE_TITLE_REBUILD.md)
+- [术语](GLOSSARY.md) · [上游与许可](NOTICE.md) · [许可边界](LICENSING.md) · [历史调查](TECHNICAL.md)

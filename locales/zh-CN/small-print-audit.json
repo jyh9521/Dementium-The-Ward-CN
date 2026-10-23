@@ -1,0 +1,426 @@
+{
+  "schema": 1,
+  "resources": [
+    {
+      "index": 12,
+      "resource": "3d/tex/ammo_357.tex",
+      "width": 64,
+      "height": 64,
+      "source_sha256": "079f3d0d2693dbfe0f55df4f79efd9fce63208c2cba0b6f268851fa10ec80891",
+      "classification": "unreadable-source-preserved",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "64x64弹药包装：logo/侧栏说明存在，但放大仍不足可靠确定品牌全称或说明，不猜成特定厂商。"
+    },
+    {
+      "index": 13,
+      "resource": "3d/tex/ammo_9mm.tex",
+      "width": 64,
+      "height": 64,
+      "source_sha256": "766032c09006a2350b4069e0fb775c6f21faeb0d2ef6ab5034e3829693b0bbfd",
+      "classification": "unreadable-source-preserved",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "64x64弹药包装：旋转放大后仍不足可靠确定品牌全称/侧栏说明。"
+    },
+    {
+      "index": 15,
+      "resource": "3d/tex/ammo_sg1.tex",
+      "width": 64,
+      "height": 64,
+      "source_sha256": "75c033842cc66faed2737ef392cf6f15ed7e50a24529a1f4b1eec98d3ea4ae18",
+      "classification": "preserve-name-or-brand",
+      "source_texts": [
+        "BLAST ’EM"
+      ],
+      "target_texts": [],
+      "notes": "星形包装大字为产品/品牌式标题；保留原商标式拼写，其他微字不可读，不把品牌身份当外部验证事实。"
+    },
+    {
+      "index": 16,
+      "resource": "3d/tex/ammo_snp.tex",
+      "width": 64,
+      "height": 64,
+      "source_sha256": "7f3a9498953ccab840cc60c1be3ea7c052c8c820ce272039abe32f0acdc34258",
+      "classification": "readable-text-localization-required",
+      "source_texts": [
+        "RIFLE"
+      ],
+      "target_texts": [
+        "步枪"
+      ],
+      "notes": "弹药包装的普通武器类别字，不当作品牌。 已按显式原生标签矩形导入源依赖差分；未改UV/非标签像素。",
+      "disposition": "localized-art-delta-offline-reviewed",
+      "art_patch": "art/ammo_snp.json"
+    },
+    {
+      "index": 38,
+      "resource": "3d/tex/boxes01.tex",
+      "width": 128,
+      "height": 128,
+      "source_sha256": "12ea792f161c1b7a0137a02aa8ce119a670e2e59285622429efbcc117c0e9f5c",
+      "classification": "readable-text-localization-required",
+      "source_texts": [
+        "MEDICAL SUPPLIES"
+      ],
+      "target_texts": [
+        "医疗/用品"
+      ],
+      "notes": "左侧日文不够清楚，未猜写完整句；医疗图标/箭头保护。 已按显式原生标签矩形导入源依赖差分；未改UV/非标签像素。",
+      "disposition": "localized-art-delta-offline-reviewed",
+      "art_patch": "art/boxes01.json"
+    },
+    {
+      "index": 39,
+      "resource": "3d/tex/boxes01b.tex",
+      "width": 128,
+      "height": 128,
+      "source_sha256": "8a71d2ec2a9f2a853cc863421c88d701395ddc51a3258e79166969efcb263351",
+      "classification": "readable-text-localization-required",
+      "source_texts": [
+        "MEDICAL SUPPLIES"
+      ],
+      "target_texts": [
+        "医疗/用品"
+      ],
+      "notes": "血迹版同包装；保留原血遮挡，不补出隐去信息。 已按显式原生标签矩形导入源依赖差分；未改UV/非标签像素。",
+      "disposition": "localized-art-delta-offline-reviewed",
+      "art_patch": "art/boxes01b.json"
+    },
+    {
+      "index": 40,
+      "resource": "3d/tex/boxes02.tex",
+      "width": 128,
+      "height": 128,
+      "source_sha256": "694185fabd689a4e2da640645ad3b41459a1222c60eefb7a92309240ccd9b09d",
+      "classification": "readable-text-localization-required",
+      "source_texts": [
+        "FRAGILE"
+      ],
+      "target_texts": [
+        "易碎"
+      ],
+      "notes": "LABSYN品牌名、Rx医疗符号与箭头保留。 已按显式原生标签矩形导入源依赖差分；未改UV/非标签像素。",
+      "disposition": "localized-art-delta-offline-reviewed",
+      "art_patch": "art/boxes02.json"
+    },
+    {
+      "index": 41,
+      "resource": "3d/tex/boxes02b.tex",
+      "width": 128,
+      "height": 128,
+      "source_sha256": "5c96b1429c442e984ca3b4ccc3c68a8fbee467c96efcdb510d08e882ff499d23",
+      "classification": "readable-text-localization-required",
+      "source_texts": [
+        "FRAGILE"
+      ],
+      "target_texts": [
+        "易碎"
+      ],
+      "notes": "血迹版同包装；LABSYN品牌/符号保留。 已按显式原生标签矩形导入源依赖差分；未改UV/非标签像素。",
+      "disposition": "localized-art-delta-offline-reviewed",
+      "art_patch": "art/boxes02b.json"
+    },
+    {
+      "index": 42,
+      "resource": "3d/tex/boxes03.tex",
+      "width": 128,
+      "height": 128,
+      "source_sha256": "560ef3406894ddffcb526d0ae7e3bb8183b9ba6e42ee54afaa5f2500ae06d368",
+      "classification": "preserve-name-or-brand",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "四款商品的专名式包装标题；个别拼写不足可靠辨读，不转写猜名。"
+    },
+    {
+      "index": 51,
+      "resource": "3d/tex/bulletin.tex",
+      "width": 256,
+      "height": 128,
+      "source_sha256": "53e932e7dad12056456fd38d0512e879cfee1ccb6a8858b58b6aac1549ad177e",
+      "classification": "unreadable-source-preserved",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "256x128布告栏：单张纸仅占约几十像素，正文笔画多为1px级，未可靠辨出完整短语。"
+    },
+    {
+      "index": 52,
+      "resource": "3d/tex/bulltn02.tex",
+      "width": 256,
+      "height": 128,
+      "source_sha256": "28efe73a9c860361d2694f1ea240bbd83850034b576b1407b2ea7be2b9493fcf",
+      "classification": "unreadable-source-preserved",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "256x128照片布告栏：照片下姓名/右侧文件正文过小，未猜身份或正文。"
+    },
+    {
+      "index": 53,
+      "resource": "3d/tex/bulltn03.tex",
+      "width": 256,
+      "height": 128,
+      "source_sha256": "db1c41c6bea723aeeab8d097eff9cd7797a27ab841b486399e6aa7ceef3c00d2",
+      "classification": "unreadable-source-preserved",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "256x128血迹布告栏：印刷微字被低分辨和血迹遮挡，未补写原遮蔽信息。"
+    },
+    {
+      "index": 108,
+      "resource": "3d/tex/clipbrd.tex",
+      "width": 64,
+      "height": 64,
+      "source_sha256": "bfd1379d139d446b82d31686fa11270f90c2eb0ced95817d08776cba88c6a70d",
+      "classification": "unreadable-source-preserved",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "64x64夹板：示意人体可见，表格/手写说明不具可靠逐字可读尺寸。"
+    },
+    {
+      "index": 189,
+      "resource": "3d/tex/eyechrt1.tex",
+      "width": 64,
+      "height": 64,
+      "source_sha256": "dd8e2328e0d1123f977d29616e23f7b1d4049a11fac0e2a9257fd25cd3527d7d",
+      "classification": "preserve-technical-symbol",
+      "source_texts": [
+        "E"
+      ],
+      "target_texts": [],
+      "notes": "64x64视力表：字母行是临床视力测试图案，不是语句，不翻译/重排。"
+    },
+    {
+      "index": 213,
+      "resource": "3d/tex/falarm1.tex",
+      "width": 32,
+      "height": 32,
+      "source_sha256": "61649fbf18c1d759c27b356a472c5f05cffb3319ad603bec50b8c36cfd59c4a4",
+      "classification": "unreadable-source-preserved",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "32x32报警器：顶部存在白色字母，可能FIRE但源像素不足以可靠确认完整词；不将同类设备经验代替转写。"
+    },
+    {
+      "index": 214,
+      "resource": "3d/tex/falarm2.tex",
+      "width": 64,
+      "height": 64,
+      "source_sha256": "c30b431110036732ff2172094422370aa1d7839a18c693ef408a709b781ad71c",
+      "classification": "readable-text-localization-required",
+      "source_texts": [
+        "FIRE"
+      ],
+      "target_texts": [
+        "火警"
+      ],
+      "notes": "报警器上FIRE明确可读，下面的微字不足以可靠逐字转录。 已按显式原生标签矩形导入源依赖差分；未改UV/非标签像素。 字区原生高度仅8像素，离线已审查，实际屏幕可读性待手工游戏内验收，不夸大字号。",
+      "disposition": "localized-art-delta-offline-reviewed",
+      "art_patch": "art/falarm2.json"
+    },
+    {
+      "index": 248,
+      "resource": "3d/tex/health01.tex",
+      "width": 64,
+      "height": 64,
+      "source_sha256": "8fdae68ee034cd3c54dcbfe6b0366a386ba37e6f6fdf19fe05f582b5638f7544",
+      "classification": "unreadable-source-preserved",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "64x64医疗品：红十字符号保留；标签笔画不足以完整可靠转录FIRST AID等短语，不凭品类补字。"
+    },
+    {
+      "index": 255,
+      "resource": "3d/tex/keycard1.tex",
+      "width": 32,
+      "height": 16,
+      "source_sha256": "c60f788c327ee6938050df71d93b84eb12c3fd8c5a605dc48646f187ab396cde",
+      "classification": "unreadable-source-preserved",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "32x16卡面：色块/形状可见，微字不可可靠转录。"
+    },
+    {
+      "index": 294,
+      "resource": "3d/tex/notes01.tex",
+      "width": 64,
+      "height": 64,
+      "source_sha256": "87d7ea1857561a5c90289914a4434aa0bfecdb5a3eb468a12aa52b941c38c5b3",
+      "classification": "unreadable-source-preserved",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "64x64纸页：正文笔画可见但不足可靠逐字辨读，不编造故事内容。"
+    },
+    {
+      "index": 299,
+      "resource": "3d/tex/paper001.tex",
+      "width": 64,
+      "height": 32,
+      "source_sha256": "5aa6fb8a91901532971f2f78e87c0f9d3247b2853a1e46f368e651c706941bb1",
+      "classification": "unreadable-source-preserved",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "64x32血迹报纸：文字与图片缩略，未辨出可可靠完整转写的标题/句子。"
+    },
+    {
+      "index": 300,
+      "resource": "3d/tex/paper002.tex",
+      "width": 64,
+      "height": 32,
+      "source_sha256": "5fb991eb46c1e650162d258c702c981720e42817a26c7d5545bce6bb14945448",
+      "classification": "unreadable-source-preserved",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "64x32报纸：文字仅1px级缩略，未辨出可可靠完整转写的标题/句子。"
+    },
+    {
+      "index": 313,
+      "resource": "3d/tex/pills.tex",
+      "width": 64,
+      "height": 64,
+      "source_sha256": "0d9680134b2f38a9b3e4b4fb3451ae18ac42d0940c99f7fa692def30c395230d",
+      "classification": "unreadable-source-preserved",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "64x64药盒：有医疗/药品标识式小字，但无法可靠完整转录，Rx等医疗符号保留。"
+    },
+    {
+      "index": 324,
+      "resource": "3d/tex/poster03.tex",
+      "width": 128,
+      "height": 128,
+      "source_sha256": "64ab970b9f0e70bc3c6831ab65f15128e4fdb21820be680e3050cd60b8cbfb46",
+      "classification": "preserve-name-or-brand",
+      "source_texts": [
+        "XEODRIFTER"
+      ],
+      "target_texts": [],
+      "notes": "海报上的作品标题/logo；作为作品名保留。"
+    },
+    {
+      "index": 325,
+      "resource": "3d/tex/poster04.tex",
+      "width": 128,
+      "height": 128,
+      "source_sha256": "46656dc65cc1d7726256b44f3587b3e6845b2def82e1455ec0f0f72be20bb474",
+      "classification": "preserve-name-or-brand",
+      "source_texts": [
+        "MUTANT MUDDS"
+      ],
+      "target_texts": [],
+      "notes": "海报上的作品标题/logo；作为作品名保留。"
+    },
+    {
+      "index": 336,
+      "resource": "3d/tex/secmon00.tex",
+      "width": 256,
+      "height": 128,
+      "source_sha256": "2c99b83769c16a4766dad8e780cf5b5791b12ba8bdab93e1176ff17576eae46f",
+      "classification": "preserve-name-or-brand",
+      "source_texts": [
+        "SAB",
+        "3"
+      ],
+      "target_texts": [],
+      "notes": "设备机壳短编号标识而非句子；原样保留，其他机壳微字不可读。"
+    },
+    {
+      "index": 365,
+      "resource": "3d/tex/soda01.tex",
+      "width": 256,
+      "height": 256,
+      "source_sha256": "e16ab33eb7e4d3934341f217160bd070505dc6ed8c4cd1339a107786ec3b3d00",
+      "classification": "preserve-name-or-brand",
+      "source_texts": [
+        "SODA POPP"
+      ],
+      "target_texts": [],
+      "notes": "重复的商品/品牌式机器字标；保留原字标，不据此宣称已查明真实公司或品牌出处。"
+    },
+    {
+      "index": 406,
+      "resource": "3d/tex/toy_01.tex",
+      "width": 128,
+      "height": 128,
+      "source_sha256": "e90eb3afec708e959af6e2e2a21f72585ff099de5629c4f43208df311b6cee48",
+      "classification": "unreadable-source-preserved",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "128x128玩具钢琴图集：上沿铭文疑似专名式装饰，未可靠读全，不从制作人员姓名猜品牌。"
+    },
+    {
+      "index": 417,
+      "resource": "3d/tex/tv.tex",
+      "width": 128,
+      "height": 128,
+      "source_sha256": "c49e09f1f3f7d3d8b015066f1fa6349d29b424fe17f3b41922109f8bc0c25e97",
+      "classification": "unreadable-source-preserved",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "128x128电视机壳：无烧录屏幕图像，机壳铭牌过小不可读；电影画面另审计。"
+    },
+    {
+      "index": 418,
+      "resource": "3d/tex/vend01.tex",
+      "width": 128,
+      "height": 128,
+      "source_sha256": "49f3e7968aa31170ee351ce238f50085987e0706b0b3b1c48c30520e9da85a22",
+      "classification": "readable-text-localization-required",
+      "source_texts": [
+        "SNACKS!"
+      ],
+      "target_texts": [
+        "零食！"
+      ],
+      "notes": "售货机侧面的普通类别词，不能归为不可辨。 已按显式原生标签矩形导入源依赖差分；未改UV/非标签像素。",
+      "disposition": "localized-art-delta-offline-reviewed",
+      "art_patch": "art/vend01.json"
+    },
+    {
+      "index": 419,
+      "resource": "3d/tex/vend01a.tex",
+      "width": 256,
+      "height": 256,
+      "source_sha256": "e6b083ff930ac0d3d325ca76296302147ecc514d24bbeebd9270136dc6645ebe",
+      "classification": "readable-text-localization-required",
+      "source_texts": [
+        "SNACKS!",
+        "PUSH"
+      ],
+      "target_texts": [
+        "零食！",
+        "推"
+      ],
+      "notes": "源256x256；商品袋名字保留/不可辨小字，不扩写。 已按显式原生标签矩形导入源依赖差分；未改UV/非标签像素。",
+      "disposition": "localized-art-delta-offline-reviewed",
+      "art_patch": "art/vend01a.json"
+    },
+    {
+      "index": 420,
+      "resource": "3d/tex/vend02.tex",
+      "width": 64,
+      "height": 64,
+      "source_sha256": "3f347db7f0a11e1578e92d9420446d8bdd8e6b199f3507c5dacab3afba36564c",
+      "classification": "unreadable-source-preserved",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "64x64零食格栅：每袋包装占几像素，品牌/微字不可可靠转写，不假定任何真实品牌。"
+    },
+    {
+      "index": 421,
+      "resource": "3d/tex/vend03.tex",
+      "width": 128,
+      "height": 128,
+      "source_sha256": "e4143f9f7f27f66795c40a9ede33545dca0ec0666cb3bc962db1eea83b4ff17b",
+      "classification": "readable-text-localization-required",
+      "source_texts": [
+        "COOL"
+      ],
+      "target_texts": [
+        "清凉"
+      ],
+      "notes": "机顶大字明确可读，作售货类别/冷饮标签处理；不假定有已确认品牌许可。 已按显式原生标签矩形导入源依赖差分；未改UV/非标签像素。",
+      "disposition": "localized-art-delta-offline-reviewed",
+      "art_patch": "art/vend03.json"
+    }
+  ]
+}

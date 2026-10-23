@@ -1,6 +1,6 @@
 # 文件格式清单（本作 build21501403）
 
-第二阶段：binfont字段、页表、双层zlib及分区/重定位现已交叉验证，完整定义见[BINFONT_FORMAT.md](BINFONT_FORMAT.md)。主菜单单字节入口见[TEXT_DECODING.md](TEXT_DECODING.md)。下面媒体未知项仍保留，不套用PNG扩展名。
+第二阶段：binfont字段、页表、双层zlib及分区/重定位现已交叉验证，完整定义见[BINFONT_FORMAT.md](BINFONT_FORMAT.md)。主菜单单字节入口见[TEXT_DECODING.md](TEXT_DECODING.md)。当前全量阶段已独立解析双LZ4图片容器、Image0/1/5/8基础层、VP9 IVF与DAT索引，详见[IMAGE_AUDIT.md](IMAGE_AUDIT.md)、[INNER_TEXTURE_AUDIT.md](INNER_TEXTURE_AUDIT.md)、[INNER_IMAGE_EXTRA.md](INNER_IMAGE_EXTRA.md)及[MOVIE_FORMAT.md](MOVIE_FORMAT.md)。下方第一阶段未知项仅保留调查历史，不套用PNG扩展名。
 
 ## 已验证：ZAR1
 

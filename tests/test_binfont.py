@@ -6,7 +6,7 @@ from binfont import Glyph,BinFont,inflate_frame
 def frame(raw):
     z=zlib.compress(raw)
     n=(12+len(z)+3)//4*4
-    return struct.pack('<3I',0x20000,len(z),n)+z+b'\0'*(n-12-len(z))
+    return struct.pack('<3I',len(raw),len(z),n)+z+b'\0'*(n-12-len(z))
 
 
 def fixture():
@@ -16,7 +16,7 @@ def fixture():
     raw=bytes([0,0,0,255])*16
     inner=frame(raw);outer=frame(inner)
     texture=struct.pack('<6H2I',0,1,4,4,4,4,0,16)
-    body=head+page+texture+outer[:4]+struct.pack('<I',len(inner))+outer[4:]
+    body=head+page+texture+struct.pack('<I',len(raw))+outer
     return body+struct.pack('<HH8II',8,0,0,3112,len(body),2,3112,len(body)-3112,len(body)+2,0,2)
 
 
@@ -53,6 +53,16 @@ class BinFontTests(unittest.TestCase):
         self.assertEqual(g.base_height,f.base_height)
         self.assertEqual(len(g.pages),2)
         self.assertEqual(g.sections[3],4)
+        # These are allocation sizes, not the old font's constant 0x20000.
+        self.assertEqual(struct.unpack_from('<I',g.data,g.texture_offset+20)[0],4*8*4)
+        self.assertEqual(g.frame_fields[0],len(rgba))
+        self.assertEqual(g.frame_fields[4],len(rgba))
+    def test_stale_expanded_allocation_size_rejected(self):
+        f=BinFont(fixture());glyphs=dict(f.glyphs)
+        data=bytearray(f.write(glyphs,f.rgba*2,4,8))
+        at=BinFont(data).texture_offset
+        struct.pack_into('<I',data,at+20,len(f.rgba))
+        with self.assertRaisesRegex(ValueError,'outer texture frame'):BinFont(data)
     def test_write_noop(self):
         f=BinFont(fixture())
         self.assertEqual(f.write(f.glyphs,f.rgba,f.width,f.height),fixture())

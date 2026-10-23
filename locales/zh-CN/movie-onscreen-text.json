@@ -1,0 +1,115 @@
+{
+  "schema": 1,
+  "scope": "readable original video headlines and signs; translated gloss at top, not perspective inpainting",
+  "movies": [
+    {
+      "movie": "NEWSCAST",
+      "ivf_sha256": "41668d0784f0bba87865eaa5f63b6278471e15defc92c25b4633a1b74eadd6ff",
+      "evidence": "movie-frame-audit.json; original 1-second frames reviewed",
+      "cues": [
+        {
+          "id": "NEWSCAST:onscreen:000",
+          "start": 3.5,
+          "end": 7,
+          "source": "REDMOOR NEWS",
+          "target": "【画面：雷德穆尔新闻】",
+          "status": "translated-visual-reviewed",
+          "evidence_level": "verified visual text; intervals conservatively cover sampled frames"
+        },
+        {
+          "id": "NEWSCAST:onscreen:001",
+          "start": 7.5,
+          "end": 14,
+          "source": "MURDER",
+          "target": "【画面：凶杀案】",
+          "status": "translated-visual-reviewed",
+          "evidence_level": "verified visual text; intervals conservatively cover sampled frames"
+        },
+        {
+          "id": "NEWSCAST:onscreen:002",
+          "start": 14,
+          "end": 24,
+          "source": "WOMAN MURDERED",
+          "target": "【画面：女子遇害】",
+          "status": "translated-visual-reviewed",
+          "evidence_level": "verified visual text; intervals conservatively cover sampled frames"
+        },
+        {
+          "id": "NEWSCAST:onscreen:003",
+          "start": 24,
+          "end": 34,
+          "source": "CHILD SURVIVES",
+          "target": "【画面：孩子幸存】",
+          "status": "translated-visual-reviewed",
+          "evidence_level": "verified visual text; intervals conservatively cover sampled frames"
+        },
+        {
+          "id": "NEWSCAST:onscreen:004",
+          "start": 35,
+          "end": 37,
+          "source": "REDMOOR NEWS",
+          "target": "【画面：雷德穆尔新闻】",
+          "status": "translated-visual-reviewed",
+          "evidence_level": "verified visual text; intervals conservatively cover sampled frames"
+        }
+      ]
+    },
+    {
+      "movie": "BT_SIGHTING",
+      "ivf_sha256": "c0339dc010588a4ad6bf1abdf8b9cc1a93c0f8274cf07f7231282644d9a00927",
+      "evidence": "movie-frame-audit.json; original half-second frames visually reviewed; sampled intervals are not exact cut boundaries",
+      "cues": [
+        {
+          "id": "BT_SIGHTING:onscreen:000",
+          "start": 3,
+          "end": 3.75,
+          "source": "EXIT",
+          "target": "【标识：出口】",
+          "status": "translated-visual-reviewed",
+          "evidence_level": "verified visual text; conservative sampled interval"
+        },
+        {
+          "id": "BT_SIGHTING:onscreen:001",
+          "start": 9.5,
+          "end": 10.75,
+          "source": "EXIT",
+          "target": "【标识：出口】",
+          "status": "translated-visual-reviewed",
+          "evidence_level": "verified visual text; conservative sampled interval"
+        }
+      ]
+    },
+    {
+      "movie": "AMANDA02",
+      "ivf_sha256": "144051b884e9697f6f5c7d5e8b62d3cdff264d042f2ff733e45678f10a5fe3f7",
+      "evidence": "movie-frame-audit.json; original half-second frames visually reviewed; sampled intervals are not exact cut boundaries",
+      "cues": [
+        {
+          "id": "AMANDA02:onscreen:000",
+          "start": 4.5,
+          "end": 6.5,
+          "source": "EXIT",
+          "target": "【标识：出口】",
+          "status": "translated-visual-reviewed",
+          "evidence_level": "verified visual text; conservative sampled interval"
+        }
+      ]
+    },
+    {
+      "movie": "CL_SIGHTING",
+      "ivf_sha256": "254cd0a208659e3911dd6d915928a4f4a9dd40791bb4b6a5c53a5c36432610db",
+      "evidence": "movie-frame-audit.json; original half-second frames visually reviewed; sampled intervals are not exact cut boundaries",
+      "cues": [
+        {
+          "id": "CL_SIGHTING:onscreen:000",
+          "start": 9,
+          "end": 10.5,
+          "source": "EXAMINATION ROOMS",
+          "target": "【门牌：检查室】",
+          "status": "translated-visual-reviewed",
+          "evidence_level": "verified visual text; conservative sampled interval"
+        }
+      ]
+    }
+  ]
+}

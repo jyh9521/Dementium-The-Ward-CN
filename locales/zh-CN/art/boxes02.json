@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "format": "source-rgba-xor-zlib-v1",
+  "resource": "3d/tex/boxes02.tex",
+  "size": [
+    128,
+    128
+  ],
+  "source_pixels_sha256": "3bd66a8acc675bd629e320febbdab1bf77f393e0ee6d98ea858f707d532be901",
+  "output_pixels_sha256": "e12e13e1849fc3a0239d68622cc70d931be32caa0923bd4733afba55547a8295",
+  "xor": "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",
+  "reviewed_regions": [
+    [
+      36,
+      99,
+      89,
+      124
+    ]
+  ],
+  "workflow": "imagegen artwork edit, reviewed import; no runtime pixel-font overlay",
+  "prompt": "Reviewed generated Chinese label regions; native atlas, remaining product logos, symbols and unreadable print retained.",
+  "alpha_policy": "preserve-source",
+  "protected_regions": [],
+  "import_recipe": {
+    "generated_png_sha256": "1a1f2fdf981efbafbba7031b2ab665e479bbe5a633ea530607ad68247678e14f",
+    "generated_size": [
+      1254,
+      1254
+    ],
+    "crop_mappings": [
+      {
+        "native_box": [
+          36,
+          99,
+          89,
+          124
+        ],
+        "generated_box": [
+          350,
+          862,
+          790,
+          1104
+        ]
+      }
+    ],
+    "resampling": "LANCZOS",
+    "target": "易碎"
+  }
+}

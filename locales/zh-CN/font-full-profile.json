@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "fonts": {
+    "body": {
+      "file": "fusion-pixel-12px-proportional-zh_hans.ttf",
+      "sha256": "60f62ae34b95eea47e5986dd425bcd51c4f785165bf06befade60a059f036066",
+      "pixel_size": 12,
+      "cell_width": 12,
+      "cell_height": 15,
+      "advance": 12
+    }
+  },
+  "atlas_width": 512
+}

@@ -85,8 +85,8 @@ class BinFont:
         self.texture_header = data[t:t + 20]
         self.texture_fields = struct.unpack_from('<6H2I', data, t)
         self.width, self.height = self.texture_fields[2:4]
-        marker, expanded, compressed, aligned = struct.unpack_from('<4I', data, t + 20)
-        if marker != 0x20000 or aligned != (12 + compressed + 3) // 4 * 4:
+        raw_size, expanded, compressed, aligned = struct.unpack_from('<4I', data, t + 20)
+        if raw_size != self.width * self.height * 4 or aligned != (12 + compressed + 3) // 4 * 4:
             raise ValueError('Unsupported outer texture frame')
         self.texture_end = t + 24 + aligned
         if self.texture_end > len(data):
@@ -94,8 +94,8 @@ class BinFont:
         inner = inflate_frame(data[t + 36:self.texture_end], expanded, compressed_size=compressed)
         if len(inner) < 12:
             raise ValueError('Truncated inner texture frame')
-        marker2, compressed2, aligned2 = struct.unpack_from('<3I', inner)
-        if (marker2 != 0x20000 or aligned2 != len(inner) or
+        raw_size2, compressed2, aligned2 = struct.unpack_from('<3I', inner)
+        if (raw_size2 != raw_size or aligned2 != len(inner) or
                 aligned2 != (12 + compressed2 + 3) // 4 * 4):
             raise ValueError('Unsupported inner texture frame')
         if compressed2 > len(inner) - 12:
@@ -120,8 +120,8 @@ class BinFont:
             relocations.append(position)
         if relocations != [8 + page * 4 for page in self.pages]:
             raise ValueError('Page relocations mismatch')
-        self.frame_fields = (marker, expanded, compressed, aligned,
-                             marker2, compressed2, aligned2)
+        self.frame_fields = (raw_size, expanded, compressed, aligned,
+                             raw_size2, compressed2, aligned2)
         for glyph in self.glyphs.values():
             if glyph.x + glyph.width > self.width or glyph.y + glyph.height > self.height:
                 raise ValueError('Glyph rectangle outside atlas')
@@ -169,8 +169,7 @@ class BinFont:
         fields = list(self.texture_fields)
         fields[2:6] = width, height, width, height
         fields[7] = width * height
-        texture = (struct.pack('<6H2I', *fields) + outer[:4] +
-                   struct.pack('<I', len(inner)) + outer[4:])
+        texture = struct.pack('<6H2I', *fields) + struct.pack('<I',len(rgba)) + outer
         reloc = bytearray()
         previous = 0
         for page in pages:
@@ -201,5 +200,5 @@ class BinFont:
 def encode_frame(raw):
     compressed = zlib.compress(raw, level=9)
     aligned = (12 + len(compressed) + 3) // 4 * 4
-    return (struct.pack('<3I', 0x20000, len(compressed), aligned) + compressed +
+    return (struct.pack('<3I', len(raw), len(compressed), aligned) + compressed +
             bytes(aligned - 12 - len(compressed)))

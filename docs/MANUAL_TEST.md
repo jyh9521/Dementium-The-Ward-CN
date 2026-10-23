@@ -1,44 +1,54 @@
-# 用户手动测试：只看主菜单
+# 用户手动测试：全量离线候选
 
-状态：样本离线验证完成；以下步骤由用户执行。本阶段没有自动启动游戏，也没有写Steam安装目录。
+本项目工具没有启动游戏或写Steam安装目录。以下启动、游戏操作和截图均由用户执行；当前只有离线验收。
 
-## 1. 确认副本
+## 1. 核对新副本
 
-路径：`C:\Users\noway\Downloads\Dementium-The-Ward-CN\build\phase2\sample`
-
-副本包含原EXE/DLL与修改后的rom.zar；不要将样本复制到Steam安装目录。原版AppID3909960、build21501403。样本中Dementium.exe应仍为SHA：
-
-`26186ceb1142e1c84298aa528627531e3821b8068e4e777e3975403a272c530e`
-
-rom.zar SHA见 `build/phase2/build-report.json` 的modified_sha256及PROBE_VERIFICATION.md。
-
-## 2. 手动启动与截图
-
-1. 保持Steam已运行，并将游戏语言设为English（样本仅替换loc/en首条）。
-2. 在资源管理器打开上述sample目录，**手动双击此副本里的Dementium.exe**。
-3. 进入主菜单，检查首项是否为“新游戏”；观察三字是否完整、顺序正确、无方框/重叠/上下裁切。其余菜单仍为原文。
-4. 本轮只检查主菜单，不点击“新游戏”开始流程，也不操作存读档。副本未隔离游戏的全局配置/存档位置，不能当作独立存档环境。
-5. 保存一张包含整个主菜单的截图，并记录分辨率、窗口/全屏状态及异常；然后退出副本。
-6. 若显示要求通过Steam启动，或进菜单前报错，请记录提示/日志与当前目录，停止本轮；不要替换安装目录来绕过该结果。
-
-## 3. 可选原样恢复对照（仅副本）
-
-关闭副本后，在PowerShell执行：
+副本路径：C:\Users\noway\Downloads\Dementium-The-Ward-CN\build\full\sample
 
 ```powershell
 $root = "C:/Users/noway/Downloads/Dementium-The-Ward-CN"
-& "C:/Program Files/Git/bin/bash.exe" "$root/tools/ROLLBACK_PROBE.sh"
-Copy-Item -LiteralPath "$root/build/phase2/ROLLBACK_COPY.zar" -Destination "$root/build/phase2/sample/rom.zar"
-Get-FileHash -LiteralPath "$root/build/phase2/sample/rom.zar" -Algorithm SHA256
+python -X utf8 "$root/tools/verify_sample.py"
+Get-Content -LiteralPath "$root/build/full/VERIFICATION.txt"
 ```
 
-恢复后的SHA必须为 `9a9ceffb4bbf5fd9a22d5b9d0b87b963ab3abf1bf4afa7e49c5bdf44875fd42c`。此步骤恢复的是sample；MODIFIED_FILE.zar仍保留。随后手动启动同一副本，可对照New Game原文。重新构建modified会再次准备中文样本；运行后新产生的日志应先移至build内独立记录位置，构建工具不会擅自清空未知样本文件。
+预期SAMPLE PASS files=9 mode=localized hashes=exact game-launched=false。原版仅支持AppID3909960/build21501403。当前EXE和rom.zar都经过修改，不再使用旧phase2的原EXE哈希；准确身份见build-report.json。
 
-## 验收报告最小字段
+## 2. 由用户启动副本
 
-- 样本rom.zar SHA
-- 分辨率/窗口状态
-- 首项截图与是否完整显示“新游戏”
-- 其余菜单是否保持/异常提示及日志
+1. 备份自己现有存档/配置，关闭已运行的游戏。副本并不隔离全局存档、配置或Steam云状态。
+2. 保持Steam运行、游戏语言English（中文使用en槽位）。在资源管理器打开上述sample目录，手动双击其中的Dementium.exe。
+3. 进入菜单后核对实际进程路径，避免把Steam重定向的原版当作中文副本：
 
-这次主菜单验收不等于全量文本、游戏流程或存档兼容验收。
+```powershell
+Get-CimInstance Win32_Process -Filter "name='Dementium.exe'" | Select-Object ExecutablePath,CommandLine
+```
+
+实际路径应在build/full/sample。若出现要求Steam启动、重定向、报错或崩溃，记录提示、进程路径与日志后结束本轮；不向Steam安装目录复制改件。
+
+## 3. 手动验收清单
+
+- 主菜单新游戏、继续/存读档、难度、设置、物品说明；观察缺字、重叠、居中、上下裁切和所有分辨率/窗口方式。
+- 键盘与各手柄操作图，检查中文说明与实际键帽/连线/布局一致。
+- 记事本、病历、长文档、含配图查看页、彩色高亮及密码信息；确认换行/末行完整，谜题数字和字母不变。
+- 医院地图、死亡画面、门牌/涂鸦/海报/白板、箱子与售货机；小尺寸纹理需在实际镜头下检查。
+- 16段独立章名与INTRO/AMANDA01内嵌章名淡入/淡出、全部有对白电影、新闻与出口/检查室门牌顶部译注；检查字幕时轴、原音、跳过/重播及黑场。新闻TV及场景标牌英文并未透视重绘。
+- 紧急广播、五种首领台词及歌声字幕；检查暂停恢复、循环、多个声音同时播放、打开文档/菜单、切关/结束音频后字幕消失。
+- 完整流程、存读档和退出重进；局部菜单截图不等于通关验收。
+
+报告记录：样本EXE/rom.zar SHA、分辨率、输入设备、章节/存档位置、复现步骤、完整截图及日志。字幕听校尤其关注GENERATOR高置信推断句；所有语音转写都未宣称人工实听验收。
+
+## 4. 仅副本恢复对照
+
+先退出副本。以下只恢复额外副本，再由用户选择覆盖sample两文件：
+
+```powershell
+& "C:/Program Files/Git/bin/bash.exe" "$root/ROLLBACK_LOCALE.sh"
+Copy-Item -LiteralPath "$root/build/full/rollback-sample/rom.zar" -Destination "$root/build/full/sample/rom.zar"
+Copy-Item -LiteralPath "$root/build/full/rollback-sample/Dementium.exe" -Destination "$root/build/full/sample/Dementium.exe"
+python -X utf8 "$root/tools/verify_sample.py" --restored
+```
+
+预期SAMPLE PASS files=9 mode=original hashes=exact game-launched=false。恢复原归档SHA9a9ceffb4bbf5fd9a22d5b9d0b87b963ab3abf1bf4afa7e49c5bdf44875fd42c、原EXE SHA26186ceb1142e1c84298aa528627531e3821b8068e4e777e3975403a272c530e。
+
+MODIFIED_FILE.zar与MODIFIED_EXECUTABLE.exe仍保留；需中文副本时从这两文件复制回sample并重新运行verify_sample.py。任何上述步骤都不以Steam安装目录为目标。

@@ -22,7 +22,7 @@ RGBA解码为128x256、每像素4字节；字形预览清晰，覆盖拉丁字�
 
 每个metrics的前u32按 `x=v&1023; y=(v>>10)&1023; height=v>>20` 拆分，后四字节为两个u8、两个i8。以 `N` (0x4E) 为例，`4b70a0000907ff03` 得到 `(x=75,y=28,height=10,width=9,advance=7,bearing_x=-1,bearing_y=3)`。矩形在图集中的字形与字符一致。180项矩形全部位于图集范围；EXE loader已确认x/y/height、width和两个有符号bearing的使用；advance(+5)另由查字/测宽调用链确认，不能只从loader读入推出。
 
-压缩框架的压缩大小分别等于实际zlib流字节数；aligned字段等于 `align4(12+compressed_size)`。外层相比内层多一个expanded_size字段。框架标志0x20000的位语义尚未仅由数据确认。两个层次的zlib均完整结束，尾随仅零对齐。
+压缩框架的压缩大小分别等于实际zlib流字节数；aligned字段等于 `align4(12+compressed_size)`。20字节图像头之后的u32是原始像素字节数，原图恰好为0x20000，不是flag。紧接着的两个frame都为`<uncompressed_size,compressed_size,aligned_total_size>`：外frame解开得到内frame，内frame解开得到RGBA。两个层次的zlib均完整结束，尾随仅零对齐。此项已通过415个内层tex资源交叉确认，见INNER_TEXTURE_AUDIT.md与PITFALLS.md中的历史POC修正。
 
 尾部十个u32为 `(8,0,3112,7580,2,3112,4468,7582,0,2)`；其中3112是纹理起点，7580是尾部起点，4468是纹理总跨度。这些数值关系已验证，随后EXE loader静态交叉确认分区描述符及重定位规则，见下一节。
 
@@ -37,7 +37,7 @@ RGBA解码为128x256、每像素4字节；字形预览清晰，覆盖拉丁字�
 
 `tools/binfont.py` 提供有界解析、metric编解码、原样no-op回写、单字形RGBA切片及 `BinFont.write(glyphs,rgba,width,height)` 通用BMP页/扩图写出。未验证字段原样保留；压缩大小有限额，拒绝截断、错误帧、非零填充、页越界/重叠、缺席字形非零metrics和图集越界。
 
-十个纯合成测试不包含商业字体数据：
+纯合成测试不包含商业字体数据，另覆盖扩图后的实际分配长度和拒绝旧长度：
 
 ```powershell
 python -X utf8 -m unittest discover -s tests -p test_binfont.py -v

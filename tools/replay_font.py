@@ -21,7 +21,8 @@ class FontReplay(Replay):
             raise ValueError("Font loader coordinates require the audited executable profile")
         self.profile=copy.deepcopy(self.profile)
         self.profile['rvas']['font_loader']=0xE9980
-        self.u.mem_map(0x31040000,0x1C0000)
+        self.u.mem_map(0x31040000,0x7C0000)
+        self.instruction_limit=20000000
         self.raw=bytes(font_data)
         self.parsed=BinFont(self.raw)
         self.position=0
@@ -33,7 +34,7 @@ class FontReplay(Replay):
         self.u.mem_write(self.file_vtable,struct.pack('<Q',0x31003200))
         self.u.mem_write(self.file_vtable+0x18,struct.pack('<Q',0x31003210))
         self.u.mem_write(self.file_vtable+0x30,struct.pack('<Q',0x31003220))
-        self.u.mem_write(self.manager,struct.pack('<2Q',0x200000,self.obj))
+        self.u.mem_write(self.manager,struct.pack('<2Q',0x800000,self.obj))
         self.u.mem_write(self.base+self.profile['rvas']['memory_manager'],struct.pack('<Q',self.manager))
         self.sprites=[]
         self.image_calls=0
@@ -43,7 +44,7 @@ class FontReplay(Replay):
     def alloc(self,size):
         pointer=(self.alloc_next+15)&~15
         self.alloc_next=pointer+max(size,16)
-        if size<0 or self.alloc_next>=0x31200000:
+        if size<0 or self.alloc_next>=0x31800000:
             raise ValueError('Font replay allocation outside arena')
         self.u.mem_write(pointer,bytes(max(size,16)))
         return pointer

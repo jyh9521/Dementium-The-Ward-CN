@@ -1,0 +1,6067 @@
+{
+  "schema": 1,
+  "target_locale": "zh-CN",
+  "source_locale": "en",
+  "inspection": "offline-decoded-contact-sheets-and-selected-original-size-images",
+  "scope": [
+    {
+      "resource": "TEXTURES/EXAMINE/EXAMINE000.PNG",
+      "source_sha256": "eccad2892a524f53911a806f16b6d4919b29f26cc21fde402bdcaf9a390927e2",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "aba1c80e3245574c95d8647372149abfeefd11f4aa4d546f2e1118f996d288e7",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "物品查看图标；可见物品造型或卡面色块无需翻译，不猜测微缩商标字。"
+    },
+    {
+      "resource": "TEXTURES/EXAMINE/EXAMINE001.PNG",
+      "source_sha256": "5317ec8ea4342c0f859d4682af4e60488c3c8d12cbf91055ac85953688b467ff",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "af862e42a6dc4273ef51c1dc4cbf1836aa05f146bc8a785da6c2cb5335fe6ca9",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "物品查看图标；可见物品造型或卡面色块无需翻译，不猜测微缩商标字。"
+    },
+    {
+      "resource": "TEXTURES/EXAMINE/EXAMINE002.PNG",
+      "source_sha256": "e72b07cd2334be2d36a124e41863e59a15a49a16f56b10aa1a914fd37eafbff7",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "4022f53a5b950d72837e61cfd5f2aafc6da0694d73f17705a04b2083f1239eca",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "物品查看图标；可见物品造型或卡面色块无需翻译，不猜测微缩商标字。"
+    },
+    {
+      "resource": "TEXTURES/EXAMINE/EXAMINE003.PNG",
+      "source_sha256": "81ceb8f3999268596bb70c2932aa0e51e3e1dbac261d3566ca13cd673382314d",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "7c7b188746d2b950cec319b6e4d3b3949d376e456dd2872771decb269c4a5a6f",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "物品查看图标；可见物品造型或卡面色块无需翻译，不猜测微缩商标字。"
+    },
+    {
+      "resource": "TEXTURES/EXAMINE/EXAMINE004.PNG",
+      "source_sha256": "de7c9d06638317e6468d2ab27c193c699161c2de102b89a4fcef0f8036922df6",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "71d39adf42240263785df2a6fe204088498ae914021a1e5e1816a910562d9a41",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "物品查看图标；可见物品造型或卡面色块无需翻译，不猜测微缩商标字。"
+    },
+    {
+      "resource": "TEXTURES/EXAMINE/EXAMINE005.PNG",
+      "source_sha256": "3aecdc98f18c54f9c9d5058f4b263094b334f6993b323f119830e8471583988f",
+      "width": 80,
+      "height": 70,
+      "rgba_sha256": "24e7af6561af077e94d422eff1f773931fbbc0e25a875c711dcd384bfc3fbc0e",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "物品查看图标；可见物品造型或卡面色块无需翻译，不猜测微缩商标字。"
+    },
+    {
+      "resource": "TEXTURES/EXAMINE/EXAMINE006.PNG",
+      "source_sha256": "ed5e2a047727aa7b420929d5fdf8de7b56d8e08b026d040e4daf9b731be42829",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "e25b1ab179414bdb84c481f52def9ef433598bd6adcfbd46433bdfe82668385d",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "物品查看图标；可见物品造型或卡面色块无需翻译，不猜测微缩商标字。"
+    },
+    {
+      "resource": "TEXTURES/EXAMINE/EXAMINE007.PNG",
+      "source_sha256": "ec38eab8e53200f4000d4000ab0eb1abdf020069a01b2888dd00a803f24e7d32",
+      "width": 96,
+      "height": 64,
+      "rgba_sha256": "e5820693ff3a4f28a78c3835c4820c45cc7433817f7506a470cd69d0048b66ec",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "物品查看图标；可见物品造型或卡面色块无需翻译，不猜测微缩商标字。"
+    },
+    {
+      "resource": "TEXTURES/EXAMINE/EXAMINE008.PNG",
+      "source_sha256": "1ac0e91bd62a0aa34501fbfd875b82d6fef04b77e9077bbe5beb90b2ad994932",
+      "width": 152,
+      "height": 64,
+      "rgba_sha256": "0a116e5cb253e232914a5857395566f29745597e438723c05396e5386946e845",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "unreadable-source",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "原图仅64像素高，记事本/图纸/手写信上的笔画不可可靠逐字辨读；不猜写。关联examine/item文字资源已有独立译文，但不冒充已覆盖此图全部字迹。"
+    },
+    {
+      "resource": "TEXTURES/EXAMINE/EXAMINE009.PNG",
+      "source_sha256": "e72c7d871972dfabbd585fa5c34ce41bd651befc37499d9f33b7f9505eadc198",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "0266e7bbec25c16600913317245efca7b24d7b43ca6f7436cf9e582798521d04",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "unreadable-source",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "原图仅64像素高，记事本/图纸/手写信上的笔画不可可靠逐字辨读；不猜写。关联examine/item文字资源已有独立译文，但不冒充已覆盖此图全部字迹。"
+    },
+    {
+      "resource": "TEXTURES/EXAMINE/EXAMINE033.PNG",
+      "source_sha256": "88b9e36a8a92bee0852ea5f77e0fa051607395960c7a2f5f098ca00998249a05",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "70b354cdcdaea8a9017202e64d365d5943e388c6cb72939d5959eba9ed19c730",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "物品查看图标；可见物品造型或卡面色块无需翻译，不猜测微缩商标字。"
+    },
+    {
+      "resource": "TEXTURES/EXAMINE/EXAMINE034.PNG",
+      "source_sha256": "ad0d5fb08a2a0a189cb6b03ee1abcd064aab7f3cc96181b224bf83ce1d167d37",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "3930d6f43ef55ee0b30301e25e1ccd3a161e2c3140abf80cec406375894fd7de",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "物品查看图标；可见物品造型或卡面色块无需翻译，不猜测微缩商标字。"
+    },
+    {
+      "resource": "TEXTURES/EXAMINE/EXAMINE036.PNG",
+      "source_sha256": "56364aac1d1b80b5c101326501bc95da80615dc9166a869b51665deb666c973d",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "90eb09c29c5dbb96b090cee4286dfe269700b0a2f84a2d9403b8fec862bed067",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "物品查看图标；可见物品造型或卡面色块无需翻译，不猜测微缩商标字。"
+    },
+    {
+      "resource": "TEXTURES/EXAMINE/EXAMINE037.PNG",
+      "source_sha256": "ceac5adcfbddb2a5c1f8d5474f7b26d7e09ebbe6d6fa13439fab6fb80793f96d",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "8ca514c918ad8c5c3e76bed0d73409b5002ad56003cb0a09722d0b84527a4d98",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "物品查看图标；可见物品造型或卡面色块无需翻译，不猜测微缩商标字。"
+    },
+    {
+      "resource": "TEXTURES/EXAMINE/EXAMINE038.PNG",
+      "source_sha256": "9bd64007da8b3052a457ddc99253aea38d563ebfe25a0171099f32e9dcca06b0",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "33f01429fa84b0fec35cbef0f245a35d1a20fb1e7614faedae2ff143a7f572e1",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "物品查看图标；可见物品造型或卡面色块无需翻译，不猜测微缩商标字。"
+    },
+    {
+      "resource": "TEXTURES/EXAMINE/EXAMINE040.PNG",
+      "source_sha256": "d4758a488e8eed050fb121e6d64aa66b004d926400683f4efa7fb922e4d67cb4",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "e6719b8e7e0874323b6cd18a24ab841df8a353982f7f0fdd57bd2ddcd6792287",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "物品查看图标；可见物品造型或卡面色块无需翻译，不猜测微缩商标字。"
+    },
+    {
+      "resource": "TEXTURES/EXAMINE/EXAMINE041.PNG",
+      "source_sha256": "335ebad548ffb36fd422944cfa314208f1d00bbf0edf02c7a70ef8182a84c156",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "acae91e3ffe3363d42330079610ac0b5a006d4ad6b33140cf8f5f3fcef344d63",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "物品查看图标；可见物品造型或卡面色块无需翻译，不猜测微缩商标字。"
+    },
+    {
+      "resource": "TEXTURES/EXAMINE/EXAMINE042.PNG",
+      "source_sha256": "56d78d4f2be1a6a3fc0f5889c66e233c1437850ddf8c1c4dc6d210714bce8691",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "e6a2d810790440874201838cfabca4040ee79040ba838ccc4763fe6beefe4b8a",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-puzzle",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "照片碎片及手写密码数字10/31/07，保持原样。"
+    },
+    {
+      "resource": "TEXTURES/EXAMINE/EXAMINE043.PNG",
+      "source_sha256": "e4eac1b07b491dc7834f38cd763bd0097f65bd869b987dcfd190725625d4ab8f",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "7e8ca33e9215a65222f1ccd9598bd7916f828b38a8babe00104632f67640d6b8",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "preserve-puzzle",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "照片碎片及手写密码数字10/31/07，保持原样。"
+    },
+    {
+      "resource": "TEXTURES/EXAMINE/EXAMINE044.PNG",
+      "source_sha256": "dd923bea1c86098b865c850d7c3868d2b4cddc33cffe77039396aef7e445d599",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "2bcba8bd9a059631eeac09937e0325e033da2d2c04a73888f891abb83aa15d76",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "preserve-puzzle",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "照片碎片及手写密码数字10/31/07，保持原样。"
+    },
+    {
+      "resource": "TEXTURES/EXAMINE/EXAMINE045.PNG",
+      "source_sha256": "29b652e6630ac99a0d40b3f7e923f7c66eb6a1003250eed845dfefa83a800cd4",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "05b1fad9024d06bee7561f0c217e601787fc9a84a2d71a3a09eddabd5b1c6018",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "物品查看图标；可见物品造型或卡面色块无需翻译，不猜测微缩商标字。"
+    },
+    {
+      "resource": "TEXTURES/EXAMINE/EXAMINE046.PNG",
+      "source_sha256": "748b6e04f1ed73efbd3825dbd2ff7579b198d91614be09f8c8539930e9d591da",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "fceedb1c2fe289f710d6faa58f63e04e13c59cfe297e4521136285c93985a64b",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "unreadable-source",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "原图仅64像素高，记事本/图纸/手写信上的笔画不可可靠逐字辨读；不猜写。关联examine/item文字资源已有独立译文，但不冒充已覆盖此图全部字迹。"
+    },
+    {
+      "resource": "TEXTURES/EXAMINE/EXAMINE531.PNG",
+      "source_sha256": "7e84c5c72a378ee64dba4143582e51ac22b80cc85410211fc6552e99f1080a9e",
+      "width": 256,
+      "height": 128,
+      "rgba_sha256": "9529e9ff5a5bff96c04b27ceb6fa9d1f7a8e2043e2b5b23897f45f69cfe13a53",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "preserve-puzzle",
+      "source_texts": [
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "A",
+        "B",
+        "C#",
+        "D#",
+        "F#",
+        "G#",
+        "A#"
+      ],
+      "target_texts": [],
+      "notes": "钢琴音名图；字母及升号是谜题机制标识，不翻译或重排。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/BUTTON108.PNG",
+      "source_sha256": "137936a62e1f69351c32597bd842d346ccb06f9248e2fb41cfd07ca843ba5411",
+      "width": 108,
+      "height": 30,
+      "rgba_sha256": "571c7d7a79e39d1abdbe316d25005ce4a641cdf307604f850b71f0ab68e74f58",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "no-text",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "接触表与原图中未识别到需翻译的语言文本。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/BUTTON148.PNG",
+      "source_sha256": "d5410fcbce25de580eb6047b5387ad80d468eca03a8a29687b9a02bf92b81c7f",
+      "width": 148,
+      "height": 30,
+      "rgba_sha256": "a8c12bbb1619187c278167eda273e361776e7b11b96e384aed2018a923030077",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "no-text",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "接触表与原图中未识别到需翻译的语言文本。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/BUTTON76.PNG",
+      "source_sha256": "a4895af1bf1ca0d84b1ba1aad043f4d18710b1bc97a92468862898787795d5e8",
+      "width": 76,
+      "height": 34,
+      "rgba_sha256": "f6787d8b2b1dd74456e4523408ec32babb387f8142fdbffdd97b5fad5b1cf84f",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "no-text",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "接触表与原图中未识别到需翻译的语言文本。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/BUTTON92.PNG",
+      "source_sha256": "73c0b178444f6fc2ce9a3bd86ed7bff4d9bc7aa2f6592461d9690e3aa991fe87",
+      "width": 92,
+      "height": 32,
+      "rgba_sha256": "9574279a135f3aa1d84e2345e00309f850411d4c679ecb21e18271ac6ae4d1cc",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "no-text",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "接触表与原图中未识别到需翻译的语言文本。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/EN/LEGEND_KEYBOARD_BACK.PNG",
+      "source_sha256": "7a1e48fe64846cc26bbba35985eea52607bad2bec656b2d12e78c0b4c56988a8",
+      "width": 48,
+      "height": 20,
+      "rgba_sha256": "f8d740dfe305214c94418f70c491259c6fb90d64d907d6c030f858738e1aa370",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00",
+      "locale": "en",
+      "classification": "translate",
+      "source_texts": [
+        "Back"
+      ],
+      "target_texts": [
+        "返回"
+      ],
+      "notes": "文字与按键图标共存；仅替换语言标签，按键字母、SPC/Esc、圈叉及亚洲键位变体必须原样保留。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/EN/LEGEND_KEYBOARD_CONFIRM.PNG",
+      "source_sha256": "1b15321f31bb71893c2249cc1f8a2c3da14e9372fad56d4266fbfef10c60fca3",
+      "width": 65,
+      "height": 22,
+      "rgba_sha256": "dbeec3c00931d600953d1011dd7c9c0177464dbb70cf8f1790bd4e54d48fdcf8",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "0000",
+      "locale": "en",
+      "classification": "translate",
+      "source_texts": [
+        "Confirm"
+      ],
+      "target_texts": [
+        "确定"
+      ],
+      "notes": "文字与按键图标共存；仅替换语言标签，按键字母、SPC/Esc、圈叉及亚洲键位变体必须原样保留。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/EN/LEGEND_KEYBOARD_EQUIP.PNG",
+      "source_sha256": "06cb0d19812637fd33e2d052c15a113b211caf8fce69022a184039f826f83d25",
+      "width": 65,
+      "height": 22,
+      "rgba_sha256": "39dd26aae114ecb33beadd74b5672a5ce258d3e9b7232b1fe79e1f85ab0fd84c",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "000000",
+      "locale": "en",
+      "classification": "translate",
+      "source_texts": [
+        "Equip"
+      ],
+      "target_texts": [
+        "装备"
+      ],
+      "notes": "文字与按键图标共存；仅替换语言标签，按键字母、SPC/Esc、圈叉及亚洲键位变体必须原样保留。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/EN/LEGEND_KEYBOARD_PRESS.PNG",
+      "source_sha256": "6985a4bc9ef4d964814128601a94a06c25d29382492905370bd7e429e93417eb",
+      "width": 65,
+      "height": 22,
+      "rgba_sha256": "9a56f63b431fb363bd5bab8fc7e5f549178ab405df543d5804d8227c953168b7",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "0000",
+      "locale": "en",
+      "classification": "translate",
+      "source_texts": [
+        "Press"
+      ],
+      "target_texts": [
+        "按下"
+      ],
+      "notes": "文字与按键图标共存；仅替换语言标签，按键字母、SPC/Esc、圈叉及亚洲键位变体必须原样保留。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/EN/LEGEND_NX_BACK.PNG",
+      "source_sha256": "890c603b94c61e5259537d1b5bce5848dbf58458be24766baab13a5d743cc1e6",
+      "width": 48,
+      "height": 20,
+      "rgba_sha256": "bf3ff4e753e2ca1fb7c1c5aa74dd3b766b52a83497decc1d387924d851d2f5e8",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00000000",
+      "locale": "en",
+      "classification": "translate",
+      "source_texts": [
+        "Back"
+      ],
+      "target_texts": [
+        "返回"
+      ],
+      "notes": "文字与按键图标共存；仅替换语言标签，按键字母、SPC/Esc、圈叉及亚洲键位变体必须原样保留。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/EN/LEGEND_NX_CONFIRM.PNG",
+      "source_sha256": "d51555b347557a1b3dbdbefd75bcb8212e5438c9a608babedbd5b8853f777834",
+      "width": 65,
+      "height": 22,
+      "rgba_sha256": "0985a61fac45e7f96aa4dc2ab021df39f1f867f2e00d8924a18f9c39ae4053ae",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00000000",
+      "locale": "en",
+      "classification": "translate",
+      "source_texts": [
+        "Confirm"
+      ],
+      "target_texts": [
+        "确定"
+      ],
+      "notes": "文字与按键图标共存；仅替换语言标签，按键字母、SPC/Esc、圈叉及亚洲键位变体必须原样保留。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/EN/LEGEND_NX_EQUIP.PNG",
+      "source_sha256": "7d51d922ecb7e7543cc7cf7c6113d3afcfaa49773387e9b482fdc206d100dbe6",
+      "width": 55,
+      "height": 22,
+      "rgba_sha256": "4c69a69c107d0c2d668225e304232900511c5f37387f7b53f018c1aa845eb2e9",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00",
+      "locale": "en",
+      "classification": "translate",
+      "source_texts": [
+        "Equip"
+      ],
+      "target_texts": [
+        "装备"
+      ],
+      "notes": "文字与按键图标共存；仅替换语言标签，按键字母、SPC/Esc、圈叉及亚洲键位变体必须原样保留。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/EN/LEGEND_NX_PRESS.PNG",
+      "source_sha256": "e3dcfb0d1007f656392a9929e26648a6f9ed453d01453607c04a413761c6d723",
+      "width": 54,
+      "height": 22,
+      "rgba_sha256": "e81a0993b6a504716d578bc28b0266f23b8099a3a7873966ccc7af4210b24b0e",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "0000",
+      "locale": "en",
+      "classification": "translate",
+      "source_texts": [
+        "Press"
+      ],
+      "target_texts": [
+        "按下"
+      ],
+      "notes": "文字与按键图标共存；仅替换语言标签，按键字母、SPC/Esc、圈叉及亚洲键位变体必须原样保留。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/EN/LEGEND_PS4_BACK.PNG",
+      "source_sha256": "8223e04f859234e4997d1582e819c98ef0c1c995619c0fc479addc6b0f99403d",
+      "width": 48,
+      "height": 20,
+      "rgba_sha256": "b09622490c977c71c4247ad25d69b1de6a5b29154f17a79dd5927ab6e4ad1091",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00",
+      "locale": "en",
+      "classification": "translate",
+      "source_texts": [
+        "Back"
+      ],
+      "target_texts": [
+        "返回"
+      ],
+      "notes": "文字与按键图标共存；仅替换语言标签，按键字母、SPC/Esc、圈叉及亚洲键位变体必须原样保留。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/EN/LEGEND_PS4_BACK_ASIABUTTONS.PNG",
+      "source_sha256": "bb12e482782515a5fd8a34d090f74326c7a7f4d42f2d5b42173de08c4b2a8c9e",
+      "width": 48,
+      "height": 20,
+      "rgba_sha256": "2350e32f2b9de4679f5aee706752efbe425f9a48c2cba5d99c7a9986ec0d6931",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "000000",
+      "locale": "en",
+      "classification": "translate",
+      "source_texts": [
+        "Back"
+      ],
+      "target_texts": [
+        "返回"
+      ],
+      "notes": "文字与按键图标共存；仅替换语言标签，按键字母、SPC/Esc、圈叉及亚洲键位变体必须原样保留。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/EN/LEGEND_PS4_CONFIRM.PNG",
+      "source_sha256": "0ac1e017b9896758026e28addd51cc12a1c4f109218fdb22a836499d6de966b9",
+      "width": 65,
+      "height": 22,
+      "rgba_sha256": "982f48d8804813db25b66bc10f5ac0012526a458ed196b888d1fff20b7849ea3",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00000000",
+      "locale": "en",
+      "classification": "translate",
+      "source_texts": [
+        "Confirm"
+      ],
+      "target_texts": [
+        "确定"
+      ],
+      "notes": "文字与按键图标共存；仅替换语言标签，按键字母、SPC/Esc、圈叉及亚洲键位变体必须原样保留。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/EN/LEGEND_PS4_CONFIRM_ASIABUTTONS.PNG",
+      "source_sha256": "6e18cbed4de19b21bc3072b8bdc5fde97dcbcd8a4f518620f05e422bc3f616fe",
+      "width": 65,
+      "height": 22,
+      "rgba_sha256": "57b861c1bc8c42fc2460fc1f16be6e90edeb006598ce2c7311fb52c198959ce9",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00000000",
+      "locale": "en",
+      "classification": "translate",
+      "source_texts": [
+        "Confirm"
+      ],
+      "target_texts": [
+        "确定"
+      ],
+      "notes": "文字与按键图标共存；仅替换语言标签，按键字母、SPC/Esc、圈叉及亚洲键位变体必须原样保留。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/EN/LEGEND_PS4_EQUIP.PNG",
+      "source_sha256": "613be8e945167b62c1c1265a11e9b79e2cdfc5c26d9f5a77728a57ee1cd5bc0b",
+      "width": 55,
+      "height": 22,
+      "rgba_sha256": "e26abd4661615cedde68d6f2a0f1569d203c71461f5d1296e8a0e05beec4ff44",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "0000",
+      "locale": "en",
+      "classification": "translate",
+      "source_texts": [
+        "Equip"
+      ],
+      "target_texts": [
+        "装备"
+      ],
+      "notes": "文字与按键图标共存；仅替换语言标签，按键字母、SPC/Esc、圈叉及亚洲键位变体必须原样保留。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/EN/LEGEND_PS4_EQUIP_ASIABUTTONS.PNG",
+      "source_sha256": "6f4b133bb645a0e505194bfa5c85dbea8a5e17414f6b95bcf13bebc740e40ecd",
+      "width": 55,
+      "height": 22,
+      "rgba_sha256": "872bd2b4893c2b95faddbff8d08c41ea4bc1ae411e4b3d2d1db1da3f979f4333",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "000000",
+      "locale": "en",
+      "classification": "translate",
+      "source_texts": [
+        "Equip"
+      ],
+      "target_texts": [
+        "装备"
+      ],
+      "notes": "文字与按键图标共存；仅替换语言标签，按键字母、SPC/Esc、圈叉及亚洲键位变体必须原样保留。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/EN/LEGEND_PS4_PRESS.PNG",
+      "source_sha256": "4ec244231d5bdd9ef90193aae121ae46fdc92f2365a4884df152509d0cd8b059",
+      "width": 54,
+      "height": 22,
+      "rgba_sha256": "aabb82ddaa95736e1b770a9a53b7966594e9e2f690d484ab5fa1848321f7eb1e",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "000000",
+      "locale": "en",
+      "classification": "translate",
+      "source_texts": [
+        "Press"
+      ],
+      "target_texts": [
+        "按下"
+      ],
+      "notes": "文字与按键图标共存；仅替换语言标签，按键字母、SPC/Esc、圈叉及亚洲键位变体必须原样保留。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/EN/LEGEND_PS4_PRESS_ASIABUTTONS.PNG",
+      "source_sha256": "bc7984b55b5e946bc4c2b8f1cac22b560fb3aa81578a5d607747b35519798ed4",
+      "width": 54,
+      "height": 22,
+      "rgba_sha256": "6609b56c41e0b7d5a030003806305911b1cbdbbf455af4fcf8e117c6dad116e3",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "0000",
+      "locale": "en",
+      "classification": "translate",
+      "source_texts": [
+        "Press"
+      ],
+      "target_texts": [
+        "按下"
+      ],
+      "notes": "文字与按键图标共存；仅替换语言标签，按键字母、SPC/Esc、圈叉及亚洲键位变体必须原样保留。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/PAGELEFT.PNG",
+      "source_sha256": "840936bd3090b3f72cb244069de90aa438dc9621408ab814ab33ad21cfb4a998",
+      "width": 55,
+      "height": 59,
+      "rgba_sha256": "740c0b90587dc6a0eb592deac4565f5b2669724fc9bce2fab04d4212cde34d94",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/PAGELEFT_KEYBOARD.PNG",
+      "source_sha256": "9dbd574b2729b2fd67307d2724b26e3fcedbccb20af653e79f28a597a23808f8",
+      "width": 55,
+      "height": 59,
+      "rgba_sha256": "1ca83364f8b99bdd4221ed92a5706b72454ade4b4192afd2e4b5092f78a9cacb",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/PAGELEFT_PC.PNG",
+      "source_sha256": "8d7b23a7ce1394a42be408f58723a77c6cffc6f4153b40f3fe9bf4c189a4e70f",
+      "width": 55,
+      "height": 59,
+      "rgba_sha256": "63d818b52bbf8bf7c6e7e9b23691c18696401c6d93a494c8ec15b1a391eb0f2b",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/PAGELEFT_PS4.PNG",
+      "source_sha256": "df553b0a6de44ca2ee043056a07a3edb0f185e824859be7861d0d9e1127df46c",
+      "width": 55,
+      "height": 59,
+      "rgba_sha256": "b26a5692ea21720aab434528b2774a728ad611d39995c02758bbb62e2260f611",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/PAGERIGHT.PNG",
+      "source_sha256": "f2818385ea529ade193a14e9529f51a248c35e73d55d1de734c2249f9a626813",
+      "width": 55,
+      "height": 59,
+      "rgba_sha256": "943011675fef576d81a97260cfff333cd0cad93115b8ac308e276b397bf8370c",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/PAGERIGHT_KEYBOARD.PNG",
+      "source_sha256": "e33bc11122e3acc843678e5e07d894393f58fbfdc552dc9bd4dcd9cb90d907d3",
+      "width": 55,
+      "height": 59,
+      "rgba_sha256": "51c2f0c1b53a9861be4d829c8eb96189989c55e1628a6ad650c54f1341c07d74",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/PAGERIGHT_PC.PNG",
+      "source_sha256": "4e18e7805f966dfea8761e87a03e4c4b199ac256775d1d05e58bd4e9d45c1705",
+      "width": 55,
+      "height": 59,
+      "rgba_sha256": "87938d716e1ed8b0f3608793f54bbe13fb74e87e68a0f843da2ea4133325d13c",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/PAGERIGHT_PS4.PNG",
+      "source_sha256": "b48389e7e6bfd7a1e0ea933fc738ca89ed5f3d39c962f383aeec08bd91df0817",
+      "width": 55,
+      "height": 59,
+      "rgba_sha256": "16b66ff182b6265fce7498981f6483fd763aec4eb704170ee6ac75769ada1990",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_E_KEYBOARD.PNG",
+      "source_sha256": "f5722ebb641c7c411bf71b8854e2acd64b638b1a7e7ed7874f5d4032603be046",
+      "width": 15,
+      "height": 15,
+      "rgba_sha256": "8f447649cece685d087cc5e25af97c9ddb59660fd053c06573587d41d9992eca",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_DEAD.PNG",
+      "source_sha256": "e554e564797b42acc95901ab11e354207790c0b545d8d97c9ffa9b0d7854b1d9",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "44cb1c03699d18c569ec899c7200e420acf090a5647c094f1a2f21fad81a4177",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN1.PNG",
+      "source_sha256": "505f1f731f55a45c38697b13068871d72c63996e5156fb59f13fb91033d053d2",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "587fb7e4f632cc354481f1cc242c254555e41b46ebaf0e3b9f31d50caa098596",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN10.PNG",
+      "source_sha256": "70ffcbe1cafc86fbcee6ed152a60998c39e9b351e2ae480545cbe17062384473",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "6cb5ea9dbe5e1ddafe51bcf403b337a9b64dfb0b55d09bd518cd5943836087fb",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN11.PNG",
+      "source_sha256": "7aaf101417451b3e7ebd0c4c02303b05032a9bd68c5d8729633f43a078520aa5",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "69a441fcac2d75822c43c727158f757218e9f7f3821f3b672c8270663b62c4e2",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN12.PNG",
+      "source_sha256": "b5974deefe320ed00cd3b169d54b886b4ef1d105300d89bb2e9ce96374d40380",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "05e83ea35a2e822637a2c2f76cde965a23d61b12ef90e700798b9bc9345db04a",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN13.PNG",
+      "source_sha256": "706208e30a7d167d0650a0a1b13c001b61a59692341a2bd9e92421390726c31a",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "d02c70aeccd7548320bb6f09b1a4b4d5192740a3299d2267f9485315d0baa11d",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN2.PNG",
+      "source_sha256": "03271318df9ca32598c766da9cee06a2d7dfb1dd27efdcb8dd1b9dc665b71031",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "b548c35f579ea9a9606e7b987c3be6128b94759f0585bb271b5d32d3e66f3289",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN3.PNG",
+      "source_sha256": "9f12f955691a50f4ac1de31bb47cafe59ff1c7250b54d035e586f5d0139541c3",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "e232f26a145a968ffe10f7d746f596880c22bba31854ea815a34649f7a91ba73",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN4.PNG",
+      "source_sha256": "349cd54749084c31180a1dae014ab057efe7f3d0f1334c523f8359dbaac7c154",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "a706165338c34a73c9baf805269289f14b52a3736dea9b63fdb306628d70874e",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN5.PNG",
+      "source_sha256": "74c8f5f2c619bcf843be2e4230871e8dbbd46c88c90e58151a18be80802f5c31",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "1831fcf5096cba65d6a0c3e507ad3f1372271f24309326cbc71546c22aa6cb71",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN6.PNG",
+      "source_sha256": "5ac2209b3b3dfb933fa2a1c0dfd3e4b78b139ec98cef68db0ed15f3592a6d0de",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "d6defaa744d50cf099307c02ec5da8025bfc315cf2a83e948b13f4cc06d9497d",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN7.PNG",
+      "source_sha256": "ae3097d0562a88ba994731a3f6431e28f3c6156f40fa388e1e073ccd0b0d0ed2",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "41cf09bdb59afd37e07f90dc0d9e993d8d52805a2798ef0fe9171be13bb8b37d",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN8.PNG",
+      "source_sha256": "2b9107a3da6fc9f35744bb512618af9ec808ac99d7f825eccb65772cf4b00782",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "37a4a62346ba5978282e35cd0b5e634db675fa162c060bf7b17f42cdc046ce7a",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_GREEN9.PNG",
+      "source_sha256": "f7c6e5e4876163807d3666b585e7c237bdbc75206737fd1993368ad945ba6404",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "5a546d1001bb44664c91ede08c5f0af99d31f6e31d6ef2aeaa4099802cd328e9",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_RED1.PNG",
+      "source_sha256": "5e31b1312c164387e33f0b13847e8d5a30752713ba221ff3eb6f0afc455f792e",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "0ca057089c1dc0a523447752e8c53c57566b73f5ee6cea5183ae8b4cdeedb8b0",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_RED10.PNG",
+      "source_sha256": "23dded7673c5394efd3cb2ab1c1d2daf553d6295d434f112bcc9dc7481fd1104",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "ee889e7ee536658d66feb334101daca3d2321aa6bc40cd24a1941a24f6574a82",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_RED11.PNG",
+      "source_sha256": "295f74b060d4bc594b3a517b1c1e70d1e1128da43c116445187e72fecd1f69e7",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "0a68e857e3f00e30e93ad1b864a1ef6b38e6d35be5cd7d059ce780d16420746d",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_RED12.PNG",
+      "source_sha256": "83652b1b26e2ed955c4e73f5b8048fed7449711d0daa1f21b2f3e0d5f8672cc7",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "e0dc11d5fd1e1e6eaf1346c00a5f8511cb816c9839a5a35d268b563ba5adaedd",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_RED13.PNG",
+      "source_sha256": "6ca10552fa31dca20a9eeadbbabd1815ffeeb8add28dfec07b25e088ece8c024",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "35ace5c7004dcadd2ef6e692212784d895768b1228fd4808edb7effc94b57b80",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_RED2.PNG",
+      "source_sha256": "5ac2320f4dc22b8be1a0f6dce6833e969d47b6747b22b2d037e752d5a16cc780",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "0be655bb896bc78ba7a3a9c6a3145fcc0592293aef66d47abf2e5b3281469e4e",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_RED3.PNG",
+      "source_sha256": "839751ebe22ff0fe7e8b3e40ae088641d43f74c29d113c4a907d8dcfa2879b25",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "009ca4051f3b805aab3a5119a9410252c856bab95a2e7ba10deda917fd9121b5",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_RED4.PNG",
+      "source_sha256": "6ec7b2bc988ee449d27c6542211748605021360a1d148652e1d638f6334be727",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "3ceabb7fc978a70b5ade5af03063c1911eee253112549d7079aa62eb5e07baf1",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_RED5.PNG",
+      "source_sha256": "7301352520762682e5cc5adec3434c67dded5b8a390b2dbe440b9bb5531bea2a",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "a5c081cdec3d43fb8086d03c030a2f92eede9e09f9d8710d1a99a5fdeab128be",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_RED6.PNG",
+      "source_sha256": "8a344d6c6d59160866511f48f8a3f0fde9845e769bd8c678f0bf3b7bf47933e3",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "d0bfeed27ddcdc5cfb7dd83771fb227b7b0b1f992f2f727e41a238465d55707b",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_RED7.PNG",
+      "source_sha256": "1f5e5d855621a60dccf96632a7a1bd7fce90eed1b2375872eccbab16c9aed2a0",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "b568b48ae6297c7e8a4b16b4669320d633ac0c9e9cdca019db2e4df5a4fb7ae2",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_RED8.PNG",
+      "source_sha256": "5bd2b2c2ee64361923f189151cb378b35cff6f035fda4351aa30744afa9e2add",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "1ab47431f8c9755cee5426aac28a3c0abe4ca6092edc8336914b2b6ccf89052e",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_RED9.PNG",
+      "source_sha256": "6cf5a88a4d6a2500762789bc728898bd72d80540725b7a19620c6c20abdd272d",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "f415da816b1c2291dc5c592e7815aa2a1793c6bfdedcc1473a1857cbdeede545",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW1.PNG",
+      "source_sha256": "766db60679adb964fee0dd270536eb3035c69e803cb974fd513154074629e00e",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "d247b9151bd352b2a1d0df1a9f0487023eeea86ad6b6c6be33ee5293ea3cc96b",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW10.PNG",
+      "source_sha256": "4af56d57ca0db2d067fcbec457c1583078cfddb79fd1e13ed83e42842046d5a5",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "fa1a9b78660f189d982992a00ef27bcb204b07df48e5e8abafe23da63e1520f2",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW11.PNG",
+      "source_sha256": "a89ee14074ddcc5004e4e105a93ec014b3c20529c2507f61f438cf02a269c0fd",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "b72d26630d8154cb348df4be31367e634ede5c3ecfd65b80c9ec7df211d33773",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW12.PNG",
+      "source_sha256": "b615021e6119409ab14359d70589ae93bbfb8fe783b665cd0961f87c59c0f39b",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "826b885dc2097e784d0426b9995b6f3d82a6795216eb17b8fcf2315acd8a0a54",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW13.PNG",
+      "source_sha256": "3d9ec5c9825e965ffe3c7e055e201beeda290f032f2077ae626b36a59c0fbe98",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "0683a5297f38dfb2da660ff74361643470572a8284819d061f7ef1f934f62ac1",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW2.PNG",
+      "source_sha256": "77ccc19fa344c03871a1f40a7fc6ff9d8dc8ebcb3d4acf7b1fb6f9bd864fa660",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "8b7a709262c257805ff60ce8d021dc4577f774a4c8438c831c625c664c5ac621",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW3.PNG",
+      "source_sha256": "850029571f10046669ac3a5402d3d7c37c22f8ba81af7ff12c648ccd77318e97",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "dfa24932e417988b0d601f4df651d2f0198ca64aa810beb4a2b9db123dbaa65f",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW4.PNG",
+      "source_sha256": "06d1b7ffd743806f5836473b95e3e4890074f23a61a496d64d8da3fb58e8e73e",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "c22e298778cee3cefc6b851faa358def373e79b1428a93af7da691c257adfdfe",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW5.PNG",
+      "source_sha256": "667cd3f8334ee04c29791e9957c1cd682ee634324ef26ea1c9012e0ba7f17e2f",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "cd567eda30e7203b09cfe2b5fc1081c6c618b09a95abf16b08da00029bf32135",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW6.PNG",
+      "source_sha256": "c4fff28edb081056fcf03e719308d1c3dc319d83df6d6d64e443592ae6302e72",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "60436a88ea1d82cad5538d0797b86f0a2841866bba75767c79da36f3c0436930",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW7.PNG",
+      "source_sha256": "8d068b2290e0ce06982dae00433ba4bdd38a5330cdbe9f23d99759bfa610ef45",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "00cd587a066f8d7713f5eb51d525b2cf3d4613c8c793d1ad995e96b7e84cae93",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW8.PNG",
+      "source_sha256": "5e32f2a93d859e8fb8933e96d5997d8cc726a9f850ae7082e316e5deb23da987",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "d9f1883f4d23fc215bd51373ec7ecac53c80fe9be29a9fe226f1c46a6804ba1a",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_HEARTBEAT_YELLOW9.PNG",
+      "source_sha256": "f8b55615c4d717870acc187e74af0fcd38b1c70a66fe7e2ac966b48090f2835f",
+      "width": 28,
+      "height": 18,
+      "rgba_sha256": "3bf68ec1fc5acea2178042271711c191dbd030d2d8ae5c09cf993b313086680d",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_U_KEYBOARD.PNG",
+      "source_sha256": "d72e9f4a478739d353c48e1d86a52bdde86a7526e6a3f57d6629524578a37a96",
+      "width": 15,
+      "height": 15,
+      "rgba_sha256": "ab40d1a551b1732419cbe896d6842b462f6431d03e2c9634d8888138c1511c6d",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_WEAPON_BUZZSAW.PNG",
+      "source_sha256": "10d4974ff33ed85905e4ac64eb301192571d8f87d449bac46859fef5e9840d76",
+      "width": 128,
+      "height": 32,
+      "rgba_sha256": "357eb6338eae1df153cc49b48f03ddf5cb0b76db4f5c0089f29c95440193bf0e",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_WEAPON_FLASHLIGHT.PNG",
+      "source_sha256": "56b396ea54c5b4776cc575f02cf256b9265b114fdcbace6883e9ec18d808dac5",
+      "width": 128,
+      "height": 32,
+      "rgba_sha256": "de5389cd7b4634a39cb84ee8c886148fb872cc1a11f02af8537bae1f68c706cd",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_WEAPON_MACHINEGUN.PNG",
+      "source_sha256": "93146557df52fc7afe570e31f87c154a7b09426c4a167f30257ad8b9c3abab72",
+      "width": 128,
+      "height": 32,
+      "rgba_sha256": "108048d532aa27113e4de276583284f54fac7b03601045d22ecf25ed9c39046d",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_WEAPON_NIGHTSTICK.PNG",
+      "source_sha256": "1098a7b30aa17f101747cc75488f889fa93c3af74948f25e87f0e66fb3f26ca0",
+      "width": 128,
+      "height": 32,
+      "rgba_sha256": "6f3445d7361a0bf468a264775e62cb125a0446f224b4094496f2d152ebe85a0d",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_WEAPON_PISTOL.PNG",
+      "source_sha256": "911386be0d37cfc00c44519333ae477a8d3c15d9ccce8d49f414d608d09b0a73",
+      "width": 128,
+      "height": 32,
+      "rgba_sha256": "7aace48a1e321cd2506b5f8b5ed5cf119eb3a1fe899abdebbe014efb5505ad01",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_WEAPON_REVOLVER.PNG",
+      "source_sha256": "b8e2d7198810c1d2d3ddd12bfb6519f07a1829409f7b543a065191dd69e6d3da",
+      "width": 128,
+      "height": 32,
+      "rgba_sha256": "baf41e7562c51c47c4e0459571565704b4cf93c55d9c9e9ab7ba9ccc72e9f20a",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_WEAPON_SHOTGUN.PNG",
+      "source_sha256": "0d1de8309dbfcf65e5171f41f7f00ce5b6ce0f1f5814a7ef8f55559bf4d306d5",
+      "width": 128,
+      "height": 32,
+      "rgba_sha256": "012d3a7eb41f3d8f15d2d386316b3d05a9f75928223d3ec12879f523e36aad75",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_WEAPON_SNIPER.PNG",
+      "source_sha256": "038dc10961fe4a8705a6ace77c284df2de2c8cb0d471e42a4960fcd7df4257ac",
+      "width": 128,
+      "height": 32,
+      "rgba_sha256": "8b7ea182dce22dca686b285b81abc78a2365b64b004fe010e6255c14ecfa53d7",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_ZL.PNG",
+      "source_sha256": "af045d789514ad255ed9a4357a358fc54fd8f13082c24cb1cd1eb42cda219f65",
+      "width": 18,
+      "height": 15,
+      "rgba_sha256": "938de9b85256ef1f20a534c97d98eeacd369b9aec0abb6203b4b512ffaa58528",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_ZL_PC.PNG",
+      "source_sha256": "ac0da961aa69fc8419adc3257f184b9a57fe1c24b04e2f7c9dd968d29e83c57d",
+      "width": 20,
+      "height": 13,
+      "rgba_sha256": "091d4e93c6bc4e4448b00f2cf2f1765ec7e4200554bc995f28e02f2a98499cab",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_ZL_PS4.PNG",
+      "source_sha256": "8a2e3a1e28d3e717cff45c9fd7b0bfeaae7bb75b14d4dad13cc3b09ea5160a76",
+      "width": 18,
+      "height": 18,
+      "rgba_sha256": "411e5d222dd619d2feed1d4037dfbd5a51fc0467363e5ad6f61e49ea754cd1e2",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_ZR.PNG",
+      "source_sha256": "e305b3dcdd6b8f46ced86f397bdddb8b4583fbef102958fa5990fe40ee3b04cd",
+      "width": 18,
+      "height": 15,
+      "rgba_sha256": "cc79092faaaf47d601a9eefd2fa281718add0700dc06182a80b16aa63e4dc675",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_ZR_PC.PNG",
+      "source_sha256": "ba1fd108cce81c3f578e8eabdcebe66989510aa64c25b70569f4017cbe8c6365",
+      "width": 20,
+      "height": 13,
+      "rgba_sha256": "7c39a8767017d6574853c300e87dd1acc524c50abf045338253b4061a16b8bef",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/HUD_ZR_PS4.PNG",
+      "source_sha256": "59ae870005e4860667a926329a953d0b6c1b2a1b87c21d46e621029ea2b45ea7",
+      "width": 18,
+      "height": 18,
+      "rgba_sha256": "80a5ea58a9634177f8616f6a1bffecb8e46f82e4b4bac7828c41ea074aafc052",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/HUD/SNIPEHUDSCANLINES.PNG",
+      "source_sha256": "bfdc867e368d89855756300698fd940fc4c0467e4ce7ce034d70986fc15f7945",
+      "width": 8,
+      "height": 8,
+      "rgba_sha256": "2a38626552ade992a10ec2fb2eebfcc0017fbc9027f461101ece87f8f5cadcb4",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "no-text",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "接触表与原图中未识别到需翻译的语言文本。"
+    },
+    {
+      "resource": "TEXTURES/HUD/THATWASYOURLASTBREATH.PNG",
+      "source_sha256": "19984db0bd01030502d201dc4c893b232a81a4cb57a4259cad945a70c2ec3218",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "498a17f27688cd7e7eb562d2187b74b578f0d40a43809f4431f1eb68fb457682",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "translate",
+      "source_texts": [
+        "THAT WAS YOUR",
+        "LAST BREATH"
+      ],
+      "target_texts": [
+        "这就是你的",
+        "最后一口气"
+      ],
+      "notes": "死亡画面两张版本均需覆盖；保留背景、装饰和透明度。"
+    },
+    {
+      "resource": "TEXTURES/HUD/THATWASYOURLASTBREATH2.PNG",
+      "source_sha256": "c8dce5f55f05db983a5b211b81884d8fd343614debdb9b8062c7c05e4f08c722",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "edff12bc43d25fb4b1b98633add0c4bcae80e0890308cda75741727c0ea83923",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "translate",
+      "source_texts": [
+        "THAT WAS YOUR",
+        "LAST BREATH"
+      ],
+      "target_texts": [
+        "这就是你的",
+        "最后一口气"
+      ],
+      "notes": "死亡画面两张版本均需覆盖；保留背景、装饰和透明度。"
+    },
+    {
+      "resource": "TEXTURES/ITEMS/BG.PNG",
+      "source_sha256": "a4ba03534a36332c48888b736150de724bba704d727c96f3943f315d05a48b50",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "a6e013f0d26a7beef2a5df377440e41160872b335e09811255dc44224ca27ff7",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "no-text",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "接触表与原图中未识别到需翻译的语言文本。"
+    },
+    {
+      "resource": "TEXTURES/ITEMS/HIGHLIGHT.PNG",
+      "source_sha256": "7c46673b5cd255220a3d8b0b9765206d6c8d47f7795a3a25d6b8888a32628e68",
+      "width": 41,
+      "height": 39,
+      "rgba_sha256": "1183f7292798090d027a5b8592b1a85c869ca62dcd5806f6ed8c0b1a93ca66fc",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "no-text",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "接触表与原图中未识别到需翻译的语言文本。"
+    },
+    {
+      "resource": "TEXTURES/ITEMS/ITEMS.PNG",
+      "source_sha256": "4a37ceeb24392c628c62c6e110d52fdc26c170910b3cef20fce98416eb218acf",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "e2a4397147199a5211f5270235cfd1fa8f716af16b3e09c18c98b535235254b8",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "物品图标合集，含微缩文书/照片。手写微字不清晰，不据此另猜正文；照片数字与物品布局原样保留。"
+    },
+    {
+      "resource": "TEXTURES/MAP/BG.PNG",
+      "source_sha256": "240a5bdf9902802dd4350e1f14f0d91d2e9b202c75e3df0f7469119a071c55c2",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "80ac834ec4c0da516a5288d1c94f78bb301309987febe5849f0f68aaaa384f7c",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "translate",
+      "source_texts": [
+        "Redmoor Hospital"
+      ],
+      "target_texts": [
+        "雷德穆尔医院"
+      ],
+      "notes": "原428x240图片上方标题清晰可读；与病房2 Redmoor统一地名。"
+    },
+    {
+      "resource": "TEXTURES/MAPS/1FE_0.PNG",
+      "source_sha256": "2696e716c6f32a8fae8d85306d5f7d9b091ae43c55ffd170e10772a0d0554f37",
+      "width": 256,
+      "height": 192,
+      "rgba_sha256": "c7bdeea3b53d6e30f3fdf954eb5174174413d412c909cc45e576e4bdbf4b57d2",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "no-text",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "原图检查为平面图线条/阶梯/标记，无可读语言文字；不改变地图几何与方向。"
+    },
+    {
+      "resource": "TEXTURES/MAPS/1FW_0.PNG",
+      "source_sha256": "de7c8c6176585f893ff645fd32778303f13efb1a5071d47cc4ca031f15610a3f",
+      "width": 256,
+      "height": 192,
+      "rgba_sha256": "010f147e8de74e37acc4efae64e4e74018e001ff5916b8097808180d2fedbc66",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "no-text",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "原图检查为平面图线条/阶梯/标记，无可读语言文字；不改变地图几何与方向。"
+    },
+    {
+      "resource": "TEXTURES/MAPS/2FE_0.PNG",
+      "source_sha256": "da5a74c477c3972343aecf1e4f7264ebf2b86cef32c9d7f8450634748e43ff4b",
+      "width": 256,
+      "height": 192,
+      "rgba_sha256": "6a27aad0ecaaa79896ed8cba14bd8560277ddaed61c8ee7c6c67905bef496040",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "no-text",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "原图检查为平面图线条/阶梯/标记，无可读语言文字；不改变地图几何与方向。"
+    },
+    {
+      "resource": "TEXTURES/MAPS/2FW_0.PNG",
+      "source_sha256": "c30542f212e90e3bebb60c4580b873c4e0722dacfd9a8278af80358935f7929e",
+      "width": 256,
+      "height": 192,
+      "rgba_sha256": "3449bee243aba4dc8595821ce9399b48d297afd38569ba3bcd52fce1c284614c",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "no-text",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "原图检查为平面图线条/阶梯/标记，无可读语言文字；不改变地图几何与方向。"
+    },
+    {
+      "resource": "TEXTURES/MAPS/3FW_0.PNG",
+      "source_sha256": "6dc2b488fbcfe430499a9af9ebc60a8dd2673fdf849e1bb0254f09f9f8eca542",
+      "width": 256,
+      "height": 192,
+      "rgba_sha256": "f32d36e61ad0d27dc6c93affaf6abb0039bf37f782e6311e572d13f211e592ac",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "no-text",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "原图检查为平面图线条/阶梯/标记，无可读语言文字；不改变地图几何与方向。"
+    },
+    {
+      "resource": "TEXTURES/MAPS/4FE_0.PNG",
+      "source_sha256": "181d48c3c8211ced21e97e372e7c74af3c3c0ab9273e305f51569de1e80b8494",
+      "width": 256,
+      "height": 192,
+      "rgba_sha256": "2d358fa4d12e7c67cb0c6c3d8a3381a8fdce347d2489e6f8f2d21d9c16104218",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "no-text",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "原图检查为平面图线条/阶梯/标记，无可读语言文字；不改变地图几何与方向。"
+    },
+    {
+      "resource": "TEXTURES/MAPS/4FW_0.PNG",
+      "source_sha256": "7429c1da238503e77ebb7e9d870b4770314149e73be9d3b94d03a31f6298b05e",
+      "width": 256,
+      "height": 192,
+      "rgba_sha256": "0b9f1b0b5b757ddad93c1fb6e8af8281ad09bbefb45ced3568eb516182f0573b",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "no-text",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "原图检查为平面图线条/阶梯/标记，无可读语言文字；不改变地图几何与方向。"
+    },
+    {
+      "resource": "TEXTURES/MAPS/5FE_0.PNG",
+      "source_sha256": "5852da64570d95f3812ddac67f77ef87e8958bf2f4fa9dcff469ab55e9927faf",
+      "width": 256,
+      "height": 192,
+      "rgba_sha256": "e35ccf7470b5d1adaeb7ec678554efd99a2750ab0a11216f789bad03e6d2e78a",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "no-text",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "原图检查为平面图线条/阶梯/标记，无可读语言文字；不改变地图几何与方向。"
+    },
+    {
+      "resource": "TEXTURES/MAPS/5FW_0.PNG",
+      "source_sha256": "3bf353193d316d1e8d21da79c01838ba051edbb3512c6718a3a8e53ec4f49a01",
+      "width": 256,
+      "height": 192,
+      "rgba_sha256": "b9bd3e88b719d573666aaed702c45466df0a2fcf5ff83ece6d891869cf83305d",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "no-text",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "原图检查为平面图线条/阶梯/标记，无可读语言文字；不改变地图几何与方向。"
+    },
+    {
+      "resource": "TEXTURES/MAPS/6FE_0.PNG",
+      "source_sha256": "40b77f0d87771d777fe64201e525bf71f27bcc5872bd46c5e004a941e7445df2",
+      "width": 256,
+      "height": 192,
+      "rgba_sha256": "dace557688c083463f97404c59a26b05427b97e9261c98f5cc3f40c2e3bae7cb",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "no-text",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "原图检查为平面图线条/阶梯/标记，无可读语言文字；不改变地图几何与方向。"
+    },
+    {
+      "resource": "TEXTURES/MAPS/6FW_0.PNG",
+      "source_sha256": "47c3708ce2404afb1fc77b95c39621f09d66936b7c52b3fff484f0350d0edfd9",
+      "width": 256,
+      "height": 192,
+      "rgba_sha256": "426fa590304f82f55021432b0795147720c26eee7971ebfa03a3c859e6d8cfbd",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "no-text",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "原图检查为平面图线条/阶梯/标记，无可读语言文字；不改变地图几何与方向。"
+    },
+    {
+      "resource": "TEXTURES/MAPS/7FW_0.PNG",
+      "source_sha256": "1326ff58f880507cde44c29d3f89c8e64258e3a9e7050e017b3dd3ec659de09f",
+      "width": 256,
+      "height": 192,
+      "rgba_sha256": "8091cfd23509bdea6a4da0b84d20a6e3c573f620c883addfe3d643a9b7757458",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "no-text",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "原图检查为平面图线条/阶梯/标记，无可读语言文字；不改变地图几何与方向。"
+    },
+    {
+      "resource": "TEXTURES/MOUSE_CURSOR.PNG",
+      "source_sha256": "205de81ccff24ba3f6fa3d8f59729470bfe36de44c1d556eb560a1508a872763",
+      "width": 40,
+      "height": 40,
+      "rgba_sha256": "bee28e2013d51e60cfa046c9082d440e97fb9f93fe7135329028bc2b5670e5a9",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/MOVIES/AMANDA01.PNG",
+      "source_sha256": "f4e25496e328142edf4a2980ce85b4f841b35a58719462904a2be52647aba42f",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "0dfc49cd6d5f1f7fb043b3ff727071b810ed9f4ab75d032d09cd9e72dc32b32d",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "translate",
+      "source_texts": [
+        "CHAPTER THREE",
+        "The Infant Ward"
+      ],
+      "target_texts": [
+        "第三章",
+        "育婴病房"
+      ],
+      "notes": "章节标题图片，非视频字幕；按图中实际章号而非文件名推断。Cleaver称谓及场景译名仍需剧情一致性/画面验收。"
+    },
+    {
+      "resource": "TEXTURES/MOVIES/CHAPTER01.PNG",
+      "source_sha256": "850b63420011fdc1709cbd1f36324223e6d08b6cfc7ada510a340eb8c41cda90",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "1c6727384cecd00ea425c5ea58361f15af4c59ecad6e3d5b3560a958837cddf1",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "translate",
+      "source_texts": [
+        "CHAPTER ONE",
+        "The Admittance"
+      ],
+      "target_texts": [
+        "第一章",
+        "入院"
+      ],
+      "notes": "章节标题图片，非视频字幕；按图中实际章号而非文件名推断。Cleaver称谓及场景译名仍需剧情一致性/画面验收。"
+    },
+    {
+      "resource": "TEXTURES/MOVIES/CHAPTER02.PNG",
+      "source_sha256": "bbaae3bc5f0104c4933c41ac98328f6a36e04a325253a6488f325d35b108bb46",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "f4bec13df4ee9f7dd8548d69e21fc216a5d605c6674887966ee9bccb865ecd15",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "translate",
+      "source_texts": [
+        "CHAPTER TWO",
+        "The Rooftop"
+      ],
+      "target_texts": [
+        "第二章",
+        "屋顶"
+      ],
+      "notes": "章节标题图片，非视频字幕；按图中实际章号而非文件名推断。Cleaver称谓及场景译名仍需剧情一致性/画面验收。"
+    },
+    {
+      "resource": "TEXTURES/MOVIES/CHAPTER03.PNG",
+      "source_sha256": "f4e25496e328142edf4a2980ce85b4f841b35a58719462904a2be52647aba42f",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "0dfc49cd6d5f1f7fb043b3ff727071b810ed9f4ab75d032d09cd9e72dc32b32d",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "translate",
+      "source_texts": [
+        "CHAPTER THREE",
+        "The Infant Ward"
+      ],
+      "target_texts": [
+        "第三章",
+        "育婴病房"
+      ],
+      "notes": "章节标题图片，非视频字幕；按图中实际章号而非文件名推断。Cleaver称谓及场景译名仍需剧情一致性/画面验收。"
+    },
+    {
+      "resource": "TEXTURES/MOVIES/CHAPTER04.PNG",
+      "source_sha256": "759b70ba0c1207da835e0253ccb9ead16264d60488b7bb6b61b9eb0eaf632fa8",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "e44b6c58b42e49826ad54a9b40438e39662c512aedcb0551e681e77c772a3007",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "translate",
+      "source_texts": [
+        "CHAPTER FOUR",
+        "The Cleaver"
+      ],
+      "target_texts": [
+        "第四章",
+        "屠夫"
+      ],
+      "notes": "章节标题图片，非视频字幕；按图中实际章号而非文件名推断。Cleaver称谓及场景译名仍需剧情一致性/画面验收。"
+    },
+    {
+      "resource": "TEXTURES/MOVIES/CHAPTER05.PNG",
+      "source_sha256": "eccc9f1b2f533ca29ce602c3e5506daff40b9db3c3c42d5ef23fd144fbbb682d",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "18a437ba59b7ebea4da3b958eaa9eb1a2877bb2a6d87e2d5bc34454cb62a6139",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "translate",
+      "source_texts": [
+        "CHAPTER FIVE",
+        "The Courtyard"
+      ],
+      "target_texts": [
+        "第五章",
+        "庭院"
+      ],
+      "notes": "章节标题图片，非视频字幕；按图中实际章号而非文件名推断。Cleaver称谓及场景译名仍需剧情一致性/画面验收。"
+    },
+    {
+      "resource": "TEXTURES/MOVIES/CHAPTER06.PNG",
+      "source_sha256": "5b61830f61f4950da0643aaa4f72bfde560da25a3c694573bc4e2120c96686cd",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "59924130cce69379db408b13a82042bee40c01363738d5f9eb60e2a97ff82334",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "translate",
+      "source_texts": [
+        "CHAPTER SIX",
+        "The Electric Buzz-saw"
+      ],
+      "target_texts": [
+        "第六章",
+        "电锯"
+      ],
+      "notes": "章节标题图片，非视频字幕；按图中实际章号而非文件名推断。Cleaver称谓及场景译名仍需剧情一致性/画面验收。"
+    },
+    {
+      "resource": "TEXTURES/MOVIES/CHAPTER07.PNG",
+      "source_sha256": "f0d14348a32f94795b68aa8692594f8a02be9bbad72fe89f4b1b140347cce7ea",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "df94f0b330852548b83a6f710abc00597904efa18b2aa3730613302ac83c0306",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "translate",
+      "source_texts": [
+        "CHAPTER SEVEN",
+        "The Main Security Room"
+      ],
+      "target_texts": [
+        "第七章",
+        "保安总控室"
+      ],
+      "notes": "章节标题图片，非视频字幕；按图中实际章号而非文件名推断。Cleaver称谓及场景译名仍需剧情一致性/画面验收。"
+    },
+    {
+      "resource": "TEXTURES/MOVIES/CHAPTER08.PNG",
+      "source_sha256": "fbe473be6e73c1e35d3243b55974067c8884dbb3f3efd1742f36826164563c82",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "a521882516f3bf07864738b9ec805bbea42cefacac193a0ed93d46828b9652d1",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "translate",
+      "source_texts": [
+        "CHAPTER EIGHT",
+        "The Flashback"
+      ],
+      "target_texts": [
+        "第八章",
+        "往事重现"
+      ],
+      "notes": "章节标题图片，非视频字幕；按图中实际章号而非文件名推断。Cleaver称谓及场景译名仍需剧情一致性/画面验收。"
+    },
+    {
+      "resource": "TEXTURES/MOVIES/CHAPTER09.PNG",
+      "source_sha256": "77af7fd69532cf06781f0521de725ad37908a256375331dc5c89d4ab1c67d75f",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "1eb7c723d1025302f16540b47d1c732c2a6d115d70c6f5f4fa1e7dde53ba395f",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "translate",
+      "source_texts": [
+        "CHAPTER NINE",
+        "The Hole in the Wall"
+      ],
+      "target_texts": [
+        "第九章",
+        "墙上的洞"
+      ],
+      "notes": "章节标题图片，非视频字幕；按图中实际章号而非文件名推断。Cleaver称谓及场景译名仍需剧情一致性/画面验收。"
+    },
+    {
+      "resource": "TEXTURES/MOVIES/CHAPTER10.PNG",
+      "source_sha256": "2defe71029f1758a0026cf88bbe2ab76f86ed3bc3824d5dbf075d5d36c1f8089",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "66444a12d2dd3bffc85cf1e90039d90ef6b1beb3e089ab1e889455f143af2f82",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "translate",
+      "source_texts": [
+        "CHAPTER TEN",
+        "The Torn Photograph"
+      ],
+      "target_texts": [
+        "第十章",
+        "撕碎的照片"
+      ],
+      "notes": "章节标题图片，非视频字幕；按图中实际章号而非文件名推断。Cleaver称谓及场景译名仍需剧情一致性/画面验收。"
+    },
+    {
+      "resource": "TEXTURES/MOVIES/CHAPTER11.PNG",
+      "source_sha256": "7b25f0b3081439b5c4c599d9ad47dfebf3b2b8022891a69dea75881c823b8555",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "9b998f91fd5223125a0a34715f423cd2bee44c6a8d9adb68296e71a84bf5fe46",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "translate",
+      "source_texts": [
+        "CHAPTER ELEVEN",
+        "The Guard Tower"
+      ],
+      "target_texts": [
+        "第十一章",
+        "岗楼"
+      ],
+      "notes": "章节标题图片，非视频字幕；按图中实际章号而非文件名推断。Cleaver称谓及场景译名仍需剧情一致性/画面验收。"
+    },
+    {
+      "resource": "TEXTURES/MOVIES/CHAPTER12.PNG",
+      "source_sha256": "40d24c91f98b805f5f3c58489c67b131eb93bcb2a25f88994eda98d29783fb90",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "a37887031af49750cebb4e82ca5ccba58fb70edc8953c12e5f2fc36925750bd6",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "translate",
+      "source_texts": [
+        "CHAPTER TWELVE",
+        "The Cleaver's Return"
+      ],
+      "target_texts": [
+        "第十二章",
+        "屠夫归来"
+      ],
+      "notes": "章节标题图片，非视频字幕；按图中实际章号而非文件名推断。Cleaver称谓及场景译名仍需剧情一致性/画面验收。"
+    },
+    {
+      "resource": "TEXTURES/MOVIES/CHAPTER13.PNG",
+      "source_sha256": "1d9d21593578f86e318ade691faafa1dacee09b9c653dd9ee95bbabfe4c1cd68",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "e83ec3797ff1aa015ce1b969e83bbe56dea6de9194c24dcf043146b439eb1490",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "translate",
+      "source_texts": [
+        "CHAPTER THIRTEEN",
+        "The Door with No Handle"
+      ],
+      "target_texts": [
+        "第十三章",
+        "没有把手的门"
+      ],
+      "notes": "章节标题图片，非视频字幕；按图中实际章号而非文件名推断。Cleaver称谓及场景译名仍需剧情一致性/画面验收。"
+    },
+    {
+      "resource": "TEXTURES/MOVIES/CHAPTER14.PNG",
+      "source_sha256": "9db9fb3dd58673345f383a775c92ba64ad98217ee2f5326223902e738d25c555",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "ce3fcb1f99596a8fc7b042520551cb7bafbada9629c32e961740f24f1152df15",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "translate",
+      "source_texts": [
+        "CHAPTER FOURTEEN",
+        "The Wheelchair's Return"
+      ],
+      "target_texts": [
+        "第十四章",
+        "轮椅归来"
+      ],
+      "notes": "章节标题图片，非视频字幕；按图中实际章号而非文件名推断。Cleaver称谓及场景译名仍需剧情一致性/画面验收。"
+    },
+    {
+      "resource": "TEXTURES/MOVIES/CHAPTER15.PNG",
+      "source_sha256": "a6014e78de5e7b2c498499d7ce8ddfbd446386bef6fe9f2889835bedac8382cd",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "4c09f154691acdcda27eec59529d07f85b6ae72953055c388d3b0787809bd5e9",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "translate",
+      "source_texts": [
+        "CHAPTER FIFTEEN",
+        "The First Encounter"
+      ],
+      "target_texts": [
+        "第十五章",
+        "初次交锋"
+      ],
+      "notes": "章节标题图片，非视频字幕；按图中实际章号而非文件名推断。Cleaver称谓及场景译名仍需剧情一致性/画面验收。"
+    },
+    {
+      "resource": "TEXTURES/MOVIES/CHAPTER16.PNG",
+      "source_sha256": "9173848b5d532b20f4c0cef85636b75f6548084f54c934d1d805b46fb65bce98",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "6220a5140093b182c0b5f7ecca1e85a41569119c900d367db83405352eb5f881",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "translate",
+      "source_texts": [
+        "CHAPTER SIXTEEN",
+        "The Final Encounter"
+      ],
+      "target_texts": [
+        "第十六章",
+        "最终对决"
+      ],
+      "notes": "章节标题图片，非视频字幕；按图中实际章号而非文件名推断。Cleaver称谓及场景译名仍需剧情一致性/画面验收。"
+    },
+    {
+      "resource": "TEXTURES/MOVIES/INTRO.PNG",
+      "source_sha256": "850b63420011fdc1709cbd1f36324223e6d08b6cfc7ada510a340eb8c41cda90",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "1c6727384cecd00ea425c5ea58361f15af4c59ecad6e3d5b3560a958837cddf1",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "translate",
+      "source_texts": [
+        "CHAPTER ONE",
+        "The Admittance"
+      ],
+      "target_texts": [
+        "第一章",
+        "入院"
+      ],
+      "notes": "章节标题图片，非视频字幕；按图中实际章号而非文件名推断。Cleaver称谓及场景译名仍需剧情一致性/画面验收。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/BG.PNG",
+      "source_sha256": "2963117e7212ceac9279f11e0b3ff9247827b4e064887931e9a7ed1c0be6d5e1",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "08497fb930c4e60d22f81d59f8484ac591b2634036d7234599321ecb55f7f4d6",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "no-text",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "接触表与原图中未识别到需翻译的语言文本。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/BUTTONSTRIP.PNG",
+      "source_sha256": "1abffb28771fa5baa4727ebd8d03f820093cbed5cd7733519278af75e56bfb17",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "530cab71121f7da6fda84437df63d7a143dcf9df073bd82cd55cdd6f064b1a5f",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "no-text",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "接触表与原图中未识别到需翻译的语言文本。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/EN/CONTROLS_KEYBOARD_TYPE1.PNG",
+      "source_sha256": "6d81df25d32079c55ca48b127ef66179b36d0e22813435b1598e11de5da10262",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "9955611fa0124b4a54c75d25f0ab858dab265f9876755b172b08cbf0e87f79ad",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "000000",
+      "locale": "en",
+      "classification": "translate",
+      "source_texts": [
+        "Weapon Select",
+        "Map",
+        "Weapons",
+        "Interact",
+        "Reload",
+        "Items",
+        "Move",
+        "Flashlight",
+        "Attack",
+        "Weapon Cycle",
+        "Options",
+        "Aim",
+        "Reload/Equip Last",
+        "Cycle Weapons"
+      ],
+      "target_texts": [
+        "武器选择",
+        "地图",
+        "武器",
+        "互动",
+        "装填",
+        "物品",
+        "移动",
+        "手电筒",
+        "攻击",
+        "切换武器",
+        "设置",
+        "瞄准",
+        "装填/上次装备",
+        "切换武器"
+      ],
+      "notes": "复合操作说明图；source_texts为可见通用标签词表，不是像素坐标或每图逐项转录。须逐图仅替换实际存在的标签，保留所有键位/手柄图/指示线及TYPE差异。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/EN/CONTROLS_KEYBOARD_TYPE2.PNG",
+      "source_sha256": "edc287ebf7c3d87bdaf27af9012e3c75b6bb737bae1de2a569ca708723dcad5d",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "e5775d64b50c5227cdf584962c5322e3cc0556a5d4d8f5a721f96c8e757baf63",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00000000",
+      "locale": "en",
+      "classification": "translate",
+      "source_texts": [
+        "Weapon Select",
+        "Map",
+        "Weapons",
+        "Interact",
+        "Reload",
+        "Items",
+        "Move",
+        "Flashlight",
+        "Attack",
+        "Weapon Cycle",
+        "Options",
+        "Aim",
+        "Reload/Equip Last",
+        "Cycle Weapons"
+      ],
+      "target_texts": [
+        "武器选择",
+        "地图",
+        "武器",
+        "互动",
+        "装填",
+        "物品",
+        "移动",
+        "手电筒",
+        "攻击",
+        "切换武器",
+        "设置",
+        "瞄准",
+        "装填/上次装备",
+        "切换武器"
+      ],
+      "notes": "复合操作说明图；source_texts为可见通用标签词表，不是像素坐标或每图逐项转录。须逐图仅替换实际存在的标签，保留所有键位/手柄图/指示线及TYPE差异。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/EN/CONTROLS_NX_TYPE1.PNG",
+      "source_sha256": "c8755b8d6a15413d96481ec1820498e0cffedac003541310760f377b70174496",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "7349ece74b87aeb92331d6ccd048d86cd64aef361db0fb59d3f9a97c05caad40",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00",
+      "locale": "en",
+      "classification": "translate",
+      "source_texts": [
+        "Weapon Select",
+        "Map",
+        "Weapons",
+        "Interact",
+        "Reload",
+        "Items",
+        "Move",
+        "Flashlight",
+        "Attack",
+        "Weapon Cycle",
+        "Options",
+        "Aim",
+        "Reload/Equip Last",
+        "Cycle Weapons"
+      ],
+      "target_texts": [
+        "武器选择",
+        "地图",
+        "武器",
+        "互动",
+        "装填",
+        "物品",
+        "移动",
+        "手电筒",
+        "攻击",
+        "切换武器",
+        "设置",
+        "瞄准",
+        "装填/上次装备",
+        "切换武器"
+      ],
+      "notes": "复合操作说明图；source_texts为可见通用标签词表，不是像素坐标或每图逐项转录。须逐图仅替换实际存在的标签，保留所有键位/手柄图/指示线及TYPE差异。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/EN/CONTROLS_NX_TYPE2.PNG",
+      "source_sha256": "5084b13962e031aef2dc670c3b379bb8f112757b7ec534c9034dfe3faba0e803",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "c77cc4ca84df65e8083e733d82302a6644de8168afd0d05ce55e75b2bc261b22",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00000000",
+      "locale": "en",
+      "classification": "translate",
+      "source_texts": [
+        "Weapon Select",
+        "Map",
+        "Weapons",
+        "Interact",
+        "Reload",
+        "Items",
+        "Move",
+        "Flashlight",
+        "Attack",
+        "Weapon Cycle",
+        "Options",
+        "Aim",
+        "Reload/Equip Last",
+        "Cycle Weapons"
+      ],
+      "target_texts": [
+        "武器选择",
+        "地图",
+        "武器",
+        "互动",
+        "装填",
+        "物品",
+        "移动",
+        "手电筒",
+        "攻击",
+        "切换武器",
+        "设置",
+        "瞄准",
+        "装填/上次装备",
+        "切换武器"
+      ],
+      "notes": "复合操作说明图；source_texts为可见通用标签词表，不是像素坐标或每图逐项转录。须逐图仅替换实际存在的标签，保留所有键位/手柄图/指示线及TYPE差异。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/EN/CONTROLS_NX_TYPE3.PNG",
+      "source_sha256": "28e1d5b6eec5cb1df0fc9d11c5925b79baab638e1f6e7152e100f891f0489866",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "adc9639683e124baaeec3f2fcdeec07b19955561b19e390760b1a1b2b857e8ce",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00",
+      "locale": "en",
+      "classification": "translate",
+      "source_texts": [
+        "Weapon Select",
+        "Map",
+        "Weapons",
+        "Interact",
+        "Reload",
+        "Items",
+        "Move",
+        "Flashlight",
+        "Attack",
+        "Weapon Cycle",
+        "Options",
+        "Aim",
+        "Reload/Equip Last",
+        "Cycle Weapons"
+      ],
+      "target_texts": [
+        "武器选择",
+        "地图",
+        "武器",
+        "互动",
+        "装填",
+        "物品",
+        "移动",
+        "手电筒",
+        "攻击",
+        "切换武器",
+        "设置",
+        "瞄准",
+        "装填/上次装备",
+        "切换武器"
+      ],
+      "notes": "复合操作说明图；source_texts为可见通用标签词表，不是像素坐标或每图逐项转录。须逐图仅替换实际存在的标签，保留所有键位/手柄图/指示线及TYPE差异。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/EN/CONTROLS_PC_TYPE1.PNG",
+      "source_sha256": "9f33e9dd5d0efe30a4153c165db2ac8b9c824625428df61185722ce3ad30d7f6",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "e9172d6454504ee951dc5e53cc8d3875f01eab71aaecfdcbcff5a50936a96702",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00",
+      "locale": "en",
+      "classification": "translate",
+      "source_texts": [
+        "Weapon Select",
+        "Map",
+        "Weapons",
+        "Interact",
+        "Reload",
+        "Items",
+        "Move",
+        "Flashlight",
+        "Attack",
+        "Weapon Cycle",
+        "Options",
+        "Aim",
+        "Reload/Equip Last",
+        "Cycle Weapons"
+      ],
+      "target_texts": [
+        "武器选择",
+        "地图",
+        "武器",
+        "互动",
+        "装填",
+        "物品",
+        "移动",
+        "手电筒",
+        "攻击",
+        "切换武器",
+        "设置",
+        "瞄准",
+        "装填/上次装备",
+        "切换武器"
+      ],
+      "notes": "复合操作说明图；source_texts为可见通用标签词表，不是像素坐标或每图逐项转录。须逐图仅替换实际存在的标签，保留所有键位/手柄图/指示线及TYPE差异。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/EN/CONTROLS_PC_TYPE2.PNG",
+      "source_sha256": "5dcc2697926af7336c20b93dadf0cca428d7f56822f2489df6a558391cfe8852",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "a430f6796837ac77218f5a77863ee71a2af4e2d1209462450acfcc23e04636f1",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "0000",
+      "locale": "en",
+      "classification": "translate",
+      "source_texts": [
+        "Weapon Select",
+        "Map",
+        "Weapons",
+        "Interact",
+        "Reload",
+        "Items",
+        "Move",
+        "Flashlight",
+        "Attack",
+        "Weapon Cycle",
+        "Options",
+        "Aim",
+        "Reload/Equip Last",
+        "Cycle Weapons"
+      ],
+      "target_texts": [
+        "武器选择",
+        "地图",
+        "武器",
+        "互动",
+        "装填",
+        "物品",
+        "移动",
+        "手电筒",
+        "攻击",
+        "切换武器",
+        "设置",
+        "瞄准",
+        "装填/上次装备",
+        "切换武器"
+      ],
+      "notes": "复合操作说明图；source_texts为可见通用标签词表，不是像素坐标或每图逐项转录。须逐图仅替换实际存在的标签，保留所有键位/手柄图/指示线及TYPE差异。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/EN/CONTROLS_PC_TYPE3.PNG",
+      "source_sha256": "58cf884f96638152585a5494b082100322897373b85d820b4a66dcba220717c7",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "d1b81b5b5b05257497b997c26f070c28869270b912f98b6dc3b3b642c5bda070",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00",
+      "locale": "en",
+      "classification": "translate",
+      "source_texts": [
+        "Weapon Select",
+        "Map",
+        "Weapons",
+        "Interact",
+        "Reload",
+        "Items",
+        "Move",
+        "Flashlight",
+        "Attack",
+        "Weapon Cycle",
+        "Options",
+        "Aim",
+        "Reload/Equip Last",
+        "Cycle Weapons"
+      ],
+      "target_texts": [
+        "武器选择",
+        "地图",
+        "武器",
+        "互动",
+        "装填",
+        "物品",
+        "移动",
+        "手电筒",
+        "攻击",
+        "切换武器",
+        "设置",
+        "瞄准",
+        "装填/上次装备",
+        "切换武器"
+      ],
+      "notes": "复合操作说明图；source_texts为可见通用标签词表，不是像素坐标或每图逐项转录。须逐图仅替换实际存在的标签，保留所有键位/手柄图/指示线及TYPE差异。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/EN/CONTROLS_PS4_TYPE1.PNG",
+      "source_sha256": "91b9df10714f039b41d19c10aa3baae54a4e3c58f8379cd57095113ee8b200f7",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "2b6ea30583b85eaab0220f28fc18c2f525f52ba01ce9734fc5df062d5030cf4f",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "0000",
+      "locale": "en",
+      "classification": "translate",
+      "source_texts": [
+        "Weapon Select",
+        "Map",
+        "Weapons",
+        "Interact",
+        "Reload",
+        "Items",
+        "Move",
+        "Flashlight",
+        "Attack",
+        "Weapon Cycle",
+        "Options",
+        "Aim",
+        "Reload/Equip Last",
+        "Cycle Weapons"
+      ],
+      "target_texts": [
+        "武器选择",
+        "地图",
+        "武器",
+        "互动",
+        "装填",
+        "物品",
+        "移动",
+        "手电筒",
+        "攻击",
+        "切换武器",
+        "设置",
+        "瞄准",
+        "装填/上次装备",
+        "切换武器"
+      ],
+      "notes": "复合操作说明图；source_texts为可见通用标签词表，不是像素坐标或每图逐项转录。须逐图仅替换实际存在的标签，保留所有键位/手柄图/指示线及TYPE差异。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/EN/CONTROLS_PS4_TYPE2.PNG",
+      "source_sha256": "274ce59358786f169b6cea84fe7c0dd9655f962fbec1c559bf50e2632c25ac01",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "023bbe8d6f92a20d966a5487655d91f9c96695d984e6ea0046164a89b828342a",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "000000",
+      "locale": "en",
+      "classification": "translate",
+      "source_texts": [
+        "Weapon Select",
+        "Map",
+        "Weapons",
+        "Interact",
+        "Reload",
+        "Items",
+        "Move",
+        "Flashlight",
+        "Attack",
+        "Weapon Cycle",
+        "Options",
+        "Aim",
+        "Reload/Equip Last",
+        "Cycle Weapons"
+      ],
+      "target_texts": [
+        "武器选择",
+        "地图",
+        "武器",
+        "互动",
+        "装填",
+        "物品",
+        "移动",
+        "手电筒",
+        "攻击",
+        "切换武器",
+        "设置",
+        "瞄准",
+        "装填/上次装备",
+        "切换武器"
+      ],
+      "notes": "复合操作说明图；source_texts为可见通用标签词表，不是像素坐标或每图逐项转录。须逐图仅替换实际存在的标签，保留所有键位/手柄图/指示线及TYPE差异。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/EN/CONTROLS_PS4_TYPE3.PNG",
+      "source_sha256": "cb3f7fcac2a65b7590189e3ad8a99f6168f31ede4a683efd3e536d9d16ef2013",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "bd80059cee56b995fa1fbc355543d6ad572f3c2ef1564ab21154673f3358ee01",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00",
+      "locale": "en",
+      "classification": "translate",
+      "source_texts": [
+        "Weapon Select",
+        "Map",
+        "Weapons",
+        "Interact",
+        "Reload",
+        "Items",
+        "Move",
+        "Flashlight",
+        "Attack",
+        "Weapon Cycle",
+        "Options",
+        "Aim",
+        "Reload/Equip Last",
+        "Cycle Weapons"
+      ],
+      "target_texts": [
+        "武器选择",
+        "地图",
+        "武器",
+        "互动",
+        "装填",
+        "物品",
+        "移动",
+        "手电筒",
+        "攻击",
+        "切换武器",
+        "设置",
+        "瞄准",
+        "装填/上次装备",
+        "切换武器"
+      ],
+      "notes": "复合操作说明图；source_texts为可见通用标签词表，不是像素坐标或每图逐项转录。须逐图仅替换实际存在的标签，保留所有键位/手柄图/指示线及TYPE差异。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/EN/LEGEND_KEYBOARD_YAXIS.PNG",
+      "source_sha256": "9ea1450fc93496dfc3b6d2eabd78b8c7e8454522dee285de2938ceb468829128",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "2babfd82f38b0adbffba3218ce1bfc88d72c4b83ce60594b0c7644deacb1f506",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "000000",
+      "locale": "en",
+      "classification": "translate",
+      "source_texts": [
+        "Y Axis"
+      ],
+      "target_texts": [
+        "Y轴"
+      ],
+      "notes": "Y为坐标轴标识，保留Y与左侧按键/摇杆图标，仅翻译Axis。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/EN/LEGEND_NX_YAXIS.PNG",
+      "source_sha256": "6867bb463144cae96b5b866c5fda88e68e62fefe338fa477283ec71fc73de859",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "ebef87eac704764ec63935845d574b14c6845931082a3ca4b2a1f22e7c4e2388",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00000000",
+      "locale": "en",
+      "classification": "translate",
+      "source_texts": [
+        "Y Axis"
+      ],
+      "target_texts": [
+        "Y轴"
+      ],
+      "notes": "Y为坐标轴标识，保留Y与左侧按键/摇杆图标，仅翻译Axis。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/EN/LEGEND_PC_YAXIS.PNG",
+      "source_sha256": "2efa3a4a96c943420995200b0516f3dc6b88b2645d013d2bde546a2fafcabd06",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "99c673ed8926ed906c04e3274ecaa4a5aa76b6ddf86157d80df273acc818a9cb",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00",
+      "locale": "en",
+      "classification": "translate",
+      "source_texts": [
+        "Y Axis"
+      ],
+      "target_texts": [
+        "Y轴"
+      ],
+      "notes": "Y为坐标轴标识，保留Y与左侧按键/摇杆图标，仅翻译Axis。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/EN/LEGEND_PS4_YAXIS.PNG",
+      "source_sha256": "bb310dbf0f42a3e2a29f5660bee1899a7407510d98df725a28ffd99f0ae3c4af",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "0272eb51406b16147be834a0d6f9c19e4ea5197bbc11efb13ca455f6d2e4acca",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "0000",
+      "locale": "en",
+      "classification": "translate",
+      "source_texts": [
+        "Y Axis"
+      ],
+      "target_texts": [
+        "Y轴"
+      ],
+      "notes": "Y为坐标轴标识，保留Y与左侧按键/摇杆图标，仅翻译Axis。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/EN/PAGERIGHT_PCMOUSE.PNG",
+      "source_sha256": "e33bc11122e3acc843678e5e07d894393f58fbfdc552dc9bd4dcd9cb90d907d3",
+      "width": 55,
+      "height": 59,
+      "rgba_sha256": "51c2f0c1b53a9861be4d829c8eb96189989c55e1628a6ad650c54f1341c07d74",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00000000",
+      "locale": "en",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/LEGEND_TEX_KEYBOARD_F.PNG",
+      "source_sha256": "a7acf4a29b454305c9fae656d1429f8bb7fa6f5cbebe9d9f2829cddc5d31a523",
+      "width": 19,
+      "height": 24,
+      "rgba_sha256": "d6bd1ad4abd5441e52e590a3cade07ea7b38ba9b2c345b20fff22c70d8e1252b",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/LEGEND_TEX_TRI.PNG",
+      "source_sha256": "2a46e9d21b022dcbe1b81fa8488d555f8ce8c2035d42360f8f01e06ec07c95ca",
+      "width": 19,
+      "height": 24,
+      "rgba_sha256": "a58b8ad95d8717750dbc7bbb5accde2071f2b7b1977cfd17cbc05b2411229d53",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/LEGEND_TEX_X.PNG",
+      "source_sha256": "e6693a4875de0b4aa8d3f4a65c3bece1fe2ba305594ede4f0e1d8a2933a4b5b3",
+      "width": 19,
+      "height": 24,
+      "rgba_sha256": "a4761e5892353ad851597c45caba46e6e64dbc39253115590886dd5581dd8796",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/LEGEND_TEX_Y.PNG",
+      "source_sha256": "82d131778f160436ac2d5812f2b388d7790aa78e4d933f513d1a3ea32f7f7a6f",
+      "width": 19,
+      "height": 24,
+      "rgba_sha256": "9642fe9ec817d7b24f817483e23c6a8743b58ed284034d40cd2ddff271e39f2b",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "preserve-icon",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "按键/手柄/武器/心跳或指针图标；可见字母和数字属于按键标识，不翻译。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/SELECTION.PNG",
+      "source_sha256": "f79a67c39eb1da5fe94863134793dad02abb5a95e93e013bf5e549770eb7701d",
+      "width": 112,
+      "height": 32,
+      "rgba_sha256": "239ef8bc739806e28f41595e9709649209a372c3ba032a6aea1a61aaa3718c36",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "no-text",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "接触表与原图中未识别到需翻译的语言文本。"
+    },
+    {
+      "resource": "TEXTURES/PUZZLES/ALBUM/ALBUM_00.PNG",
+      "source_sha256": "e1aa34d041d32ffedf7dc314e8c2c6c1e772a966665fad2cf71f4e1dab9dda93",
+      "width": 320,
+      "height": 240,
+      "rgba_sha256": "c96a477b276c70c762c4fce292c075cf8b08b9b849ddd2f29b9198de49e498b9",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "preserve-puzzle",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "相册谜题照片与拼合状态；存在时保留手写数字10、31、07，空白状态也保持图像一致性。"
+    },
+    {
+      "resource": "TEXTURES/PUZZLES/ALBUM/ALBUM_01.PNG",
+      "source_sha256": "7bceb2cb29caeb60992577c963db75225e397f9b2313b30fdbaf218166e319dd",
+      "width": 320,
+      "height": 240,
+      "rgba_sha256": "212ea4bedd94a1c8e1a9524fbd260167eccdf29e3e45f64433a0b980a476cdb8",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "preserve-puzzle",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "相册谜题照片与拼合状态；存在时保留手写数字10、31、07，空白状态也保持图像一致性。"
+    },
+    {
+      "resource": "TEXTURES/PUZZLES/ALBUM/ALBUM_02.PNG",
+      "source_sha256": "f88d88a643d030fb1bff227b632e5d840619a85d28487483dee7365de64f4e6c",
+      "width": 320,
+      "height": 240,
+      "rgba_sha256": "41c271b970a00ba9b91bfa7ccb285823ef1c43ebaacfcbd6ac5f19bcda219fdc",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "preserve-puzzle",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "相册谜题照片与拼合状态；存在时保留手写数字10、31、07，空白状态也保持图像一致性。"
+    },
+    {
+      "resource": "TEXTURES/PUZZLES/ALBUM/ALBUM_03.PNG",
+      "source_sha256": "145722925a755b2267d9aa79556623a9962c99baf1dba85672f40131b39efa9a",
+      "width": 320,
+      "height": 240,
+      "rgba_sha256": "7d42db1b960efd81d59dadaf2a2ae2a464e6190ccf0ef541d76195f7ffbdc511",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-puzzle",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "相册谜题照片与拼合状态；存在时保留手写数字10、31、07，空白状态也保持图像一致性。"
+    },
+    {
+      "resource": "TEXTURES/PUZZLES/ALBUM/ALBUM_04.PNG",
+      "source_sha256": "d57a640ee54844bc02ab1dad0bcc05d86a293ee3b90e43334446d93207786d60",
+      "width": 320,
+      "height": 240,
+      "rgba_sha256": "cd07d5e3707a15452a54da4c62a736910a60adb72105af1b97063b58a12429a8",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "preserve-puzzle",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "相册谜题照片与拼合状态；存在时保留手写数字10、31、07，空白状态也保持图像一致性。"
+    },
+    {
+      "resource": "TEXTURES/PUZZLES/ALBUM/ALBUM_05.PNG",
+      "source_sha256": "10ec072de3d2c3af2f41e25b682e9d2bcc41c400d0027e2bfe13310873cc9d14",
+      "width": 320,
+      "height": 240,
+      "rgba_sha256": "2d79829a78429c76f8a8fefc0ce74c019f44ddd41de7d9cf0b0432a1181c9ca3",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-puzzle",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "相册谜题照片与拼合状态；存在时保留手写数字10、31、07，空白状态也保持图像一致性。"
+    },
+    {
+      "resource": "TEXTURES/PUZZLES/ALBUM/ALBUM_06.PNG",
+      "source_sha256": "da7cafaafac25d3f454a142a0b840e2aa16f501c5b305956b9309697da37cbf3",
+      "width": 320,
+      "height": 240,
+      "rgba_sha256": "428070088984619b3f8b7893f5f38ee4d57cbea7002cc7078ddf47e38fb61f94",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-puzzle",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "相册谜题照片与拼合状态；存在时保留手写数字10、31、07，空白状态也保持图像一致性。"
+    },
+    {
+      "resource": "TEXTURES/PUZZLES/ALBUM/ALBUM_07.PNG",
+      "source_sha256": "374e95a6a87cff92efec2415b06a439dfba20f4e365d36615b0b97c785761abf",
+      "width": 320,
+      "height": 240,
+      "rgba_sha256": "4bd4eda041b69a503942c87a6677ee88cffa8f1871a8c13058d4957ac2906ff8",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "preserve-puzzle",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "相册谜题照片与拼合状态；存在时保留手写数字10、31、07，空白状态也保持图像一致性。"
+    },
+    {
+      "resource": "TEXTURES/PUZZLES/PIANO/PIANOBG.PNG",
+      "source_sha256": "8ae18e1220de5eb1ddaea0e82bc42aab58021ac02b6310d706593f0abc592795",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "9dbeb0b0527fe92505451d2be19d01ccccab5384529c32af4de40a67de6cdf0f",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-puzzle",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "钢琴键高亮与谜题动画状态，保持键位与像素不变；上沿装饰铭文不作可靠转写，未据此补写剧情文本。"
+    },
+    {
+      "resource": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM1.PNG",
+      "source_sha256": "027436cb958cf8369ac695c857c5b0032ec52292927fc7b359a5d44ad1fff5bd",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "f9b521f0664713f791fd4bb2b451a90cee048656f7cd37b38f8657177eff1a45",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "preserve-puzzle",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "钢琴键高亮与谜题动画状态，保持键位与像素不变；上沿装饰铭文不作可靠转写，未据此补写剧情文本。"
+    },
+    {
+      "resource": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM10.PNG",
+      "source_sha256": "87a4fef31431967a9f25d64da6971e1b55d804a03bd1b3dd5a11cb7504fc6855",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "581e3167d752c5bf3ba26ee63985976ceb57e06449f43fd43cd537738a5e724a",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "preserve-puzzle",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "钢琴键高亮与谜题动画状态，保持键位与像素不变；上沿装饰铭文不作可靠转写，未据此补写剧情文本。"
+    },
+    {
+      "resource": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM11.PNG",
+      "source_sha256": "1e406aa51508cd91105b7b4a48c50f1f2e280d7fb6aa53c146f934b536df2df5",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "6e5fe3acaf07e8906b36915b92e1d482e7a08e160bfe647c22610698b8f36ff8",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "preserve-puzzle",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "钢琴键高亮与谜题动画状态，保持键位与像素不变；上沿装饰铭文不作可靠转写，未据此补写剧情文本。"
+    },
+    {
+      "resource": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM12.PNG",
+      "source_sha256": "4323500eb0bed12f5e8fe326d9642ba04654cf57b41c056d29b4821ecff3cdf5",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "28fa1ca8bab0911871d723294d7b4ea2be987bba83f03db8e258b16ac6b046ba",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "preserve-puzzle",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "钢琴键高亮与谜题动画状态，保持键位与像素不变；上沿装饰铭文不作可靠转写，未据此补写剧情文本。"
+    },
+    {
+      "resource": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM2.PNG",
+      "source_sha256": "91ae028599c0c84dc80ec016935470f40e9f496dd61dec7ef948c640659a6e18",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "a31ab93df194fd3716445c946ae52e48ebaa1e9d9b985ea5847aeca51f4d492f",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "preserve-puzzle",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "钢琴键高亮与谜题动画状态，保持键位与像素不变；上沿装饰铭文不作可靠转写，未据此补写剧情文本。"
+    },
+    {
+      "resource": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM3.PNG",
+      "source_sha256": "72dc7e057e16a883f934c4a6ef62ba93575046496bb95b3159fedd165ba91957",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "984adb16d8bce808dbbf30949e5435e26f4dae6235c352441de6d5b5496a62e5",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "preserve-puzzle",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "钢琴键高亮与谜题动画状态，保持键位与像素不变；上沿装饰铭文不作可靠转写，未据此补写剧情文本。"
+    },
+    {
+      "resource": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM4.PNG",
+      "source_sha256": "efb0e45ea835acb85dfb007a055f742c2c9fe55e6b883627e70e45ac3762a4f2",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "323fdc859a2b133ad2d513961bd28c6c01c4ee210e65c6df54ab0a66faefe167",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-puzzle",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "钢琴键高亮与谜题动画状态，保持键位与像素不变；上沿装饰铭文不作可靠转写，未据此补写剧情文本。"
+    },
+    {
+      "resource": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM5.PNG",
+      "source_sha256": "0d88ee0bb6c4107374da479a0dfefabf19f214a1b4f9c521c0764e4de6223da2",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "16f302b3612309d7ecb79d56343a58e9329710ee56a7d6a3bff10dd012ecf094",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "preserve-puzzle",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "钢琴键高亮与谜题动画状态，保持键位与像素不变；上沿装饰铭文不作可靠转写，未据此补写剧情文本。"
+    },
+    {
+      "resource": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM6.PNG",
+      "source_sha256": "5782e283e338cf57432e233914d3123305e86674065d5bee4e17a318ead2befc",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "085661bf707f3b01db7ac050d4f186545ca797b3ebabafdc5e5a96f823949d27",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00",
+      "locale": "global",
+      "classification": "preserve-puzzle",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "钢琴键高亮与谜题动画状态，保持键位与像素不变；上沿装饰铭文不作可靠转写，未据此补写剧情文本。"
+    },
+    {
+      "resource": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM7.PNG",
+      "source_sha256": "528fdbe14a067b57c19a5688a85597875cbe1ea8c22b7ccfaa80a940f82730bc",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "dc1610da2f03f4246515162bb2ca41b3e2a0a67afa023e81b269656b7ff52e42",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-puzzle",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "钢琴键高亮与谜题动画状态，保持键位与像素不变；上沿装饰铭文不作可靠转写，未据此补写剧情文本。"
+    },
+    {
+      "resource": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM8.PNG",
+      "source_sha256": "ef959717d85adffe6faf90f8795f9c8c3cce405c0f5f038aca4d83faa5e690ac",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "22b57a99c3a6fd3a846fb44b6539d5c8eb0e26bbd12759a223ca8f4db8c6d108",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-puzzle",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "钢琴键高亮与谜题动画状态，保持键位与像素不变；上沿装饰铭文不作可靠转写，未据此补写剧情文本。"
+    },
+    {
+      "resource": "TEXTURES/PUZZLES/PIANO/PIANO_ANIM9.PNG",
+      "source_sha256": "1907bf0f0d323b21eefa6be3f9c73bb601b3bad9c3f35dfbe337dae18153c80b",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "67c47daa374e818dacfafa6152a3a93374fd78b5178db94b92a904bc394e5862",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "preserve-puzzle",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "钢琴键高亮与谜题动画状态，保持键位与像素不变；上沿装饰铭文不作可靠转写，未据此补写剧情文本。"
+    },
+    {
+      "resource": "TEXTURES/TITLE/BG1.PNG",
+      "source_sha256": "309fa4b737249593ec5a50095eba520ab37a8a1eb1bb0a0d7bf2009ab7fa1771",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "ee6f1e52329914d4bcb07e0dad1dc6586fd6b32ae5d4d45264ecd219d0bec70c",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "preserve-brand",
+      "source_texts": [
+        "DEMENTIUM",
+        "THE WARD",
+        "© Atooi LLC"
+      ],
+      "target_texts": [],
+      "notes": "四帧主标题logo和版权署名作为品牌标识保留，不将英文品牌算作漏译菜单。"
+    },
+    {
+      "resource": "TEXTURES/TITLE/BG2.PNG",
+      "source_sha256": "644d130a7dbe049b96dd7e0cd3a14eeec050d383021cafe90fce5a50733ad7ff",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "faade1bdbc7d518badd642e6b382225d3ab6dcd1dc70a1102ca75cc84c3b3d6a",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "000000",
+      "locale": "global",
+      "classification": "preserve-brand",
+      "source_texts": [
+        "DEMENTIUM",
+        "THE WARD",
+        "© Atooi LLC"
+      ],
+      "target_texts": [],
+      "notes": "四帧主标题logo和版权署名作为品牌标识保留，不将英文品牌算作漏译菜单。"
+    },
+    {
+      "resource": "TEXTURES/TITLE/BG3.PNG",
+      "source_sha256": "02434e6dd820fc38f897de4465df42180b6fb2accb13ddc49e3751f5b0f5ee0e",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "052c63b32408a0134937f48ad7a09697e0f0b7fa656a5070d3172f45d069e95e",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "0000",
+      "locale": "global",
+      "classification": "preserve-brand",
+      "source_texts": [
+        "DEMENTIUM",
+        "THE WARD",
+        "© Atooi LLC"
+      ],
+      "target_texts": [],
+      "notes": "四帧主标题logo和版权署名作为品牌标识保留，不将英文品牌算作漏译菜单。"
+    },
+    {
+      "resource": "TEXTURES/TITLE/BG4.PNG",
+      "source_sha256": "f3a697bbddc67facb06f43653431f58ea5bd8bed2da3a8472b08ef71d8783d64",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "4c0d76b6fc5d995a68af7cf70f55c56593625cdac3a7a534881ba04f88d153a9",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "preserve-brand",
+      "source_texts": [
+        "DEMENTIUM",
+        "THE WARD",
+        "© Atooi LLC"
+      ],
+      "target_texts": [],
+      "notes": "四帧主标题logo和版权署名作为品牌标识保留，不将英文品牌算作漏译菜单。"
+    },
+    {
+      "resource": "TEXTURES/TITLE/MAGICPUFF.PNG",
+      "source_sha256": "debb730108d2f676fdfebfca82a1faf3f46819828b91524d055007a503fc886e",
+      "width": 38,
+      "height": 19,
+      "rgba_sha256": "ab6586025b6a9385f49e167f024bdb92c4007e64431ac44dfaa6cbd189f6571e",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "no-text",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "接触表与原图中未识别到需翻译的语言文本。"
+    },
+    {
+      "resource": "TEXTURES/WEAPONS/WEAPONSELECTBG.PNG",
+      "source_sha256": "f43e0b70fa7afb0099e2f7a2a6f5a231425bc66d422e27b90842d99c746e8e2e",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "7ac63d80543806e7883a43333564e5d2657a96ee73dafe3291bfd6d9d863ab73",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00000000",
+      "locale": "global",
+      "classification": "no-text",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "接触表与原图中未识别到需翻译的语言文本。"
+    }
+  ],
+  "non_target_locale_preserved": [
+    {
+      "resource": "TEXTURES/GENERAL/DE/LEGEND_KEYBOARD_BACK.PNG",
+      "source_sha256": "eff31c4c4226d041aca746d032290947420eea0172d63be85b08a14bbc6828aa",
+      "width": 60,
+      "height": 20,
+      "rgba_sha256": "769b690da11449ae4fa7588834a44cceeb4e4dc52a7cbfabb1fae2998301acbb",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "000000",
+      "locale": "DE",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/DE/LEGEND_KEYBOARD_CONFIRM.PNG",
+      "source_sha256": "5f6018b7fa075bc0d55cada8d6c9bc951c55e05c4f9e81a1eae48b71c709e53d",
+      "width": 69,
+      "height": 22,
+      "rgba_sha256": "b8acdc733720fbf28262e727bfed72243aa8f49184b045464224d5aa0cb4cbe9",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00000000",
+      "locale": "DE",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/DE/LEGEND_KEYBOARD_EQUIP.PNG",
+      "source_sha256": "e8b5a287bc5c18b2cd437c066cf1a9582bb91d318eb0a9496628cd9926c3a7b8",
+      "width": 74,
+      "height": 22,
+      "rgba_sha256": "24be4c7d0629a66c4a9b4bdb2a14e4bc288049ea08c71279db0fb359ccaf2bf4",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00",
+      "locale": "DE",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/DE/LEGEND_KEYBOARD_PRESS.PNG",
+      "source_sha256": "f33144e4e87c4dca08e3528f426f3bce4aacb6a9a4f7580c2cffcc3cc99b2382",
+      "width": 62,
+      "height": 22,
+      "rgba_sha256": "bd82005ce650be6817a88dba5e0e183c250e1a019f5f40be270b2502ff70a8ba",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "000000",
+      "locale": "DE",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/DE/LEGEND_NX_BACK.PNG",
+      "source_sha256": "77e094bae2aa18c85b67ea7d2a7c5e6b01cc6ffe25f8c5630700bdd160fe44f4",
+      "width": 64,
+      "height": 20,
+      "rgba_sha256": "7247170c4d59b7edd454f21486ef554638395e509f4109cd2c67ae5486e7ad90",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00",
+      "locale": "DE",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/DE/LEGEND_NX_CONFIRM.PNG",
+      "source_sha256": "64704269decce84b14c4e3f9b7c085cb0af3c0934fc93d56e843abde4683026d",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "cc5fb815a9ae9ad0f0f87bc923aaea46abb81488f3d29c584254fbc557248b85",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00",
+      "locale": "DE",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/DE/LEGEND_NX_EQUIP.PNG",
+      "source_sha256": "cfee03e3108257057399370f8b901e619a703ad76a4ceaeaef32a7e351e1a6a7",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "1bed2ca27cfd68b277f5ee0d0ed23620661d3a39b8f28efdb4af6ee506c41b9d",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00000000",
+      "locale": "DE",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/DE/LEGEND_NX_PRESS.PNG",
+      "source_sha256": "e51a21457cc26a84923e3d19ad9d3dcc09b5efbfd02d871c18906c7451903554",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "1c2cf616402faa8d2d70838d15678761c69e2fc4e1b393f6ef85507e4d2d7172",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "0000",
+      "locale": "DE",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/DE/LEGEND_PS4_BACK.PNG",
+      "source_sha256": "38e5f35059d308e73c67f7f3787d03b03429736f39df058cdf58ce9bf89a0cff",
+      "width": 64,
+      "height": 20,
+      "rgba_sha256": "4cf49392979be16bab47b4f87676f9420b5373ea64e9b4555f70fc73e49b3e76",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00000000",
+      "locale": "DE",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/DE/LEGEND_PS4_BACK_ASIABUTTONS.PNG",
+      "source_sha256": "0a45c52587b5c208a349e6c07632382031e97316c508e62a97fad878ad974a74",
+      "width": 64,
+      "height": 20,
+      "rgba_sha256": "fbf9b72509cb4479501e9164503c49a95a2889555a7c5c33d8a6601e87f13d94",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00",
+      "locale": "DE",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/DE/LEGEND_PS4_CONFIRM.PNG",
+      "source_sha256": "8cbd5f27a550974da539d9713054e346a6789962ba1fc0fc78664e081bd8f301",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "1da5fe380a02063d659d4977e019c849f787ccacbab97029b4a71148d8cc62b4",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "0000",
+      "locale": "DE",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/DE/LEGEND_PS4_CONFIRM_ASIABUTTONS.PNG",
+      "source_sha256": "d8f22bf05c48371b904a0c0c1cc9aaa374a216eb89e7c2a0cf7b5f70e48cc431",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "37f8145068e8ddf387175026f85ff15f8e9ce6c9628a0d0760a25fe75db3220b",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00",
+      "locale": "DE",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/DE/LEGEND_PS4_EQUIP.PNG",
+      "source_sha256": "0714bc09657107b14d589d5d59b13af95ddfa4899120e7d1978d9fd7457ea6a9",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "2c276f52e4258212aa7fead7526cb13505860805831bc2577983d640018c8241",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00",
+      "locale": "DE",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/DE/LEGEND_PS4_EQUIP_ASIABUTTONS.PNG",
+      "source_sha256": "83658c66230de7c98e9c018c9142b579f8db03c5cdbe1c8ec255e37aea061009",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "ec8331be628aa7a7ecf00f798796c38eed5ae7da4aa39573148eece8f1beb1a6",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00",
+      "locale": "DE",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/DE/LEGEND_PS4_PRESS.PNG",
+      "source_sha256": "f33576da98ac3eb45dda01ce754ecd7be25552884d0b931265c5096376ffecc1",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "4f81f020ce89b5f512e13dc749a9cb73a5f5563b05c931eb390017f361b6f348",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "0000",
+      "locale": "DE",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/DE/LEGEND_PS4_PRESS_ASIABUTTONS.PNG",
+      "source_sha256": "26744d900b080085f4d3a86bae0759bfc819d66133bad60b6c07f212b91665c4",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "7281c7e4145e0f9e81167b1e6f0fc5ad90d3a0528c65a45a4f97ecbfe54ff004",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00000000",
+      "locale": "DE",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/ES/LEGEND_KEYBOARD_BACK.PNG",
+      "source_sha256": "4fd7af6dbb4773b2f073059e02f564811ab9b718846afff1e2a2903952f950a3",
+      "width": 55,
+      "height": 20,
+      "rgba_sha256": "fe02a85b1f66720cfa2e491d42ebc6deefdbb86ef031445946c04974ccc0de1d",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00000000",
+      "locale": "ES",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/ES/LEGEND_KEYBOARD_CONFIRM.PNG",
+      "source_sha256": "ebc463568b696b2672c83593b6aa66d76b29d676b4212662b59cf0c8dae24923",
+      "width": 70,
+      "height": 22,
+      "rgba_sha256": "600aa51eca3b9618e7c32ebc4a917d25722ac9832d427f272f090fe0535b34bf",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "0000",
+      "locale": "ES",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/ES/LEGEND_KEYBOARD_EQUIP.PNG",
+      "source_sha256": "d03d65ccaa2c14e38c64beb091643d690ede429c644095a537b336cbdc05a796",
+      "width": 65,
+      "height": 22,
+      "rgba_sha256": "1a780487fe0c7275c4de51407e05978277850cc78b3ce086e4643ea149ba7830",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00000000",
+      "locale": "ES",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/ES/LEGEND_KEYBOARD_PRESS.PNG",
+      "source_sha256": "7a64d44e3e136b5624c7e638ab79c853252cc3284617ebccd2785aeb37da9e64",
+      "width": 65,
+      "height": 22,
+      "rgba_sha256": "615d50eda5c021d157da5f8ce8cef43232ab8c4a78f8de143af0a0beb773c27c",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "000000",
+      "locale": "ES",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/ES/LEGEND_NX_BACK.PNG",
+      "source_sha256": "cc83a17cb2901a337bd82d827f7b280f2fdf75c952fd007b1309877facca7c85",
+      "width": 64,
+      "height": 20,
+      "rgba_sha256": "f1157dda39ffa334d74de32d0f266f97384e102c4abffca920ee5b807c0f9f3c",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00",
+      "locale": "ES",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/ES/LEGEND_NX_CONFIRM.PNG",
+      "source_sha256": "596773d5bfff887b443d3f0db34d11dbdc4507a6aa4d529e3faf4bd68ec64185",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "4b8cf1de79bd61d115ef2e5be6d50f52e8fbd6df98a0accbed0f24991c8b4ee2",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "0000",
+      "locale": "ES",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/ES/LEGEND_NX_EQUIP.PNG",
+      "source_sha256": "f2cb7bc32c5c324a8ef51004f59b8d805b91d4b5ac1f7a75305d1e4464ff1432",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "c20492818cc2a830d2c165f45675811dfc3c91caaa46b6dced2fa4cd2add9142",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00000000",
+      "locale": "ES",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/ES/LEGEND_NX_PRESS.PNG",
+      "source_sha256": "4637cbef07838bc607d71240a65c7bdaa7e7775a8297f3491486e7f75b9cd559",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "e06b6676dfb26da8339b5f38fc27c637bb4e49a8cfaf088ec658cdcafa1ed3dc",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00000000",
+      "locale": "ES",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/ES/LEGEND_PS4_BACK.PNG",
+      "source_sha256": "17d7f82b5b320654f6c4942738f55f6ac4869a3e5ff9afa98fc56091532e7352",
+      "width": 64,
+      "height": 20,
+      "rgba_sha256": "01d3d0d716d1d5dd99e065c65459baf4292ffbf9c2ff2f0287a13ba9efe616d4",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "000000",
+      "locale": "ES",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/ES/LEGEND_PS4_BACK_ASIABUTTONS.PNG",
+      "source_sha256": "7b49be30da0850223b73be6872369bbd3bc5b49784d11208d5aa573e74396d66",
+      "width": 64,
+      "height": 20,
+      "rgba_sha256": "20fa923e729147abcdbd77b5bb88e5f5659da65403b7a37a00cef975d24a5119",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00",
+      "locale": "ES",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/ES/LEGEND_PS4_CONFIRM.PNG",
+      "source_sha256": "483e64c7e017a87b03d76a70cae38d44bead634e9272d080a7fcc61245a4d03b",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "faf0c84e9867a83a9b0730f05d18b03e0410a15a0ced8f8e52d31fa93fcae05d",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00000000",
+      "locale": "ES",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/ES/LEGEND_PS4_CONFIRM_ASIABUTTONS.PNG",
+      "source_sha256": "798a6c4589b24c44a68e367a75caf1f7d0e90817edff1df3d1786df84ad591b9",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "a04f3165dac11f798e26b852e47ec261ceac6281502debc1bf1548eecbf8840c",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "0000",
+      "locale": "ES",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/ES/LEGEND_PS4_EQUIP.PNG",
+      "source_sha256": "3f9e7a513aefdc98f5c2fa130f29d22579da1e678e9fa5a8a1f47b9c683df907",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "92f1643bf44d563c7c0e6a55b3407ff575daaf3247283a37d4f6efcc5818dfab",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00",
+      "locale": "ES",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/ES/LEGEND_PS4_EQUIP_ASIABUTTONS.PNG",
+      "source_sha256": "792cf1bdbeee5655b8508e2bad707aeab919243c595d4e50ebe1fe847495240c",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "26e8c2d35ef1ab376643c7a0b889653d9e237bd1a4f089a2548260435408183f",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00",
+      "locale": "ES",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/ES/LEGEND_PS4_PRESS.PNG",
+      "source_sha256": "465338d94f425d741bf040aa7019880fa829171448240bf4d7230d38a5a66674",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "e3bd95d08f0fc7b9581abc406dc169b8f22a5eb4883147dce6c127bada51b8a7",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00000000",
+      "locale": "ES",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/ES/LEGEND_PS4_PRESS_ASIABUTTONS.PNG",
+      "source_sha256": "cb99fcc04f48bf890162b793a55c90f73fddfc2afcd494cd651d439f20b03c2e",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "bac36fe1c6f9384a99e6ac503723b18c16e8f1ec8a5897617558621a463d734a",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "000000",
+      "locale": "ES",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/FR/LEGEND_KEYBOARD_BACK.PNG",
+      "source_sha256": "cbebd1c782ab19c9c5ede861ded5afc4d540fbc588534b9dbd272c170b1d50b7",
+      "width": 59,
+      "height": 20,
+      "rgba_sha256": "7c323351ec65a56dbf0bc714b33472d56352a428dad0a55f9ce4801eae956496",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00",
+      "locale": "FR",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/FR/LEGEND_KEYBOARD_CONFIRM.PNG",
+      "source_sha256": "f0a2b425a06cba4ffbda4a4f35f01b6d51c50284032a5b18e02eb33518fa1d0b",
+      "width": 69,
+      "height": 22,
+      "rgba_sha256": "e1a2fd2d860e2039c29f4f9d622dd12aeab742a8687b9d873e743220ff9800d1",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00000000",
+      "locale": "FR",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/FR/LEGEND_KEYBOARD_EQUIP.PNG",
+      "source_sha256": "4271e52579031cd7cc76d513dfaff548c36989dccc028a81603c3aabbb79d832",
+      "width": 68,
+      "height": 22,
+      "rgba_sha256": "7cb6ea3de6686f4ec9c791e465d99de8b9cd8d78de1daae6bbd590deaa868637",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00000000",
+      "locale": "FR",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/FR/LEGEND_KEYBOARD_PRESS.PNG",
+      "source_sha256": "951b6843026c80b09443992bf5d554a502ccf6c653f88c7dd252c38795ec633d",
+      "width": 65,
+      "height": 22,
+      "rgba_sha256": "a45573bcda2b8539bf589f03344747e38319e18cef2dc21cf5a09fcf518cb4ad",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00",
+      "locale": "FR",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/FR/LEGEND_NX_BACK.PNG",
+      "source_sha256": "281f12381ecaafd33a1bea6ed918f3677ee655e0837ad25f21438aa2817fa5b7",
+      "width": 64,
+      "height": 20,
+      "rgba_sha256": "81165f174deeead5c49fb3a27f3f4b64dc4855d2735165f8eeac330b9c4a52cc",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00000000",
+      "locale": "FR",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/FR/LEGEND_NX_CONFIRM.PNG",
+      "source_sha256": "fe30040cdce63b88d61ebfcf4019822d31310cc5f191a344ce41d2155af8fbbe",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "cf3c922808f5d5155444230b42e7870a77e15814a4442b0fc663147c8aa4e065",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "000000",
+      "locale": "FR",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/FR/LEGEND_NX_EQUIP.PNG",
+      "source_sha256": "d2baf9ccf7788942ab9188e04bc5f54df59d429a8c439ee0e9c815995a1c2312",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "d707fc19f42d26a6bc06c7d17bb836cb8762fe6fd95aa4d231566724faba6588",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00",
+      "locale": "FR",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/FR/LEGEND_NX_PRESS.PNG",
+      "source_sha256": "ea3061101d824a70ff99c089d2b479ed1e090d7c87e845eb1166160f71f135f0",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "a0a6d5e66b50159d2587421c79fbd6962e5e5320eaab2b33eb2ab8e237958ccc",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "000000",
+      "locale": "FR",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/FR/LEGEND_PS4_BACK.PNG",
+      "source_sha256": "081368205d9d736bbf98e0e2557ca9e4f38db3b06b2e9fadc0c695f5296eb0a9",
+      "width": 64,
+      "height": 20,
+      "rgba_sha256": "700e58b2e71dabee12a21ff2b4ea2cf37b23ad493e056e9e1c5930ca3c73d76b",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00000000",
+      "locale": "FR",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/FR/LEGEND_PS4_BACK_ASIABUTTONS.PNG",
+      "source_sha256": "272b7b6e841142cec427338d0fdf36e208dd07be03a3e1287fb235b6fb03a1a5",
+      "width": 64,
+      "height": 20,
+      "rgba_sha256": "d0da1447992d82e42e1ad25addae0f8196d2cda38125acab920deaf937660695",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00000000",
+      "locale": "FR",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/FR/LEGEND_PS4_CONFIRM.PNG",
+      "source_sha256": "ae404936c1f51250bc551b7cc35c68d9d1697d12389f20f63f6f255c912a45e4",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "60872f330abccf0a6f790295a08f5c648db00bc2510f810c5666f01c12a582f2",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00",
+      "locale": "FR",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/FR/LEGEND_PS4_CONFIRM_ASIABUTTONS.PNG",
+      "source_sha256": "59d47aeb2b43fc5b04d2154901d390caf2978840847be932a0bf337daffcd140",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "c3c08576871ea02337d8449bc3ae0259b6629281d9beaddc0eaaade93e16616b",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "000000",
+      "locale": "FR",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/FR/LEGEND_PS4_EQUIP.PNG",
+      "source_sha256": "4e64d68f3687ffaed0273ec6f8812cad20f9863c63cd8ea5d33155de212a99fe",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "9616d1d3acd0eb684eb3adb3536ee3a1cafdac4ffcbc0beb019e52911ca3451c",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00000000",
+      "locale": "FR",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/FR/LEGEND_PS4_EQUIP_ASIABUTTONS.PNG",
+      "source_sha256": "b4769702ea9560bd9630c3c9a1dc6917c0d79c56e88d6e5872bedfa6f1eea609",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "03fbdbdf4fd272fcd76fcc10202ecb1292876b5a65d5d0151060a55502a54a1a",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00000000",
+      "locale": "FR",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/FR/LEGEND_PS4_PRESS.PNG",
+      "source_sha256": "3a30f0e98f8f486a2897b7ff8dcbae6debfe81d0f26cd2381f0fd1c440ab72fe",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "a4b0c41de9aa4e409a7804b73850b1a05d137b7372a6cdf3958e101ea3b1f37e",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00000000",
+      "locale": "FR",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/FR/LEGEND_PS4_PRESS_ASIABUTTONS.PNG",
+      "source_sha256": "ae933ee2670a24bfb0869ba60d31b02e4b53e8ed4ac76e1fa952a36aa78017a5",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "7d344dbea32c7e48f47bd11550c961226fa18a40ef9d81e1c0fe572d247836df",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "0000",
+      "locale": "FR",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/IT/LEGEND_KEYBOARD_BACK.PNG",
+      "source_sha256": "b34da4024dd431842acb506cb0fbc32912b74408552f34477f5eb7955ad7595e",
+      "width": 63,
+      "height": 20,
+      "rgba_sha256": "65c9afc5c8a7d4c6419f7effe2a386dbd43586b72df6c314637741f236ff1cd3",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00",
+      "locale": "IT",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/IT/LEGEND_KEYBOARD_CONFIRM.PNG",
+      "source_sha256": "fe220d4873246627226ad23f9fe0a290b6b744678efb8b5f6884b656a62ab02f",
+      "width": 66,
+      "height": 22,
+      "rgba_sha256": "784d7cdabdd3b7ad5196083a21d6ca1ddbeb51ec3206709576deb6155df4c018",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "0000",
+      "locale": "IT",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/IT/LEGEND_KEYBOARD_EQUIP.PNG",
+      "source_sha256": "23b1a8bfaa7d840340432fb59e90acac47068a511c78d21baf2703e8b4d3ce81",
+      "width": 71,
+      "height": 22,
+      "rgba_sha256": "0d9b1eb4a2963cceb980d5dc69f1f7d846224ce9e41211b4e86c35d2668e9841",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00",
+      "locale": "IT",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/IT/LEGEND_KEYBOARD_PRESS.PNG",
+      "source_sha256": "963957d335a15a89f24d58047159339c16f961a1875a48a59f14dadeea981eee",
+      "width": 65,
+      "height": 22,
+      "rgba_sha256": "e3b267e842b373ec7c3211f991f42721a4cf4b3b76ecb764121f22c082fb1010",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "000000",
+      "locale": "IT",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/IT/LEGEND_NX_BACK.PNG",
+      "source_sha256": "769a6329f04d1e61d1fce6a4514f4766eaa0c16410bbaeb3da3476243df4bdba",
+      "width": 64,
+      "height": 20,
+      "rgba_sha256": "a8013e7c0a4d4c5b8ece56d7f8b88ab695181939183d2ff8abe3076080f3844c",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "0000",
+      "locale": "IT",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/IT/LEGEND_NX_CONFIRM.PNG",
+      "source_sha256": "531dc89fc73c4dd422314dcf86d52414d5161f5c8dec8b45eb6bb8106d110404",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "53b526b7237eb537d5db61633c7a355077c77247abadd7f62e4933abe6fc2608",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "0000",
+      "locale": "IT",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/IT/LEGEND_NX_EQUIP.PNG",
+      "source_sha256": "9060daef3a989e2eb95fa95ef5f58869c4c445a57dc04751de1438e2348231eb",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "3db0c151add890b5dad9e242f5a4fcce0305949522ed230bf33bc707601da070",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00000000",
+      "locale": "IT",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/IT/LEGEND_NX_PRESS.PNG",
+      "source_sha256": "74d53054ab4bad228113e804f027c50f8524eafb61cdea19dbf99961613551b4",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "b8a9c968b739190f3ec4d2a6a22560a5c8b61fe76db7280ff3652fefc1e0a180",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00",
+      "locale": "IT",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/IT/LEGEND_PS4_BACK.PNG",
+      "source_sha256": "f8836d9a3baf64310a00a7944ac4ec026cff3fcb08353ed7f92117c6dd645ac7",
+      "width": 64,
+      "height": 20,
+      "rgba_sha256": "0f5449117ca31f29da8164b1469f8f3246e01a27b81c18ccee131a5d47697913",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00",
+      "locale": "IT",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/IT/LEGEND_PS4_BACK_ASIABUTTONS.PNG",
+      "source_sha256": "8c1c0a9824c81d45aa492ed987f9564e8ec71ef5dd70c6fd20d423c847cb14d3",
+      "width": 64,
+      "height": 20,
+      "rgba_sha256": "3b09b815cff6e85fa19191bfdfedc42eea4f3d638b7879a351ef5dab07f80259",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "0000",
+      "locale": "IT",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/IT/LEGEND_PS4_CONFIRM.PNG",
+      "source_sha256": "ec6abdc9a5d2d72423892263c0ac4ed508c863762a5acee8e6c4d18347f2cfb9",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "a0a8801d211318eb3d0a9ef3446c25a5d7f4eb33ac723b4edb21301eeecd481b",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "0000",
+      "locale": "IT",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/IT/LEGEND_PS4_CONFIRM_ASIABUTTONS.PNG",
+      "source_sha256": "dbdaecb32909dfac285be18e044e1f33a2bee835815191074f6e85256da62bde",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "32090383b655b2aa596291625f682ed027608d90ebda848fa8a69e6df598601f",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "000000",
+      "locale": "IT",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/IT/LEGEND_PS4_EQUIP.PNG",
+      "source_sha256": "12ff56859d4d412dd6dddd880eb916a5a0eeab25c98b686e59cfed5e36ad7b91",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "6b4c573b38c6b9188e50c00d932adc8bbf26a7f3aa0b744e2ba4cbd7f53d4c64",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "000000",
+      "locale": "IT",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/IT/LEGEND_PS4_EQUIP_ASIABUTTONS.PNG",
+      "source_sha256": "68873c79e1beff5e25f8cf96b591b8e18fe33e344890df7654519e956bbe7696",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "b47a58c231cc616eb74ef8953665a354f7b8b223705bb4d222b98eae45e878e0",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00000000",
+      "locale": "IT",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/IT/LEGEND_PS4_PRESS.PNG",
+      "source_sha256": "39e62a28407704d407d9697d52a08ab89d1942161a1b8618780fcbdf6f5b3a8d",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "ef6f4d11ad1288358c7e3cce506b33a2b0da9f830ee51e86ff2fc4efb123eaef",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00",
+      "locale": "IT",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/GENERAL/IT/LEGEND_PS4_PRESS_ASIABUTTONS.PNG",
+      "source_sha256": "9bab6be1d60eb611aa4b9ca149dad6f6b46f7c815f992479342f88fc7d373a3d",
+      "width": 80,
+      "height": 22,
+      "rgba_sha256": "e8c962b84c2060492033da89555fa30eef3d7be42c8c47c13888c6c035dc28e3",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "0000",
+      "locale": "IT",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/DE/CONTROLS_KEYBOARD_TYPE1.PNG",
+      "source_sha256": "6d81df25d32079c55ca48b127ef66179b36d0e22813435b1598e11de5da10262",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "9955611fa0124b4a54c75d25f0ab858dab265f9876755b172b08cbf0e87f79ad",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "000000",
+      "locale": "DE",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/DE/CONTROLS_KEYBOARD_TYPE2.PNG",
+      "source_sha256": "edc287ebf7c3d87bdaf27af9012e3c75b6bb737bae1de2a569ca708723dcad5d",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "e5775d64b50c5227cdf584962c5322e3cc0556a5d4d8f5a721f96c8e757baf63",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00000000",
+      "locale": "DE",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/DE/CONTROLS_NX_TYPE1.PNG",
+      "source_sha256": "12e199a102e74a680b4b64e0b7aaeb2ec160234aab01aac96768469de342e17a",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "ceea24b21a602c2d8bd6fa2da035d4bbd52285daff6894a90086c75789e1b69b",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00000000",
+      "locale": "DE",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/DE/CONTROLS_NX_TYPE2.PNG",
+      "source_sha256": "7e28b73984aad5b0b9d717d01f4c04f415d2ed07c967b8ba63721cd5954b7b7a",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "026adf871c129da390608c29c9033ded389c1ed01513848f24d582a3b732759b",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00000000",
+      "locale": "DE",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/DE/CONTROLS_NX_TYPE3.PNG",
+      "source_sha256": "836e61709328a1021821c5577e917301d60f9b84a892b7313e07b84f5e3744ab",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "59b2442a24c7ed80ebbead3e34b35de7c05ac21bd4c3474a32c92b9d9aa82918",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "0000",
+      "locale": "DE",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/DE/CONTROLS_PC_TYPE1.PNG",
+      "source_sha256": "9f33e9dd5d0efe30a4153c165db2ac8b9c824625428df61185722ce3ad30d7f6",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "e9172d6454504ee951dc5e53cc8d3875f01eab71aaecfdcbcff5a50936a96702",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00",
+      "locale": "DE",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/DE/CONTROLS_PC_TYPE2.PNG",
+      "source_sha256": "5dcc2697926af7336c20b93dadf0cca428d7f56822f2489df6a558391cfe8852",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "a430f6796837ac77218f5a77863ee71a2af4e2d1209462450acfcc23e04636f1",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "0000",
+      "locale": "DE",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/DE/CONTROLS_PC_TYPE3.PNG",
+      "source_sha256": "58cf884f96638152585a5494b082100322897373b85d820b4a66dcba220717c7",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "d1b81b5b5b05257497b997c26f070c28869270b912f98b6dc3b3b642c5bda070",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00",
+      "locale": "DE",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/DE/CONTROLS_PS4_TYPE1.PNG",
+      "source_sha256": "60c0ddb88e61a1a05087813debd433b2145d6d7895e403461e782f865bba5edd",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "12a1d1076258be4aa763c777fe163707f6a1efb82c8a701a7aff4c738cd88c45",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "000000",
+      "locale": "DE",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/DE/CONTROLS_PS4_TYPE2.PNG",
+      "source_sha256": "353278db40f08280f576fb9e22f0a8dbd067b8b160aea38d072f423a1c84849c",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "e14bed6ba734fc034e612f25c628517293b802d855a8e005bb6b497fafa142f9",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "0000",
+      "locale": "DE",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/DE/CONTROLS_PS4_TYPE3.PNG",
+      "source_sha256": "e082c6d29eb3717012e5bfdac625f50c9d41a27c7534ef53915b129517aa1ada",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "96841bef464bb95dc2fc1991051f9211b1e91aa79a2049219b530bb843ffbece",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "0000",
+      "locale": "DE",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/DE/LEGEND_KEYBOARD_YAXIS.PNG",
+      "source_sha256": "6fca50f462ec7ed5febf40278617b6b1654ce518f7d60f3d27b9acb59b451e60",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "1d9385b6f2c3065f832db5be6ad55079d0140266dc3f98f6938f8deede0e1585",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00",
+      "locale": "DE",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/DE/LEGEND_NX_YAXIS.PNG",
+      "source_sha256": "777c052e95fcd18e54e3fb06154e9603c055f5ca9fb4fb42771613024f6c988c",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "158af21058fa2393defa1c81354913bfeacb17534d530e2d802e92bfb7796bde",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00000000",
+      "locale": "DE",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/DE/LEGEND_PC_YAXIS.PNG",
+      "source_sha256": "777c052e95fcd18e54e3fb06154e9603c055f5ca9fb4fb42771613024f6c988c",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "158af21058fa2393defa1c81354913bfeacb17534d530e2d802e92bfb7796bde",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00000000",
+      "locale": "DE",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/DE/LEGEND_PS4_YAXIS.PNG",
+      "source_sha256": "f78fea804207c79ff0db465e4582d62355ffe9bccbfc5d0b4906e0539a3d2a6c",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "3d96d880f0f292cf5d38efa213d0041d65f15d06f0802050bbffc7f66ddae517",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00000000",
+      "locale": "DE",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/ES/CONTROLS_KEYBOARD_TYPE1.PNG",
+      "source_sha256": "6d81df25d32079c55ca48b127ef66179b36d0e22813435b1598e11de5da10262",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "9955611fa0124b4a54c75d25f0ab858dab265f9876755b172b08cbf0e87f79ad",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "000000",
+      "locale": "ES",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/ES/CONTROLS_KEYBOARD_TYPE2.PNG",
+      "source_sha256": "edc287ebf7c3d87bdaf27af9012e3c75b6bb737bae1de2a569ca708723dcad5d",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "e5775d64b50c5227cdf584962c5322e3cc0556a5d4d8f5a721f96c8e757baf63",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00000000",
+      "locale": "ES",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/ES/CONTROLS_NX_TYPE1.PNG",
+      "source_sha256": "9784fee0b5787b8af052413a582cdacaac936dc66777a3888d6c6df26c71948c",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "7876607203d60c307535f19edff7d3dd92f25b0538e4e203f643c922e1a4dc8c",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00000000",
+      "locale": "ES",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/ES/CONTROLS_NX_TYPE2.PNG",
+      "source_sha256": "2ac0f26440c881d60c0b72e6f88e2cdd3e406a0072fe6985babf8a4cbe793234",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "2b0889eed0b1b894a6883ce7ceff6c7be9fa324f5cab42896dcb5ffca9f8b4c7",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "000000",
+      "locale": "ES",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/ES/CONTROLS_NX_TYPE3.PNG",
+      "source_sha256": "2c5b9c4a11958b25dd8b6e64589dfd8c23abe15ea7da678f6fc2334d507734ab",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "8b47c1fe306acd87201ef26ea15d678ebb70cc88a41babb63d4d6e5c9d777b1f",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "0000",
+      "locale": "ES",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/ES/CONTROLS_PC_TYPE1.PNG",
+      "source_sha256": "9f33e9dd5d0efe30a4153c165db2ac8b9c824625428df61185722ce3ad30d7f6",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "e9172d6454504ee951dc5e53cc8d3875f01eab71aaecfdcbcff5a50936a96702",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00",
+      "locale": "ES",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/ES/CONTROLS_PC_TYPE2.PNG",
+      "source_sha256": "5dcc2697926af7336c20b93dadf0cca428d7f56822f2489df6a558391cfe8852",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "a430f6796837ac77218f5a77863ee71a2af4e2d1209462450acfcc23e04636f1",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "0000",
+      "locale": "ES",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/ES/CONTROLS_PC_TYPE3.PNG",
+      "source_sha256": "58cf884f96638152585a5494b082100322897373b85d820b4a66dcba220717c7",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "d1b81b5b5b05257497b997c26f070c28869270b912f98b6dc3b3b642c5bda070",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00",
+      "locale": "ES",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/ES/CONTROLS_PS4_TYPE1.PNG",
+      "source_sha256": "d15c49467eea1ac6ac6e465979d28d5d3e72391248cb7a7d5f4b5412f4ffca81",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "0b3bf1901df1f784f38d782b3ec548a3b98c530cb420b492bb20c2385ac720b7",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "0000",
+      "locale": "ES",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/ES/CONTROLS_PS4_TYPE2.PNG",
+      "source_sha256": "ecf39f793d5ec6ba979ca202966e671da6e23fbb2d0f85e677adedac0d85eee6",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "fcf634fedf7c5534c40768e59bfc666e8f3c6942acb52d6e8cf6957ecef174bf",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "000000",
+      "locale": "ES",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/ES/CONTROLS_PS4_TYPE3.PNG",
+      "source_sha256": "2e961f36c9fc9b1c2f626251bf63aea87fc3cb56f65e44d9126916ece6511055",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "87e0affee443e8da4dcb5958d0e3342b54214937792f9750e8652dd7650f1d39",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00000000",
+      "locale": "ES",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/ES/LEGEND_KEYBOARD_YAXIS.PNG",
+      "source_sha256": "ba594429aa97ce723fbae405bbfc16c37fff61fc845208a2e88a8309956c4fc3",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "b66cfcc538462150ccc978a28060d832dcf37407ebcd1cce6783085beccde6c2",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "00000000",
+      "locale": "ES",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/ES/LEGEND_NX_YAXIS.PNG",
+      "source_sha256": "31b59de706099cfbaae249f1ca21e9c3afb4086fa00bb7ef76293c701f238d2f",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "9249cebe499d1f8a8cfbf5accc55db952b97de354af19ef66f6d00fc023ff020",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "0000",
+      "locale": "ES",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/ES/LEGEND_PC_YAXIS.PNG",
+      "source_sha256": "31b59de706099cfbaae249f1ca21e9c3afb4086fa00bb7ef76293c701f238d2f",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "9249cebe499d1f8a8cfbf5accc55db952b97de354af19ef66f6d00fc023ff020",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "0000",
+      "locale": "ES",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/ES/LEGEND_PS4_YAXIS.PNG",
+      "source_sha256": "f1f8f601a4b73e566d09f624fe44c38fb0c9efb64bf5b1fff0becec70ce5b676",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "4c1c307b11470cad7800285036b20eaf9e0272351a7e68169b5202637e752e80",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "000000",
+      "locale": "ES",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/FR/CONTROLS_KEYBOARD_TYPE1.PNG",
+      "source_sha256": "6d81df25d32079c55ca48b127ef66179b36d0e22813435b1598e11de5da10262",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "9955611fa0124b4a54c75d25f0ab858dab265f9876755b172b08cbf0e87f79ad",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "000000",
+      "locale": "FR",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/FR/CONTROLS_KEYBOARD_TYPE2.PNG",
+      "source_sha256": "edc287ebf7c3d87bdaf27af9012e3c75b6bb737bae1de2a569ca708723dcad5d",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "e5775d64b50c5227cdf584962c5322e3cc0556a5d4d8f5a721f96c8e757baf63",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00000000",
+      "locale": "FR",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/FR/CONTROLS_NX_TYPE1.PNG",
+      "source_sha256": "c0ec02b53c3a07a17841369388eddf834666a74092faa7fc55ab2a7bcabd4dbf",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "a88ef18969d22984a2b92beefb60dff9ae8cb2316e2af015bbcfad29a34d207c",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "0000",
+      "locale": "FR",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/FR/CONTROLS_NX_TYPE2.PNG",
+      "source_sha256": "72d6b553799c915ebb284e23cef8a3cb9dcf28557f6907ef01159c2a84bb3b9f",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "6bf312f24ea6fe0b19a2a1680dafe16787038f4c2e7f13ba456f5c202ac8b6aa",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00000000",
+      "locale": "FR",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/FR/CONTROLS_NX_TYPE3.PNG",
+      "source_sha256": "cd13a9d1531825302001ce4ec8f0fa470046845e43935a98f2e0f053a7786f52",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "d923d12d1af7e47eb11b890c0ccdb813ff011be7f6d5665ed8fe4bb342fbff8a",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00",
+      "locale": "FR",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/FR/CONTROLS_PC_TYPE1.PNG",
+      "source_sha256": "9f33e9dd5d0efe30a4153c165db2ac8b9c824625428df61185722ce3ad30d7f6",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "e9172d6454504ee951dc5e53cc8d3875f01eab71aaecfdcbcff5a50936a96702",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00",
+      "locale": "FR",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/FR/CONTROLS_PC_TYPE2.PNG",
+      "source_sha256": "5dcc2697926af7336c20b93dadf0cca428d7f56822f2489df6a558391cfe8852",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "a430f6796837ac77218f5a77863ee71a2af4e2d1209462450acfcc23e04636f1",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "0000",
+      "locale": "FR",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/FR/CONTROLS_PC_TYPE3.PNG",
+      "source_sha256": "58cf884f96638152585a5494b082100322897373b85d820b4a66dcba220717c7",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "d1b81b5b5b05257497b997c26f070c28869270b912f98b6dc3b3b642c5bda070",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00",
+      "locale": "FR",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/FR/CONTROLS_PS4_TYPE1.PNG",
+      "source_sha256": "ef4008a151819f30d25ee5ad0d4ff31a612da75608005af53efe2fafc4ccbf4b",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "3b1176d887480215a4893f8fdcfad3f55365628630d226076ea6ec6004164cdc",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "0000",
+      "locale": "FR",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/FR/CONTROLS_PS4_TYPE2.PNG",
+      "source_sha256": "7763f85bedb8941bfa4526abdce31566b9a86e52277f71ac63b12662f4a558d2",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "048d788bfe98a17856b351369af6644d6e109867b1d35d898fbd55b0aa427cc2",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "000000",
+      "locale": "FR",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/FR/CONTROLS_PS4_TYPE3.PNG",
+      "source_sha256": "6852913d214c1fa07016f6b6473aec1b2d624d990c8f879dc8c6883da1cebb60",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "8a0c344de791c64b7537198a6d08d74f0f338c9641812df83b2982c51250dc95",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00000000",
+      "locale": "FR",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/FR/LEGEND_KEYBOARD_YAXIS.PNG",
+      "source_sha256": "82a62f347a34e05a559803a136e5c1bc139f6db09df1540430a9a01bb6d6f75d",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "544bd3967e053e8ad1bdacd04bb90db5c3b73fbabc15c9233373185a8a951f8c",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00000000",
+      "locale": "FR",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/FR/LEGEND_NX_YAXIS.PNG",
+      "source_sha256": "f7f1c780839ff9b5319e822786fb632f5b825dc73ea7594359d0c5942111f513",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "6328eace2da8e13c1cdb616d0e8c83a635d77d4c3bc6f1c0160d9e45a30a1a47",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00000000",
+      "locale": "FR",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/FR/LEGEND_PC_YAXIS.PNG",
+      "source_sha256": "f7f1c780839ff9b5319e822786fb632f5b825dc73ea7594359d0c5942111f513",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "6328eace2da8e13c1cdb616d0e8c83a635d77d4c3bc6f1c0160d9e45a30a1a47",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00000000",
+      "locale": "FR",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/FR/LEGEND_PS4_YAXIS.PNG",
+      "source_sha256": "bc756709eae45986bde6363ed02392ce42e558f22a0b5ca068a1f09c0f5d71ad",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "cb26a9d84bc0d7b85fe3f5a226eee607dc2126dff9080e5bb6153fe3097660a2",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "0000",
+      "locale": "FR",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/IT/CONTROLS_KEYBOARD_TYPE1.PNG",
+      "source_sha256": "6d81df25d32079c55ca48b127ef66179b36d0e22813435b1598e11de5da10262",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "9955611fa0124b4a54c75d25f0ab858dab265f9876755b172b08cbf0e87f79ad",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "000000",
+      "locale": "IT",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/IT/CONTROLS_KEYBOARD_TYPE2.PNG",
+      "source_sha256": "edc287ebf7c3d87bdaf27af9012e3c75b6bb737bae1de2a569ca708723dcad5d",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "e5775d64b50c5227cdf584962c5322e3cc0556a5d4d8f5a721f96c8e757baf63",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00000000",
+      "locale": "IT",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/IT/CONTROLS_NX_TYPE1.PNG",
+      "source_sha256": "f59245e2fdb1f5b2357e29dd9d558b730def674ea307625cfa604f6b2c573b24",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "51903bd48b84927e44d17a0822d6d19393ae9ea8dbe9f88405279d3e282ec92a",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "000000",
+      "locale": "IT",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/IT/CONTROLS_NX_TYPE2.PNG",
+      "source_sha256": "6c776ca6f9d7bde18862f3e10508b3a9f1675a8aad4c472d4ccbea44bb3fa8dc",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "8720ff86d472846da71afd89ad8f56e01034830962e75049445b55b74176ce20",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "000000",
+      "locale": "IT",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/IT/CONTROLS_NX_TYPE3.PNG",
+      "source_sha256": "3d0dc80e76a1514857a0cbe620076456852e7add5252e9217ddd00f636e3a748",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "a6d1292a8325fd8e07d1609281480527b31bc17e2d0269e31286425454a8e25b",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "000000",
+      "locale": "IT",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/IT/CONTROLS_PC_TYPE1.PNG",
+      "source_sha256": "9f33e9dd5d0efe30a4153c165db2ac8b9c824625428df61185722ce3ad30d7f6",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "e9172d6454504ee951dc5e53cc8d3875f01eab71aaecfdcbcff5a50936a96702",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "00",
+      "locale": "IT",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/IT/CONTROLS_PC_TYPE2.PNG",
+      "source_sha256": "5dcc2697926af7336c20b93dadf0cca428d7f56822f2489df6a558391cfe8852",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "a430f6796837ac77218f5a77863ee71a2af4e2d1209462450acfcc23e04636f1",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "0000",
+      "locale": "IT",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/IT/CONTROLS_PC_TYPE3.PNG",
+      "source_sha256": "58cf884f96638152585a5494b082100322897373b85d820b4a66dcba220717c7",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "d1b81b5b5b05257497b997c26f070c28869270b912f98b6dc3b3b642c5bda070",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00",
+      "locale": "IT",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/IT/CONTROLS_PS4_TYPE1.PNG",
+      "source_sha256": "ccdf5c5d3647be4f71c0f2ac668c56ea470ca320f108d0cf1ffdc08c5e465bbb",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "8f0a8570c3637466faaf2471dac44eec502dd7eac9f3064458059457cc916a04",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "00000000",
+      "locale": "IT",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/IT/CONTROLS_PS4_TYPE2.PNG",
+      "source_sha256": "d3b5d5a5c2d330203895b998b9873788639ee5be2d345e7b8e49d8e4b6844ee3",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "ebfa99d898643acd758c86f20ddc7708f3906dd46820070a048b90e83e53b613",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "0000",
+      "inner_tail_hex": "00",
+      "locale": "IT",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/IT/CONTROLS_PS4_TYPE3.PNG",
+      "source_sha256": "13db30d7635038c4d2a9a175bd252caf1519a9f6b20bced81941824e97043be0",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "bfc0da1843c00c41ab18549b097cee25cc32a9a74efda6e3e490602480babd91",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00000000",
+      "inner_tail_hex": "000000",
+      "locale": "IT",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/IT/LEGEND_KEYBOARD_YAXIS.PNG",
+      "source_sha256": "ddcc94aa39ad1400046cd7abfa8cdc0309f49e67ab8b25442d75a1d46c659de1",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "ca7d65402e60efcb086e57fe09e436f4f2908a41add9405f1bf48d347caadeef",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "0000",
+      "locale": "IT",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/IT/LEGEND_NX_YAXIS.PNG",
+      "source_sha256": "c004080569bd01e51916e445d58f1f291bec87546a598f28465c249340680e2d",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "23ede195a59aebf303bacba7a9dfacc78e77c29b74c33cfa57dee035123aaee3",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "0000",
+      "locale": "IT",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/IT/LEGEND_PC_YAXIS.PNG",
+      "source_sha256": "c004080569bd01e51916e445d58f1f291bec87546a598f28465c249340680e2d",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "23ede195a59aebf303bacba7a9dfacc78e77c29b74c33cfa57dee035123aaee3",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "000000",
+      "inner_tail_hex": "0000",
+      "locale": "IT",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    },
+    {
+      "resource": "TEXTURES/OPTIONS/IT/LEGEND_PS4_YAXIS.PNG",
+      "source_sha256": "6d5aaa498278b3f94bf6f1d85aa85dae7ca475b44d3d24cfd9337dba8198b15c",
+      "width": 428,
+      "height": 240,
+      "rgba_sha256": "fe9cd8327abd207c8042b7c54bb29086757b57fdf8dc9edca647a2b079d423c1",
+      "header_words": [
+        122,
+        32
+      ],
+      "outer_tail_hex": "00",
+      "inner_tail_hex": "000000",
+      "locale": "IT",
+      "action": "preserve-non-target-locale",
+      "notes": "非本轮目标语言；保持原字节，不套用英文图片文字位置。"
+    }
+  ]
+}

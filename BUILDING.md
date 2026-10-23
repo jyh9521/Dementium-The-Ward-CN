@@ -1,3 +1,47 @@
+# 全量离线构建与隔离恢复
+
+## 可复现输入
+
+- 原版Steam AppID3909960/build21501403，9文件身份在assets/original-identity.json。未知版本拒绝，不自动重写受支持身份。
+- Python3.11+与requirements.txt固定版本；实际本机Python3.14.2。
+- Fusion Pixel12px简中，SHA与发现规则见locales/zh-CN/font-full-profile.json和docs/FONT_SOURCE.md；许可assets/fonts/Fusion-Pixel-OFL.txt。不下载或安装字体。
+- ffmpeg/ffprobe9.0.2（libvpx-vp9），实际工具身份会写入媒体报告。媒体构建为单线程、bitexact、lossless VP9；不改原OGG/FLAC音轨。
+- 语音识别及美术编辑只在研究阶段使用；已审校locale数据与源依赖差分足够重建，不需要缓存模型或生成服务。
+
+## 仓库根目录命令
+
+```powershell
+$game = "C:/Program Files (x86)/Steam/steamapps/common/Dementium - The Ward"
+python -m pip install -r requirements.txt
+python -X utf8 -m unittest discover -s tests -v
+python -X utf8 tools/record_locale_verification.py --game "$game"
+python -X utf8 tools/verify_sample.py
+& "C:/Program Files/Git/bin/bash.exe" ./ROLLBACK_LOCALE.sh
+python -X utf8 tools/investigate.py check-input --game "$game"
+```
+
+单独运行的阶段命令为tools/build_locale.py baseline/modified/rollback；baseline/modified提供--game，均可用--output指定仓库build/下目录。--text-only只供中间文本研究，不能将其叫作全量样本。
+
+## 流水线与证据
+
+1. 只读验证全部原输入，ZAR/TAR/binfont无修改回写逐字节一致。
+2. 校验278记录原身份、ID、控制码，收集正文及媒体字幕字形，生成保留原180glyph的BMP字体。
+3. 中文按已验证宽度/高度自动折行；四语原文只做Latin1字节映射到UTF-8，1112记录逻辑不变，所有HUD字段仍守255byte。
+4. 构建49张程序化UI图、3张界面美术差分、26张场景纹理差分及完整mipmap，保护区域外像素、按键、UV、血迹。
+5. 18个影片文件的章名逐帧改写（16段独立章名、2段内嵌章名），573帧后续剧情原样保留，保持源fade/红装饰；电影对白及新闻/门牌画面词译注重编码，独立ffprobe更新DAT关键帧/偏移/尺寸。原音轨不变，VP9帧率/帧数/PTS保持；YUV区域外字节校验。
+6. 仅副本EXE增加受完整SHA/邻域守卫的UTF-8 decoder和PCM采样时钟字幕overlay，保持ASLR/Win64 unwind；本作真实指令离线回放，不运行游戏进程。
+7. 重复完整构建比较；差分正反向验证；准备sample后复核原9文件身份。
+8. 恢复只写rollback-sample的两文件，不覆盖modified及sample。逆序移除overlay、固定字面量层、UTF-8补丁，归档恢复原SHA。
+
+默认输出build/full/。MODIFIED_FILE.zar、MODIFIED_EXECUTABLE.exe为待测改件；DIFF_FILE.json包含本地可逆差分，可能携带整个变更TAR/媒体，禁止提交。VERIFICATION.txt/verification.json记录实际命令、输入、字面输出与退出码；ROLLBACK.sh是可执行恢复包装器。native-replay.json、preserved-locales-replay.json、audio-replay.json、images.json记录分层证据。
+
+输出树必须位于仓库build/，并拒绝symlink、reparse与多硬链接普通文件。原版目录不是写入目标。用户实际测试后产生的未知文件不会被构建工具擅自删除；先自行归档日志再重建。
+
+[手动测试](docs/MANUAL_TEST.md) · [边界](docs/KNOWN_ISSUES.md)。归档/媒体/指令检查不等于游戏内通过。
+
+---
+
+# 以下为历史阶段复现（非当前手测样本）
 # 第二阶段：最小中文样本构建
 
 ## 输入与命令

@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "format": "source-rgba-xor-zlib-v1",
+  "resource": "3d/tex/vend03.tex",
+  "size": [
+    128,
+    128
+  ],
+  "source_pixels_sha256": "341b8fa28e93bf4b8206a3cdebee51d7e118b7484cb6ee7e62eb2a447da273cb",
+  "output_pixels_sha256": "d8d34893ca1318ec647ef733b26db9936d0c16bb66c83863457fb29160cd9935",
+  "xor": "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",
+  "reviewed_regions": [
+    [
+      6,
+      4,
+      44,
+      17
+    ]
+  ],
+  "workflow": "imagegen artwork edit, reviewed import; no runtime pixel-font overlay",
+  "prompt": "Reviewed generated Chinese label regions; native atlas, remaining product logos, symbols and unreadable print retained.",
+  "alpha_policy": "preserve-source",
+  "protected_regions": [],
+  "import_recipe": {
+    "generated_png_sha256": "9b3a6e6c1106db1238a9e485663246493a7c3f4d1eb532b75fb690d1f8bec909",
+    "generated_size": [
+      1254,
+      1254
+    ],
+    "crop_mappings": [
+      {
+        "native_box": [
+          6,
+          4,
+          44,
+          17
+        ],
+        "generated_box": [
+          72,
+          42,
+          434,
+          150
+        ]
+      }
+    ],
+    "resampling": "LANCZOS",
+    "target": "清凉"
+  }
+}

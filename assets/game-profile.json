@@ -5,10 +5,12 @@
   "content": "CONTENT.TAR",
   "source_locale": "en",
   "inventory_encoding": "latin-1",
-  "encoding_status": "lossless archival byte mapping; runtime decoder unverified",
+  "encoding_status": "Original byte-widen verified; Latin-1 inventory; rebuilt UTF-8 requires guarded decoder",
   "font": "fonts/d2font_12x15.binfont",
   "probe_resource": "loc/en/UISSFrontend.tbl",
   "probe_source": "New Game",
   "probe_target": "New Game [offline probe]",
-  "external_index": {"LICENSES.TXT": 112737}
+  "external_index": {
+    "LICENSES.TXT": 112737
+  }
 }

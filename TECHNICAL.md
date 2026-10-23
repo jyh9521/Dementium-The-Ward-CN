@@ -1,6 +1,6 @@
 # 第一阶段技术调查（历史基线）
 
-当前第二阶段进展见 [最小实验](docs/MINIMAL_PROBE.md)、[解码调查](docs/TEXT_DECODING.md) 与 [binfont格式](docs/BINFONT_FORMAT.md)。下文是第一阶段当时的事实与未确认项，保留历史，不作为最新状态。
+当前全量阶段进展见 [UTF-8适配](docs/UTF8_RUNTIME.md)、[binfont格式](docs/BINFONT_FORMAT.md)、[图片审计](docs/IMAGE_AUDIT.md)、[内层纹理](docs/INNER_TEXTURE_AUDIT.md)、[电影格式](docs/MOVIE_FORMAT.md)与[音轨审计](docs/MOVIE_AUDIO_AUDIT.md)。下文是第一阶段当时的事实与未确认项，保留历史，不作为最新状态。
 
 日期：2026-10-23。对象为 Steam PC《病房》；静态/离线结果，不是游戏内结果。
 

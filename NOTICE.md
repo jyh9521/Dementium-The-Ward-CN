@@ -12,3 +12,7 @@
 上游的加载器、字体、游戏内截图及通关结论不作为本作已验证结论；本作独立验证依据见TECHNICAL.md与docs/VERIFICATION.md。
 
 第二阶段补充：tools/font_source.py的font_metadata/discover/resolve_fonts逐函数复用同一上游提交，MIT归属保持。字体为TakWolf Fusion Pixel，SIL OFL1.1。PE映射/边界double回放参考上游tests/native_replay.py的方法，本作重写坐标、数据布局和整EXE身份守卫，不复用其补丁偏移。
+
+全量阶段补充：tools/art_delta.py及tests/test_art_delta.py原样复用同一c0ea10f提交的MIT代码。tools/build_image_text.py适配上游tools/image_text.py的可见墨迹居中、字形覆盖、输入按键保护及区域外像素校验方法；本作伪PNG双LZ4和Image双zlib后端均独立验证。tools/executable_text.py的固定槽守卫参考同一作者Dementium-II-CN提交d3fbc4130bca6a1376e36f9f67b569b08d402680（MIT），去除debug_menu等无关分支。当前审计没有额外正常UI字面量需要改写，因此其recipe entries为空；不会为了复用而移植旧地址或开发菜单。
+
+本作UTF-8/BMP解码补丁、binfont扩展、原生离线回放、媒体DAT同步和字幕构建由本项目针对本作实际身份/调用链实现。参考上游术语不等于继承其通关或游戏内验收结论。生成的源依赖美术差分包含修改信息，不提交整张原始/生成商业纹理。

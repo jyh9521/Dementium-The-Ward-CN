@@ -78,7 +78,7 @@ class Replay:
             self.u.mem_write(self.stack+40+i*8,struct.pack('<Q',value))
         for reg,value in [(UC_X86_REG_RCX,rcx),(UC_X86_REG_RDX,rdx),(UC_X86_REG_R8,r8),(UC_X86_REG_R9,r9)]:
             self.u.reg_write(reg,value)
-        self.u.emu_start(self.base+self.profile['rvas'][key],self.stop,count=100000)
+        self.u.emu_start(self.base+self.profile['rvas'][key],self.stop,count=getattr(self,'instruction_limit',100000))
         if self.u.reg_read(UC_X86_REG_RIP)!=self.stop:
             raise ValueError('Replay instruction limit')
         return self.u.reg_read(UC_X86_REG_RAX)

@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "format": "source-rgba-xor-zlib-v1",
+  "resource": "3d/tex/falarm2.tex",
+  "size": [
+    64,
+    64
+  ],
+  "source_pixels_sha256": "9ed5c7fae5312e0bae96faa9c584cb7e93228ba965ffb50d90d9d5956c5a4400",
+  "output_pixels_sha256": "e1c7fe9bcbda7957d48896930f51e9ebacd7ad72d942a500c33d36eb382688ab",
+  "xor": "eNrt1v9PVXUcx/HnOed+4SJ4uxdDbvHNQr5c6MLlS/eacBFdQs7lApuusaWEwpwGWFeR3Kz1A4gLcusX2tpsk2F+qRxtyNbmLEWSfnDX8aVRmUIkTXHiLiQy7ON/0I936/3Y3jvn8znvH87rs/P57IAQQgghhBBCCCGE+L9bMGBJ11hU90uqbJrGI28WC3kZPNF0onSYf9pn0jHsBvFrs3hQvpFYt4twtJXZFxNJqijm7uZ1xJe9zJzqTaragLO0gHmbFd1p54mhR+4CmMygMltibGgJTiwWE4On2vnhi4+wqteOdtgJF7pZUFliVI45tVb3VG5NXeNe8fBT12GufNPJlZ6jFB1tIq2uir5rPWR/8h6XTrYSaqhm1mqJ2PgPzCbulxai/fEbq36ZImXfIdKcOivuPItmMXOtI8iO76+i5ZcSp/onNq8n1Pkh4Xd3k3NuG/ZSg/TuCq4fqmG0rRGLWWVNXKJq6CGZNxZIbP2MgY7WiM3vUJXZ9wbNBw1m36/Bku2h/9gZrveVMVfk5quBk3iPH2NiayW3dZ3QiQ717CyuZBeThsZYyENtSy85p19lrDPIC7cuYA2EGGzYyMip10mv3MliYX7E5o9TmaK3rsfb9jH3G3fhv5tL5enHnL/Qxd/r1HexLIpLvV8yUbGJGZPBnwff4Wr/Wab37SD14puYxwvwTmcyuqeJH9ubSEmIZeXlAYpdPtaMBzBZEtDU3olUYbWPp/bv5PL5E4xUv8bFx58zE5fC6j3b6RvqYWZbOUPffc30pi1Mmg3G2oP8/G03SatTsTV9wJb537lTV8nN5lpuBGuw/5VC/L1Bfq1tJOyyo8c7eajWLVI9o84+7/J86nPjCHW38cj3EsvV/NOa2F5Bb38XGTkuDN1Bspqb2V/P7cMtxKqz8Hk1jgluwJEez8inBxg5Uk/+dB6m1EVy/xlmrR+m9r5N9oFdEZvfU+zHUZuGmWbGS3zc9OWS5C1kRZGHSX+eyp5B1DKd4QIvo8VFJJcFGC8PcCvgY7hEjdf4KVqVgXHEintvMrp5JbaWBqzmAtxZ1TxX9xYlwd3yoyGEEEIIIYQQQgghhBBCCCGEEEIIIYQQ4j/7F4qZ5J8=",
+  "reviewed_regions": [
+    [
+      9,
+      18,
+      35,
+      26
+    ]
+  ],
+  "workflow": "imagegen artwork edit, reviewed import; no runtime pixel-font overlay",
+  "prompt": "Reviewed complete fire alarm Chinese label; protect original screw, border, window, arrow and unreadable bottom microprint.",
+  "alpha_policy": "preserve-source",
+  "import_recipe": {
+    "generated_png_sha256": "f0c58d46a724430ab1bf1866fe32e1b0e73163c96c3e93461b4dd01c178b8d68",
+    "crop_mappings": [
+      {
+        "native_box": [
+          9,
+          18,
+          35,
+          26
+        ],
+        "generated_box": [
+          180,
+          320,
+          620,
+          456
+        ]
+      }
+    ],
+    "resampling": "LANCZOS",
+    "target": "火警"
+  }
+}

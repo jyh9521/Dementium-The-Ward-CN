@@ -13,7 +13,8 @@ def build_font(original_binfont: bytes, mapping: dict[int, int], profile: dict):
     """Append mapped glyph cells, preserving all original metrics and RGBA pixels.
 
     mapping maps source Unicode scalar values to unused runtime BMP slots.
-    The atlas width is fixed; its height grows to the next sufficient power of
+    The atlas width defaults to the original; an explicit profile may widen it.
+    Its height grows to the next sufficient power of
     two, bounded by 1024 because binary glyph x/y fields each use ten bits.
     """
     from PIL import Image, ImageDraw, ImageFont
@@ -44,7 +45,10 @@ def build_font(original_binfont: bytes, mapping: dict[int, int], profile: dict):
         raise ValueError('Invalid font cell or advance')
     if original.width > 1024 or original.height > 1024:
         raise ValueError('Original atlas exceeds metric address bound')
-    columns = original.width // cell_width
+    atlas_width = profile.get('atlas_width', original.width)
+    if type(atlas_width) is not int or not original.width <= atlas_width <= 1024:
+        raise ValueError('Invalid explicit atlas width')
+    columns = atlas_width // cell_width
     if not columns:
         raise ValueError('Cell wider than atlas')
     required_height = original.height + ((len(mapping) + columns - 1) // columns) * cell_height
@@ -60,7 +64,7 @@ def build_font(original_binfont: bytes, mapping: dict[int, int], profile: dict):
     if missing:
         raise ValueError('Required font glyph missing: ' + ','.join(hex(cp) for cp in missing))
     font = ImageFont.truetype(str(path), pixel_size)
-    image = Image.new('RGBA', (original.width, new_height), (0, 0, 0, 0))
+    image = Image.new('RGBA', (atlas_width, new_height), (0, 0, 0, 0))
     image.paste(Image.frombytes('RGBA', (original.width, original.height), original.rgba), (0, 0))
     glyphs = dict(original.glyphs)
     added = []
@@ -81,9 +85,10 @@ def build_font(original_binfont: bytes, mapping: dict[int, int], profile: dict):
         added.append({'unicode': cp, 'slot': slot, 'metric': asdict(metric),
                       'ink_box': list(ink), 'ink_pixels': sum(a > 0 for a in cell.getchannel('A').tobytes())})
     rgba = image.tobytes()
-    result = original.write(glyphs, rgba, original.width, new_height)
+    result = original.write(glyphs, rgba, atlas_width, new_height)
     parsed = BinFont(result)
-    if (parsed.rgba[:len(original.rgba)] != original.rgba or parsed.base_height != original.base_height or
+    original_region = Image.frombytes('RGBA',(parsed.width,parsed.height),parsed.rgba).crop((0,0,original.width,original.height)).tobytes()
+    if (original_region != original.rgba or parsed.base_height != original.base_height or
             any(parsed.glyphs[cp] != glyph for cp, glyph in original.glyphs.items()) or
             any(parsed.glyph_rgba(cp) != original.glyph_rgba(cp) for cp in original.glyphs)):
         raise ValueError('Original font preservation verification failed')

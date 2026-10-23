@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "format": "source-rgba-xor-zlib-v1",
+  "resource": "3d/tex/exit01a.tex",
+  "size": [
+    32,
+    16
+  ],
+  "source_pixels_sha256": "aab5d8a89b36446aa1d88c80bcbd3fd8f60eafca4381a3dfdebc9f1fffc6356a",
+  "output_pixels_sha256": "45ed1332d0d648530939d54cd39c624faf2482eab3dec96b153bd89f13c57192",
+  "xor": "eNrt1flTFHQYx/E3sMu1C8u13IfAcsR9LMt9mDoKjfxgpuYPjWIUZpkWpc046aiMikqKCpmMBpQZwiQ4QKhAKAihAiJCgIogCgIrlwvIKkQz/bb/gp9/4PWd53m+zwNv81+MjSPx6r7FyZ9zKMst4OKZMioe5HPldAY20VtoMfLj6MkS8k7toaq+GWsUDLRWUnIkjfonToQYDPEw5xrq6Q4+ijChPS2dgsFiHk6m0TOxj7b0akoKT+EcLEBoHqvhy2LsCfLtJf9FNbudElj/WIdDwgZ+jW1n6WwqOT3ZnG2t5fhILvoT9jwRKSna+wPF3ZexdlJgPRpIfOQKtllqMzTvyrrrO/nQXEq8tQnvmVjygYWU8oAWDKxciJROa/gufk8JdJukaLaUFA8RNaNVhAqmkTrocbXnGNVP4lij6OSrmUSMx5cglztSP1PBOK8R24azVvd9tC0jWDK3m1yXlfzWcJ76gdN4Om/BYmY99/sPomsvRxzWicikV8N3kpjiEAEtj/eyVhpL3o1yeNpCWFcdB4fWsH9+Fau9PGhUd6BXI2ObMpnaugxkVgbIwsRcNI9DKNVjWLedb6MsiHo4gUtAH8WP87CYTOFSTQUefmqMdKwxjjTV8G3HzIhUPqL18T6+thdxwHszSXqpfBKVwi6nZZx4VcWBoXUck65EJFvEJpkZI3bzSMzdCXScIM9hKUY+hhxX/IVDw22Ce5TYhN0lc6YIg5dbuXr9BO62C723U2Nm+0bD13nhSsRMKJkNFzkqlPPZ8zi2N24jpXQriQabKFOVMiAR0mg2xepHjmQZJFBvro3YQsgqNzeq7ZchsIzkeHgThm4yzILssIhx4sjzYtwmd5BxvQwXC2i1V+EZKNHw69t8F94norj5Dxa1foFjuCv7xZ0obWrIfHCVw/Nylic24xPYjmxFEiGDumQ61+B/px1fP3+uKZcjtYzmtHAUCaHEho5goD3Ewb7zxA8bk9GUSXSoEnlHL2p1o4Y/OKVHiNyJyt4KFs3s4uxsMTv9vbGUiCmcu0DVs2g2O3sy29cC/mGYNCVR6T1C8L0pvMO1KbVajJk0HJVklu06prjL9Un2jeDc4GWEC/3PG/4JWU8r/v6vuFU7ruHb6dvgHWXFn/NVRMxvJGdqDe5hSkJDxjjzppp/XpXjHvCSw4eyEQyYsLm5hPKgfOYValxjOsm3iEdgGoVWvzljT7u4++wRfc/q2KDYhK3SiqybV4hcmD8zIwX6EmPN/bNQL3GMDXkjRbwznUyOPIFE02V8I4pja9R3ZN85x5cRS9HZqOBdVSoF4yVcriviSvQ5fBb+1KnBBHQcBHjV7CD3xiX2zFWSrq4kVCZA3OVG/o1fkIc4IxcbIgpSafiB4S6IhaFcavmU4FEBS2w/J63gY3beS2L3/Q10aitJLkwltX87h7p/J73hLHMT9yl1LUbVfo92URSerj78GN2GtnEUXrF2GNrNLezRLBbPfc/Q390IVV3ouT8gPEJPww8WSwh4I2fqZS3Puc2gtYosrWaytRooNG5jfZAH6td3uaDVjZFQB49YMzxcbJgJbKNJPomu0Irem7fpsLPDT1sHhf4YMZJhxhrr6NJSIY61x76/HUGYCHfHF28P3v/5F51+yXI=",
+  "reviewed_regions": [
+    [
+      2,
+      2,
+      30,
+      14
+    ]
+  ],
+  "workflow": "imagegen artwork edit, reviewed import; no runtime pixel-font overlay",
+  "prompt": "Approved generated Chinese poster/sign labels imported only into native text regions; original character/face, cutouts, border and all unreviewed pixels retained.",
+  "import": {
+    "resize": "LANCZOS per label; no whole atlas or material changes",
+    "generated_size": [
+      1774,
+      887
+    ],
+    "native_size": [
+      32,
+      16
+    ],
+    "generated_png_sha256": "3939427422ef1161156dc2c99e086b4c74d183670a43cfd1ae27422be3e88fc3",
+    "crop_mappings": [
+      {
+        "generated_box": [
+          150,
+          65,
+          1624,
+          800
+        ],
+        "native_box": [
+          2,
+          2,
+          30,
+          14
+        ],
+        "wording": "出口"
+      }
+    ],
+    "alpha": "source including original paper rips/cutouts",
+    "protected": "all pixels outside native label interiors; rabbit/sun face and source transparency unchanged"
+  }
+}

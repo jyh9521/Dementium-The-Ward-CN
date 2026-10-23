@@ -1,0 +1,4522 @@
+{
+  "schema": 1,
+  "movie_groups": 34,
+  "primary_samples": 102,
+  "resources": [
+    {
+      "resource": "MOVIES/AMANDA01.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "4a3c4a00a34199f6f781b75ced2f24a5d4cb9c1ed1da5034a4b30f28118747c2",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 339,
+      "sample_indices": [
+        0,
+        169,
+        338
+      ],
+      "sample_rgb_sha256": [
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513",
+        "3153fb41e8361990b43fa7b489c879b6a25f3455af4c519f0433836806bb1192",
+        "393674f6285962d3fe357c9c62c38db8be0f8f67392830e2be69ccd8f821ef73"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "embedded-chapter-title",
+      "source_texts": [
+        "CHAPTER THREE",
+        "The Infant Ward"
+      ],
+      "target_texts": [
+        "第三章",
+        "育婴病房"
+      ],
+      "notes": "加密审计发现开头嵌入章名，非独立CHAPTER资源。完整片源RGB逐帧锁定；章名区改写，后续剧情mode unchanged逐字节透传。 地面彩色积木字母为环境/谜题图案保留。",
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 23,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "53aafe2d81b00965b6f39c0079f52db478c624582f41a864b138ead8093e6862"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "e6788663d23ab2824f0d5c8e3af4449bbce2a05b88f7aa818d16fba921f289d3"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "e6788663d23ab2824f0d5c8e3af4449bbce2a05b88f7aa818d16fba921f289d3"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "e6788663d23ab2824f0d5c8e3af4449bbce2a05b88f7aa818d16fba921f289d3"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "e6788663d23ab2824f0d5c8e3af4449bbce2a05b88f7aa818d16fba921f289d3"
+          },
+          {
+            "frame": 90,
+            "seconds": 3.0,
+            "rgb_sha256": "e7690fe5f7f4e66c65277a1cba35bd218a336eae635410725ece90848e3d7501"
+          },
+          {
+            "frame": 105,
+            "seconds": 3.5,
+            "rgb_sha256": "b61d5c9fe289d16b5547cdf0352f17c669f01c90b3709b41c3fcff3f64691363"
+          },
+          {
+            "frame": 120,
+            "seconds": 4.0,
+            "rgb_sha256": "b9c6e76f34b28ffb4d527da6b2442b25032b8c52d3763577713c064eaf772b4f"
+          },
+          {
+            "frame": 135,
+            "seconds": 4.5,
+            "rgb_sha256": "48960ec080769304a8e9ae4697dad3daf7411618e52f7b32b89eb5bdc5f36532"
+          },
+          {
+            "frame": 150,
+            "seconds": 5.0,
+            "rgb_sha256": "d36f2a328b992398efb17b28bd8e703f74387e0b8e4a36055992587cacdb28a0"
+          },
+          {
+            "frame": 165,
+            "seconds": 5.5,
+            "rgb_sha256": "3ade01bdcecf2c86d5a9648456c250822057776046a70da3cd2b18041e226cc9"
+          },
+          {
+            "frame": 180,
+            "seconds": 6.0,
+            "rgb_sha256": "a6ddbfdbbb88e6f34e18ca1e76c6b4244c3408b8146b2e7ade9ab9a4bac948c4"
+          },
+          {
+            "frame": 195,
+            "seconds": 6.5,
+            "rgb_sha256": "59bc398d5a880b95065e1d943c6d5ad769d4c42d9056df4ca09c5d76af6c6f42"
+          },
+          {
+            "frame": 210,
+            "seconds": 7.0,
+            "rgb_sha256": "5c2c9164ff647e7a90ebb633cdde31cc1dffa9832b2d725b3ed52f7f07c167af"
+          },
+          {
+            "frame": 225,
+            "seconds": 7.5,
+            "rgb_sha256": "c4945b9009fc2d10cc2719057178966b7e1d2e8d721edac8038ffeee9e0c4d4a"
+          },
+          {
+            "frame": 240,
+            "seconds": 8.0,
+            "rgb_sha256": "67152ddd40875b3ca9be90525c9288d3ef5974599e44fff6e3693a5bdd76b1b4"
+          },
+          {
+            "frame": 255,
+            "seconds": 8.5,
+            "rgb_sha256": "cb6f1153bae7b58966ee94a84a1e25a8300bad7aaf2af3ce8b132afe0c065240"
+          },
+          {
+            "frame": 270,
+            "seconds": 9.0,
+            "rgb_sha256": "ae635a7d45c0187e17364fdb08f32916bd19b16b0edc3acce4a6bf5b3ad5df24"
+          },
+          {
+            "frame": 285,
+            "seconds": 9.5,
+            "rgb_sha256": "b451606186a44bee2e9ce945cb65989c2497c748d07446f0ad3bf82f0cc5600a"
+          },
+          {
+            "frame": 300,
+            "seconds": 10.0,
+            "rgb_sha256": "1d76b9f2f3caa813b5074ef98780ce84c7f7482616fb5462800d89890ecdc3b3"
+          },
+          {
+            "frame": 315,
+            "seconds": 10.5,
+            "rgb_sha256": "25c50d43f0f63b2fac9ca6560c32c4833b95f6f0dd8efe32145a16710dd14fa8"
+          },
+          {
+            "frame": 330,
+            "seconds": 11.0,
+            "rgb_sha256": "95961ceeb1b06da90f985cce177b2a52b9014d2cb8e7f708e031ae3fdf95c9bd"
+          }
+        ],
+        "contact_sheets_viewed": 2,
+        "decode_exit_status": 0,
+        "source_sha256": "4a3c4a00a34199f6f781b75ced2f24a5d4cb9c1ed1da5034a4b30f28118747c2",
+        "local_report": "build/full-research/movie-dense-half/AMANDA01/dense-frames.json"
+      },
+      "disposition": "localized-native-title-frames-offline-verified",
+      "recipe": "movie-titles.json"
+    },
+    {
+      "resource": "MOVIES/AMANDA02.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "144051b884e9697f6f5c7d5e8b62d3cdff264d042f2ff733e45678f10a5fe3f7",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 338,
+      "sample_indices": [
+        0,
+        169,
+        337
+      ],
+      "sample_rgb_sha256": [
+        "fb39827794c7b1e2733d84591bc939b5389bd61cce9f6ef84ce1df998de0a137",
+        "2d1c8c778133506e2bba8a931d73f54260e2dd4df047e6d3bad23bab08864dfc",
+        "7d2cb020e77e4f712016e0fb92fcdbe32f7de339d48f0d263d06b88c61cf8864"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "readable-environment-sign",
+      "source_texts": [
+        "EXIT"
+      ],
+      "target_texts": [
+        "出口"
+      ],
+      "notes": "环境出口牌，原画面保留；对应顶部中文标识译注由电影构建器添加。半秒抽样时间窗：4.5–6.0秒，不是逐帧边界。",
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 23,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "fb39827794c7b1e2733d84591bc939b5389bd61cce9f6ef84ce1df998de0a137"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "f6a8fa91abcc0c058fa6abd24591ad86a959b0478c45cd1cf9f399161b755cb8"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "7a4ecfb136673f036d767235a6804a0f128453360992b6a3f9eb20453e7579d3"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "a8d12602e645633e4a9100b25a213f933ecb8a94fb66344a094cba3624575fec"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "0b9f786cd6623ff0fd3f015259a517772638d2ca48a55e438f183ebd1ca5f087"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "33a367c3d04f9e3ae47318b0198520c925ee8283dfe05d683af95c5ac3e21e3e"
+          },
+          {
+            "frame": 90,
+            "seconds": 3.0,
+            "rgb_sha256": "31314c9de3560f3c4a20a898c3da6a1748219b743fef9a8407c64f20f77949ab"
+          },
+          {
+            "frame": 105,
+            "seconds": 3.5,
+            "rgb_sha256": "2ed2fb61e8dac97d008d2e01dbd9ca51d2666c3c4d0c9ac8d28c87e0f08f38b9"
+          },
+          {
+            "frame": 120,
+            "seconds": 4.0,
+            "rgb_sha256": "6a10fbfa21461b35fe0c31600251ade4ee75c354b0b94f3ccd4c8fe7d953c9dc"
+          },
+          {
+            "frame": 135,
+            "seconds": 4.5,
+            "rgb_sha256": "ea961090d11416f15c18b2df1439521b1032d4dd4ff4fea143b80d1af0feb271"
+          },
+          {
+            "frame": 150,
+            "seconds": 5.0,
+            "rgb_sha256": "5340498019a96a1c14391fa8949dc0598bba2bcbca494c91d9b019c98afc9353"
+          },
+          {
+            "frame": 165,
+            "seconds": 5.5,
+            "rgb_sha256": "4bb89ec4a9724c884d321042b420f0aa7e75ae912d3be661ea68eab927a01b4f"
+          },
+          {
+            "frame": 180,
+            "seconds": 6.0,
+            "rgb_sha256": "b7614a305a85ea5a1eb1b73e5a93144a53dbf0b4e398c261477f51711bad3f43"
+          },
+          {
+            "frame": 195,
+            "seconds": 6.5,
+            "rgb_sha256": "5ddc151a3b5d2bb9444c5122b354cec7f37c9b52e282b7537a01a5190b639430"
+          },
+          {
+            "frame": 210,
+            "seconds": 7.0,
+            "rgb_sha256": "b20bf77d5b649286ede289ab23d077bc8933c4abcf717ed4d2bc46a4176158dd"
+          },
+          {
+            "frame": 225,
+            "seconds": 7.5,
+            "rgb_sha256": "c634cfb915862f421d51ff5d8c6900c389dc9e371f572dbf811cb78e30cef7e1"
+          },
+          {
+            "frame": 240,
+            "seconds": 8.0,
+            "rgb_sha256": "979d79a3f831369d85f125e4870401d7e7ae53a441e7b2d4dd178baa62fd32bf"
+          },
+          {
+            "frame": 255,
+            "seconds": 8.5,
+            "rgb_sha256": "003c0c0324b001b34c427d876a3a26fbe6d85eeb77152720be4c4c503b0c12d9"
+          },
+          {
+            "frame": 270,
+            "seconds": 9.0,
+            "rgb_sha256": "aba6fdfd005296aaff0cac14d45174c81d2cc3a56787bb00940fbf223f240033"
+          },
+          {
+            "frame": 285,
+            "seconds": 9.5,
+            "rgb_sha256": "582838e82ea9f1059055232d983171f04c0370a9ff5010f0b8691b830a8471ce"
+          },
+          {
+            "frame": 300,
+            "seconds": 10.0,
+            "rgb_sha256": "76911486f5c9a42242d77a14e9539d6061e0167029eac7f21aea677902dd7ae9"
+          },
+          {
+            "frame": 315,
+            "seconds": 10.5,
+            "rgb_sha256": "d8f3cefb9837f10d12024147fa3453c47ce8989be43b6f8e14f63c25b523c690"
+          },
+          {
+            "frame": 330,
+            "seconds": 11.0,
+            "rgb_sha256": "4daebcde7e17489d84fae1afb55fc3c3552c58eaaf62252651c0bef102ee9318"
+          }
+        ],
+        "contact_sheets_viewed": 2,
+        "decode_exit_status": 0,
+        "source_sha256": "144051b884e9697f6f5c7d5e8b62d3cdff264d042f2ff733e45678f10a5fe3f7",
+        "local_report": "build/full-research/movie-dense-half/AMANDA02/dense-frames.json"
+      }
+    },
+    {
+      "resource": "MOVIES/BT_BOSS.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "b5021d2b06e9e0609a9710eb5af2f002ce6a7f575cff5ca79ee104eccbe2f6b1",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 330,
+      "sample_indices": [
+        0,
+        165,
+        329
+      ],
+      "sample_rgb_sha256": [
+        "927730d9a9caf0366b7b6c617fac3865ef122989618e71a7374e79295dbc45ef",
+        "1420c39ee6b4156c2d5f6ee4f927ff210b3b296839b72f18797173151c25943d",
+        "d3a1b5ddcf6229d437e8b187f423e0871aeff0f1daf0d6cc9ed2a12200bd0cdb"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "no-readable-english-in-half-second-samples",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "已看完整片每0.5秒接触表，未见可靠可读英语标题或剧情字幕条；不能排除间隔之间的快闪、低清设备微字。",
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 22,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "927730d9a9caf0366b7b6c617fac3865ef122989618e71a7374e79295dbc45ef"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "46dc83d286bb9f90f1a60885ef09a5f8647689e471eb7ddc8bbef89f5f3567f4"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "f9a417c987ed31ce1c76c47e14a11fadb3b8e239667542dbf210bdafadd161d4"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "2eb7572261ace31515ca63f3172d41d4088aa504c966f2f5c3382dde6dd254c4"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "3e46fe0ab32738ce769759fb7b22344069fcaea1163166a0f40c5a03b909aefa"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "7a1538b9e5c48ab919d6661483b8feb57ad64faf23b13cdd327c095fe596de98"
+          },
+          {
+            "frame": 90,
+            "seconds": 3.0,
+            "rgb_sha256": "55acc0d2b6cc0ebc63710e095a762acf163772e3494f0c042c101f0800b9cc3f"
+          },
+          {
+            "frame": 105,
+            "seconds": 3.5,
+            "rgb_sha256": "9216ff7669ee2c85234808a1b004257cb8d6fa86efd32e010adfffef1fffbee2"
+          },
+          {
+            "frame": 120,
+            "seconds": 4.0,
+            "rgb_sha256": "e301a12a59dabd678355d2b235c02d797acb627c0157ec2dc5852d2cfbe30e90"
+          },
+          {
+            "frame": 135,
+            "seconds": 4.5,
+            "rgb_sha256": "dcbc35c4bc5822b00cd3862f4bacb56d509dc329945845973b9775fbb7035dea"
+          },
+          {
+            "frame": 150,
+            "seconds": 5.0,
+            "rgb_sha256": "2daf1c8ecff39bc1da309454c9e077bc77f16435141421486122da2f54649c3e"
+          },
+          {
+            "frame": 165,
+            "seconds": 5.5,
+            "rgb_sha256": "1420c39ee6b4156c2d5f6ee4f927ff210b3b296839b72f18797173151c25943d"
+          },
+          {
+            "frame": 180,
+            "seconds": 6.0,
+            "rgb_sha256": "a0f21037d8833056b1f1bee8b3233aa026db3baffd9394c3ef91aab09043f231"
+          },
+          {
+            "frame": 195,
+            "seconds": 6.5,
+            "rgb_sha256": "464caf57c8fc9eba5f84ca93e6daad693be6d10be2f83eff26f4c7a83a440fe3"
+          },
+          {
+            "frame": 210,
+            "seconds": 7.0,
+            "rgb_sha256": "22f15853c8d0759e09ab079063791d895677d5b10006208c2d96dfd3bb6a3229"
+          },
+          {
+            "frame": 225,
+            "seconds": 7.5,
+            "rgb_sha256": "4fd116ca6528dd0e490dd37f9556efd179a47f6670bf095c4f8caf88d2aef2a9"
+          },
+          {
+            "frame": 240,
+            "seconds": 8.0,
+            "rgb_sha256": "8feed6aaa966fe3463d0cf86b47b5a960fd63cc4c748c7dcf512014e14f414b6"
+          },
+          {
+            "frame": 255,
+            "seconds": 8.5,
+            "rgb_sha256": "e266f81ca603c481b33812912b24bdb9a227732d5580ebae39a61d3d899413ed"
+          },
+          {
+            "frame": 270,
+            "seconds": 9.0,
+            "rgb_sha256": "d13bbad224c9b22807e55fcc6530d1d872af1a666bd9a74d8bd3cc3985ab06fe"
+          },
+          {
+            "frame": 285,
+            "seconds": 9.5,
+            "rgb_sha256": "08e384e5978b2186c40865a954ff57fb7417e61a3c591b06bd8cd1f6f6495d45"
+          },
+          {
+            "frame": 300,
+            "seconds": 10.0,
+            "rgb_sha256": "2d9f405a505bf59f24de6f94d5c8e3c21165c0a9606928914bba68eb8792b61a"
+          },
+          {
+            "frame": 315,
+            "seconds": 10.5,
+            "rgb_sha256": "fb94a097868ecddeed209893e8d52dc883e99a6f65cd5e4e72329810161be826"
+          }
+        ],
+        "contact_sheets_viewed": 2,
+        "decode_exit_status": 0,
+        "source_sha256": "b5021d2b06e9e0609a9710eb5af2f002ce6a7f575cff5ca79ee104eccbe2f6b1",
+        "local_report": "build/full-research/movie-dense-half/BT_BOSS/dense-frames.json"
+      }
+    },
+    {
+      "resource": "MOVIES/BT_SIGHTING.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "c0339dc010588a4ad6bf1abdf8b9cc1a93c0f8274cf07f7231282644d9a00927",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 389,
+      "sample_indices": [
+        0,
+        194,
+        388
+      ],
+      "sample_rgb_sha256": [
+        "3e8043c84e605661d625c30ddcfca5ce179bf29fa09c211cd6ae643f2cabdb85",
+        "2d080e278e6d621269df5a0961fd2a88452232a2cf0797a3907aa8e371eebeda",
+        "e36bcfd45c761b32680ca6c8e473eb41bf00fb15aa67ff8252b4205903b97202"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "readable-environment-sign",
+      "source_texts": [
+        "EXIT"
+      ],
+      "target_texts": [
+        "出口"
+      ],
+      "notes": "环境出口牌，原画面保留；对应顶部中文标识译注由电影构建器添加。半秒抽样时间窗：3.0–3.5秒、9.5–10.5秒，不是逐帧边界。",
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 26,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "3e8043c84e605661d625c30ddcfca5ce179bf29fa09c211cd6ae643f2cabdb85"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "176bf627e07c52847ba9ee11c5861ced769f2e74faf0c8996ebe524040a9b6ad"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "28b03cfe9820e66645bbc4b34e743ef8e954b7be27d5381564f09b221832f7da"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "0b31ee8c209562960d4b5bc9fe5ffe538b9f865eec31d44d425e10df01f496ea"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "f492597aecdb9d992df93eb79cea01103f6a3fd993f966a12ffa48ba7723f6e0"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "7ff446bb010d466020a7e74cceca8aa24b53615cdb64af617b7ae56d55874733"
+          },
+          {
+            "frame": 90,
+            "seconds": 3.0,
+            "rgb_sha256": "68bf81054c4887c73bc0a30321a9fda8762c6cc020113e59bf1f2b79848e23ad"
+          },
+          {
+            "frame": 105,
+            "seconds": 3.5,
+            "rgb_sha256": "f07bfa5fe49209e5cf02da51e30e57d1c6a278162f82abe7747e47d51e469084"
+          },
+          {
+            "frame": 120,
+            "seconds": 4.0,
+            "rgb_sha256": "278fb3aa195d1c07a1a0741e37c5ef3cae0d5118772b6b1dce6415ab8ad83d2f"
+          },
+          {
+            "frame": 135,
+            "seconds": 4.5,
+            "rgb_sha256": "1472dc1a4bf6a16db0ae218b40ff59a36f9af503909fe093426e6764a1fbc165"
+          },
+          {
+            "frame": 150,
+            "seconds": 5.0,
+            "rgb_sha256": "1d4c6c40a503544ca69cf4b78073600ec8a482ac65dd01cb6344d177bcc3a88a"
+          },
+          {
+            "frame": 165,
+            "seconds": 5.5,
+            "rgb_sha256": "c34576780b306e70fc73d4fb148a732777b97cc8d68fc31a45931c5d0addb483"
+          },
+          {
+            "frame": 180,
+            "seconds": 6.0,
+            "rgb_sha256": "30e4eb6198395785bd29e8af842f96fcb58b41afa49754df08fdd8d25457af04"
+          },
+          {
+            "frame": 195,
+            "seconds": 6.5,
+            "rgb_sha256": "5e996f6f0698cc40ee83e24adb0ce1c06ab43fd0a07d33ea19ebee4f64df4807"
+          },
+          {
+            "frame": 210,
+            "seconds": 7.0,
+            "rgb_sha256": "cd1aa42106c7a4c4d5ce4dc7c886246cfa24d4c9c12ba6b609628558da4e693a"
+          },
+          {
+            "frame": 225,
+            "seconds": 7.5,
+            "rgb_sha256": "e269ba1dc3c650e5f1655c3e1d51823b76af49b523d3c35eca1504c043b5efb8"
+          },
+          {
+            "frame": 240,
+            "seconds": 8.0,
+            "rgb_sha256": "2a366c0feebe3ae80be987c16f827031de97638486e8b64751697aca4cb5d2d2"
+          },
+          {
+            "frame": 255,
+            "seconds": 8.5,
+            "rgb_sha256": "861c09efd0932dcf58def1ac6cc0ec86390a439f37bdb70024cfe7c69620e21c"
+          },
+          {
+            "frame": 270,
+            "seconds": 9.0,
+            "rgb_sha256": "3f87f10ac4e323869b7f8e057b79a3ebe550aa8eb4c47d84bca2d6deefc066c4"
+          },
+          {
+            "frame": 285,
+            "seconds": 9.5,
+            "rgb_sha256": "23d787bf95a8018779b56ffaafc902055b76e7a466925dcae8fbd957a9af8c1f"
+          },
+          {
+            "frame": 300,
+            "seconds": 10.0,
+            "rgb_sha256": "5b406c757de0fe92a0619c88c106870f6a54364a4f8cd1ee08ba7aed436a8f1c"
+          },
+          {
+            "frame": 315,
+            "seconds": 10.5,
+            "rgb_sha256": "64ba269e6c3fa0e4a96ce7e628914486d355322ae7fc3a1825cd2a535e2758c2"
+          },
+          {
+            "frame": 330,
+            "seconds": 11.0,
+            "rgb_sha256": "267cc5b221882869c6974657ee450b734abfccc833c40bf8e90edc8b0711cdc4"
+          },
+          {
+            "frame": 345,
+            "seconds": 11.5,
+            "rgb_sha256": "f11ea7eb52def9379e6e9a8209e67aa5692320440d6d3bf229b751c6c52f1e94"
+          },
+          {
+            "frame": 360,
+            "seconds": 12.0,
+            "rgb_sha256": "8dea30972f1016f06cfc560f82bd35145493881c652d4c65bbcca88fa6fea160"
+          },
+          {
+            "frame": 375,
+            "seconds": 12.5,
+            "rgb_sha256": "2adf0f32169819f48d4c14698feb50c259602d3b5d9fd8825f85e33f257a6a09"
+          }
+        ],
+        "contact_sheets_viewed": 3,
+        "decode_exit_status": 0,
+        "source_sha256": "c0339dc010588a4ad6bf1abdf8b9cc1a93c0f8274cf07f7231282644d9a00927",
+        "local_report": "build/full-research/movie-dense-half/BT_SIGHTING/dense-frames.json"
+      }
+    },
+    {
+      "resource": "MOVIES/CHAPTER01.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "3dad2a0c63f28b7a952d9f91fb4a4b1b1a04f82dcd50e0e4c3afd45d4bc14811",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 90,
+      "sample_indices": [
+        0,
+        45,
+        89
+      ],
+      "sample_rgb_sha256": [
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513",
+        "575c07678b17e19a018154b593cea44b9c1e5d8e39d2532f0454aa040a8ec0a2",
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "burned-in-chapter-title",
+      "source_texts": [
+        "CHAPTER ONE",
+        "The Admittance"
+      ],
+      "target_texts": [
+        "第一章",
+        "入院"
+      ],
+      "notes": "独立90帧章名影片；另有全90帧源依赖重建验证，半秒样本与原章号/副标题一致。",
+      "disposition": "localized-native-title-frames-offline-verified",
+      "recipe": "movie-titles.json",
+      "verified_frames": 90,
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 6,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "6b77b2864804fc8e59a02c8413b07ce33b4f09c73d5b9828489668cf1c317135"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "575c07678b17e19a018154b593cea44b9c1e5d8e39d2532f0454aa040a8ec0a2"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "575c07678b17e19a018154b593cea44b9c1e5d8e39d2532f0454aa040a8ec0a2"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "575c07678b17e19a018154b593cea44b9c1e5d8e39d2532f0454aa040a8ec0a2"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "575c07678b17e19a018154b593cea44b9c1e5d8e39d2532f0454aa040a8ec0a2"
+          }
+        ],
+        "contact_sheets_viewed": 1,
+        "decode_exit_status": 0,
+        "source_sha256": "3dad2a0c63f28b7a952d9f91fb4a4b1b1a04f82dcd50e0e4c3afd45d4bc14811",
+        "local_report": "build/full-research/movie-dense-half/CHAPTER01/dense-frames.json"
+      }
+    },
+    {
+      "resource": "MOVIES/CHAPTER02.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "dd55214e35373b31af3fc90bc4b2f437a6031cbc9b3ffb4353528276670739a9",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 90,
+      "sample_indices": [
+        0,
+        45,
+        89
+      ],
+      "sample_rgb_sha256": [
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513",
+        "6d151bf1ce1b1216716e9b8ade5833acb03c15272c6a55aafdacddae1d418d32",
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "burned-in-chapter-title",
+      "source_texts": [
+        "CHAPTER TWO",
+        "The Rooftop"
+      ],
+      "target_texts": [
+        "第二章",
+        "屋顶"
+      ],
+      "notes": "独立90帧章名影片；另有全90帧源依赖重建验证，半秒样本与原章号/副标题一致。",
+      "disposition": "localized-native-title-frames-offline-verified",
+      "recipe": "movie-titles.json",
+      "verified_frames": 90,
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 6,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "2d3283c3aa343e21d1f5baf3b381e9a55cb1c0467ccd1d3f7534bc59a2762908"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "6d151bf1ce1b1216716e9b8ade5833acb03c15272c6a55aafdacddae1d418d32"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "6d151bf1ce1b1216716e9b8ade5833acb03c15272c6a55aafdacddae1d418d32"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "6d151bf1ce1b1216716e9b8ade5833acb03c15272c6a55aafdacddae1d418d32"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "6d151bf1ce1b1216716e9b8ade5833acb03c15272c6a55aafdacddae1d418d32"
+          }
+        ],
+        "contact_sheets_viewed": 1,
+        "decode_exit_status": 0,
+        "source_sha256": "dd55214e35373b31af3fc90bc4b2f437a6031cbc9b3ffb4353528276670739a9",
+        "local_report": "build/full-research/movie-dense-half/CHAPTER02/dense-frames.json"
+      }
+    },
+    {
+      "resource": "MOVIES/CHAPTER03.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "5eaeb2513ad8aff42418ca5c434971874686bf0a6a312ea347deca08ca1d3ea7",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 90,
+      "sample_indices": [
+        0,
+        45,
+        89
+      ],
+      "sample_rgb_sha256": [
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513",
+        "e6788663d23ab2824f0d5c8e3af4449bbce2a05b88f7aa818d16fba921f289d3",
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "burned-in-chapter-title",
+      "source_texts": [
+        "CHAPTER THREE",
+        "The Infant Ward"
+      ],
+      "target_texts": [
+        "第三章",
+        "育婴病房"
+      ],
+      "notes": "独立90帧章名影片；另有全90帧源依赖重建验证，半秒样本与原章号/副标题一致。",
+      "disposition": "localized-native-title-frames-offline-verified",
+      "recipe": "movie-titles.json",
+      "verified_frames": 90,
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 6,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "53aafe2d81b00965b6f39c0079f52db478c624582f41a864b138ead8093e6862"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "e6788663d23ab2824f0d5c8e3af4449bbce2a05b88f7aa818d16fba921f289d3"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "e6788663d23ab2824f0d5c8e3af4449bbce2a05b88f7aa818d16fba921f289d3"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "e6788663d23ab2824f0d5c8e3af4449bbce2a05b88f7aa818d16fba921f289d3"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "e6788663d23ab2824f0d5c8e3af4449bbce2a05b88f7aa818d16fba921f289d3"
+          }
+        ],
+        "contact_sheets_viewed": 1,
+        "decode_exit_status": 0,
+        "source_sha256": "5eaeb2513ad8aff42418ca5c434971874686bf0a6a312ea347deca08ca1d3ea7",
+        "local_report": "build/full-research/movie-dense-half/CHAPTER03/dense-frames.json"
+      }
+    },
+    {
+      "resource": "MOVIES/CHAPTER04.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "24bcbbc8ebc7ec678f004e26faf8734968d0d8f1503bf812cc58e74db6dfa5fe",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 90,
+      "sample_indices": [
+        0,
+        45,
+        89
+      ],
+      "sample_rgb_sha256": [
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513",
+        "a1d9707325adfe7c69fae1a8c820092f21a4fda3faa37b3d2ac9027f7d451d41",
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "burned-in-chapter-title",
+      "source_texts": [
+        "CHAPTER FOUR",
+        "The Cleaver"
+      ],
+      "target_texts": [
+        "第四章",
+        "屠夫"
+      ],
+      "notes": "独立90帧章名影片；另有全90帧源依赖重建验证，半秒样本与原章号/副标题一致。",
+      "disposition": "localized-native-title-frames-offline-verified",
+      "recipe": "movie-titles.json",
+      "verified_frames": 90,
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 6,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "cf0dd1e22b5cfa2b0320ba10dba3e58ecd2b9f8bbba24851a7e2c2f1639e9787"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "a1d9707325adfe7c69fae1a8c820092f21a4fda3faa37b3d2ac9027f7d451d41"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "a1d9707325adfe7c69fae1a8c820092f21a4fda3faa37b3d2ac9027f7d451d41"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "a1d9707325adfe7c69fae1a8c820092f21a4fda3faa37b3d2ac9027f7d451d41"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "a1d9707325adfe7c69fae1a8c820092f21a4fda3faa37b3d2ac9027f7d451d41"
+          }
+        ],
+        "contact_sheets_viewed": 1,
+        "decode_exit_status": 0,
+        "source_sha256": "24bcbbc8ebc7ec678f004e26faf8734968d0d8f1503bf812cc58e74db6dfa5fe",
+        "local_report": "build/full-research/movie-dense-half/CHAPTER04/dense-frames.json"
+      }
+    },
+    {
+      "resource": "MOVIES/CHAPTER05.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "9eab1f435f907584741d2e3a8fa62cf64212a58ea25ad8bd60861ac99ea4c044",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 90,
+      "sample_indices": [
+        0,
+        45,
+        89
+      ],
+      "sample_rgb_sha256": [
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513",
+        "f06720c70cf456db46f19743f27c1cad88f5e65a0a7de98ab7aefcf06d3d5876",
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "burned-in-chapter-title",
+      "source_texts": [
+        "CHAPTER FIVE",
+        "The Courtyard"
+      ],
+      "target_texts": [
+        "第五章",
+        "庭院"
+      ],
+      "notes": "独立90帧章名影片；另有全90帧源依赖重建验证，半秒样本与原章号/副标题一致。",
+      "disposition": "localized-native-title-frames-offline-verified",
+      "recipe": "movie-titles.json",
+      "verified_frames": 90,
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 6,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "d5f163af2a4cad9cad69c7461e7de60b65cf4434bd6d432670a44b04abcc54c5"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "f06720c70cf456db46f19743f27c1cad88f5e65a0a7de98ab7aefcf06d3d5876"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "f06720c70cf456db46f19743f27c1cad88f5e65a0a7de98ab7aefcf06d3d5876"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "f06720c70cf456db46f19743f27c1cad88f5e65a0a7de98ab7aefcf06d3d5876"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "f06720c70cf456db46f19743f27c1cad88f5e65a0a7de98ab7aefcf06d3d5876"
+          }
+        ],
+        "contact_sheets_viewed": 1,
+        "decode_exit_status": 0,
+        "source_sha256": "9eab1f435f907584741d2e3a8fa62cf64212a58ea25ad8bd60861ac99ea4c044",
+        "local_report": "build/full-research/movie-dense-half/CHAPTER05/dense-frames.json"
+      }
+    },
+    {
+      "resource": "MOVIES/CHAPTER06.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "312daae3315fbc241f1af14ab1b5a709c9f520243785964ec564708454758382",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 90,
+      "sample_indices": [
+        0,
+        45,
+        89
+      ],
+      "sample_rgb_sha256": [
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513",
+        "7b7567f2cf6878a4a5e37c07a3bdbda6190c8367393a57b034b6d646bf0a260d",
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "burned-in-chapter-title",
+      "source_texts": [
+        "CHAPTER SIX",
+        "The Electric Buzz-saw"
+      ],
+      "target_texts": [
+        "第六章",
+        "电锯"
+      ],
+      "notes": "独立90帧章名影片；另有全90帧源依赖重建验证，半秒样本与原章号/副标题一致。",
+      "disposition": "localized-native-title-frames-offline-verified",
+      "recipe": "movie-titles.json",
+      "verified_frames": 90,
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 6,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "940bc567a1be2a0711f9246fe324e21d94c1cf49754009d54cbf36e059f44934"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "7b7567f2cf6878a4a5e37c07a3bdbda6190c8367393a57b034b6d646bf0a260d"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "7b7567f2cf6878a4a5e37c07a3bdbda6190c8367393a57b034b6d646bf0a260d"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "7b7567f2cf6878a4a5e37c07a3bdbda6190c8367393a57b034b6d646bf0a260d"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "7b7567f2cf6878a4a5e37c07a3bdbda6190c8367393a57b034b6d646bf0a260d"
+          }
+        ],
+        "contact_sheets_viewed": 1,
+        "decode_exit_status": 0,
+        "source_sha256": "312daae3315fbc241f1af14ab1b5a709c9f520243785964ec564708454758382",
+        "local_report": "build/full-research/movie-dense-half/CHAPTER06/dense-frames.json"
+      }
+    },
+    {
+      "resource": "MOVIES/CHAPTER07.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "eb185838da966ad7fd2bd9ee9999502792a41011a35c2397cce76a254012b417",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 90,
+      "sample_indices": [
+        0,
+        45,
+        89
+      ],
+      "sample_rgb_sha256": [
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513",
+        "ac3b4f2cda1d3bdb2854bbbb389d3ccde127eeb43c86c99c7f28a29693b520bd",
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "burned-in-chapter-title",
+      "source_texts": [
+        "CHAPTER SEVEN",
+        "The Main Security Room"
+      ],
+      "target_texts": [
+        "第七章",
+        "保安总控室"
+      ],
+      "notes": "独立90帧章名影片；另有全90帧源依赖重建验证，半秒样本与原章号/副标题一致。",
+      "disposition": "localized-native-title-frames-offline-verified",
+      "recipe": "movie-titles.json",
+      "verified_frames": 90,
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 6,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "0af3d0ac852c8c18117b73c4d74b0a5d5366c91573c11a702ac3b169d4994ba4"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "ac3b4f2cda1d3bdb2854bbbb389d3ccde127eeb43c86c99c7f28a29693b520bd"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "ac3b4f2cda1d3bdb2854bbbb389d3ccde127eeb43c86c99c7f28a29693b520bd"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "ac3b4f2cda1d3bdb2854bbbb389d3ccde127eeb43c86c99c7f28a29693b520bd"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "ac3b4f2cda1d3bdb2854bbbb389d3ccde127eeb43c86c99c7f28a29693b520bd"
+          }
+        ],
+        "contact_sheets_viewed": 1,
+        "decode_exit_status": 0,
+        "source_sha256": "eb185838da966ad7fd2bd9ee9999502792a41011a35c2397cce76a254012b417",
+        "local_report": "build/full-research/movie-dense-half/CHAPTER07/dense-frames.json"
+      }
+    },
+    {
+      "resource": "MOVIES/CHAPTER08.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "9c9faecc396930b97b9923325e97486135b907c81773886bdb64c2536c9e0797",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 90,
+      "sample_indices": [
+        0,
+        45,
+        89
+      ],
+      "sample_rgb_sha256": [
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513",
+        "dfe155a6781d14d17944d81d0a64e5f9bffbdf28e0e0265153fb00f8b92e11b8",
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "burned-in-chapter-title",
+      "source_texts": [
+        "CHAPTER EIGHT",
+        "The Flashback"
+      ],
+      "target_texts": [
+        "第八章",
+        "往事重现"
+      ],
+      "notes": "独立90帧章名影片；另有全90帧源依赖重建验证，半秒样本与原章号/副标题一致。",
+      "disposition": "localized-native-title-frames-offline-verified",
+      "recipe": "movie-titles.json",
+      "verified_frames": 90,
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 6,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "d40f0bfc194c7efd1f1808d92967456e321ab7072d724df725a6c61d0cb6348e"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "dfe155a6781d14d17944d81d0a64e5f9bffbdf28e0e0265153fb00f8b92e11b8"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "dfe155a6781d14d17944d81d0a64e5f9bffbdf28e0e0265153fb00f8b92e11b8"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "dfe155a6781d14d17944d81d0a64e5f9bffbdf28e0e0265153fb00f8b92e11b8"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "dfe155a6781d14d17944d81d0a64e5f9bffbdf28e0e0265153fb00f8b92e11b8"
+          }
+        ],
+        "contact_sheets_viewed": 1,
+        "decode_exit_status": 0,
+        "source_sha256": "9c9faecc396930b97b9923325e97486135b907c81773886bdb64c2536c9e0797",
+        "local_report": "build/full-research/movie-dense-half/CHAPTER08/dense-frames.json"
+      }
+    },
+    {
+      "resource": "MOVIES/CHAPTER09.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "df8d67abcff6b265562182d23b4928e32ca3789ada435bf7f26eff03c49c7ea3",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 90,
+      "sample_indices": [
+        0,
+        45,
+        89
+      ],
+      "sample_rgb_sha256": [
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513",
+        "6b8326ce6290987f7bc038249a8c597e6bb0ae43f5aba5f1750884a7cf0f4919",
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "burned-in-chapter-title",
+      "source_texts": [
+        "CHAPTER NINE",
+        "The Hole in the Wall"
+      ],
+      "target_texts": [
+        "第九章",
+        "墙上的洞"
+      ],
+      "notes": "独立90帧章名影片；另有全90帧源依赖重建验证，半秒样本与原章号/副标题一致。",
+      "disposition": "localized-native-title-frames-offline-verified",
+      "recipe": "movie-titles.json",
+      "verified_frames": 90,
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 6,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "ef222329055d7a0d9a4802d752cd1e29f249b67191e16be06f8e00d42a4b93ec"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "6b8326ce6290987f7bc038249a8c597e6bb0ae43f5aba5f1750884a7cf0f4919"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "6b8326ce6290987f7bc038249a8c597e6bb0ae43f5aba5f1750884a7cf0f4919"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "6b8326ce6290987f7bc038249a8c597e6bb0ae43f5aba5f1750884a7cf0f4919"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "6b8326ce6290987f7bc038249a8c597e6bb0ae43f5aba5f1750884a7cf0f4919"
+          }
+        ],
+        "contact_sheets_viewed": 1,
+        "decode_exit_status": 0,
+        "source_sha256": "df8d67abcff6b265562182d23b4928e32ca3789ada435bf7f26eff03c49c7ea3",
+        "local_report": "build/full-research/movie-dense-half/CHAPTER09/dense-frames.json"
+      }
+    },
+    {
+      "resource": "MOVIES/CHAPTER10.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "accee2479f72d22c34a2542c90526aa17e1f452fdd36278b4d299147c29ac161",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 90,
+      "sample_indices": [
+        0,
+        45,
+        89
+      ],
+      "sample_rgb_sha256": [
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513",
+        "98953f1c5d7b58a7e040f18a4fbfaab8f401e68ac8e02e7b1f162efc4d5ec234",
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "burned-in-chapter-title",
+      "source_texts": [
+        "CHAPTER TEN",
+        "The Torn Photograph"
+      ],
+      "target_texts": [
+        "第十章",
+        "撕碎的照片"
+      ],
+      "notes": "独立90帧章名影片；另有全90帧源依赖重建验证，半秒样本与原章号/副标题一致。",
+      "disposition": "localized-native-title-frames-offline-verified",
+      "recipe": "movie-titles.json",
+      "verified_frames": 90,
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 6,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "b5320b886a1b892f8852dfd4fa340cdbc1e8d8e78cea015887c02b890d01cd27"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "98953f1c5d7b58a7e040f18a4fbfaab8f401e68ac8e02e7b1f162efc4d5ec234"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "98953f1c5d7b58a7e040f18a4fbfaab8f401e68ac8e02e7b1f162efc4d5ec234"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "98953f1c5d7b58a7e040f18a4fbfaab8f401e68ac8e02e7b1f162efc4d5ec234"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "98953f1c5d7b58a7e040f18a4fbfaab8f401e68ac8e02e7b1f162efc4d5ec234"
+          }
+        ],
+        "contact_sheets_viewed": 1,
+        "decode_exit_status": 0,
+        "source_sha256": "accee2479f72d22c34a2542c90526aa17e1f452fdd36278b4d299147c29ac161",
+        "local_report": "build/full-research/movie-dense-half/CHAPTER10/dense-frames.json"
+      }
+    },
+    {
+      "resource": "MOVIES/CHAPTER11.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "a0bf9dbfc51913519cd6a4afeebd6dfba7a436a14afa31d35b8cd0772297300f",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 90,
+      "sample_indices": [
+        0,
+        45,
+        89
+      ],
+      "sample_rgb_sha256": [
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513",
+        "afabcdc4dd5781887e2204dc92b34996d1d248d8a0a31892b07da3023a34332a",
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "burned-in-chapter-title",
+      "source_texts": [
+        "CHAPTER ELEVEN",
+        "The Guard Tower"
+      ],
+      "target_texts": [
+        "第十一章",
+        "岗楼"
+      ],
+      "notes": "独立90帧章名影片；另有全90帧源依赖重建验证，半秒样本与原章号/副标题一致。",
+      "disposition": "localized-native-title-frames-offline-verified",
+      "recipe": "movie-titles.json",
+      "verified_frames": 90,
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 6,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "e45034c8dcb4c6df202b1433e91ae6e4028957672e13970cdde6e4284e412918"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "afabcdc4dd5781887e2204dc92b34996d1d248d8a0a31892b07da3023a34332a"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "afabcdc4dd5781887e2204dc92b34996d1d248d8a0a31892b07da3023a34332a"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "afabcdc4dd5781887e2204dc92b34996d1d248d8a0a31892b07da3023a34332a"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "afabcdc4dd5781887e2204dc92b34996d1d248d8a0a31892b07da3023a34332a"
+          }
+        ],
+        "contact_sheets_viewed": 1,
+        "decode_exit_status": 0,
+        "source_sha256": "a0bf9dbfc51913519cd6a4afeebd6dfba7a436a14afa31d35b8cd0772297300f",
+        "local_report": "build/full-research/movie-dense-half/CHAPTER11/dense-frames.json"
+      }
+    },
+    {
+      "resource": "MOVIES/CHAPTER12.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "908942ada9c4bbc62813bc78fa3e4fb6983f058ecc6f09cba8bc3fb8059c6809",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 90,
+      "sample_indices": [
+        0,
+        45,
+        89
+      ],
+      "sample_rgb_sha256": [
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513",
+        "909a1fb489be63a7fa5cfdd633e9f92519812e75cef4d3b766e1e2890bd61b2c",
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "burned-in-chapter-title",
+      "source_texts": [
+        "CHAPTER TWELVE",
+        "The Cleaver's Return"
+      ],
+      "target_texts": [
+        "第十二章",
+        "屠夫归来"
+      ],
+      "notes": "独立90帧章名影片；另有全90帧源依赖重建验证，半秒样本与原章号/副标题一致。",
+      "disposition": "localized-native-title-frames-offline-verified",
+      "recipe": "movie-titles.json",
+      "verified_frames": 90,
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 6,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "c6f20ae9a9f5b17329472322caa6a4f825a73d00da130aaa7af8bf5e3abd477c"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "909a1fb489be63a7fa5cfdd633e9f92519812e75cef4d3b766e1e2890bd61b2c"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "909a1fb489be63a7fa5cfdd633e9f92519812e75cef4d3b766e1e2890bd61b2c"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "909a1fb489be63a7fa5cfdd633e9f92519812e75cef4d3b766e1e2890bd61b2c"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "909a1fb489be63a7fa5cfdd633e9f92519812e75cef4d3b766e1e2890bd61b2c"
+          }
+        ],
+        "contact_sheets_viewed": 1,
+        "decode_exit_status": 0,
+        "source_sha256": "908942ada9c4bbc62813bc78fa3e4fb6983f058ecc6f09cba8bc3fb8059c6809",
+        "local_report": "build/full-research/movie-dense-half/CHAPTER12/dense-frames.json"
+      }
+    },
+    {
+      "resource": "MOVIES/CHAPTER13.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "6162c2db59181e71c3c308ca55e010aea6990ec30bb8f77a1025cf8c3e83812f",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 90,
+      "sample_indices": [
+        0,
+        45,
+        89
+      ],
+      "sample_rgb_sha256": [
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513",
+        "a18383282bdaaddcdc85f8612861491f6f6163f255e0db22ea65bf3fecb583f6",
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "burned-in-chapter-title",
+      "source_texts": [
+        "CHAPTER THIRTEEN",
+        "The Door with No Handle"
+      ],
+      "target_texts": [
+        "第十三章",
+        "没有把手的门"
+      ],
+      "notes": "独立90帧章名影片；另有全90帧源依赖重建验证，半秒样本与原章号/副标题一致。",
+      "disposition": "localized-native-title-frames-offline-verified",
+      "recipe": "movie-titles.json",
+      "verified_frames": 90,
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 6,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "13ecf21bb6896a51e803ab0d3ace70834efc930142307ed2f7f42368ff971f62"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "a18383282bdaaddcdc85f8612861491f6f6163f255e0db22ea65bf3fecb583f6"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "a18383282bdaaddcdc85f8612861491f6f6163f255e0db22ea65bf3fecb583f6"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "a18383282bdaaddcdc85f8612861491f6f6163f255e0db22ea65bf3fecb583f6"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "a18383282bdaaddcdc85f8612861491f6f6163f255e0db22ea65bf3fecb583f6"
+          }
+        ],
+        "contact_sheets_viewed": 1,
+        "decode_exit_status": 0,
+        "source_sha256": "6162c2db59181e71c3c308ca55e010aea6990ec30bb8f77a1025cf8c3e83812f",
+        "local_report": "build/full-research/movie-dense-half/CHAPTER13/dense-frames.json"
+      }
+    },
+    {
+      "resource": "MOVIES/CHAPTER14.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "2a2dedc1962abf0dffa8690996ccc4ffbbee2c9e6cbc17355230529c04fa40f4",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 90,
+      "sample_indices": [
+        0,
+        45,
+        89
+      ],
+      "sample_rgb_sha256": [
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513",
+        "f1c34ba2dd6e4c90e898c79e2a6aa3e0b1251c9e44d1d1517419b0fca890b648",
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "burned-in-chapter-title",
+      "source_texts": [
+        "CHAPTER FOURTEEN",
+        "The Wheelchair's Return"
+      ],
+      "target_texts": [
+        "第十四章",
+        "轮椅归来"
+      ],
+      "notes": "独立90帧章名影片；另有全90帧源依赖重建验证，半秒样本与原章号/副标题一致。",
+      "disposition": "localized-native-title-frames-offline-verified",
+      "recipe": "movie-titles.json",
+      "verified_frames": 90,
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 6,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "c7e8aa26d0c82aeabb739da6c2c271e9cff26f971d02e34d1132886be3335829"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "f1c34ba2dd6e4c90e898c79e2a6aa3e0b1251c9e44d1d1517419b0fca890b648"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "f1c34ba2dd6e4c90e898c79e2a6aa3e0b1251c9e44d1d1517419b0fca890b648"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "f1c34ba2dd6e4c90e898c79e2a6aa3e0b1251c9e44d1d1517419b0fca890b648"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "f1c34ba2dd6e4c90e898c79e2a6aa3e0b1251c9e44d1d1517419b0fca890b648"
+          }
+        ],
+        "contact_sheets_viewed": 1,
+        "decode_exit_status": 0,
+        "source_sha256": "2a2dedc1962abf0dffa8690996ccc4ffbbee2c9e6cbc17355230529c04fa40f4",
+        "local_report": "build/full-research/movie-dense-half/CHAPTER14/dense-frames.json"
+      }
+    },
+    {
+      "resource": "MOVIES/CHAPTER15.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "6b3c1bbc68bec0c96d37b90947d22d26ee7966501e328735e12a0afb10b44209",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 90,
+      "sample_indices": [
+        0,
+        45,
+        89
+      ],
+      "sample_rgb_sha256": [
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513",
+        "18ee186646e24cd5511d5931089a4855379ee12804c88e57e48b910a5c13e7bb",
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "burned-in-chapter-title",
+      "source_texts": [
+        "CHAPTER FIFTEEN",
+        "The First Encounter"
+      ],
+      "target_texts": [
+        "第十五章",
+        "初次交锋"
+      ],
+      "notes": "独立90帧章名影片；另有全90帧源依赖重建验证，半秒样本与原章号/副标题一致。",
+      "disposition": "localized-native-title-frames-offline-verified",
+      "recipe": "movie-titles.json",
+      "verified_frames": 90,
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 6,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "16d1bd18841ca10146bbdf2a4594e88e3680e79d07daceb390975f99a29f8838"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "18ee186646e24cd5511d5931089a4855379ee12804c88e57e48b910a5c13e7bb"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "18ee186646e24cd5511d5931089a4855379ee12804c88e57e48b910a5c13e7bb"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "18ee186646e24cd5511d5931089a4855379ee12804c88e57e48b910a5c13e7bb"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "18ee186646e24cd5511d5931089a4855379ee12804c88e57e48b910a5c13e7bb"
+          }
+        ],
+        "contact_sheets_viewed": 1,
+        "decode_exit_status": 0,
+        "source_sha256": "6b3c1bbc68bec0c96d37b90947d22d26ee7966501e328735e12a0afb10b44209",
+        "local_report": "build/full-research/movie-dense-half/CHAPTER15/dense-frames.json"
+      }
+    },
+    {
+      "resource": "MOVIES/CHAPTER16.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "d3a7f79b5ffe27cb6d5cd8646b9b63898894d383f72be3740f0bfd5a73b25b15",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 90,
+      "sample_indices": [
+        0,
+        45,
+        89
+      ],
+      "sample_rgb_sha256": [
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513",
+        "af9ffa07ae7ac06145f140bb30fed96b452655b14cf8ae19e8166e7c9f510556",
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "burned-in-chapter-title",
+      "source_texts": [
+        "CHAPTER SIXTEEN",
+        "The Final Encounter"
+      ],
+      "target_texts": [
+        "第十六章",
+        "最终对决"
+      ],
+      "notes": "独立90帧章名影片；另有全90帧源依赖重建验证，半秒样本与原章号/副标题一致。",
+      "disposition": "localized-native-title-frames-offline-verified",
+      "recipe": "movie-titles.json",
+      "verified_frames": 90,
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 6,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "7fd490bb85aab39f041d68d48e60dddbacb726e1f2851c6f1913c2dc42915bbc"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "af9ffa07ae7ac06145f140bb30fed96b452655b14cf8ae19e8166e7c9f510556"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "af9ffa07ae7ac06145f140bb30fed96b452655b14cf8ae19e8166e7c9f510556"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "af9ffa07ae7ac06145f140bb30fed96b452655b14cf8ae19e8166e7c9f510556"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "af9ffa07ae7ac06145f140bb30fed96b452655b14cf8ae19e8166e7c9f510556"
+          }
+        ],
+        "contact_sheets_viewed": 1,
+        "decode_exit_status": 0,
+        "source_sha256": "d3a7f79b5ffe27cb6d5cd8646b9b63898894d383f72be3740f0bfd5a73b25b15",
+        "local_report": "build/full-research/movie-dense-half/CHAPTER16/dense-frames.json"
+      }
+    },
+    {
+      "resource": "MOVIES/CL_BOSS.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "1844d9936bc7480dffd3ab8f350cb23e5f53a87424b9359ab3691b2c07b95cdc",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 198,
+      "sample_indices": [
+        0,
+        99,
+        197
+      ],
+      "sample_rgb_sha256": [
+        "e9ee2857a259f75802e10270fe539131a8d1212b0dbc7d91c7889253dc7e0287",
+        "c537882d5d511ffa037e25daf87f2b843d4d0e7bb19fc34371e16a2a0092b555",
+        "4094c6fef70c22f6c574ce406d9f75b4829f652fb2647451ce80640b419c8b8c"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "no-readable-english-in-half-second-samples",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "已看完整片每0.5秒接触表，未见可靠可读英语标题或剧情字幕条；不能排除间隔之间的快闪、低清设备微字。",
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 14,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "e9ee2857a259f75802e10270fe539131a8d1212b0dbc7d91c7889253dc7e0287"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "d3b3de76ef76f5b95a97a782f65e4b6c22d059fb9089afa1144a73db267cec70"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "f53bbbb21873409be3e5a6050c7b3bacf860d456a176c12b2314dc3f4076f383"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "3e15821edc5ad9d189fe7d8bc1f17e9fc05e617e4cb5c71eba4da10ad385524a"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "e3af62ea93657ccb40ae79b3a8c0d9e3387e0ba81f431809efbf3b35c0527e5e"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "e69d541111bfa059f513fd155cc1a46e91d142a2bee56d922c348f73498e2f51"
+          },
+          {
+            "frame": 90,
+            "seconds": 3.0,
+            "rgb_sha256": "b924349919059fb61d24997c8516000666bc3327e61651d88f96aa15c66b5370"
+          },
+          {
+            "frame": 105,
+            "seconds": 3.5,
+            "rgb_sha256": "928e058874883cf9d48a450e3fc0bfbfaa8ffa3f08322f4fd76b5f7e3aefeb32"
+          },
+          {
+            "frame": 120,
+            "seconds": 4.0,
+            "rgb_sha256": "c5be0b652712d29d2cfb1ea2bb59103cb42f3105c09df0e07ee0c80457f190d3"
+          },
+          {
+            "frame": 135,
+            "seconds": 4.5,
+            "rgb_sha256": "c6f9e4218cc3ec86f010a8a634995418a226c8f75865d1674d97d0cbf57894e9"
+          },
+          {
+            "frame": 150,
+            "seconds": 5.0,
+            "rgb_sha256": "79255010e1813c5be22116800406686d9ff2921c8307edb3e9d739e5e522ebe3"
+          },
+          {
+            "frame": 165,
+            "seconds": 5.5,
+            "rgb_sha256": "39ffb804b820a06e90732de6cf2349a9e57f45f2f42ebbd68e283ee1a024ed5e"
+          },
+          {
+            "frame": 180,
+            "seconds": 6.0,
+            "rgb_sha256": "b451d92fccee42ca7a10d78042dba701cc9f3faa3617ad777a331d62c63b065b"
+          },
+          {
+            "frame": 195,
+            "seconds": 6.5,
+            "rgb_sha256": "ae1443269c4aafa323be615ebe8fa615b6d979d66c45954047007137387e839a"
+          }
+        ],
+        "contact_sheets_viewed": 2,
+        "decode_exit_status": 0,
+        "source_sha256": "1844d9936bc7480dffd3ab8f350cb23e5f53a87424b9359ab3691b2c07b95cdc",
+        "local_report": "build/full-research/movie-dense-half/CL_BOSS/dense-frames.json"
+      }
+    },
+    {
+      "resource": "MOVIES/CL_SIGHTING.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "254cd0a208659e3911dd6d915928a4f4a9dd40791bb4b6a5c53a5c36432610db",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 332,
+      "sample_indices": [
+        0,
+        166,
+        331
+      ],
+      "sample_rgb_sha256": [
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513",
+        "e0e055033bae6906aaa5e39585c1dc26c9f84474da1c95a1c84472bd685fbe49",
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "readable-environment-sign",
+      "source_texts": [
+        "EXAMINATION ROOMS"
+      ],
+      "target_texts": [
+        "检查室"
+      ],
+      "notes": "约9.0–10.0秒双门红牌放大可读EXAMINATION ROOMS；需要电影画面词译注，独立sign04纹理汉化不改变原IVF。",
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 23,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "549cd78fcc04d690c2ddeedef234be7170311dd9b46a1ecf3261e5901ecb2339"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "ab5a97abf514de0644fcea0da633bc198d68bfe84642c20c9d068ba32bc8b3bb"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "1fb787a11a4133f0bb9bbe298cb8cd5fe989d4f1b55881dc8c72fe1409fc27a2"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "26d8043144830659e5073fda3fbacbcebb751a2203b1f3e8b3a270606e33fd06"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "6baf1fc11b165712a0ed1c47b4da99f353e0f5b986ba5f1e96bdb3adbb8de0d4"
+          },
+          {
+            "frame": 90,
+            "seconds": 3.0,
+            "rgb_sha256": "e086e7907351fa1d2bfb3013eac4f57b188748c93a7bb26b75e411640220ff29"
+          },
+          {
+            "frame": 105,
+            "seconds": 3.5,
+            "rgb_sha256": "ad91ba670636db130aa80a92b163152c30e655b82ad6361de5611a8ad21470ba"
+          },
+          {
+            "frame": 120,
+            "seconds": 4.0,
+            "rgb_sha256": "bc37a546cf8b62eaee3d6ab83ad204204771a84e7b1a04cfc31ae6c6ef59bc9c"
+          },
+          {
+            "frame": 135,
+            "seconds": 4.5,
+            "rgb_sha256": "e51ce7c5b13270808572b6df87d97734e88e01fe0eca8488361540a3746d0fca"
+          },
+          {
+            "frame": 150,
+            "seconds": 5.0,
+            "rgb_sha256": "ed50f2549d997f407a3a63462dbfd1d3ba3dd24730aa82338346aa73c9c80efd"
+          },
+          {
+            "frame": 165,
+            "seconds": 5.5,
+            "rgb_sha256": "c81ef009aa62f630f53050f5f381b5f18c6351c7e20d0ba3c269412287d4f723"
+          },
+          {
+            "frame": 180,
+            "seconds": 6.0,
+            "rgb_sha256": "08ff6918d40d68c1ed21397b9714c3b25be97fa6bd8197e037d260f7476f4d77"
+          },
+          {
+            "frame": 195,
+            "seconds": 6.5,
+            "rgb_sha256": "b7eaebe441c7f2b0752be8665721b811afdaf99ad79c9dfd3434df97993e9cbb"
+          },
+          {
+            "frame": 210,
+            "seconds": 7.0,
+            "rgb_sha256": "44ac3ca68388f4e6affec9cc67f4a904ec391ede35249fe4b1cdd2ae897e1bb9"
+          },
+          {
+            "frame": 225,
+            "seconds": 7.5,
+            "rgb_sha256": "7f26a46f67ba0594be0f681aa4759a0b6728dbb6a73bb8b19d496336a7583c30"
+          },
+          {
+            "frame": 240,
+            "seconds": 8.0,
+            "rgb_sha256": "3254dc4cc8c1145cae6aa4049a6a7a49775f394142cfbeef355c2ba2fab04c35"
+          },
+          {
+            "frame": 255,
+            "seconds": 8.5,
+            "rgb_sha256": "2302a091b40b3705c8627f845304123a6c9f1b9f1b3b8fb4773dea08f3461854"
+          },
+          {
+            "frame": 270,
+            "seconds": 9.0,
+            "rgb_sha256": "365c10012f8e262288b5a608460643399eaee9555114c7ab8a080fc411300c24"
+          },
+          {
+            "frame": 285,
+            "seconds": 9.5,
+            "rgb_sha256": "dc0ce8eb32e7018be76b4cb5fd6fcbe4baa307233ff0c4784e55d135748838f5"
+          },
+          {
+            "frame": 300,
+            "seconds": 10.0,
+            "rgb_sha256": "4151e595b8fd52740c611a072a91ce89f844de8cae33b07ade007632c4828537"
+          },
+          {
+            "frame": 315,
+            "seconds": 10.5,
+            "rgb_sha256": "0932fd2204f9c7b56511fc54e06912384cf44f3ef6f2d76d5e2aaf72549e5298"
+          },
+          {
+            "frame": 330,
+            "seconds": 11.0,
+            "rgb_sha256": "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+          }
+        ],
+        "contact_sheets_viewed": 2,
+        "decode_exit_status": 0,
+        "source_sha256": "254cd0a208659e3911dd6d915928a4f4a9dd40791bb4b6a5c53a5c36432610db",
+        "local_report": "build/full-research/movie-dense-half/CL_SIGHTING/dense-frames.json"
+      }
+    },
+    {
+      "resource": "MOVIES/COURTYARD.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "789375518a6f7b581c53ae9e88e035cd632ef8a2dbd4c186bd43c9628b165ac7",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 400,
+      "sample_indices": [
+        0,
+        200,
+        399
+      ],
+      "sample_rgb_sha256": [
+        "4b530ad7c7b5a8176efbf5fdf29c1c4f6a27c74d0f9eafa8a692fffcbe92fbc9",
+        "c7cba17d39a0d239ae28e9788e424b88bcfcca45a6508e6f79df5938637d9375",
+        "214e1b955adb8b41ec379b55f1737f2bb0e42656ac681f205f5d97de92b89d1e"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "no-readable-english-in-half-second-samples",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "已看完整片每0.5秒接触表，未见可靠可读英语标题或剧情字幕条；不能排除间隔之间的快闪、低清设备微字。",
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 27,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "4b530ad7c7b5a8176efbf5fdf29c1c4f6a27c74d0f9eafa8a692fffcbe92fbc9"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "92050d3ba7fb9f4f1fa2cddbb9984727f41ebbb4fd8c90c1c66dfaf86cef6239"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "ed2a97a21c01279f16f60a0332713cb54c3f7ecaec8c5afbd69cd8efebd66cc8"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "bdba7c5073b8ef39cc79041dc7d2f28b7f547d4cf4b4250feaa37036078b9719"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "c212a41d18be2dfece3ceba1574e13bcda14debe3c0ea9037979118d1b24bb61"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "4a20e610cfe161cb511a80d8bf3aa0b8324a85b1bff018489c712af741f0a075"
+          },
+          {
+            "frame": 90,
+            "seconds": 3.0,
+            "rgb_sha256": "e115c4a2b027bdd263470cfde58c9d5ccfba250a8c3a3bf7b06f56bb9743e523"
+          },
+          {
+            "frame": 105,
+            "seconds": 3.5,
+            "rgb_sha256": "b1d2b04715895acbbb99ded9c0ae43fea8229816dfc87611bba8c676fcec58a9"
+          },
+          {
+            "frame": 120,
+            "seconds": 4.0,
+            "rgb_sha256": "1573c9550428bbdc030ed4da187eda6018a73fc27cd77be9e071452ea04a6036"
+          },
+          {
+            "frame": 135,
+            "seconds": 4.5,
+            "rgb_sha256": "3906c8faadd6ea962afa7cb3b764118b93dd1ebb67655c565e07fd741e05ee83"
+          },
+          {
+            "frame": 150,
+            "seconds": 5.0,
+            "rgb_sha256": "f569358909b472aac938f3292e964d276b1debe755a98b2653caf79493a7086b"
+          },
+          {
+            "frame": 165,
+            "seconds": 5.5,
+            "rgb_sha256": "d165fa3cd75939bdff131d936e29b40dda77325319333e2c7d7b2296e15e9403"
+          },
+          {
+            "frame": 180,
+            "seconds": 6.0,
+            "rgb_sha256": "a138f31315adfd2938bf12a0fdc9149eb7a95317dde5985238bfc018d1d73f0c"
+          },
+          {
+            "frame": 195,
+            "seconds": 6.5,
+            "rgb_sha256": "64ac81152bc08aed33f4159fd8039f9f8c4de3598044b5afd14161602bfe289a"
+          },
+          {
+            "frame": 210,
+            "seconds": 7.0,
+            "rgb_sha256": "bc1be27b3f386b956ce6121c8f4d4ce9bf77e50e19d5d57dd660606630dd6f63"
+          },
+          {
+            "frame": 225,
+            "seconds": 7.5,
+            "rgb_sha256": "fee381575f126e3ac366b9f31ebb9af41ca10f1fe63ee20babb706a28b27cff5"
+          },
+          {
+            "frame": 240,
+            "seconds": 8.0,
+            "rgb_sha256": "a2a25a48a2ad82785a07a84a16ceaa9938c8703ee80dcff8f461374dbf194c7a"
+          },
+          {
+            "frame": 255,
+            "seconds": 8.5,
+            "rgb_sha256": "2b1667562e094b4420783e6bf505a1638ea9a28ab4420ae03fd3888a78c1a2ac"
+          },
+          {
+            "frame": 270,
+            "seconds": 9.0,
+            "rgb_sha256": "ddbfa6cdfc1896f312482993d4c42406254633836715ffe764b2843fc42d3bb4"
+          },
+          {
+            "frame": 285,
+            "seconds": 9.5,
+            "rgb_sha256": "87b38bc4312ed223ce10d91f3837ba07f69ec0467262be8d5b2cb7afe1788a96"
+          },
+          {
+            "frame": 300,
+            "seconds": 10.0,
+            "rgb_sha256": "7f0eccda54a60244bbc7954a4c0b90f437d92902d6390d654ecff3c67b6f3d9f"
+          },
+          {
+            "frame": 315,
+            "seconds": 10.5,
+            "rgb_sha256": "ccfc0191fa69ac26aaa578f8ec1732a48a658b82c220883338b572277b6a84b6"
+          },
+          {
+            "frame": 330,
+            "seconds": 11.0,
+            "rgb_sha256": "c8d4053599b511e15e3d9eb147d76b5d03d66d32b19c5e4579ebdcd70232ac28"
+          },
+          {
+            "frame": 345,
+            "seconds": 11.5,
+            "rgb_sha256": "044f295dfd2e68bb9eeb80ae9c0b1143f1a9eee5139ab45f547bd967f138deee"
+          },
+          {
+            "frame": 360,
+            "seconds": 12.0,
+            "rgb_sha256": "4d91d649cb142177da5d2666e6f00b542df79b9ad71fa1e8bd37dad0e9086303"
+          },
+          {
+            "frame": 375,
+            "seconds": 12.5,
+            "rgb_sha256": "5b3f622b94e06127a9c05b11981994f975aa8f0518a1dff242c1e731a2cf24a2"
+          },
+          {
+            "frame": 390,
+            "seconds": 13.0,
+            "rgb_sha256": "89043cff9adfcbb4a35a1b1de4c87ff8ec1192954679c7c74962e770d030996f"
+          }
+        ],
+        "contact_sheets_viewed": 3,
+        "decode_exit_status": 0,
+        "source_sha256": "789375518a6f7b581c53ae9e88e035cd632ef8a2dbd4c186bd43c9628b165ac7",
+        "local_report": "build/full-research/movie-dense-half/COURTYARD/dense-frames.json"
+      }
+    },
+    {
+      "resource": "MOVIES/ELEVATOR01.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "9b68eaca2c6cd4db93af8c9105b253b7b516775c9e7df0b4e537da4b12494f86",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 490,
+      "sample_indices": [
+        0,
+        245,
+        489
+      ],
+      "sample_rgb_sha256": [
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513",
+        "731d941a44099a5b8ae08bc6e76dc142dca7b71b9e0d208d02cd23628c251698",
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "no-readable-english-in-half-second-samples",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "已看完整片每0.5秒接触表，未见可靠可读英语标题或剧情字幕条；不能排除间隔之间的快闪、低清设备微字。",
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 33,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "597143ff50fc613d7c0c61c5e3411227185b44e8d4f2cefaa83a05676077ca8b"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "2c9dc6442d6dd02ae14371565bb642b4b488730ad7a27adaee569a14068f7470"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "20f375c85b253e0be070213bd83b1ac8c4e1ce93742758df17930af2dd4098db"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "ae4695df652d2640661589d5450155635127ef7e71f6fedc3d08d27db4e29962"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "c362a42f983b63be8a0cec96e203bd12c4f2b3cf758a131e59b0582ddc9aac5e"
+          },
+          {
+            "frame": 90,
+            "seconds": 3.0,
+            "rgb_sha256": "7d9d580b27c2a537b9481848e286c9db843c468f0360dd5811d4ae369402199e"
+          },
+          {
+            "frame": 105,
+            "seconds": 3.5,
+            "rgb_sha256": "78ca6afa41a0cb8c02d2b8f57ee34ba40999d3ebaf94251279824b72704fcf67"
+          },
+          {
+            "frame": 120,
+            "seconds": 4.0,
+            "rgb_sha256": "763fea8443a8ac56be2ee3db6b1bb76bc574a46b9bd79c90de8e0663270504c0"
+          },
+          {
+            "frame": 135,
+            "seconds": 4.5,
+            "rgb_sha256": "3d60932662b2c0d42c9086728d0bcbd8f4ade765b057baa5ec64fa4e2439fd51"
+          },
+          {
+            "frame": 150,
+            "seconds": 5.0,
+            "rgb_sha256": "64cf025c2fb0504e2b0c7c13108797669c225009247b5a0753515b26d9eb9acb"
+          },
+          {
+            "frame": 165,
+            "seconds": 5.5,
+            "rgb_sha256": "c118323521e6c9662be9a794d8900b8f6cd9703837d8f974adfd2f45c9e24926"
+          },
+          {
+            "frame": 180,
+            "seconds": 6.0,
+            "rgb_sha256": "dd04dd837a9f4cd372bbb1ef71ef20d16ea1d1ace2192b44e70fb4a15bdc6825"
+          },
+          {
+            "frame": 195,
+            "seconds": 6.5,
+            "rgb_sha256": "a045509459ec48f85b5fd870ee7e13467a1bf8e28a845058e9304bc97f3dabb9"
+          },
+          {
+            "frame": 210,
+            "seconds": 7.0,
+            "rgb_sha256": "e43f90fa1d732d304a5f07a36c46e5b601c6ab67e782e38343fa18662e9fc638"
+          },
+          {
+            "frame": 225,
+            "seconds": 7.5,
+            "rgb_sha256": "8ad4b7bbcbd6c7dbb92d190be22ccd5b05815ff41abdfcc7476e3c403d6ee249"
+          },
+          {
+            "frame": 240,
+            "seconds": 8.0,
+            "rgb_sha256": "8d9d5486d6c73bf062f1b982febff5272681eec712b65f648c4c474871eb43ac"
+          },
+          {
+            "frame": 255,
+            "seconds": 8.5,
+            "rgb_sha256": "5be8e35d8d27febb37a3c626c48f965030a37d7e95085a6309e80eb2e41e428a"
+          },
+          {
+            "frame": 270,
+            "seconds": 9.0,
+            "rgb_sha256": "c854ea9497ef99bee3949c8ad6fc4d84d4770f3b05ff8302757b72d3215d2ed3"
+          },
+          {
+            "frame": 285,
+            "seconds": 9.5,
+            "rgb_sha256": "26b22cd869e74d0e17477c42f0cc43d7a65fda881f975da0b0270d245841891f"
+          },
+          {
+            "frame": 300,
+            "seconds": 10.0,
+            "rgb_sha256": "40ed9e21cfdcc10b87d90737206094b35f45ca797ecfae9dfa10d36bdd708f08"
+          },
+          {
+            "frame": 315,
+            "seconds": 10.5,
+            "rgb_sha256": "9bafb2a566151d323c85a243afd0285efb2c0595197c68dbfda2feaa97062f59"
+          },
+          {
+            "frame": 330,
+            "seconds": 11.0,
+            "rgb_sha256": "e79d92009c39cf9a433469c70491bc51c3c4ead39b1d423b4fde611460814bfe"
+          },
+          {
+            "frame": 345,
+            "seconds": 11.5,
+            "rgb_sha256": "0d082dca02eb0abf9c903c929faff80bc042669d9a27a1140c007b00775fcf80"
+          },
+          {
+            "frame": 360,
+            "seconds": 12.0,
+            "rgb_sha256": "e76f6a3745778e0008b0ab183b28d7e90592231ead2d5add1238a114d92e0939"
+          },
+          {
+            "frame": 375,
+            "seconds": 12.5,
+            "rgb_sha256": "3af23b3c46ccbcf26e555c86a1aa06acd7594a7de35fd629c3ed600026325311"
+          },
+          {
+            "frame": 390,
+            "seconds": 13.0,
+            "rgb_sha256": "39e3227b81e6ce04d9a6d9082e259d86600360513076817af90609c0efd22952"
+          },
+          {
+            "frame": 405,
+            "seconds": 13.5,
+            "rgb_sha256": "9b646f1eeae50b1b60e798097194bec66f58486c68b43a1d443aa5b1d39ed72e"
+          },
+          {
+            "frame": 420,
+            "seconds": 14.0,
+            "rgb_sha256": "09be5d829d07abb70e7e80992836a280aa699c2d0d7e82d8927171fcb56ef667"
+          },
+          {
+            "frame": 435,
+            "seconds": 14.5,
+            "rgb_sha256": "41c1f9fdd7e976234b88c599d6198260a7cd74f43e6ca9bcc91e9bb222bc5d71"
+          },
+          {
+            "frame": 450,
+            "seconds": 15.0,
+            "rgb_sha256": "0b6609f44b173603362d0d92fd2291fe101437fcf80abb906e0b3a215625be20"
+          },
+          {
+            "frame": 465,
+            "seconds": 15.5,
+            "rgb_sha256": "c2b838ffb74d3c1f7d5c066982ff8bc54a209911920ff3c6a363d7a9e402e2d9"
+          },
+          {
+            "frame": 480,
+            "seconds": 16.0,
+            "rgb_sha256": "d45f76572aa4752bdff1c31ac39e17739c1fe5a8d617520b568b5b3d5f43e3a0"
+          }
+        ],
+        "contact_sheets_viewed": 3,
+        "decode_exit_status": 0,
+        "source_sha256": "9b68eaca2c6cd4db93af8c9105b253b7b516775c9e7df0b4e537da4b12494f86",
+        "local_report": "build/full-research/movie-dense-half/ELEVATOR01/dense-frames.json"
+      }
+    },
+    {
+      "resource": "MOVIES/FINAL.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "014808ed631e12825b981b7ae64514c26cdbda3dab79c86dcfa0fdc8cf022893",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 1052,
+      "sample_indices": [
+        0,
+        526,
+        1051
+      ],
+      "sample_rgb_sha256": [
+        "a1c8dd6dcc198c085268248e2d4f7e0429de48d0718284b9e3c4b058a60bca9b",
+        "6efd7cd0d726c91b48ddcdbc712539f0e6c2b69eddd13a37ea69e744f294f3b7",
+        "df1b9932b47fa367bf0e446dc5c7937f0133dfb3878c861790d26ccb8eae854a"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "no-readable-english-in-half-second-samples",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "已看完整片每0.5秒接触表，未见可靠可读英语标题或剧情字幕条；不能排除间隔之间的快闪、低清设备微字。",
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 71,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "a1c8dd6dcc198c085268248e2d4f7e0429de48d0718284b9e3c4b058a60bca9b"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "61db711f1e90121dbc4af8d8c520aaf4afc96a049ab3e6b5aa77c5a2ab631938"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "a26eacee8404e49b55fd9aef5e611249159610c094b031054be64fcca3b4a152"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "f2edcc4bf8eef57c1f56793ee8e4d7f2acf6a6724a257bc9ecf3422db7e9a49a"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "b7ab62ba622f875ae637b2e511552107887684366268bbf09ab267e29944c197"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "8f347fc054eded4283a4f9efaeff0293e366e8412bf2b8e2c79abd48ed683d3a"
+          },
+          {
+            "frame": 90,
+            "seconds": 3.0,
+            "rgb_sha256": "d0ce8f4ec5406e90046c0ce095b5fa6b4ae938ac8ba8e49a95bc18cd949ed277"
+          },
+          {
+            "frame": 105,
+            "seconds": 3.5,
+            "rgb_sha256": "649555ba554de039a0eda51aa1de0e4cc5e4a4f8e0c9aef369c2a55172667a5c"
+          },
+          {
+            "frame": 120,
+            "seconds": 4.0,
+            "rgb_sha256": "1ddd67874d2cba1ec92c0d99710949c79a36c8753dd8b3345b54ff638baab98c"
+          },
+          {
+            "frame": 135,
+            "seconds": 4.5,
+            "rgb_sha256": "a2fddecba0ba3d8d858aba364d299cbaba0b865eb51ab4d6080adef21761c803"
+          },
+          {
+            "frame": 150,
+            "seconds": 5.0,
+            "rgb_sha256": "1789b0af46519d7f12afa17b3d132c4e46cfd99a7367e7be48aa3ada52cd6990"
+          },
+          {
+            "frame": 165,
+            "seconds": 5.5,
+            "rgb_sha256": "05aa0241cbe5a37cdeda1f4ee4aa1a6e48a115f62007d25f203aeab05a4e41dd"
+          },
+          {
+            "frame": 180,
+            "seconds": 6.0,
+            "rgb_sha256": "34ca11d42c60600506b23c846815ac734139053e55531e588ea1e2979afc7666"
+          },
+          {
+            "frame": 195,
+            "seconds": 6.5,
+            "rgb_sha256": "18438966f702780f5d5242304e23db15b84a7dd98e605f37986d33462e0185c3"
+          },
+          {
+            "frame": 210,
+            "seconds": 7.0,
+            "rgb_sha256": "81053bfd7fd5f94d7e9ea9c8a71cf8626d3240107da12d4085bc343334129135"
+          },
+          {
+            "frame": 225,
+            "seconds": 7.5,
+            "rgb_sha256": "38215534c466f57dfc8fe1ccae545b23462933ab8e3164cae1df1c76cec8b9a6"
+          },
+          {
+            "frame": 240,
+            "seconds": 8.0,
+            "rgb_sha256": "7e48aed0f5523debb9c47097a18ff9a2e396c9fa65e098790410090edaa1ff6f"
+          },
+          {
+            "frame": 255,
+            "seconds": 8.5,
+            "rgb_sha256": "46482a771598f3a7ec55baac06fdfb029f2e3eb926956d9e8ed9ecd8cf668709"
+          },
+          {
+            "frame": 270,
+            "seconds": 9.0,
+            "rgb_sha256": "ab6ee215b3fc971230220a6567010ffdb43f1f89512f08e8998adef66ce4c4fd"
+          },
+          {
+            "frame": 285,
+            "seconds": 9.5,
+            "rgb_sha256": "a532151299a2bc3132670e415b65ea643febfbeac665ee8064e00dc6b457a7cc"
+          },
+          {
+            "frame": 300,
+            "seconds": 10.0,
+            "rgb_sha256": "4097b14b7d32a67408cb33a70642dc7ad9fe427eeb7b7f5112e2dd5b0cdc7914"
+          },
+          {
+            "frame": 315,
+            "seconds": 10.5,
+            "rgb_sha256": "9dadbfb755a846d1b97c3eb8fb7997a47fdb071064710edd6a6149dddc1adf51"
+          },
+          {
+            "frame": 330,
+            "seconds": 11.0,
+            "rgb_sha256": "2c5f7b4efc3f106f629495674cd3f70ed2d449ceba3d474ad30de32d9b339074"
+          },
+          {
+            "frame": 345,
+            "seconds": 11.5,
+            "rgb_sha256": "0e43f5eae15a03e718c6bb7693fd873a117ddddbc9707b17258c5e1346ed3ceb"
+          },
+          {
+            "frame": 360,
+            "seconds": 12.0,
+            "rgb_sha256": "999f73befc3d104f41046bc03a823270d0218a09f57c65e1b34334adecc51438"
+          },
+          {
+            "frame": 375,
+            "seconds": 12.5,
+            "rgb_sha256": "9581696449cbab9947d3b24c5c83b971d839011da7d2e6d714a808677ab185c9"
+          },
+          {
+            "frame": 390,
+            "seconds": 13.0,
+            "rgb_sha256": "157475c6ed68a05830e657d45d76d568b8cfb1d364b4e6d85bcfe8da122671c3"
+          },
+          {
+            "frame": 405,
+            "seconds": 13.5,
+            "rgb_sha256": "834d60432719c39c19c5ddb0775d973080747574d1933585ee4698adbd739d7a"
+          },
+          {
+            "frame": 420,
+            "seconds": 14.0,
+            "rgb_sha256": "567ef0fa7192ece088faa8979cca129541f14418160219ce714805b6f568b21f"
+          },
+          {
+            "frame": 435,
+            "seconds": 14.5,
+            "rgb_sha256": "617c292b4a54417e37994b3623277b6b85edd4e403f9198edcf7fabebaf074bd"
+          },
+          {
+            "frame": 450,
+            "seconds": 15.0,
+            "rgb_sha256": "0eadd1df40fcadd524eafceed5d47e732cfd537a6786e5449751ef0ea970a97a"
+          },
+          {
+            "frame": 465,
+            "seconds": 15.5,
+            "rgb_sha256": "634b0fd73cc6ff8ad533494e28b9ff03f1316e150eb73df9a0a6be1b5d3a8053"
+          },
+          {
+            "frame": 480,
+            "seconds": 16.0,
+            "rgb_sha256": "622234e9d085de36d0a28626abab4402ba44f742853212fde7374022f9d2bab5"
+          },
+          {
+            "frame": 495,
+            "seconds": 16.5,
+            "rgb_sha256": "a26a72730053ed169be87d0c587893e077b137b9577a17fd70acaf352e091f4e"
+          },
+          {
+            "frame": 510,
+            "seconds": 17.0,
+            "rgb_sha256": "55d93c364741b1c25731cb270c0beb1537f4587c74cb9e68794d7bbc9dd0d229"
+          },
+          {
+            "frame": 525,
+            "seconds": 17.5,
+            "rgb_sha256": "46e7ab3e553c6d4dd49620375a54851d10354b087deb584b7aa7889c97126947"
+          },
+          {
+            "frame": 540,
+            "seconds": 18.0,
+            "rgb_sha256": "19942822ca1f8d9b5da3c1735d74fac0b20f5f8c081a60ddede33145fd67feb0"
+          },
+          {
+            "frame": 555,
+            "seconds": 18.5,
+            "rgb_sha256": "d0145bb5c96e6ec38716a26eed0ac1aed7126832446f152b24be8c2ad54d9916"
+          },
+          {
+            "frame": 570,
+            "seconds": 19.0,
+            "rgb_sha256": "df3ede6ce6244045628b51c475403e5b5fe51835f758fc87f9428fc5321e0078"
+          },
+          {
+            "frame": 585,
+            "seconds": 19.5,
+            "rgb_sha256": "5d988073da08030b82617e27f99f2e739ededd81f45e0fe43f7536fdc191906a"
+          },
+          {
+            "frame": 600,
+            "seconds": 20.0,
+            "rgb_sha256": "56776c678c17cbf932a8a5da185d74170c736a3e128c70cd8cfa72b7edc788e5"
+          },
+          {
+            "frame": 615,
+            "seconds": 20.5,
+            "rgb_sha256": "548791e72686146222237c659b47eebd2f8920b39ea32742bf08865429c5233c"
+          },
+          {
+            "frame": 630,
+            "seconds": 21.0,
+            "rgb_sha256": "e69b7236f0ec04e05862761fdecb8e6c26b8dbe23f63f2619541febec31ad9a6"
+          },
+          {
+            "frame": 645,
+            "seconds": 21.5,
+            "rgb_sha256": "e1b311cf3afb30661757d76bd9517c72c5ec9924a6d70b57c68f2ed609ad84ff"
+          },
+          {
+            "frame": 660,
+            "seconds": 22.0,
+            "rgb_sha256": "dbf990ae4cd6a6755a1c837bc63da1a1c7fb206a022c4351023d0f367095e4d4"
+          },
+          {
+            "frame": 675,
+            "seconds": 22.5,
+            "rgb_sha256": "8225bf304bfbfd0224981fc9a89fbbee41e89be90b14016bd8a453b935a1f4e8"
+          },
+          {
+            "frame": 690,
+            "seconds": 23.0,
+            "rgb_sha256": "fb0a1247ed4c866452ec4b1a4d058b72fca1a7a33d6754e73bc181072cf47233"
+          },
+          {
+            "frame": 705,
+            "seconds": 23.5,
+            "rgb_sha256": "a42de80c281cd05921675efaa96d26b60af44760d5294e377ba0f04f93e20a9d"
+          },
+          {
+            "frame": 720,
+            "seconds": 24.0,
+            "rgb_sha256": "c3096e1e4b3ea5ed176789638e42cdec570250174fab3bd709a3f5fd317e1907"
+          },
+          {
+            "frame": 735,
+            "seconds": 24.5,
+            "rgb_sha256": "ab0c0d26e6398f25398284a674dcc4962db20b158b3f5fa9c6efbe58b73527b1"
+          },
+          {
+            "frame": 750,
+            "seconds": 25.0,
+            "rgb_sha256": "7863890cf1e370ddb0fe559b223d5aad23f76147655a4526a8b07e57290b3974"
+          },
+          {
+            "frame": 765,
+            "seconds": 25.5,
+            "rgb_sha256": "0da4407bd82a6f697eb2eee0bb2765f881e996f269fbeb5d464e44ac5896f9e3"
+          },
+          {
+            "frame": 780,
+            "seconds": 26.0,
+            "rgb_sha256": "99a0ab56cbe1779471f963d571cf2126b26e2204f92f0efcf0b57e8b01fa3667"
+          },
+          {
+            "frame": 795,
+            "seconds": 26.5,
+            "rgb_sha256": "0efb567477800d4361202ed4baf4b28df2115e229b57f572dda3114a9d2aaec6"
+          },
+          {
+            "frame": 810,
+            "seconds": 27.0,
+            "rgb_sha256": "2873390e680ec6f46239e36d2d4ca4df319c4cbc39a6b7d26abc8b4ea3d3b7f9"
+          },
+          {
+            "frame": 825,
+            "seconds": 27.5,
+            "rgb_sha256": "3d77c630dcca0402b8360662bf360cb27468532380684c8df0253f48d25be73f"
+          },
+          {
+            "frame": 840,
+            "seconds": 28.0,
+            "rgb_sha256": "ab4d766a59f2f5fab5c1eb0176ad9b987640b9c946909fbc87f147a8062f7ed0"
+          },
+          {
+            "frame": 855,
+            "seconds": 28.5,
+            "rgb_sha256": "f36a9d36d15ee1fb434b4ddeba6e4888a596e7bb8e4ff82dfa1fc4125b2371f9"
+          },
+          {
+            "frame": 870,
+            "seconds": 29.0,
+            "rgb_sha256": "f45d1650c9e8666f9880867bba6042edee11b2920d54a7a7e28179e63f12325f"
+          },
+          {
+            "frame": 885,
+            "seconds": 29.5,
+            "rgb_sha256": "ef5ea5f28aac962d606310eea018b302c82635ca00a4c0fc96e72232a9313f13"
+          },
+          {
+            "frame": 900,
+            "seconds": 30.0,
+            "rgb_sha256": "6ed8170462802b51526cfcaa6320edeb5dc4318d2d8714905854f5c62e2a22c0"
+          },
+          {
+            "frame": 915,
+            "seconds": 30.5,
+            "rgb_sha256": "6bbe0e1109fda15b205a9131a8b544add0a62b6a222e0e04efd3292df076f036"
+          },
+          {
+            "frame": 930,
+            "seconds": 31.0,
+            "rgb_sha256": "19c842fc84b9897b10e4bec13e567295d450d8894cbf13aad0190e1430ed0ff1"
+          },
+          {
+            "frame": 945,
+            "seconds": 31.5,
+            "rgb_sha256": "dcb6a0b8de1926bf6271fdb890bdc929b292bc3e186fa8adf7fec66ad66a9773"
+          },
+          {
+            "frame": 960,
+            "seconds": 32.0,
+            "rgb_sha256": "ab74afe2db0ce1bfb959659313e5be694ee20aeebc524e8dc10ecde0e71c0d37"
+          },
+          {
+            "frame": 975,
+            "seconds": 32.5,
+            "rgb_sha256": "cea22a883683cf5c71b2cd9783c3d72e3bc184676a9b9bacfb9b935d934b6ed4"
+          },
+          {
+            "frame": 990,
+            "seconds": 33.0,
+            "rgb_sha256": "fd8fc3c4108845c43847dd926852e4cad6a9a8d29c15d6a9d363da2585bb9b37"
+          },
+          {
+            "frame": 1005,
+            "seconds": 33.5,
+            "rgb_sha256": "ba2ac0b3f7d20674b6df6c2b10a547d926bef5ea5643cdc1c9f5a4bef1a092f4"
+          },
+          {
+            "frame": 1020,
+            "seconds": 34.0,
+            "rgb_sha256": "f0df3fcbbacb958b4f7ff64138ec5d4cce88e8ab7d3fb0824de2f9b68df485f4"
+          },
+          {
+            "frame": 1035,
+            "seconds": 34.5,
+            "rgb_sha256": "cf42c8fff21dfd6ca6587df6843ee5972af321cd5f1ceccf094fe4caa5c5f6dc"
+          },
+          {
+            "frame": 1050,
+            "seconds": 35.0,
+            "rgb_sha256": "6900e57f1d550319fd029ee55f4d7db7bee86de2b7d970062768c2fe22e973a5"
+          }
+        ],
+        "contact_sheets_viewed": 6,
+        "decode_exit_status": 0,
+        "source_sha256": "014808ed631e12825b981b7ae64514c26cdbda3dab79c86dcfa0fdc8cf022893",
+        "local_report": "build/full-research/movie-dense-half/FINAL/dense-frames.json"
+      }
+    },
+    {
+      "resource": "MOVIES/FLASHBACK.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "77cec42a6ec614c29b3810dd6344dde6aaf2a31f8d1b50eebf03a0f5e7fdb810",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 473,
+      "sample_indices": [
+        0,
+        236,
+        472
+      ],
+      "sample_rgb_sha256": [
+        "149ed81eab9a748fd92d82478c7f23af4c623ce6e0131959ac57a081ac885efa",
+        "af4bf1f9242ec80fac543f45ae64c99d24266ee280b639344e0466cf8c9e5fac",
+        "d855bb469c061413e7fa065e3d6753c686f95f876e2774654bb3b1c9f9e837a1"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "no-readable-english-in-half-second-samples",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "已看完整片每0.5秒接触表，未见可靠可读英语标题或剧情字幕条；不能排除间隔之间的快闪、低清设备微字。 墙上红色形状放大核实为血手印，不误当HELP等英文。留声机铭牌不可可靠转录。",
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 32,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "149ed81eab9a748fd92d82478c7f23af4c623ce6e0131959ac57a081ac885efa"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "3d7d46bc4baccec7b42b84a3f12e8759c251cb64346402dc7e657c16c1e11bce"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "d04a4cfae3dccd6bce6972c96d5ce6910b956b7fa50897ea1796088e86035d00"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "46b69fdec2b6850b12b7f4ac4003675fcdff5374bb581ab4b27f6c3ba473bad9"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "0bb7845c35227c4c138e6f06fdf37bd5763344391e85ae21c8ad1bbbf498860c"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "9154000642e2fcb22df1dd85d5b86bd023d90e36f6a925107818cc5e2c7dba8a"
+          },
+          {
+            "frame": 90,
+            "seconds": 3.0,
+            "rgb_sha256": "17f9ea6075899fcc005da21c9bdac7002d5b07b5043a653c57f323e046c7be16"
+          },
+          {
+            "frame": 105,
+            "seconds": 3.5,
+            "rgb_sha256": "38acc19e54821afc6af6c9264d5f829ab5dedcaed41b78b5f8521b05adfb00b0"
+          },
+          {
+            "frame": 120,
+            "seconds": 4.0,
+            "rgb_sha256": "b37bacf7c0588242cabdab61f66e878f788b144cb1fff67601b613392c709bbe"
+          },
+          {
+            "frame": 135,
+            "seconds": 4.5,
+            "rgb_sha256": "d9849e4825a9cde28f275f18f846929ea0199eabf733ae4801c7b6ccb562f4e5"
+          },
+          {
+            "frame": 150,
+            "seconds": 5.0,
+            "rgb_sha256": "ba00ec2aada880ab16cb472242a38322e1b87547604003aef3d22ce649ade449"
+          },
+          {
+            "frame": 165,
+            "seconds": 5.5,
+            "rgb_sha256": "cb10febdbd3e565c3541911d7e4f4df600260b3676670aa827b8028fbf2bf0d7"
+          },
+          {
+            "frame": 180,
+            "seconds": 6.0,
+            "rgb_sha256": "6dd93565e9291442a45a9db74bb0c1e9b0f4b7c8c8a8f55f61f7467b5b852ede"
+          },
+          {
+            "frame": 195,
+            "seconds": 6.5,
+            "rgb_sha256": "99e976239ebb3e79f459703e0f3c4bf14edb6d3ea350a0081f1ef225e398c834"
+          },
+          {
+            "frame": 210,
+            "seconds": 7.0,
+            "rgb_sha256": "8fadbfd531c52bd9edde2bbf3758da44d970493973da1b2483304351734c8e05"
+          },
+          {
+            "frame": 225,
+            "seconds": 7.5,
+            "rgb_sha256": "caa1e211828b5677ff9c7eff875f024dcd8d36fb2574cbf299b994eccdfece3b"
+          },
+          {
+            "frame": 240,
+            "seconds": 8.0,
+            "rgb_sha256": "528757607a5ae46bf6b0ca84127ab14e3b2a5d4d8f3992f9da62905a3e740a03"
+          },
+          {
+            "frame": 255,
+            "seconds": 8.5,
+            "rgb_sha256": "c9dc608a9498e33c10493c32ccea101f39fa0100929b2eb98b47241dd5504ec9"
+          },
+          {
+            "frame": 270,
+            "seconds": 9.0,
+            "rgb_sha256": "fa8a10883d10976d59719843364f245d3636a60914e577aaf999209580948652"
+          },
+          {
+            "frame": 285,
+            "seconds": 9.5,
+            "rgb_sha256": "749f48c391373d4ba4e02158329d92672261ee3d6527932363a5683787b9590d"
+          },
+          {
+            "frame": 300,
+            "seconds": 10.0,
+            "rgb_sha256": "8fa085074bebfc2fdf885eb2a9f2c81ea8c170d949994cca78ca2cef4ed8ef18"
+          },
+          {
+            "frame": 315,
+            "seconds": 10.5,
+            "rgb_sha256": "4e4f6a95104b05fde1ab631f7babbc62f0c4528dc5d2b0a74220d548b522bafd"
+          },
+          {
+            "frame": 330,
+            "seconds": 11.0,
+            "rgb_sha256": "32899b73ca2bcd4f2bb54c95f809aa484d1c83235c31104daef6de7f33b52031"
+          },
+          {
+            "frame": 345,
+            "seconds": 11.5,
+            "rgb_sha256": "5813a7356b0454f92065ea314ccd27424a6f3c25bd6d6632ed7c0b6ff05c90fa"
+          },
+          {
+            "frame": 360,
+            "seconds": 12.0,
+            "rgb_sha256": "e8c11153e6a44da0143515f7d3116bc02c80a2be3180b6615d0fc3e01315418f"
+          },
+          {
+            "frame": 375,
+            "seconds": 12.5,
+            "rgb_sha256": "ef153517bab1f8f1e5d3c8d632bb6826ba72199d792dd6688a2be27c46bc06c6"
+          },
+          {
+            "frame": 390,
+            "seconds": 13.0,
+            "rgb_sha256": "e203ced11dec730d2246e51da2cd315ac723866c90437bded18308193bf013b5"
+          },
+          {
+            "frame": 405,
+            "seconds": 13.5,
+            "rgb_sha256": "316872c63164c1b23ac8b6fedb30ce035ebb262e1733ce4a61811562787f264f"
+          },
+          {
+            "frame": 420,
+            "seconds": 14.0,
+            "rgb_sha256": "a2aa439a52f4023e8017a7b7a8035acae0e1beec89befc76ecebff2e6aa3103a"
+          },
+          {
+            "frame": 435,
+            "seconds": 14.5,
+            "rgb_sha256": "048c48505044266296b89c22c1819dc1b799dc19bd57cd2416700835b7dc1675"
+          },
+          {
+            "frame": 450,
+            "seconds": 15.0,
+            "rgb_sha256": "5712c6df614921d0ddfbc3d15928290266057cf03bbf5232cca29a5b688d6cc7"
+          },
+          {
+            "frame": 465,
+            "seconds": 15.5,
+            "rgb_sha256": "76017aede6fc8f037c8bd88199e778d556348e9464e2a5026052dffe5dbeb55d"
+          }
+        ],
+        "contact_sheets_viewed": 3,
+        "decode_exit_status": 0,
+        "source_sha256": "77cec42a6ec614c29b3810dd6344dde6aaf2a31f8d1b50eebf03a0f5e7fdb810",
+        "local_report": "build/full-research/movie-dense-half/FLASHBACK/dense-frames.json"
+      }
+    },
+    {
+      "resource": "MOVIES/GENERATOR.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "27b00476ac5bc5fbfe2f09af28a9435a01605f3fc8ab238b7d639ffdca7898c8",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 471,
+      "sample_indices": [
+        0,
+        235,
+        470
+      ],
+      "sample_rgb_sha256": [
+        "a8b1699f3d74eb1c0ea514d48c857ec6acd3e91f7ef065131fd5b4ebb3d720df",
+        "88180e1288bec3dbde006f7a4d92d1c852bcecac76f548dd519bf29eb5758cfe",
+        "8a43fd5ddcafdfd903eb3a4994c26499c2a3ff4d13e8fc45e5e541b604e27a4d"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "no-readable-english-in-half-second-samples",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "已看完整片每0.5秒接触表，未见可靠可读英语标题或剧情字幕条；不能排除间隔之间的快闪、低清设备微字。",
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 32,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "a8b1699f3d74eb1c0ea514d48c857ec6acd3e91f7ef065131fd5b4ebb3d720df"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "22cf167b7d068aa3e5da93154b45747c72c9e42ac0fd703b01da6e133d599ce4"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "b2009f3f318e91bf64b6cc7802e7d63ce22a481d1127651c5645f3ef66cc3633"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "0a502338acd85d3ec70dcd0abf56f3fb79502a99c9afcaaa4e8fc3fe5b5227de"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "b9e6bf8b4c7a5d7e982223cc85aa51a5668e0c5073ab1fe4fbe601b51b8613f2"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "e45bd6bf2852c7542d1a96cc642e914b1af85c72850da0a21e8d91182b3ee160"
+          },
+          {
+            "frame": 90,
+            "seconds": 3.0,
+            "rgb_sha256": "50052b26c1e192628ae61989b4eb5390209222911a544ed6bb2b225fdece1780"
+          },
+          {
+            "frame": 105,
+            "seconds": 3.5,
+            "rgb_sha256": "e7e0d7fe8e06a31510ca16fceb3251d56e78293a26393b7549210cba586714eb"
+          },
+          {
+            "frame": 120,
+            "seconds": 4.0,
+            "rgb_sha256": "e393a58c1c291526c3cf2673a5958362ff9e1b38a35baacf496ad21ff4f86290"
+          },
+          {
+            "frame": 135,
+            "seconds": 4.5,
+            "rgb_sha256": "871a2b919593428ae218fe5be2ff05cd480468e3254c84103326eaf2aa0cca61"
+          },
+          {
+            "frame": 150,
+            "seconds": 5.0,
+            "rgb_sha256": "61af4ae7a75b2c5a3611efc2dca8e2691d61e813a03987deb2bf961fe0ee8b39"
+          },
+          {
+            "frame": 165,
+            "seconds": 5.5,
+            "rgb_sha256": "fe0475a567ee17b04d24b37320ca37e34548709c239654c69a09098c1a7512d6"
+          },
+          {
+            "frame": 180,
+            "seconds": 6.0,
+            "rgb_sha256": "3aaab34f7d5466f251a0c91e311e7e53e8c6d0490ea2695fccdf744c6d0f13cf"
+          },
+          {
+            "frame": 195,
+            "seconds": 6.5,
+            "rgb_sha256": "2f16388e2c8d56554ff09b5816bcf44e1a107ed4c79311973d7b92008e3d2d93"
+          },
+          {
+            "frame": 210,
+            "seconds": 7.0,
+            "rgb_sha256": "be22bdca72111ac7d5e90eebb000fbc3293c9781743e7d39e35fc459a4e6590f"
+          },
+          {
+            "frame": 225,
+            "seconds": 7.5,
+            "rgb_sha256": "7fb38d90e6b21f3f49901b63b72d8dc104b5628ef2b0738799e29e0aa898ae9c"
+          },
+          {
+            "frame": 240,
+            "seconds": 8.0,
+            "rgb_sha256": "931afe1ea03ba8080667ccaed7702a89ff85417175e681bb10d733b2bb6a8993"
+          },
+          {
+            "frame": 255,
+            "seconds": 8.5,
+            "rgb_sha256": "fed9dd5c917a2fbcd98aa6ace512fb42e1f0e9602fd95cd6a5a9f9dc7e6dfa77"
+          },
+          {
+            "frame": 270,
+            "seconds": 9.0,
+            "rgb_sha256": "24013c9ab48f75a22a9154d3fd5c23c7a50e16ddf5c3f062e8bfb1eebc883ee5"
+          },
+          {
+            "frame": 285,
+            "seconds": 9.5,
+            "rgb_sha256": "c025f56372eed8045f1401863fe37eeab033cb5a3726bd4ee3afc401d01405f1"
+          },
+          {
+            "frame": 300,
+            "seconds": 10.0,
+            "rgb_sha256": "c9852cf311774d5d038c28bdb2dcaa273b1f289256b3fa2289a2442b0daeb2af"
+          },
+          {
+            "frame": 315,
+            "seconds": 10.5,
+            "rgb_sha256": "3f5d612fac2e03716548a608bd17c20811f7144903b1f971a17831459540491e"
+          },
+          {
+            "frame": 330,
+            "seconds": 11.0,
+            "rgb_sha256": "2dc5e9c7f7ca19d419d0237b8ba0acc3a51a9315e891ed3b23833423dcf0f35e"
+          },
+          {
+            "frame": 345,
+            "seconds": 11.5,
+            "rgb_sha256": "add034c9a593d90b97da62a717dc78e548396063621ae50c6592c3407044a14b"
+          },
+          {
+            "frame": 360,
+            "seconds": 12.0,
+            "rgb_sha256": "7ff0b0d419f7df66476b5c120886301630d1267d1adc9280ac93f1cd1916bdb0"
+          },
+          {
+            "frame": 375,
+            "seconds": 12.5,
+            "rgb_sha256": "0fda9a516d82667d19bcb7a4eb4f9161f92b0727d01dad024eb7f32bd0f2daa9"
+          },
+          {
+            "frame": 390,
+            "seconds": 13.0,
+            "rgb_sha256": "11cf47b568901818f0304f1f3c31e84028fdd39b9a624662534c3f564226d61a"
+          },
+          {
+            "frame": 405,
+            "seconds": 13.5,
+            "rgb_sha256": "f5176d303e386431325f4e24d643918840f939753aed0cc9b7d71e4db03a174a"
+          },
+          {
+            "frame": 420,
+            "seconds": 14.0,
+            "rgb_sha256": "38ee26f9b506f1799755751f55433c844f0cb44b618c6299067e222f36797d09"
+          },
+          {
+            "frame": 435,
+            "seconds": 14.5,
+            "rgb_sha256": "a1aa386c000c91539d1bdf82a78b977acca992ffc405defc8ed45d59faa639fc"
+          },
+          {
+            "frame": 450,
+            "seconds": 15.0,
+            "rgb_sha256": "e67c586eb9caef53680435a71e57b0b4a508444d94ec297f87ef82cdf4d74606"
+          },
+          {
+            "frame": 465,
+            "seconds": 15.5,
+            "rgb_sha256": "fbe8419937be31d839c1fb6369eb9b5465f18106966778621368725d6830ea40"
+          }
+        ],
+        "contact_sheets_viewed": 3,
+        "decode_exit_status": 0,
+        "source_sha256": "27b00476ac5bc5fbfe2f09af28a9435a01605f3fc8ab238b7d639ffdca7898c8",
+        "local_report": "build/full-research/movie-dense-half/GENERATOR/dense-frames.json"
+      }
+    },
+    {
+      "resource": "MOVIES/INTRO.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "e01b3a23f9a611bbaa8a41ffe039366e81212cac10529a0499397e546b230c48",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 413,
+      "sample_indices": [
+        0,
+        206,
+        412
+      ],
+      "sample_rgb_sha256": [
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513",
+        "53e58a73671a566a795aa8924e6e697b9614d99b56573020acf6fca20f55bdb6",
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "embedded-chapter-title",
+      "source_texts": [
+        "CHAPTER ONE",
+        "The Admittance"
+      ],
+      "target_texts": [
+        "第一章",
+        "入院"
+      ],
+      "notes": "加密审计发现开头嵌入章名，非独立CHAPTER资源。完整片源RGB逐帧锁定；章名区改写，后续剧情mode unchanged逐字节透传。",
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 28,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "6b77b2864804fc8e59a02c8413b07ce33b4f09c73d5b9828489668cf1c317135"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "575c07678b17e19a018154b593cea44b9c1e5d8e39d2532f0454aa040a8ec0a2"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "575c07678b17e19a018154b593cea44b9c1e5d8e39d2532f0454aa040a8ec0a2"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "575c07678b17e19a018154b593cea44b9c1e5d8e39d2532f0454aa040a8ec0a2"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "575c07678b17e19a018154b593cea44b9c1e5d8e39d2532f0454aa040a8ec0a2"
+          },
+          {
+            "frame": 90,
+            "seconds": 3.0,
+            "rgb_sha256": "b9e057af79cc64a392e35f19f38852489ac9a3fa779f6f0ad7a05a84ca4b8d29"
+          },
+          {
+            "frame": 105,
+            "seconds": 3.5,
+            "rgb_sha256": "fcde9f20a7ca864acb123208808b51848e6f896b07f0119e82d7efd34fe1719e"
+          },
+          {
+            "frame": 120,
+            "seconds": 4.0,
+            "rgb_sha256": "4746235b311d16a245284f2bb49e8d7136b4054bbf116bfc4873cb70b5386f32"
+          },
+          {
+            "frame": 135,
+            "seconds": 4.5,
+            "rgb_sha256": "7c0ce670ff531ce8254728ab9b71bbdb5c4f76d4a040f7c20243470b12209b9a"
+          },
+          {
+            "frame": 150,
+            "seconds": 5.0,
+            "rgb_sha256": "8db1032486d23db93cb7b2417fde8081d9bac4a4415f5e84fa029e3addfe9075"
+          },
+          {
+            "frame": 165,
+            "seconds": 5.5,
+            "rgb_sha256": "a4a929e180164c806108b82523a3acb2eb8d2b142aa16ace0472df52dd241cdb"
+          },
+          {
+            "frame": 180,
+            "seconds": 6.0,
+            "rgb_sha256": "9cdf52ec79f2dca8a0f61651e40ffd4def078de80ab67dd3317dd28cea584ddd"
+          },
+          {
+            "frame": 195,
+            "seconds": 6.5,
+            "rgb_sha256": "9d8a5a4aea11f8af8710d063074c79750b4cfd15348d07c69b74f63802c517ee"
+          },
+          {
+            "frame": 210,
+            "seconds": 7.0,
+            "rgb_sha256": "7cdba5ae9f10d2828806ec4d6a8eac6bb394d2087b8f4c3ec466b07148970c26"
+          },
+          {
+            "frame": 225,
+            "seconds": 7.5,
+            "rgb_sha256": "1b2381d68e45859a87a4acc54694c7f6f199bdfe2b4c7235c83d21e3133f6edb"
+          },
+          {
+            "frame": 240,
+            "seconds": 8.0,
+            "rgb_sha256": "03bfc24d0646fa499a1c02078f14986353ef8e3d52e4ebe629037ac4c3105cb8"
+          },
+          {
+            "frame": 255,
+            "seconds": 8.5,
+            "rgb_sha256": "6b02b0c9d152205890c16e4e3b8266577873aaec3c23074e0c844d93eeaccc5c"
+          },
+          {
+            "frame": 270,
+            "seconds": 9.0,
+            "rgb_sha256": "ee71d270e2410a96c6cc777340e159977cb3cd1d343d623e2c8aab32d4bb1cf2"
+          },
+          {
+            "frame": 285,
+            "seconds": 9.5,
+            "rgb_sha256": "34c3c30680116fac6f4708137b48a1e8e709eab0ed0916470bf95ceb4d85999e"
+          },
+          {
+            "frame": 300,
+            "seconds": 10.0,
+            "rgb_sha256": "cace0e7f7d3f80369c810e0ba498f882df3ad61825378e413ee58944f8f79689"
+          },
+          {
+            "frame": 315,
+            "seconds": 10.5,
+            "rgb_sha256": "aac9bfc4578ede10fe06a37411be957de1fa60244934cfcf4fc232b863765732"
+          },
+          {
+            "frame": 330,
+            "seconds": 11.0,
+            "rgb_sha256": "201dd00d351584400f858c76b83fd1e58f05daf707398e98113f32dbfd0e3490"
+          },
+          {
+            "frame": 345,
+            "seconds": 11.5,
+            "rgb_sha256": "d1cf543a5f88c6b3a3effddc2a74fefb049d3cd61309e9716ea32e3a65a1fa5a"
+          },
+          {
+            "frame": 360,
+            "seconds": 12.0,
+            "rgb_sha256": "c54b7e55e27408bc437483ca5f9d134f35cbc3679b023e5161216d77549a2d5a"
+          },
+          {
+            "frame": 375,
+            "seconds": 12.5,
+            "rgb_sha256": "db218d39fb16928fb01f02667ce292b1c02400fa4a1b3c083c7af634deaf5f81"
+          },
+          {
+            "frame": 390,
+            "seconds": 13.0,
+            "rgb_sha256": "4ca2b9129189a1498ad51d467d1131c7b12491c89f6b390ec9117a0addbbc1bd"
+          },
+          {
+            "frame": 405,
+            "seconds": 13.5,
+            "rgb_sha256": "29203e5a6dda493051675d855e448a751028a5bda23fc2e287d7d2f7dda04c3e"
+          }
+        ],
+        "contact_sheets_viewed": 3,
+        "decode_exit_status": 0,
+        "source_sha256": "e01b3a23f9a611bbaa8a41ffe039366e81212cac10529a0499397e546b230c48",
+        "local_report": "build/full-research/movie-dense-half/INTRO/dense-frames.json"
+      },
+      "disposition": "localized-native-title-frames-offline-verified",
+      "recipe": "movie-titles.json",
+      "unreadable_details": [
+        "约6.5秒黑色门牌为低清两行短字，仅部分笔画似字母，未可靠确定完整原文，不猜名字/句子。"
+      ]
+    },
+    {
+      "resource": "MOVIES/LAIR.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "4c98247e222cd43683e73aa913d849ea3ae883317793411aeff5ed1c73a7a63e",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 505,
+      "sample_indices": [
+        0,
+        252,
+        504
+      ],
+      "sample_rgb_sha256": [
+        "6a00983959a981d9004314c763f85d0b2da0bc2e3f07c971c0b862fcd2cd2564",
+        "6a411e5c14a9751ffd96b159b2fb955ce765a8cd4556566819f8f285753bedc2",
+        "1e6edba5a457388d977cfdaf9451c9ef4f8d078711126738f7759b80f8923b4e"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "no-readable-english-in-half-second-samples",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "已看完整片每0.5秒接触表，未见可靠可读英语标题或剧情字幕条；不能排除间隔之间的快闪、低清设备微字。",
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 34,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "6a00983959a981d9004314c763f85d0b2da0bc2e3f07c971c0b862fcd2cd2564"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "1a6034db2faba934fe6fa0a9efcd8515019a2c64380ac8cdf7366d24c0f7c37a"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "56741cce227b9a739f967609635401fbeccb8cbfc59a577ee8920105ca6d265f"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "43d623ebf013a558dfe24e26c71d36a08a6ad7750d8f4decd4de07b5138d05f7"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "f308b90174edadf23bee608d9a983cde93436066997eb037ecd20fba16941b5b"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "d0d67820da03593afdf39b7357a7f6b21f3c0fe59b197bdeaaf8df14a5a5016d"
+          },
+          {
+            "frame": 90,
+            "seconds": 3.0,
+            "rgb_sha256": "20ef56877718d09f7f8895f079f24f89fc1a680907e21043e40dd45445d1c939"
+          },
+          {
+            "frame": 105,
+            "seconds": 3.5,
+            "rgb_sha256": "98f142b84143a9e77736f49b212fbf6019f9b812965beed2207505983e0f2c4d"
+          },
+          {
+            "frame": 120,
+            "seconds": 4.0,
+            "rgb_sha256": "03834f9ce2f8cf3560b41c4ed8934445c1f7299c24eec4c1e727d3e51e2b36a9"
+          },
+          {
+            "frame": 135,
+            "seconds": 4.5,
+            "rgb_sha256": "4a60bd2c67086170fb93772ae1b4cdbddba2988c292bdadd58c0ec59cba18785"
+          },
+          {
+            "frame": 150,
+            "seconds": 5.0,
+            "rgb_sha256": "f2ba266e4bcf20b55d4312460ed82a87adf7cac00cd44c833955b2f6a6f3ef0c"
+          },
+          {
+            "frame": 165,
+            "seconds": 5.5,
+            "rgb_sha256": "279812d15d769b82480e1607d2794e5d9ce29a13dab3b6e288a886590881b0d8"
+          },
+          {
+            "frame": 180,
+            "seconds": 6.0,
+            "rgb_sha256": "f7f66e5ef3688c3259efb5a93c623a5194ae152108063d737f9fc2151428c748"
+          },
+          {
+            "frame": 195,
+            "seconds": 6.5,
+            "rgb_sha256": "94c1ef96ca3a0b60321c585b67a73e3f84afd308826bf2b3950c57511589438f"
+          },
+          {
+            "frame": 210,
+            "seconds": 7.0,
+            "rgb_sha256": "bfcc4e6e9de897491a065f514043cd275fd2d76eba453d62c7bd2485075b0c47"
+          },
+          {
+            "frame": 225,
+            "seconds": 7.5,
+            "rgb_sha256": "93635d9f9d36d0626bf5b0dc653fa2e8cf19739c3f866e9c15e2bf8cb503842b"
+          },
+          {
+            "frame": 240,
+            "seconds": 8.0,
+            "rgb_sha256": "4180906b0a76f9ac3b86a3f1c96ec0dc4e82ac5f1191f48d565729c1bb1189c4"
+          },
+          {
+            "frame": 255,
+            "seconds": 8.5,
+            "rgb_sha256": "f12eae7bfc13d5b4030abf8c4ebe735ab703a9585d66c2f905e616b2d4f042d9"
+          },
+          {
+            "frame": 270,
+            "seconds": 9.0,
+            "rgb_sha256": "9fa0d279d91b63e0568eae7941dd0f5a5977288fdd56806ce313cb628331f7af"
+          },
+          {
+            "frame": 285,
+            "seconds": 9.5,
+            "rgb_sha256": "f9af8a3e0c5ce6edcf274d050622650713815525feff6d85cbd42592cac8accd"
+          },
+          {
+            "frame": 300,
+            "seconds": 10.0,
+            "rgb_sha256": "899897fe756a27af2dae1ac745a21714e950d413ac1f4a13dccc2be13d03f29e"
+          },
+          {
+            "frame": 315,
+            "seconds": 10.5,
+            "rgb_sha256": "ee3b218f4272898ad994ce4498eb4d4562e579e1492674ba6b67c3c4c3b6bb53"
+          },
+          {
+            "frame": 330,
+            "seconds": 11.0,
+            "rgb_sha256": "0d675716efe006a7052b1fc23e7514a87897289dffa065010a626c1966e435a2"
+          },
+          {
+            "frame": 345,
+            "seconds": 11.5,
+            "rgb_sha256": "3f80d4bfe9db093fce89ed7ea467c0632e76770ef96d7167631947230cad01d4"
+          },
+          {
+            "frame": 360,
+            "seconds": 12.0,
+            "rgb_sha256": "ba6e503e78c93fba8696efa4baa71834e1f89f2524e0c2158095b2454a7343f4"
+          },
+          {
+            "frame": 375,
+            "seconds": 12.5,
+            "rgb_sha256": "e7dc8645cee0c5f7d14b4994c427ca7ca5611e08c967ff9dfffef47133993b8c"
+          },
+          {
+            "frame": 390,
+            "seconds": 13.0,
+            "rgb_sha256": "0e03a3736f27511f259788f7ce8cece755dfc61a5cf6a2decb7d5dd7babe2d45"
+          },
+          {
+            "frame": 405,
+            "seconds": 13.5,
+            "rgb_sha256": "0ffc5b4fa4a90b6830fa29397a36a1f54435f9ff7b270dab3206a02671262818"
+          },
+          {
+            "frame": 420,
+            "seconds": 14.0,
+            "rgb_sha256": "8c0db7fb7911b82abaf2774a7ba9773ed6d615dd4448188c889961d77aaed5cc"
+          },
+          {
+            "frame": 435,
+            "seconds": 14.5,
+            "rgb_sha256": "112b84ebc0729781d76d5d90815f6658bdcb976fed4dc0a51deddf1db9280298"
+          },
+          {
+            "frame": 450,
+            "seconds": 15.0,
+            "rgb_sha256": "c9249e6e5dac7ac5d05579d2c991167b1e84a903d5ccd680f206f34e02e227ae"
+          },
+          {
+            "frame": 465,
+            "seconds": 15.5,
+            "rgb_sha256": "65cc869edd794e95b74b608ca2edfa1beadca03306ddd4483f2c65d2373a936c"
+          },
+          {
+            "frame": 480,
+            "seconds": 16.0,
+            "rgb_sha256": "ae45d61e1e020ac39b8aaa4b89e16b9444252e78dc8aa9143e751b1cb0e628d4"
+          },
+          {
+            "frame": 495,
+            "seconds": 16.5,
+            "rgb_sha256": "c1f48c263b595070a74da66d4e87256813b8869a108583b56821a6674d978277"
+          }
+        ],
+        "contact_sheets_viewed": 3,
+        "decode_exit_status": 0,
+        "source_sha256": "4c98247e222cd43683e73aa913d849ea3ae883317793411aeff5ed1c73a7a63e",
+        "local_report": "build/full-research/movie-dense-half/LAIR/dense-frames.json"
+      }
+    },
+    {
+      "resource": "MOVIES/MOLLUSCA01.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "a6e0de8e078aed72bb15184703c98cce42986f64bcaa2c400d038127f5b21be1",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 257,
+      "sample_indices": [
+        0,
+        128,
+        256
+      ],
+      "sample_rgb_sha256": [
+        "5e6f35bc8729958e3d7c4a8e55fcb74d47fd6f3c813c8a4019b59f6c5a1e49ae",
+        "fe923a4097c0cd19a5abe045949a664e8a9b46119354d2271594e30993f0c375",
+        "5b2ef1c3e83164ae2095dc61d9d596f89dce0770ac12836283cf1f69f238a98f"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "no-readable-english-in-half-second-samples",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "已看完整片每0.5秒接触表，未见可靠可读英语标题或剧情字幕条；不能排除间隔之间的快闪、低清设备微字。",
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 18,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "5e6f35bc8729958e3d7c4a8e55fcb74d47fd6f3c813c8a4019b59f6c5a1e49ae"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "d2c63d56f0a755bc352fa228762c2093cdaaa6b6c17a94ea1161aff88fbf84f9"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "7c4bc12b530ab3b3be5c188939a5b3c03b20ca49812b792148bd255216dffd34"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "4c790d1d8078b3c2cefb6bc3a3982ee3f682ee6c505d2ea7c5c60fed4d887f29"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "bece3318b7a5aaa03bd0ef88059e5be9f1592e3eaeaff63eb6b5f0c88e33621a"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "5b2461f06187ab0deab2bc48e273676c01cf639539fa945d8e710f9a4ba3eece"
+          },
+          {
+            "frame": 90,
+            "seconds": 3.0,
+            "rgb_sha256": "e4bfddd4353b444383895fab4a2bb9c2a746ccc0ae6ce2a8bac73bbac5440230"
+          },
+          {
+            "frame": 105,
+            "seconds": 3.5,
+            "rgb_sha256": "5721181208ba377f9ce0ccee689063c8484ec1210ef277ad8b8302d4a4fce095"
+          },
+          {
+            "frame": 120,
+            "seconds": 4.0,
+            "rgb_sha256": "bbf3e764832579dc0c6e1ed8e712fbcd2341613b57ef6a25d8c66020738335a9"
+          },
+          {
+            "frame": 135,
+            "seconds": 4.5,
+            "rgb_sha256": "6d10e0df1926b4320f9e1981bc0849b7a64e278f4e5f3fd12d39d973abc2c796"
+          },
+          {
+            "frame": 150,
+            "seconds": 5.0,
+            "rgb_sha256": "925df3753b01b0abd97abd2bc3e72dad260d7e5be7e7febd79a17d9a9c647f8c"
+          },
+          {
+            "frame": 165,
+            "seconds": 5.5,
+            "rgb_sha256": "9683f6f95cebf0986b806db2025eebf0aecd3c100ec9bd25cee68ecd44c14928"
+          },
+          {
+            "frame": 180,
+            "seconds": 6.0,
+            "rgb_sha256": "7f2a818ccf05da6347a4a212c0aa92f038d35f44aa23d54916c7d1e3c6ea1bd6"
+          },
+          {
+            "frame": 195,
+            "seconds": 6.5,
+            "rgb_sha256": "4d27bfee3947d402177121483db32873cf826527f92b74143f55a6cb83f85349"
+          },
+          {
+            "frame": 210,
+            "seconds": 7.0,
+            "rgb_sha256": "111476ae14eccf123930f66719ce76208019a368cc919fee68cf099732c1e097"
+          },
+          {
+            "frame": 225,
+            "seconds": 7.5,
+            "rgb_sha256": "9aa883c3ae943676e5ffc637f86ed982ba7898e7d0c57778cfd43eb1f8e60139"
+          },
+          {
+            "frame": 240,
+            "seconds": 8.0,
+            "rgb_sha256": "fb543e885d94d35ce00d89d6da8912254ae71860b2e8fb222ce0d7f7e749c303"
+          },
+          {
+            "frame": 255,
+            "seconds": 8.5,
+            "rgb_sha256": "a7dee50625f9ab28a15fbb743eacc9dce38ea5b6530a98d82e241bdb5507b9c7"
+          }
+        ],
+        "contact_sheets_viewed": 2,
+        "decode_exit_status": 0,
+        "source_sha256": "a6e0de8e078aed72bb15184703c98cce42986f64bcaa2c400d038127f5b21be1",
+        "local_report": "build/full-research/movie-dense-half/MOLLUSCA01/dense-frames.json"
+      }
+    },
+    {
+      "resource": "MOVIES/MOLLUSCA02.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "29b841d9c5c2ed23f344877f88eb2d043d1a6ccc610955b7f89815a43f2b2af8",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 182,
+      "sample_indices": [
+        0,
+        91,
+        181
+      ],
+      "sample_rgb_sha256": [
+        "4d11152843eaad6b614ac0389688ccd57f6dec30ed568f7ce6b78b0fad05b40b",
+        "46bb7ae942ca0dbfdd452b17f5ade28664d7f2f34715acd4e43acee6476cf824",
+        "84a92c1fdaaecab4c36f85f7610d5141a59b8b292493ea4fc4f20e574f7d2adf"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "no-readable-english-in-half-second-samples",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "已看完整片每0.5秒接触表，未见可靠可读英语标题或剧情字幕条；不能排除间隔之间的快闪、低清设备微字。",
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 13,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "4d11152843eaad6b614ac0389688ccd57f6dec30ed568f7ce6b78b0fad05b40b"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "98842e3ded27da30f36e9b37e73221e135b9f0bc0162fef52220f79b4e87f56d"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "66e0fbf28c451117ba6793cddfe922ded3371e3bc4a5ac33a18ef4d1b6053ed8"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "40ef9aee9a745dd880a44d14334e81957d764b8ecd32aaf64e528f0e43fca1d9"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "69d1569c39b8ddc8104ea2d6f5f85cb6797122955836fa8e8ce3c7eca81a2e0c"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "74f1fb076b0a2f534538a5a940ded48065edb3967491bffd72496fee261ef08c"
+          },
+          {
+            "frame": 90,
+            "seconds": 3.0,
+            "rgb_sha256": "25fbb64d6dd5573ac8ed320f9bda7dfec788fdf5542ddc3d1e3a47686852c8a6"
+          },
+          {
+            "frame": 105,
+            "seconds": 3.5,
+            "rgb_sha256": "7dbc5948e7884987ffcf1a1731632013ae4f6f4d3a36ac28a23b327d277f8507"
+          },
+          {
+            "frame": 120,
+            "seconds": 4.0,
+            "rgb_sha256": "d4ff0b8d07a26a608930594ae32fab3b44c8a3dd30ea4a82e4595a14555524a2"
+          },
+          {
+            "frame": 135,
+            "seconds": 4.5,
+            "rgb_sha256": "602d53674f667706a6b823286d23c17eb76102bf039f9b777ac75bcabf47c33b"
+          },
+          {
+            "frame": 150,
+            "seconds": 5.0,
+            "rgb_sha256": "e01ad817a67a8a0574b2b215ca58af8202e1d555f792af6f321cd67e4df90e25"
+          },
+          {
+            "frame": 165,
+            "seconds": 5.5,
+            "rgb_sha256": "a6cfed977e7597a94774449284ff60edc013926e14d09a82458fbfbc085396c3"
+          },
+          {
+            "frame": 180,
+            "seconds": 6.0,
+            "rgb_sha256": "2db6eb7b25d21b3c8b6f7dd52538ca0c7f5c6746437ee0ed8b992388f5c03159"
+          }
+        ],
+        "contact_sheets_viewed": 2,
+        "decode_exit_status": 0,
+        "source_sha256": "29b841d9c5c2ed23f344877f88eb2d043d1a6ccc610955b7f89815a43f2b2af8",
+        "local_report": "build/full-research/movie-dense-half/MOLLUSCA02/dense-frames.json"
+      }
+    },
+    {
+      "resource": "MOVIES/NEWSCAST.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "41668d0784f0bba87865eaa5f63b6278471e15defc92c25b4633a1b74eadd6ff",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 1139,
+      "sample_indices": [
+        0,
+        569,
+        1138
+      ],
+      "sample_rgb_sha256": [
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513",
+        "0602a3f9106a6769bba96a9ef6a30a8c993ce0453b05fb2edf237ba9b8b4721f",
+        "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "burned-in-broadcast-headlines",
+      "source_texts": [
+        "REDMOOR NEWS",
+        "MURDER",
+        "WOMAN MURDERED",
+        "CHILD SURVIVES"
+      ],
+      "target_texts": [
+        "雷德穆尔新闻",
+        "谋杀案",
+        "女子遇害",
+        "女童幸存"
+      ],
+      "notes": "全部0.5秒样本复核4组新闻标题；REDMOOR NEWS在3.5秒、MURDER在7.5秒样本已可见，标题交叉淡变边界不冒称逐帧确认。",
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 76,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "0e89e5d755de20a0a96681c385ffcd1c64e8ae3b7d56d1c7c0c351a81cc46513"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "fa23d46b441d2393216a1e261f1ada6283e7df8abfd5e1efc3ef96d9ab332971"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "a1fba28653e4c628f15828dbce25e1211cc9d08fee1872d5e0b4b7da0365fb4c"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "1f09f7abb710b6e91948957dec0c62245de147717523ebc48ca72897f76453d4"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "6721c1f0e01d1a78e5582f25e7e13a07e4888df7bfc484f3455e356279dc93ef"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "bfeb6edcf09981dfefd5e65a66b54275f06e19bed6f729fbc854c609b1225b23"
+          },
+          {
+            "frame": 90,
+            "seconds": 3.0,
+            "rgb_sha256": "df1019a0215081b6c6a69cf3a1e1353bd634492f92fc8d118f0149d6438d16d4"
+          },
+          {
+            "frame": 105,
+            "seconds": 3.5,
+            "rgb_sha256": "d3db7d26d7493c58a1b9d4d0a26f8647047cedd263774fe3bdf575c382436278"
+          },
+          {
+            "frame": 120,
+            "seconds": 4.0,
+            "rgb_sha256": "797f00218ca62529317a467ed0073eb03e85cb4aef10ee89ec80fdffa6cc548d"
+          },
+          {
+            "frame": 135,
+            "seconds": 4.5,
+            "rgb_sha256": "72726ed31e77e42e0606c91d9217ec68e198c9edbeb6945eba60b67597e9080e"
+          },
+          {
+            "frame": 150,
+            "seconds": 5.0,
+            "rgb_sha256": "e471acf98c991d47562cce2fd584674b361e320467cba4e1bbc6ab84e50cfdf2"
+          },
+          {
+            "frame": 165,
+            "seconds": 5.5,
+            "rgb_sha256": "7ec55aa1083ffd40ae9943ff0ee96cdbf89c8bf53595d9c4e57b2c72b12fa18a"
+          },
+          {
+            "frame": 180,
+            "seconds": 6.0,
+            "rgb_sha256": "36728d09b1ecd0783450729392541658b20fe03a959ce45f9be6fe73aabbcade"
+          },
+          {
+            "frame": 195,
+            "seconds": 6.5,
+            "rgb_sha256": "265e34ccfd679631c98f3e7d3d533a1b19d12cb8a061db9963b8456345d4a9e8"
+          },
+          {
+            "frame": 210,
+            "seconds": 7.0,
+            "rgb_sha256": "f0e63f8f54509f4f6b85ef4149dea74c05f3ca76b2f43c9c2826d5eaeabeb365"
+          },
+          {
+            "frame": 225,
+            "seconds": 7.5,
+            "rgb_sha256": "ce99a92d9f562f49598ba47b346a9ddbe6325c29d611ecf355ffd66214e83c67"
+          },
+          {
+            "frame": 240,
+            "seconds": 8.0,
+            "rgb_sha256": "956388fbf1bb8866e074ba4b9cdb1a917a6fc85c9aa7838ae294a844019e11c3"
+          },
+          {
+            "frame": 255,
+            "seconds": 8.5,
+            "rgb_sha256": "32cc356452bc281016d14984578786ea12618c12706fb9962727d164ecc42471"
+          },
+          {
+            "frame": 270,
+            "seconds": 9.0,
+            "rgb_sha256": "ae3cbe2f269fd7387b0c82bf7effb2d517f2e2e812ebf5d30306eba7982b9758"
+          },
+          {
+            "frame": 285,
+            "seconds": 9.5,
+            "rgb_sha256": "7ef8001c0a4828a1bf06560dad575cf12fdfc78bb20a6e631fd57387c6ac7c37"
+          },
+          {
+            "frame": 300,
+            "seconds": 10.0,
+            "rgb_sha256": "26119bd04fcf7ff7ba547dcca524ab005d7706d40ea6af1e86382eae6000e737"
+          },
+          {
+            "frame": 315,
+            "seconds": 10.5,
+            "rgb_sha256": "5c953b20d7d816b87ef7aad4aef1faab8cea5224c8387ffe1602f61c11111635"
+          },
+          {
+            "frame": 330,
+            "seconds": 11.0,
+            "rgb_sha256": "77f50ae987f2282eb522d99d130637ab5f5de5c136166485d10c1d764c879e6e"
+          },
+          {
+            "frame": 345,
+            "seconds": 11.5,
+            "rgb_sha256": "313fc741ce0dc133b77d2c6d3a7a53e3d6a18e66e46c9a626ea9eeea21431d71"
+          },
+          {
+            "frame": 360,
+            "seconds": 12.0,
+            "rgb_sha256": "688232f5b7e3b864324d19d73a13cf465c2f79b9b27e5e7ac4805a91bb15f046"
+          },
+          {
+            "frame": 375,
+            "seconds": 12.5,
+            "rgb_sha256": "d2e4794705d7acc6c4386a415799c318998c1b75ef2de69f136a7e76fca7777e"
+          },
+          {
+            "frame": 390,
+            "seconds": 13.0,
+            "rgb_sha256": "2a870be5ba0a0037e58265a3101a4e1b5162997fa276169259775ef338326139"
+          },
+          {
+            "frame": 405,
+            "seconds": 13.5,
+            "rgb_sha256": "80203c3bfee583a3bc94dab016a89117367d232f570c9de1dced560c2d2e1132"
+          },
+          {
+            "frame": 420,
+            "seconds": 14.0,
+            "rgb_sha256": "c46e47d91514193d64a06c3ac592b422428c8029a22069fbba180c6419c5582d"
+          },
+          {
+            "frame": 435,
+            "seconds": 14.5,
+            "rgb_sha256": "9d5fc3a56080523f224b0398e9cab11fba5b20db8302ff836039e69f284707b7"
+          },
+          {
+            "frame": 450,
+            "seconds": 15.0,
+            "rgb_sha256": "f05cbe59b97982ede2ed9146df46c2142a0a2c0535f1a48927d08df3944fb5d0"
+          },
+          {
+            "frame": 465,
+            "seconds": 15.5,
+            "rgb_sha256": "0dda0ece0734c51af7f1bba1fa66d1d20cb4618cfb04c96d5862bf0b99e0a1e7"
+          },
+          {
+            "frame": 480,
+            "seconds": 16.0,
+            "rgb_sha256": "07963025b00ac89d5328f8eca55e38eb54fc608f76655beb3bf14fe5f9e468ac"
+          },
+          {
+            "frame": 495,
+            "seconds": 16.5,
+            "rgb_sha256": "95dbbf0d898e01fda721a033e436a075a988c1630d645bff7a98a2a13d672249"
+          },
+          {
+            "frame": 510,
+            "seconds": 17.0,
+            "rgb_sha256": "aa4887cf0d08f39ffc4c937fc2170aaff4f4401ab6cef77a7fa7b4f63dc8bf10"
+          },
+          {
+            "frame": 525,
+            "seconds": 17.5,
+            "rgb_sha256": "1474ccf903fd430d70bb934017ca5e98ff8be2c900788dc83c3c46ebf58ec7b5"
+          },
+          {
+            "frame": 540,
+            "seconds": 18.0,
+            "rgb_sha256": "43b1cefb5f7ed28b94ab47659bb22ea54e94cd4683d4f624ea1a79082da8d745"
+          },
+          {
+            "frame": 555,
+            "seconds": 18.5,
+            "rgb_sha256": "3670768dd81e3414310f379f14df5ba212fa5b63f47101c3a6cb94471fc9574a"
+          },
+          {
+            "frame": 570,
+            "seconds": 19.0,
+            "rgb_sha256": "2ce996206f79cc9aafdf27a44d96e058dfe966cec260372bee83bd8bac2572cb"
+          },
+          {
+            "frame": 585,
+            "seconds": 19.5,
+            "rgb_sha256": "3abe149f6987cf2cfa5323b25a5bcabd229a6ea1867d8d7e47e72fff45c83ca7"
+          },
+          {
+            "frame": 600,
+            "seconds": 20.0,
+            "rgb_sha256": "1354125a17634d6e2eae981e76aefb696cc6d1546bea6f794dc1b0fd367ff2c7"
+          },
+          {
+            "frame": 615,
+            "seconds": 20.5,
+            "rgb_sha256": "e744b6f68889e124c28a438b90ed4ccaeb87378cf3d0e0f3e1561944e0994c54"
+          },
+          {
+            "frame": 630,
+            "seconds": 21.0,
+            "rgb_sha256": "60c28897d1e3d836792f6f142208ac745c8a48be5b80a16c6ab884a87c16c4db"
+          },
+          {
+            "frame": 645,
+            "seconds": 21.5,
+            "rgb_sha256": "3f5966535f203ed141aaaa18f9eb1a66f898b55ca4a95a0e6f8a7dfad05c35f8"
+          },
+          {
+            "frame": 660,
+            "seconds": 22.0,
+            "rgb_sha256": "ab9f4c0930c44969aa45fd1f4d891fea8df163cf13787582e4cf807008fbf1ef"
+          },
+          {
+            "frame": 675,
+            "seconds": 22.5,
+            "rgb_sha256": "d553876c66a9fb611c5f114255d86418b2763518191bb150161947bdbbac3296"
+          },
+          {
+            "frame": 690,
+            "seconds": 23.0,
+            "rgb_sha256": "ab299c8a3412e1be1f1ad26ee03a8748b5c48ea48dc6d1c81120a4c4abcb1a5b"
+          },
+          {
+            "frame": 705,
+            "seconds": 23.5,
+            "rgb_sha256": "fb4ef86bd7add85c1f025ae1bdb0157ab32fa8153b2d9ae9d8a3bca06ae86c0a"
+          },
+          {
+            "frame": 720,
+            "seconds": 24.0,
+            "rgb_sha256": "bf5cddd4a88e29c7868e6e0a64ef5af95fe636783b86398464a09bea31498b41"
+          },
+          {
+            "frame": 735,
+            "seconds": 24.5,
+            "rgb_sha256": "7e0b05e123918bab0553b7e62e7119d58455befedc7391b5e21cf5cd75afc055"
+          },
+          {
+            "frame": 750,
+            "seconds": 25.0,
+            "rgb_sha256": "d6d93f6d15fd787ac6cbfd5ae5adb9660ece183dc930350fa6ea0d55816421eb"
+          },
+          {
+            "frame": 765,
+            "seconds": 25.5,
+            "rgb_sha256": "496e15b3ca8743909b8a2cb7160624d42ebc4cf0b95a83ad93a65265d4db90b1"
+          },
+          {
+            "frame": 780,
+            "seconds": 26.0,
+            "rgb_sha256": "d6a8a11f6f120ff5f1de41e15b3b2f546dc1e5e1f369817dd8df126787e4c00b"
+          },
+          {
+            "frame": 795,
+            "seconds": 26.5,
+            "rgb_sha256": "b07898fb9cdfe8ca4cacc3c3c9afbe4b3d8ffca37fb14fa6230d24f7bf7809b3"
+          },
+          {
+            "frame": 810,
+            "seconds": 27.0,
+            "rgb_sha256": "ef663568eae1e32247ee270a81167589ddb6b0c6dcce74dab8a8c8aa8a74a0df"
+          },
+          {
+            "frame": 825,
+            "seconds": 27.5,
+            "rgb_sha256": "0dcb75e80d777eb2cfd09a7fc310863f68817e45690a428b10ac5260ed63fa9b"
+          },
+          {
+            "frame": 840,
+            "seconds": 28.0,
+            "rgb_sha256": "3db419aed7a1987455f012488df41e0ea09554ff0c4adbd959ac3a18524ced68"
+          },
+          {
+            "frame": 855,
+            "seconds": 28.5,
+            "rgb_sha256": "72ab882333c4dba29b5492775874126e34968426985ba91dae890c92164d263f"
+          },
+          {
+            "frame": 870,
+            "seconds": 29.0,
+            "rgb_sha256": "ed5476b908b0793ff71ac9f4517f887dabebd820a2821d5198e8b1b035c7bf5d"
+          },
+          {
+            "frame": 885,
+            "seconds": 29.5,
+            "rgb_sha256": "df3609445e5cb5041ce7ce87b7036b432a2b67a1580e07394026779ed9700ae6"
+          },
+          {
+            "frame": 900,
+            "seconds": 30.0,
+            "rgb_sha256": "b68ba46d1f1128c34351ae028eef503d623b0a26623e814a83e01826f6b4b24f"
+          },
+          {
+            "frame": 915,
+            "seconds": 30.5,
+            "rgb_sha256": "6752834546b0c1de7ee04285da87954a347578fe0c105d02f78a79db1eea77eb"
+          },
+          {
+            "frame": 930,
+            "seconds": 31.0,
+            "rgb_sha256": "c4d64544dbc3ef16b1ccb3f77c143b865325a37c6b49d5f05ed40ddecac1e883"
+          },
+          {
+            "frame": 945,
+            "seconds": 31.5,
+            "rgb_sha256": "b473ed18a3bf75ffc9154fd6dbb15937df4ce3e3decbc0002a91561e20f6121e"
+          },
+          {
+            "frame": 960,
+            "seconds": 32.0,
+            "rgb_sha256": "d90a5dceee80dc2df69b31f63996dfd38049eb3e04bca8d30e0d77a9cbad0c53"
+          },
+          {
+            "frame": 975,
+            "seconds": 32.5,
+            "rgb_sha256": "ac9b57f36569dcf25ef1854dbac541e35701afc58c4362bc6d29222f5fded36e"
+          },
+          {
+            "frame": 990,
+            "seconds": 33.0,
+            "rgb_sha256": "2560dbc2666d5107404dfd3cc6ae283b83377467b66e27fb887ae8c804e0fa61"
+          },
+          {
+            "frame": 1005,
+            "seconds": 33.5,
+            "rgb_sha256": "275a3445cf74fdb6d8f552d7a6c71132fcbffa1e5076fd354938c23f5088f833"
+          },
+          {
+            "frame": 1020,
+            "seconds": 34.0,
+            "rgb_sha256": "6af684237da473563d4ac508eb70dddbab72b54da8af0365d03bebb505ff0680"
+          },
+          {
+            "frame": 1035,
+            "seconds": 34.5,
+            "rgb_sha256": "9e4a7c0c02b431488cd3bb45fc022543b9a173719b3f836cf39dba3ff21b73b9"
+          },
+          {
+            "frame": 1050,
+            "seconds": 35.0,
+            "rgb_sha256": "dec8d28f1508c7d7ca789bcf28972cd021e4d946ee4c7a14b9e09f922b237915"
+          },
+          {
+            "frame": 1065,
+            "seconds": 35.5,
+            "rgb_sha256": "eba274d0a2143c0df21c710843d41be22f0cd136ce0e62122d823bd5ed078084"
+          },
+          {
+            "frame": 1080,
+            "seconds": 36.0,
+            "rgb_sha256": "0a754b5adfd35c18dab132e39c280e70e690803e97081b437fcf2d08a0360f3c"
+          },
+          {
+            "frame": 1095,
+            "seconds": 36.5,
+            "rgb_sha256": "c73c2a95c74b51c2f3cc2d5e80de1824f349bd566f1abb2595fbb0ef593da121"
+          },
+          {
+            "frame": 1110,
+            "seconds": 37.0,
+            "rgb_sha256": "12af97f4cc93bce3db8fa927e33b1163b87e409ca45fc48c4910d2552fd2e474"
+          },
+          {
+            "frame": 1125,
+            "seconds": 37.5,
+            "rgb_sha256": "741112a1e8ebc05b069eac259dcb9a7c2cc20967263b93aa87225a8689e558b1"
+          }
+        ],
+        "contact_sheets_viewed": 7,
+        "decode_exit_status": 0,
+        "source_sha256": "41668d0784f0bba87865eaa5f63b6278471e15defc92c25b4633a1b74eadd6ff",
+        "local_report": "build/full-research/movie-dense-half/NEWSCAST/dense-frames.json"
+      },
+      "unreadable_details": [
+        "房间红色门牌和TV机壳微字分辨率不足可靠完整转写，保留且不计为已辨认画面词。"
+      ]
+    },
+    {
+      "resource": "MOVIES/WG_BOSS.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "d9cb5673fe86daa32dd15af3780ad8757cfe9100d494075f9f868887458de255",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 301,
+      "sample_indices": [
+        0,
+        150,
+        300
+      ],
+      "sample_rgb_sha256": [
+        "39a8bbb261e889b92f2613287c95ed01516b6f31a81a7ea260e7056e002fbeba",
+        "529e06152bf251e6605d960713562636f65dbfc74f107b2ad7b072b4f4bff6dd",
+        "165c735863a7b5a00d344ae189ca1b1914e24ba9fc29d7b08cd1e3c94be83cae"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "no-readable-english-in-half-second-samples",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "已看完整片每0.5秒接触表，未见可靠可读英语标题或剧情字幕条；不能排除间隔之间的快闪、低清设备微字。",
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 21,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "39a8bbb261e889b92f2613287c95ed01516b6f31a81a7ea260e7056e002fbeba"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "bbb49dc20afcf2896ba7f75b630b3ad956f6058f811977986bf460275259c011"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "4c9d023062ca33a27307e601f62a2e5c7778074d6f717bf218c5ed6f39289da4"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "9071f8fad33690cc7036c733d519946e477d381a4b0274ea99f4ef21d25eb7b4"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "f52bfc54537b8f9488afbb59637bd16c6b17d0a4e228fda958a01705de6d3bb5"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "fe38f8745e23e8216a905b034cb5aa1ff2ea148fc96f6294b0b35916e7516fb8"
+          },
+          {
+            "frame": 90,
+            "seconds": 3.0,
+            "rgb_sha256": "b987575314c249c3902b15ca87ebae239455592000b84c15fe93bacb8811e681"
+          },
+          {
+            "frame": 105,
+            "seconds": 3.5,
+            "rgb_sha256": "7e23e297af6e136c4d0642d7368fb47b80f3e5c054447a2686445ea81259fd8e"
+          },
+          {
+            "frame": 120,
+            "seconds": 4.0,
+            "rgb_sha256": "353c29ea111688057791e1ad2682fb8ed152ae1ba40e87585ff5726c4e382191"
+          },
+          {
+            "frame": 135,
+            "seconds": 4.5,
+            "rgb_sha256": "7749e7e4d830b07927555f37bb7e3f85e6ac1253f19234b421cab02580a716fb"
+          },
+          {
+            "frame": 150,
+            "seconds": 5.0,
+            "rgb_sha256": "529e06152bf251e6605d960713562636f65dbfc74f107b2ad7b072b4f4bff6dd"
+          },
+          {
+            "frame": 165,
+            "seconds": 5.5,
+            "rgb_sha256": "8e9ac5fa9e4bf16a73ffa4239bdb84b48e31a7b23646354cea3120f4e5a1eba0"
+          },
+          {
+            "frame": 180,
+            "seconds": 6.0,
+            "rgb_sha256": "f5e1cf9d321774716fc6164029864bfeb6ab49106b51d0e1264a9c25c67e85f9"
+          },
+          {
+            "frame": 195,
+            "seconds": 6.5,
+            "rgb_sha256": "b39fbb964f2a5859ec71bd88963951753dccae68d9c549e480cda2f345f6f2c0"
+          },
+          {
+            "frame": 210,
+            "seconds": 7.0,
+            "rgb_sha256": "c025a29a8455597109c7d201f7f1882bcee2c7d314eadd9f6e7e04b217b03a6e"
+          },
+          {
+            "frame": 225,
+            "seconds": 7.5,
+            "rgb_sha256": "a2e611b6d4b8e38c982e726affa074f4e3df2c3feacb78033562eb0b6cfaaae1"
+          },
+          {
+            "frame": 240,
+            "seconds": 8.0,
+            "rgb_sha256": "95f94346d2b4d7e83cb02fb8d94f991b87b6fd2fa4f05e8c070e94aef388a1d7"
+          },
+          {
+            "frame": 255,
+            "seconds": 8.5,
+            "rgb_sha256": "75e022c09598451f82bac85e940c52e9f76d1f104316b02bf7b8ea988b91ea04"
+          },
+          {
+            "frame": 270,
+            "seconds": 9.0,
+            "rgb_sha256": "ba82ee9b2cd24d17a3840e3c964add6510cb19810d120951d73617dc44cc0ed6"
+          },
+          {
+            "frame": 285,
+            "seconds": 9.5,
+            "rgb_sha256": "ee24e0c6346ce2f462002f29391543298f370a21057522072b97404dd0404339"
+          },
+          {
+            "frame": 300,
+            "seconds": 10.0,
+            "rgb_sha256": "165c735863a7b5a00d344ae189ca1b1914e24ba9fc29d7b08cd1e3c94be83cae"
+          }
+        ],
+        "contact_sheets_viewed": 2,
+        "decode_exit_status": 0,
+        "source_sha256": "d9cb5673fe86daa32dd15af3780ad8757cfe9100d494075f9f868887458de255",
+        "local_report": "build/full-research/movie-dense-half/WG_BOSS/dense-frames.json"
+      }
+    },
+    {
+      "resource": "MOVIES/WG_BOSS2.AVI.REFORMATTED.AVI.IVF",
+      "source_sha256": "43250e2cee0641354c6215c90081a3af5d0f9c51c2b45ceaa4bd0acca98a6e2b",
+      "native_size": [
+        400,
+        240
+      ],
+      "frame_count": 301,
+      "sample_indices": [
+        0,
+        150,
+        300
+      ],
+      "sample_rgb_sha256": [
+        "651d35de2bb9ea9f531c2a48a9503df006e8b87908035f823150ce8ba3dd95a5",
+        "9e3bba2214146e30eff6983b9a2f84dea41173adf9c4ceea6d103c928f1e3025",
+        "b4e51eb3fb9e18f8a309de07fd1ba52f73f1a0ad9b31490f3615cc7ea3cc721f"
+      ],
+      "inspection": "Original first/middle/last plus every0.5seconds native400x240 frames; all contact sheets visually reviewed; source PNGs only in ignored build/",
+      "classification": "no-readable-english-in-half-second-samples",
+      "source_texts": [],
+      "target_texts": [],
+      "notes": "已看完整片每0.5秒接触表，未见可靠可读英语标题或剧情字幕条；不能排除间隔之间的快闪、低清设备微字。",
+      "dense_audit": {
+        "interval_seconds": 0.5,
+        "sample_count": 21,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "rgb_sha256": "651d35de2bb9ea9f531c2a48a9503df006e8b87908035f823150ce8ba3dd95a5"
+          },
+          {
+            "frame": 15,
+            "seconds": 0.5,
+            "rgb_sha256": "a482473acd0ed26f3764d4bc62d0c6fe5b0eb5dcd9f699a79d2db020734f0562"
+          },
+          {
+            "frame": 30,
+            "seconds": 1.0,
+            "rgb_sha256": "1117507d4928d8004c7f965c3351566fbaa8106e8ad1d9d90b21e8f7efa36d9a"
+          },
+          {
+            "frame": 45,
+            "seconds": 1.5,
+            "rgb_sha256": "6af008e188c9cbe82866ca90b8b595c7c03344ec9947867227a8adcef8596bf1"
+          },
+          {
+            "frame": 60,
+            "seconds": 2.0,
+            "rgb_sha256": "c8f7732b104e4fbc27f72a5dcf37f3a67fb07f24fe06985a4ad9b92f7bba9a84"
+          },
+          {
+            "frame": 75,
+            "seconds": 2.5,
+            "rgb_sha256": "a8294f4207f4016ab561d29dc81439b773105d4803bd5715d57630498426e9d9"
+          },
+          {
+            "frame": 90,
+            "seconds": 3.0,
+            "rgb_sha256": "071d28e9ba565f312a55b3c50d19115a9bdcf29f0762e9497cab4eb54b75c2d6"
+          },
+          {
+            "frame": 105,
+            "seconds": 3.5,
+            "rgb_sha256": "cdc294e59897836408960cb7aa06cf4389925c5f0fef49e66d551798d37b6d58"
+          },
+          {
+            "frame": 120,
+            "seconds": 4.0,
+            "rgb_sha256": "33944a2d1634dba673451e157dc7fd49f589fef627f1a92dbb297e74f8238c73"
+          },
+          {
+            "frame": 135,
+            "seconds": 4.5,
+            "rgb_sha256": "80d83296bb049a85e14c012e84acebac4df46a308f5a7280d0bb18db01087e01"
+          },
+          {
+            "frame": 150,
+            "seconds": 5.0,
+            "rgb_sha256": "9e3bba2214146e30eff6983b9a2f84dea41173adf9c4ceea6d103c928f1e3025"
+          },
+          {
+            "frame": 165,
+            "seconds": 5.5,
+            "rgb_sha256": "61a54a333ac3a872abfb79350e6d7de219d79e97a4cbdd7c2d8c061ab7db59e1"
+          },
+          {
+            "frame": 180,
+            "seconds": 6.0,
+            "rgb_sha256": "bd354136c08a7946d1433d510940f9fc0ea4b52526f3cc3f05cfc994773755eb"
+          },
+          {
+            "frame": 195,
+            "seconds": 6.5,
+            "rgb_sha256": "697f9ec679df9d8271635fdcd221456176fb6619d489973ca424f3fc8428c7b7"
+          },
+          {
+            "frame": 210,
+            "seconds": 7.0,
+            "rgb_sha256": "c6f744a4ff28fac818c0f31feb41f687cfae9893122402fa765835349925f0dc"
+          },
+          {
+            "frame": 225,
+            "seconds": 7.5,
+            "rgb_sha256": "f16a1619ac0dfb9073ad67aead3c7993ad45d1329593a743692a3f608be20efe"
+          },
+          {
+            "frame": 240,
+            "seconds": 8.0,
+            "rgb_sha256": "a4040e3cf3c9e82e424d24a10ce0fc820f585510348cf2d2b5f4f4d0153ccaed"
+          },
+          {
+            "frame": 255,
+            "seconds": 8.5,
+            "rgb_sha256": "7b735dc6c3e00404b83f640dfc3696e7b27b86a6b12f42eb8db98edebddcd272"
+          },
+          {
+            "frame": 270,
+            "seconds": 9.0,
+            "rgb_sha256": "3ead1aa7c4c69c4255e7e38d16c93216b98da626d40c364ed34da76016745706"
+          },
+          {
+            "frame": 285,
+            "seconds": 9.5,
+            "rgb_sha256": "5465ea0d9625a4939a195f3d12092d5f74c4589c81822319730222fd00ee6965"
+          },
+          {
+            "frame": 300,
+            "seconds": 10.0,
+            "rgb_sha256": "b4e51eb3fb9e18f8a309de07fd1ba52f73f1a0ad9b31490f3615cc7ea3cc721f"
+          }
+        ],
+        "contact_sheets_viewed": 2,
+        "decode_exit_status": 0,
+        "source_sha256": "43250e2cee0641354c6215c90081a3af5d0f9c51c2b45ceaa4bd0acca98a6e2b",
+        "local_report": "build/full-research/movie-dense-half/WG_BOSS2/dense-frames.json"
+      }
+    }
+  ],
+  "limits": "Half-second (15-frame at30fps) visual samples for all34 movies,633 frames/68 contact sheets; not exhaustive per-frame visual proof; fast transient or illegible text may remain.",
+  "dense_movie_groups": 34,
+  "dense_interval_seconds": 0.5,
+  "dense_samples": 633,
+  "dense_contact_sheets": 68,
+  "dense_all_contact_sheets_viewed": true
+}
