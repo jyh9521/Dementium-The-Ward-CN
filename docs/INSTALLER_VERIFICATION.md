@@ -1,3 +1,27 @@
+# v1.0：已试玩候选的安装包
+
+2026-10-23。用户报告新副本约20分钟简测未见明显问题，现授权生成v1.0安装器供其覆盖Steam目录进一步测试；自动化仍不启动游戏或写Steam原安装目录。简测不代表全流程/最终美术验收。
+
+- 文件：`dist/Dementium-The-Ward-zh-CN-v1.0-Setup.exe`；通用名称副本字节相同。
+- 体积：78,274,109 bytes。SHA256：`beea24d0709979ce4ebf74595f0f518a8db67e495945b585cfb36030e87dedce`。
+- UI/产品版本1.0，PE文件/程序集版本1.0.0.0。
+- Python268项、C#59项全部通过；真实嵌入载荷在额外副本完成原版检查→安装→重复安装→恢复→原SHA检查。
+- source-copy/add流独立重复生成相同；两次发布安装器字节相同。
+- 三尺寸/缩放WPF原生预览通过，原图标PNG在PE资源中逐字节核对，顶图源身份不变；未重画UI素材。
+- 载荷ZAR目标：`bf4d6c52b7912f6216bd4662a15ba0948048f38dabbde2f734945506339c005f`；EXE目标：`d426d3065b7fdf530d3fd48c9f117d3bb7339bf67c1252f600b68e5f32a8b7f0`，与已试玩副本一致。
+- 旧安装器完整身份与可执行文件保留于`build/installer/baseline-v1.1.1`，SHA仍为`77ad756c7a144f0973b6b907caaf593629ff5b3089968c4f178252976375e984`。
+
+四证据文件：`build/installer/MODIFIED_FILE.exe`、`DIFF_FILE.json`、`VERIFICATION.txt`、可执行`ROLLBACK.sh`。最后一项只恢复额外构建副本；Steam安装后的恢复使用安装器“恢复原版”。所有精确命令/输入/字面输出/退出码记录于VERIFICATION.txt。
+
+复现命令：
+
+```powershell
+python -X utf8 tools/build_installer.py --game "C:/Program Files (x86)/Steam/steamapps/common/Dementium - The Ward" --build build/framed-artwork-release --dotnet "C:/path/to/dotnet.exe" --output dist/Dementium-The-Ward-zh-CN-v1.0-Setup.exe
+python -X utf8 tools/record_installer_verification.py --build build/framed-artwork-release
+```
+
+## 历史v1.1.1安装器记录
+
 # v1.1.1：四项实测反馈修复与离线验证
 
 2026-10-23。自动化没有启动游戏或写Steam目录；用户截图是本轮修复依据，修复后实际渲染/听音由用户复测。

@@ -39,6 +39,20 @@ class InstallerBuildTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'repository dist'):
             workspace(ROOT/'build/not-a-release.exe','dist')
 
+    def test_installer_versions_have_one_display_source(self):
+        import re
+        config=json.loads((ROOT/'locales/zh-CN/installer.json').read_text(encoding='utf8'))
+        assembly=(ROOT/'installer/AssemblyInfo.cs').read_text(encoding='utf8')
+        code=(ROOT/'installer/MaterialWindow.xaml.cs').read_text(encoding='utf8')
+        self.assertIn('payload.Settings.version',code)
+        self.assertNotIn(' · v1.0',code)
+        actual=re.search(r'AssemblyInformationalVersion\("([^"\)]+)"\)',assembly).group(1)
+        self.assertEqual(actual,config['version'])
+        expected=(config['version']+'.0.0.0').split('.')[:4]
+        for attribute in ('AssemblyVersion','AssemblyFileVersion'):
+            found=re.search(attribute+r'\("([^"\)]+)"\)',assembly).group(1)
+            self.assertEqual((found+'.0.0.0').split('.')[:4],expected)
+
     def test_material_ui_and_current_game_identity(self):
         xaml=(ROOT/'installer/MaterialWindow.xaml').read_text(encoding='utf-8')
         code=(ROOT/'installer/MaterialWindow.xaml.cs').read_text(encoding='utf-8')

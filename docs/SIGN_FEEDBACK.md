@@ -48,4 +48,4 @@ python -X utf8 tools/verify_sample.py --output build/framed-artwork-release
 & "C:/Program Files/Git/bin/bash.exe" ./build/framed-artwork-release/ROLLBACK.sh
 ```
 
-本次不启动游戏、不更新安装器。新待测副本为build/framed-artwork-release/sample。原生指令、像素、重复构建与隔离恢复不等于场景/GPU验收；用户退出旧进程后，用新副本检查屋顶、东西楼1—7楼、其他框内文字、死亡双状态、字幕与病历标点。
+美术返工阶段未启动游戏或更新安装器；用户约20分钟简测后，已按其要求另行生成v1.0安装包，见INSTALLER_VERIFICATION.md。新待测副本为build/framed-artwork-release/sample。原生指令、像素、重复构建与隔离恢复不等于场景/GPU验收；用户退出旧进程后，用新副本检查屋顶、东西楼1—7楼、其他框内文字、死亡双状态、字幕与病历标点。

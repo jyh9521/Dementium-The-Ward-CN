@@ -1,6 +1,6 @@
 # 用户手动测试：全量离线候选
 
-> 最新门牌/美术返工候选（本轮未生成安装包）：`build/framed-artwork-release/sample`，使用`verify_sample.py --output build/framed-artwork-release`。安装器操作见[INSTALLER.md](INSTALLER.md)。全文使用最新候选；历史build/full及build/debug-menu不用于本轮验收。
+> 最新门牌/美术返工候选（用户简测后已打包v1.0）：`build/framed-artwork-release/sample`，使用`verify_sample.py --output build/framed-artwork-release`。安装器操作见[INSTALLER.md](INSTALLER.md)。全文使用最新候选；历史build/full及build/debug-menu不用于本轮验收。
 
 本项目工具没有启动游戏或写Steam安装目录。以下启动、游戏操作和截图均由用户执行；当前只有离线验收。
 
@@ -16,7 +16,7 @@
 
 ## 纵轴布局继续回归
 
-本轮旧安装器不含新修正，请使用下面的新sample，不要重复安装旧安装器来测本项。
+新v1.0安装器已含本轮修正，可由用户安装到Steam目录继续测试；旧v1.1.1及其他历史安装器不含新修正。
 
 1. 原先测试进程退出后，再启动build/framed-artwork-release/sample中的Dementium.exe，核对进程路径。
 2. “纵轴：正常”与“纵轴：反转”应在同一水平线，左侧按键图标与文字间有明显留白，图标垂直居中。

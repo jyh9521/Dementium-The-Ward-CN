@@ -2,7 +2,7 @@
 
 Dementium: The Ward，Steam AppID **3909960**，受支持原版 **build21501403 / Windows x64**。
 
-当前为全量汉化的可复现离线候选构建，**未启动游戏，尚待玩家实际画面与流程验收**。已提供自包含安装器候选，尚未发布正式Release。
+当前为全量汉化的可复现离线候选构建，**未启动游戏，尚待玩家实际画面与流程验收**。用户约20分钟简测未见明显问题；现已提供v1.0自包含安装器供Steam目录实装测试，尚未发布正式Release。
 
 ## 内容与技术
 
@@ -33,7 +33,7 @@ python -X utf8 tools/verify_sample.py --output build/framed-artwork-release
 
 ## 安装器
 
-`dist/Dementium-The-Ward-zh-CN-Setup.exe`（v1.1.1，历史安装器，不含本轮美术返工）：病房2同款Material Design 3界面，采用用户提供图标与顶图；自动检测/选择rom.zar、检查资源、安装汉化、恢复原版。仅支持受支持原版或本版已安装文件的完整身份；存档/设置不变，不启动游戏。[使用与重建](docs/INSTALLER.md)。
+`dist/Dementium-The-Ward-zh-CN-v1.0-Setup.exe`（用户指定v1.0，包含最新美术返工）：病房2同款Material Design 3界面，采用用户提供图标与顶图；自动检测/选择rom.zar、检查资源、安装汉化、恢复原版。仅支持受支持原版或本版已安装文件的完整身份；存档/设置不变，不启动游戏。[使用与重建](docs/INSTALLER.md)。
 
 本轮31条短说明去掉末尾句号；真正文档/信件/对白不变。确认旧版3张重绘证据不足，已撤回并原样保留，见[图片复审](docs/IMAGE_READABILITY_REVIEW.md)。
 
