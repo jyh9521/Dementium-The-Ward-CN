@@ -49,3 +49,7 @@
 ## v1.0 候选收尾
 
 31条已分类短说明只删除末尾句号，受保护文档/对白指纹不变；图片严格复审撤回notepad、wboard02、code03推补式重绘，保留26项可读源美术差分。Material Design 3安装器沿用病房2界面但以本作完整双文件SHA+流式source-relative载荷替换后端，独立副本验证安装/恢复。见[句末规范](docs/PUNCTUATION_STYLE.md)、[图片复审](docs/IMAGE_READABILITY_REVIEW.md)、[安装器](docs/INSTALLER.md)。
+
+## 视频载荷体积调查
+
+2026-10-23：保留全部原电影、其余成员改动不变的离线消融实验，把资源差分从165,935,904降至1,567,487 bytes。原生影院的stem、Mux媒体时钟及绘制入口提供运行时字幕实现基础，但新的影院字幕/标题层尚未实现，不以缺少电影汉化的实验归档代替当前完整候选。复现、哈希、证据与剩余风险见[原视频叠字可行性](docs/MOVIE_OVERLAY_FEASIBILITY.md)。
