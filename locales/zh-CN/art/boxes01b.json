@@ -6392,6 +6392,12 @@
       127,
       120,
       128
+    ],
+    [
+      0,
+      0,
+      64,
+      32
     ]
   ],
   "import_recipe": {
@@ -6419,5 +6425,6 @@
     "resampling": "LANCZOS",
     "source_alpha_preserved": true,
     "target": "医疗/用品"
-  }
+  },
+  "unreadable_source_policy": "Original native pixels only; generated enlargement is not transcription evidence. No guessed translation or redraw of this protected small-print region."
 }

@@ -20,7 +20,14 @@
   "workflow": "imagegen artwork edit, reviewed import; no runtime pixel-font overlay",
   "prompt": "Reviewed Chinese label-only crop; original atlas UV, technical symbols, Japanese partial microtext and blood occlusion preserved.",
   "alpha_policy": "preserve-source",
-  "protected_regions": [],
+  "protected_regions": [
+    [
+      0,
+      0,
+      64,
+      32
+    ]
+  ],
   "import_recipe": {
     "generated_png_sha256": "5ad3d8ffea4805619381fb07da8a4154427e0bf9f100458cc8e2c03dfc49e6b2",
     "generated_size": [
@@ -46,5 +53,6 @@
     "resampling": "LANCZOS",
     "source_alpha_preserved": true,
     "target": "医疗/用品"
-  }
+  },
+  "unreadable_source_policy": "Original native pixels only; generated enlargement is not transcription evidence. No guessed translation or redraw of this protected small-print region."
 }

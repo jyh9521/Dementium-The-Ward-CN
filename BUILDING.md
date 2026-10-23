@@ -1,4 +1,6 @@
-> 当前纵轴布局测试输出：build/yaxis-alignment。本轮暂不运行build_installer.py；现有dist安装器保持原SHA。构建/回放命令见docs/YAXIS_LAYOUT.md，待用户确认后再打包。
+> 最新门牌/框内定位/死亡双状态待测输出：build/framed-artwork-release。此轮不更新安装器；验证命令及源小字保护见docs/SIGN_FEEDBACK.md。
+
+> 历史纵轴布局测试输出：build/yaxis-alignment。本轮暂不运行build_installer.py；现有dist安装器保持原SHA。构建/回放命令见docs/YAXIS_LAYOUT.md，待用户确认后再打包。
 
 # 全量离线构建与隔离恢复
 

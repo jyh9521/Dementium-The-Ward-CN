@@ -1,14 +1,24 @@
 # 用户手动测试：全量离线候选
 
-> 纵轴布局测试候选（本轮未生成安装包）：`build/yaxis-alignment/sample`，使用`verify_sample.py --output build/yaxis-alignment`。安装器操作见[INSTALLER.md](INSTALLER.md)。全文使用最新候选；历史build/full及build/debug-menu不用于本轮验收。
+> 最新门牌/美术返工候选（本轮未生成安装包）：`build/framed-artwork-release/sample`，使用`verify_sample.py --output build/framed-artwork-release`。安装器操作见[INSTALLER.md](INSTALLER.md)。全文使用最新候选；历史build/full及build/debug-menu不用于本轮验收。
 
 本项目工具没有启动游戏或写Steam安装目录。以下启动、游戏操作和截图均由用户执行；当前只有离线验收。
 
-## 本轮纵轴布局优先测试
+## 本轮门牌与美术优先测试
+
+1. 用屋顶附近存档检查“屋顶”方向、授权牌上缘不残留其他字形。
+2. 逐层检查东/西楼1—7楼门牌，数字和方向正确。
+3. 检查原风格的框内文字水平/垂直居中，切换实际使用的画质/缩放。
+4. 死亡两状态都应为“你已咽下／最后一口气”，字形、装饰、位置相同，只改变亮度/光泽。
+5. 病历与相应字幕使用前后空格的ASCII减号；箱子不明日文样式小字保持原样，不属于猜译遗漏。
+
+来源/保护与离线证据见[SIGN_FEEDBACK.md](SIGN_FEEDBACK.md)。
+
+## 纵轴布局继续回归
 
 本轮旧安装器不含新修正，请使用下面的新sample，不要重复安装旧安装器来测本项。
 
-1. 原先测试进程退出后，再启动build/yaxis-alignment/sample中的Dementium.exe，核对进程路径。
+1. 原先测试进程退出后，再启动build/framed-artwork-release/sample中的Dementium.exe，核对进程路径。
 2. “纵轴：正常”与“纵轴：反转”应在同一水平线，左侧按键图标与文字间有明显留白，图标垂直居中。
 3. 切换键盘/手柄图例以及窗口/全屏，确认按钮图案完整、未缩放变形，输入及设置切换仍正常。
 4. 新副本回归上一轮已修复内容；旧build/ui-feedback-release/sample没有覆盖，便于对照。
@@ -25,7 +35,7 @@
 
 ## 上轮通用回归参考（既有安装器不含本次纵轴修正）
 
-1. 建议先对最新 `build/yaxis-alignment/sample` 测试，不必先改 Steam 安装目录；本轮只测新sample，既有安装器不含本次纵轴修正。
+1. 建议先对最新 `build/framed-artwork-release/sample` 测试，不必先改 Steam 安装目录；本轮只测新sample，既有安装器不含本次纵轴修正。
 2. 若实际目录已装旧 v1.1，请先用旧安装器检查资源→恢复原版，再用 v1.1.1 安装。不要直接覆盖旧版两文件或删除 `cn-backup`。保留的旧安装器为 `build/ui-feedback-release/baseline/Dementium-The-Ward-zh-CN-Setup.exe`。
 3. 电影内容顺序优先：INTRO/AMANDA01内嵌章名→独立章节卡→NEWSCAST上下同时字幕→GENERATOR对白→门牌顶部译注。检查英文标题不残留、红饰未遮挡、渐隐正确、剧情开始后遮罩消失。
 4. 对电影执行跳过/重播、连续切片、暂停/恢复（游戏该路径支持时）；检查前片字幕没有黏在下一片，声音/画面时轴没有累计漂移。
@@ -57,7 +67,7 @@ Get-Content -LiteralPath "$root/build/yaxis-alignment/VERIFICATION.txt"
 Get-CimInstance Win32_Process -Filter "name='Dementium.exe'" | Select-Object ExecutablePath,CommandLine
 ```
 
-实际路径应在build/yaxis-alignment/sample。若出现要求Steam启动、重定向、报错或崩溃，记录提示、进程路径与日志后结束本轮；不向Steam安装目录复制改件。
+实际路径应在build/framed-artwork-release/sample。若出现要求Steam启动、重定向、报错或崩溃，记录提示、进程路径与日志后结束本轮；不向Steam安装目录复制改件。
 
 ## 3. 手动验收清单
 
@@ -77,8 +87,8 @@ Get-CimInstance Win32_Process -Filter "name='Dementium.exe'" | Select-Object Exe
 
 ```powershell
 & "C:/Program Files/Git/bin/bash.exe" "$root/ROLLBACK_LOCALE.sh" "$root/build/yaxis-alignment"
-Copy-Item -LiteralPath "$root/build/yaxis-alignment/rollback-sample/rom.zar" -Destination "$root/build/yaxis-alignment/sample/rom.zar"
-Copy-Item -LiteralPath "$root/build/yaxis-alignment/rollback-sample/Dementium.exe" -Destination "$root/build/yaxis-alignment/sample/Dementium.exe"
+Copy-Item -LiteralPath "$root/build/yaxis-alignment/rollback-sample/rom.zar" -Destination "$root/build/framed-artwork-release/sample/rom.zar"
+Copy-Item -LiteralPath "$root/build/yaxis-alignment/rollback-sample/Dementium.exe" -Destination "$root/build/framed-artwork-release/sample/Dementium.exe"
 python -X utf8 "$root/tools/verify_sample.py" --output "$root/build/yaxis-alignment" --restored
 ```
 

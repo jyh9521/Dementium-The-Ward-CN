@@ -18,14 +18,14 @@
 |Machine Gun / Sniper Rifle|机枪 / 狙击步枪|本作武器|
 |Amanda|阿曼达|与病房2一致；病历/制作人员真人姓名保留原拼写|
 |Redmoor / Redmoor Hospital|雷德穆尔 / 雷德穆尔医院|地名沿用病房2；电影姓氏拉丁拼写按音近推断|
-|West / East Building|西楼 / 东楼|地图与文档一致；牌面7W/7E等楼层ID保留|
+|West / East Building|西楼 / 东楼|地图与文档一致；牌面7W/7E等显示标记译为西7楼/东7楼，数字与东西楼关系不变；内部关卡ID不改|
 |Guard Tower|岗楼|本作门禁提示；非额外地点猜测|
 |Pharmacy|药房|场景导向牌|
 |Examination Room / Linen|检查室 / 布草间|场景导向牌|
 |Maintenance|维修区|牌面；Glove为维修手套|
 |Security / Patient Ward / Lounge|安保区 / 病房 / 休息室|场景牌面|
 |Roof Access / Roof / Morgue|通往屋顶 / 屋顶 / 停尸房|sign06侧ROOF，sign07侧MORGUE，不能合并|
-|Cafeteria / Emergency / Surgery / Basement|食堂 / 急诊 / 手术室 / 地下室|保留对应楼层ID与箭头|
+|Cafeteria / Emergency / Surgery / Basement|食堂 / 急诊 / 手术室 / 地下室|楼层牌显示东1楼/西1楼，保留数字、对应关系与箭头|
 |Pat's Pantry / Suzy's Apparels / Duencil DRUG|帕特食品店 / 苏茜服饰店 / 杜恩西尔药店|低清店名按可见字样音译，待场景核对|
 |Demented|癫狂|最高难度名；不推断数值|
 |John Doe / Jane Doe|无名氏（男）/ 无名氏（女）|匿名病人称谓，不据此推断主角身份|

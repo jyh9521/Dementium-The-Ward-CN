@@ -803,7 +803,7 @@
           "start": 8.54,
           "end": 10.72,
           "source": "Oh man, we're gonna—",
-          "target": "天哪，我们要——",
+          "target": "天哪，我们要 - ",
           "status": "translated-asr-consensus",
           "notes": "medium/large均为被打断的句子；不采small hallucinated fall，不擅自补全死/掉下去。"
         }

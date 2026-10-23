@@ -15,6 +15,8 @@ from PIL import Image, ImageDraw
 from art_delta import apply
 from engine_image import EngineImage
 from texture import Texture
+from center_artwork import verify_alignment
+from paired_artwork import lighting_variant
 
 
 def _sha(raw):
@@ -114,7 +116,7 @@ def build_art(z,c,config_path):
     config=json.loads(path.read_text(encoding='utf-8'))
     if config.get('schema')!=1 or not isinstance(config.get('patches'),list):
         raise ValueError('Unsupported artwork configuration')
-    inner={};outer={};records=[];preserved=[]
+    inner={};outer={};records=[];preserved=[];paired=[]
     protected=set()
     for entry in config.get('preserve_source',[]):
         scope=entry['scope'];name=entry['resource']
@@ -153,6 +155,8 @@ def build_art(z,c,config_path):
             codec=Texture(raw,expected_sha256=entry['source_sha256'],expected_header=entry.get('header_words',(122,32)))
             original=Image.frombytes('RGBA',(codec.width,codec.height),codec.rgba)
         edited=apply(original,patch)
+        aligned_labels=verify_alignment(edited,patch)
+        if 'pair' in patch:paired.append((patch['pair'],edited))
         alpha_policy=entry.get('alpha_policy',patch.get('alpha_policy','preserve-source'))
         changed=_validate_art(original,edited,patch,alpha_policy)
         if scope=='inner':encoded,extra=rebuild_mips(codec,edited,alpha_policy=alpha_policy,regions=patch['reviewed_regions'])
@@ -166,7 +170,23 @@ def build_art(z,c,config_path):
         records.append(dict(resource=name,scope=scope,source_sha256=actual,
                             output_sha256=_sha(encoded),source_pixels_sha256=patch['source_pixels_sha256'],
                             output_pixels_sha256=patch['output_pixels_sha256'],changed_pixels=changed,
+                            aligned_labels=aligned_labels,
                             dimensions_unchanged=True,**extra))
+    pair_checks=[]
+    if paired:
+        if len(paired)!=2:raise ValueError('Artwork lighting pair must contain two states')
+        canonical=next((v for v in paired if v[0]['role']=='canonical'),None)
+        variant=next((v for v in paired if v[0]['role']=='derived-lighting-only'),None)
+        if canonical is None or variant is None:raise ValueError('Artwork lighting pair roles mismatch')
+        metadata,source=canonical;other,target=variant
+        if metadata['canonical_pixels_sha256']!=other['canonical_pixels_sha256']:
+            raise ValueError('Artwork pair has independent geometry')
+        expected,mask=lighting_variant(source,metadata['lighting_box'],metadata['lighting_gains'])
+        if expected.tobytes()!=target.tobytes() or _sha(mask.tobytes())!=metadata['reflectance_mask_sha256']:
+            raise ValueError('Artwork pair differs by more than shared lighting/gloss')
+        pair_checks.append(dict(common_geometry=True,derived_lighting_exact=True,
+                                top_text=metadata['top_text'],bottom_text=metadata['bottom_text']))
     return inner,outer,dict(schema=1,images=records,image_count=len(records),inner_count=len(inner),
                             outer_count=len(outer),preserved_sources=preserved,
+                            centered_labels=sum(r['aligned_labels'] for r in records),artwork_lighting_pairs=pair_checks,
                             verification='offline source-dependent art and complete mipmap rebuild; no game launch')
