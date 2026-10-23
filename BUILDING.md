@@ -14,9 +14,9 @@
 $game = "C:/Program Files (x86)/Steam/steamapps/common/Dementium - The Ward"
 python -m pip install -r requirements.txt
 python -X utf8 -m unittest discover -s tests -v
-python -X utf8 tools/record_locale_verification.py --game "$game" --output build/release-candidate
-python -X utf8 tools/verify_sample.py --output build/release-candidate
-& "C:/Program Files/Git/bin/bash.exe" ./build/release-candidate/ROLLBACK.sh
+python -X utf8 tools/record_locale_verification.py --game "$game" --output build/ui-feedback-release
+python -X utf8 tools/verify_sample.py --output build/ui-feedback-release
+& "C:/Program Files/Git/bin/bash.exe" ./build/ui-feedback-release/ROLLBACK.sh
 python -X utf8 tools/investigate.py check-input --game "$game"
 ```
 
@@ -33,7 +33,7 @@ python -X utf8 tools/investigate.py check-input --game "$game"
 7. 重复完整构建比较；差分正反向验证；准备sample后复核原9文件身份。
 8. 恢复只写rollback-sample的两文件，不覆盖modified及sample。逆序移除电影覆盖、debug、场内字幕、固定字面量层、UTF-8补丁，归档恢复原SHA。
 
-建议显式使用--output build/release-candidate；未指定时工具默认build/full/只为历史兼容。MODIFIED_FILE.zar、MODIFIED_EXECUTABLE.exe为待测改件；DIFF_FILE.json包含本地可逆差分，可能携带整个变更TAR/媒体，禁止提交。VERIFICATION.txt/verification.json记录实际命令、输入、字面输出与退出码；ROLLBACK.sh是可执行恢复包装器。native-replay.json、preserved-locales-replay.json、audio-replay.json、images.json记录分层证据。
+建议显式使用--output build/ui-feedback-release；未指定时工具默认build/full/只为历史兼容。MODIFIED_FILE.zar、MODIFIED_EXECUTABLE.exe为待测改件；DIFF_FILE.json包含本地可逆差分，可能携带整个变更TAR/媒体，禁止提交。VERIFICATION.txt/verification.json记录实际命令、输入、字面输出与退出码；ROLLBACK.sh是可执行恢复包装器。native-replay.json、preserved-locales-replay.json、audio-replay.json、images.json记录分层证据。
 
 输出树必须位于仓库build/，并拒绝symlink、reparse与多硬链接普通文件。原版目录不是写入目标。用户实际测试后产生的未知文件不会被构建工具擅自删除；先自行归档日志再重建。
 
@@ -125,23 +125,27 @@ python -X utf8 tools/record_verification.py --game "$game" --bash "C:/Program Fi
 
 ## 独立 F1 与简体中文调试菜单
 
-当前构建从 `locales/<locale>/debug-menu.json` 读取本作原生命令表及状态译文，生成字形并在 UTF-8/音频 overlay 后增加受守卫的独立 F1 层。L3+Y 仍受原手柄秘密序列启用状态控制。不启用整套键盘模拟手柄。新一轮验证使用 `--output build/release-candidate`，样本及恢复均只写该目录。
+当前构建从 `locales/<locale>/debug-menu.json` 读取本作原生命令表及状态译文，生成字形并在 UTF-8/音频 overlay 后增加受守卫的独立 F1 层。L3+Y 仍受原手柄秘密序列启用状态控制。不启用整套键盘模拟手柄。新一轮验证使用 `--output build/ui-feedback-release`，样本及恢复均只写该目录。
 
 完整重建、精确入口、复用来源和人工测试见 [调试菜单](docs/DEBUG_MENU.md)。`build/full` 旧样本不是本次调试入口候选。每次变更需完整重复构建、原指令回放及逆序恢复，通过后才使用新 sample。
 
 
 ## v1.0 安装器与本轮修正
 
-当前候选是 `build/release-candidate/sample`。31条单句短说明只删最后句号，文档/信件/对白不改；分类与回归见 [PUNCTUATION_STYLE.md](docs/PUNCTUATION_STYLE.md)。撤回notepad、wboard02、code03三张推补式重绘并锁定原资源；现为23 inner +3 outer美术差分、49张程序化UI，见 [图片复审](docs/IMAGE_READABILITY_REVIEW.md)。此前build/full及build/debug-menu样本保留历史，不能用于验收本轮修正。
+当前候选是 `build/ui-feedback-release/sample`。31条单句短说明只删最后句号，文档/信件/对白不改；分类与回归见 [PUNCTUATION_STYLE.md](docs/PUNCTUATION_STYLE.md)。撤回notepad、wboard02、code03三张推补式重绘并锁定原资源；现为23 inner +3 outer美术差分、49张程序化UI，见 [图片复审](docs/IMAGE_READABILITY_REVIEW.md)。此前build/full及build/debug-menu样本保留历史，不能用于验收本轮修正。
 
 安装器复用病房2 Material Design 3 / MaterialDesignThemes 5.3.2布局、动效、自动检测、日志和确认弹层；图标和顶图直接使用用户提供文件，ICO嵌入原PNG不重绘。引擎与载荷为本作重写，完整SHA/大小绑定EXE+ZAR，不继承病房2宽松资源识别或偏移。
 
 需要.NET 10 SDK（本轮10.0.402），不是只有runtime。显式指定SDK，可用全新机器的任意安装路径，不依赖旧项目未记录中间文件：
 
 ```powershell
-python -X utf8 tools/build_installer.py --game "$game" --build build/release-candidate --dotnet "C:/path/to/dotnet.exe"
+python -X utf8 tools/build_installer.py --game "$game" --build build/ui-feedback-release --dotnet "C:/path/to/dotnet.exe"
 ```
 
 生成 `dist/Dementium-The-Ward-zh-CN-Setup.exe`，自包含Windows x64，不要求玩家安装Python或.NET。先独立生成两次gzip source-copy/add差分并比对；Python重建后核对修改目标SHA；锁定依赖发布两次并比对EXE；C#实际嵌入资源在额外原件副本完成安装→重复安装→恢复，所有原输入仍只读。
 
 `build/installer/payload.manifest.json`记录源/目标大小和SHA；差分中的COPY引用用户自己的原文件，ADD仅写新增/修改字节。测试与UI预览均不启动游戏。安装/恢复总是两个文件一起处理，先生成并校验所有临时结果再提交；提交失败逆序恢复。`cn-backup`仅存对应完整原件，恢复时只删除已校验的已知备份，保留未知用户内容。详见 [安装与恢复](docs/INSTALLER.md)。
+
+本轮版本1.1.1。固定EXE字面量必须纳入字体收集，UTF8_RUNTIME.exe保存纯解码器层；字幕层严格验证并反向移除字面量后核对原runtime SHA。安装验证记录使用`tools/record_installer_verification.py --build build/ui-feedback-release`。
+
+最终产物字幕回归：`python -X utf8 tools/verify_ui_feedback.py --game "$game" --build build/ui-feedback-release`（两个ASLR基址，报告绑定最终EXE SHA）。

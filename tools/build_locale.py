@@ -56,6 +56,9 @@ def assemble(game,locale,include_images=True,media_output=None):
     p,i,d,fp,z,c,rows=inputs(game,locale)
     original_font=c.read(p['font']);old=BinFont(original_font)
     extra=[]
+    # Native option values need the same coverage gate as resource text.
+    literal_catalog=json.loads((d/'executable-text.json').read_text(encoding='utf-8'))
+    extra.extend(entry['target'] for entry in literal_catalog['entries'])
     for filename,key,cues in [('movie-subtitles.json','movies','segments'),('movie-onscreen-text.json','movies','cues'),('audio-subtitles.json','clips','cues')]:
         path=d/filename
         if path.exists():
@@ -95,14 +98,14 @@ def assemble(game,locale,include_images=True,media_output=None):
     outer[p['content']]=new_content
     archive=z.rebuild(outer)
     exe,runtime_recipe=patch_bytes((game/p['executable']).read_bytes())
-    exe,literal_recipe=build_executable(exe,json.loads((d/'executable-text.json').read_text(encoding='utf-8')))
     utf8_executable=exe
+    exe,literal_recipe=build_executable(exe,literal_catalog)
     overlay_recipe=None
     if include_images:
         from audio_subtitles import build_native_overlay
         catalog=json.loads((d/'audio-subtitles.json').read_text(encoding='utf-8'))
         members={row['resource']:z.read(row['resource']) for row in catalog['clips'] if row['cues']}
-        exe,overlay_recipe=build_native_overlay(exe,runtime_recipe,catalog,members,BinFont(font))
+        exe,overlay_recipe=build_native_overlay(exe,runtime_recipe,catalog,members,BinFont(font),literal_recipe=literal_recipe)
     debug_recipe=None
     if debug_catalog is not None:
         from debug_menu import build_debug_menu
@@ -237,7 +240,7 @@ def modified(game,out,locale,include_images=True):
         shutil.copyfile(source,sample/name)
         if filehash(source)!=filehash(sample/name):raise ValueError('Sample identity mismatch')
     if manifest(game)!=identity['files']:raise ValueError('Original installation changed')
-    report=dict(schema=1,locale=locale,field='loc/en/*; other-locale encoding; BMP font; decoder RVA 0xEA700; audio HUD RVA 0xBFF10; reviewed images; original IVF/DAT/OGG preserved; decoded-frame movie captions/annotations/titles RVA 0xBDBCA'+('; independent F1 raw48/action18; native enabled L3+Y; localized debug menu' if result['debug_recipe'] else ''),
+    report=dict(schema=1,locale=locale,field='loc/en/*; other-locale encoding; BMP font; decoder RVA 0xEA700; audio HUD RVA 0xBFF10 mixer/delay/gain + modal exclusion + cue-ID dedup; display classic/high-resolution fixed literals; debug nameX16/valueX112; reviewed images; original IVF/DAT/OGG preserved; decoded-frame movie captions/annotations/titles RVA 0xBDBCA'+('; independent F1 raw48/action18; native enabled L3+Y; localized debug menu' if result['debug_recipe'] else ''),
         source_text_records=len(result['rows']),translated=sum(r['status']=='translated' for r in result['rows']),
         preserved=sum(r['status']!='translated' for r in result['rows']),added_glyphs=len(result['font_report']['added_glyphs']),
         ui_procedural=result['images'].get('image_count',0),ui_art=result['images'].get('art',{}).get('outer_count',0),

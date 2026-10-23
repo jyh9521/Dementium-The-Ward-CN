@@ -90,7 +90,8 @@ ASLR replay relocates the image to `150000000` and produces identical captions.
 
 Each HUD frame walks at most 1,024 list nodes and draws at most three concurrent
 caption blocks. It rejects missing/stopped/paused/non-playing channels and a
-sample-rate mismatch. Caption lines wrap against actual font metrics at 400
+sample-rate mismatch. The user-reported v1.1 issues exposed missing audibility,
+modal-screen and duplicate-source gates; the corrected route is described below. Caption lines wrap against actual font metrics at 400
 logical pixels; at most two lines are accepted. Blocks are centered at x=214,
 y=160/186/212. Those coordinates still require human visual/clipping review.
 
@@ -131,7 +132,7 @@ Unknown versions or modified inputs fail, and Steam files are never targets.
 
 `python -m unittest discover -s tests -p test_audio_subtitles.py -v` passes five
 tests, including real original dispatcher mapping, installed hook/decoder,
-stop/pause/unknown ID/sample-rate/empty-list gates, three-block cap, ASLR,
+stop/pause/unknown ID/sample-rate/empty-list gates, same-source deduplication, ASLR,
 unwind metadata/frame, actual compiler repeated lifetime and exact rollback.
 `verify_overlay_font` additionally executes original E9980 loader, E9E10
 measurement and EADC0 sprite dispatch for all current cues with the complete
@@ -154,3 +155,79 @@ the singing source, concurrent sounds, cutscene suspension, scene transitions,
 aspect ratios and caption overlap with existing HUD/document screens. No such
 in-game test has been performed by the tooling. Only the audited PCM route is
 captioned; future streaming dialogue requires a separate adapter and tests.
+
+
+## v1.2: player-reported broadcast/UI regressions
+
+The supplied screenshots establish duplicate captions and captions drawn over the
+notepad/key examine screen. Whether the original broadcast is audible before
+leaving the starting room remains **unverified**. No room, trigger, sound, gain,
+playback timing or scene condition is changed by this repair.
+
+### Verified native fields, exact supported executable only
+
+- `BF7A0..BFF56` is the original InGame draw. `BF7D6` saves its `RCX` this
+  into `RBX`, which remains that object at the existing `BFF10` hook. The hook
+  requires manager global `3FC468` to exist, manager `+8` to equal this original
+  incoming `RBX`, and manager fade/busy `+64` and modal-underlay `+68` to be zero.
+- `BBBA0` reads the old top screen from manager `+8` and stores the new screen
+  there. Its InGame (`manager+15A8`) to modal (`virtual+58 != 0`) route sets
+  `+68=1`, while continuing to draw the old InGame underneath. This is why the
+  old unconditional HUD tail hook appeared over the item/document UI.
+  `BBCB0` also tests `+64` before scheduling a screen transition.
+- Mixer `1096A0` computes master `(3FC417 == 0) * float(3A56D8)`. Its PCM
+  branch `109C66..109CA4` combines channel `+40` and `+34`, that master,
+  channel matrix `+80/+84/+88/+8C`; `109D8E/109DAB` apply envelope `+4C`.
+  These are the engine's spatial attenuation/pan and fade factors, not invented
+  room-distance estimates. The overlay accepts strictly positive effective gain
+  and a nonzero matrix; it adds **no perceptual threshold**. NaNs are rejected.
+- Only a channel still present in the original 64-entry PCM mixer table at
+  `C1A090` qualifies. A future channel start at `+90` is rejected until the
+  original mixer clock `int64(6BB6F0)/48000` reaches it, as the native
+  `109C1A..109C47` delay route does. Playback flags alone do not establish
+  that a sound is currently mixed or audible.
+
+REA/Ghidra shipped-artifact observations: `ev_50bd0d49d58998de2c4d72f812eba8dddb5c281cd277b1f055df800405bd5cdb`
+(BBBA0), `ev_8443cbd85ae632e90f3062f71d4dd878fff858cca6703f27a08ee742ca1d66cc`
+(BF7A0), `ev_71ebb1e163cbc200ae3230b90367d61d463f0b75da6897087abf2a5b3eff99c5`
+(1096A0). Capstone decoding of the same original bytes independently confirms
+these instructions. Pseudocode is decompiler output, not original source.
+
+### Duplicate-source policy and tests
+
+The patched scanner chooses the **first eligible source with a currently active
+caption per native cue ID in original active-list order**, not one block per
+sound record. A source in a gap/tail without a cue does not block another source
+that is currently speaking. After one matching source is chosen, a second source
+at a different phase cannot add another line for the same speech identity. This
+deterministic policy does not modify sound playback. A frame-local 64-bit set uses each
+cue ID's first table row; no pointers or state persist across frames. The builder
+rejects more than 64 rows instead of overrunning that bitmap. Other distinct
+speech IDs can still produce up to three blocks.
+
+The regression test first failed against the old scanner for duplicate (3 vs 1),
+modal (1 vs 0), mute/master/volume/spatial-gain/envelope/both-pan-zero gates
+(each 1 vs 0). The fixed installed instructions pass these cases, first valid
+source, phase-gap, mixer membership, scheduled start, one-sided pan and a second
+ASLR base. The modal fixture **executes original BBBA0 instructions** to switch
+from InGame to the modal screen and asserts both the top pointer and `+68`;
+only virtual UI callbacks are explicit boundary doubles. Closing that modal also
+executes BBBA0: its existing return-to-InGame branch clears `+68`, and the
+next HUD replay resumes at the channel's **current** second cue, not a cached
+pre-item caption. `mixer_coefficients`
+executes original `10970B..109731` and `109C66..109CA4` instructions to verify
+zero factors, rather than testing a Python gain reimplementation. Synthetic
+PCM records exercise the installed native hook; they do not establish the
+starting room's actual sound state or what reaches a physical audio device.
+
+`build_native_overlay` accepts an optional exact `literal_recipe`, reverses that
+layer solely for full original/runtime identity verification, and leaves the
+localized literals in its output. Overlay rollback reproduces the exact
+literal-patched input; the next inverse literal and runtime operations reproduce
+the original. Unknown literal edits, omitted recipes and whole-file drift fail.
+
+Local regression receipts are under `build/audio-caption-fix/`: `baseline.json`,
+`modified.json` (including phase-different/gap-first and original modal close at
+both bases), `rollback.json`, `VERIFICATION.txt`, and four-artifact synthetic
+fixture copies. The main release rebuild/rollback uses the real catalog and
+source audio separately; this regression fixture is not an installable game.

@@ -88,9 +88,36 @@ def build_text_patch(data, catalog, pool_rva):
             new = bytearray(old)
             struct.pack_into('<i', new, reference['disp_offset'], target_rva - reference['rva'] - len(old))
             patch(reference['rva'], old, new, row['id'])
+    # C72B0 uses a separate origin for the two rendered columns. The stock
+    # name origin is zero and value origin 64, too narrow for localized labels.
+    # Keep all calls in the original unwind range: same-size inline scheduling
+    # replaces MOVD/CVTDQ2PS with scalar CVTSI2SS, never a non-leaf trampoline.
+    # The existing XMM7 save/restore remains untouched; constants are pool-local.
+    layout_rva = pool_rva + len(pool)
+    pool.extend(struct.pack('<ff', 16.0, 112.0))
+    from keystone import Ks, KS_ARCH_X86, KS_MODE_64
+    def asm(code, rva):
+        return bytes(Ks(KS_ARCH_X86, KS_MODE_64).asm(code, base+rva)[0])
+    name_rva=0xc743b
+    old=bytes.fromhex('660f6ef30f57c00f5bf60f28cee8b3140200')
+    # Guard against accidentally editing a different build or render variant.
+    new=asm(f'cvtsi2ss xmm1, ebx; movss xmm0, dword ptr [rip+{layout_rva-(name_rva+12)}]; call {base+0xe8900}; nop',name_rva)
+    if len(new)!=len(old):raise ValueError('Unexpected name-origin inline length')
+    patch(name_rva,old,new,'debug-layout-name-origin')
+    value_rva=0xc74bf
+    old=bytes.fromhex('0f28ce0f28c7e83614020041b9ffffffff')
+    new=asm(f'cvtsi2ss xmm1, ebx; movaps xmm0, xmm7; call {base+0xe8900}; or r9d, -1; nop',value_rva)
+    if len(new)!=len(old):raise ValueError('Unexpected value-origin inline length')
+    patch(value_rva,old,new,'debug-layout-value-origin')
+    load_rva=0xc73e9
+    old=bytes.fromhex('f30f103d5b2d2600')
+    new=asm(f'movss xmm7,dword ptr [rip+{layout_rva+4-(load_rva+8)}]',load_rva)
+    patch(load_rva,old,new,'debug-layout-value-constant')
     pe.close()
     recipe = dict(schema=1, format='debug-text-pool-v1', pool_rva=pool_rva,
                   pool_size=len(pool), pool_sha256=_sha(pool), targets=targets, runs=runs,
+                  layout=dict(name_x=16,value_x=112,constant_rva=layout_rva,
+                              coordinate_space='native E8900 logical pixels',inline_unwind_preserved=True),
                   tables=len(catalog['tables']), table_labels=sum(t['count'] for t in catalog['tables']),
                   unique_labels=len(catalog['entries']), boolean_state_references=sum(len(r['references']) for r in catalog['states']))
     return bytes(out), bytes(pool), recipe
@@ -140,8 +167,20 @@ def verify_text(data, catalog, recipe, font):
             if struct.unpack('<QQ', pe.get_data(pointer['rva'],16)) != (base+rva,base+pointer['callback_rva']):
                 raise ValueError('Localized debug table/callback mismatch')
         checked.append(dict(id=row['id'], bytes=len(raw)-1,width=line_width(row['target'],font)))
+    layout=recipe['layout']
+    if (layout['name_x'],layout['value_x'])!=(16,112) or pe.get_data(layout['constant_rva'],8)!=struct.pack('<ff',16,112):
+        raise ValueError('Debug layout constant mismatch')
+    for run in recipe['runs']:
+        if run['id'].startswith('debug-layout-') and pe.get_data(run['rva'],len(bytes.fromhex(run['new'])))!=bytes.fromhex(run['new']):
+            raise ValueError('Debug layout instruction mismatch')
+    for row in catalog['entries']:
+        if layout['name_x']+line_width(row['target'],font)+16>layout['value_x']:
+            raise ValueError('Debug label overlaps value column')
+    for row in catalog['states']:
+        if layout['value_x']+line_width(row['target'],font)>428:
+            raise ValueError('Debug state clips right edge')
     pe.close()
-    return dict(tables=recipe['tables'], table_labels=recipe['table_labels'],
+    return dict(layout=layout,tables=recipe['tables'], table_labels=recipe['table_labels'],
                 unique_labels=recipe['unique_labels'], states=len(catalog['states']),
                 boolean_state_references=recipe['boolean_state_references'],
                 callback_pointers_unchanged=True, original_shared_literals_unchanged=True,
@@ -229,7 +268,10 @@ def replay_debug_menu_text(original_exe, data, catalog, recipe, font):
         width=replay.measure(actual)
         if width!=line_width(row['target'],font):raise ValueError('Native debug label width mismatch')
         widths.append(dict(id=row['id'],width=width))
-    return dict(pages=pages,labels_copied=sum(r['labels'] for r in pages),boolean_queries=states,
+    layout=replay_debug_layout(data,catalog,font)
+    if any(r['name_x']!=16 or r['value_x']!=112 or r['gap']<16 or r['y']!=r['value_y'] for r in layout['rows']):
+        raise ValueError('Native debug layout columns mismatch')
+    return dict(layout=layout,pages=pages,labels_copied=sum(r['labels'] for r in pages),boolean_queries=states,
                 decoded_labels=len(widths),native_widths=widths,aslr_bases=2,
                 boundary_doubles=['menu query callbacks return empty status during page fill','snprintf captures selected string pointer','text compiler and GPU boundaries from UTF8Replay'],
                 game_launched=False,visual_acceptance=False)
@@ -240,3 +282,66 @@ def load_catalog(path):
     import json
     from pathlib import Path
     return validate_catalog(json.loads(Path(path).read_text(encoding='utf-8')))
+
+
+def replay_debug_layout(data, catalog, font):
+    """Execute original C72B0 renderer, replacing GPU/compiler boundaries only.
+
+    E8900 receives the actual translation origin. All pages and both ASLR
+    bases run; scalar coordinate math is native, width comes from binfont.
+    No operating-system/game calls or gameplay callbacks execute.
+    """
+    from unicorn import Uc, UC_ARCH_X86, UC_MODE_64, UC_HOOK_CODE
+    from unicorn.x86_const import (UC_X86_REG_RCX, UC_X86_REG_RSP,
+        UC_X86_REG_RIP, UC_X86_REG_XMM0, UC_X86_REG_XMM1)
+    from locale_data import line_width
+    results=[]
+    rows={p['rva']:r for r in catalog['entries'] for p in r['pointers']}
+    for base in (0x140000000, 0x180000000):
+        pe=pefile.PE(data=bytes(data));pe.relocate_image(base)
+        image=pe.get_memory_mapped_image();pe.close()
+        u=Uc(UC_ARCH_X86,UC_MODE_64)
+        u.mem_map(base,(len(image)+4095)&~4095);u.mem_write(base,image)
+        u.mem_map(0x30000000,0x300000)
+        obj, stack, stop=0x30010000,0x30200008,0x300f0000
+        vtable, ref=0x30001000,0x30002000
+        stub=0x30003000
+        u.mem_write(base+0x3a5670,struct.pack('<Q',vtable))
+        u.mem_write(vtable+8,struct.pack('<Q',stub))
+        u.mem_write(vtable+0x10,struct.pack('<Q',stub))
+        u.mem_write(base+0x3fc468,struct.pack('<Q',obj+0xe00))
+        u.mem_write(base+0x6bf668,bytes(64))
+        u.mem_write(base+0x6bf664,bytes(4))
+        u.mem_write(base+0xc15cc0,bytes(4))
+        u.mem_write(base+0x2ead20,struct.pack('<Q',ref))
+        positions=[]
+        def boundary(uc,address,size,user):
+            rva=address-base
+            if rva==0xe8900:
+                def f(reg):return struct.unpack('<f',struct.pack('<I',uc.reg_read(reg)&0xffffffff))[0]
+                positions.append((f(UC_X86_REG_XMM0),f(UC_X86_REG_XMM1)))
+            if rva in (0x1e8580,0x427f0,0x107a40,0xe86f0,0xe8900,0xea700,0xeadc0) or address==stub:
+                rsp=uc.reg_read(UC_X86_REG_RSP)
+                uc.reg_write(UC_X86_REG_RIP,int.from_bytes(uc.mem_read(rsp,8),'little'))
+                uc.reg_write(UC_X86_REG_RSP,rsp+8)
+        u.hook_add(UC_HOOK_CODE,boundary)
+        for table in catalog['tables']:
+            for start in range(0,table['count'],12):
+                positions.clear();u.mem_write(obj,bytes(0xf00))
+                u.mem_write(obj+0xd59,bytes([start,start]))
+                u.mem_write(stack,struct.pack('<Q',stop))
+                u.reg_write(UC_X86_REG_RSP,stack);u.reg_write(UC_X86_REG_RCX,obj)
+                u.emu_start(base+0xc72b0,stop,count=100000)
+                if u.reg_read(UC_X86_REG_RIP)!=stop or len(positions)!=24:
+                    raise ValueError('Native debug renderer did not produce twelve name/value pairs')
+                for index in range(min(12,table['count']-start)):
+                    row=rows[table['rva']+(start+index)*16]
+                    name,value=positions[index*2:index*2+2]
+                    width=line_width(row['target'],font)
+                    results.append(dict(base=hex(base),table=table['id'],start=start,
+                        id=row['id'],target=row['target'],name_x=name[0],value_x=value[0],
+                        y=name[1],value_y=value[1],width=width,gap=value[0]-name[0]-width))
+    return dict(rows=results,aslr_bases=2,tables=len(catalog['tables']),
+        game_launched=False,visual_acceptance=False,
+        boundaries=['GPU state and draw/compiler calls return normally',
+                    'font and refcount objects are synthetic; no gameplay callbacks'])

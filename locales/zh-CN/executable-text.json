@@ -4,10 +4,51 @@
   "source_size": 4673536,
   "source_sha256": "5f2b955b9af968107cadb6af8ec5121be8dc39ae599b9b88cc215343035d007d",
   "source_stage": "runtime_patch.py UTF-8/BMP output",
-  "entries": [],
+  "entries": [
+    {
+      "id": "display-classic",
+      "offset": 3160904,
+      "slot_size": 8,
+      "source": "RETRO",
+      "target": "经典",
+      "status": "text-reviewed",
+      "text_type": "ui",
+      "mode": 1
+    },
+    {
+      "id": "display-classic-crt",
+      "offset": 3160912,
+      "slot_size": 12,
+      "source": "RETRO CRT",
+      "target": "经典CRT",
+      "status": "text-reviewed",
+      "text_type": "ui",
+      "mode": 2
+    },
+    {
+      "id": "display-high-resolution",
+      "offset": 3160924,
+      "slot_size": 12,
+      "source": "HI-RES",
+      "target": "高清",
+      "status": "text-reviewed",
+      "text_type": "ui",
+      "mode": 3
+    },
+    {
+      "id": "display-high-resolution-crt",
+      "offset": 3160936,
+      "slot_size": 16,
+      "source": "HI-RES CRT",
+      "target": "高清CRT",
+      "status": "text-reviewed",
+      "text_type": "ui",
+      "mode": 4
+    }
+  ],
   "audit": {
     "candidate_count": 14980,
-    "status": "No independently verified additional normal-player UI literals selected; resource tables retain ownership of options labels",
+    "status": "Verified native display-mode selector RVA 0x2F8A0 and English pointer table RVA 0x304AF0; four original NUL-padded literal slots only. Mode 0 Debug and all mode behavior retained.",
     "protected": [
       "logs",
       "API names",
@@ -17,6 +58,8 @@
       "machine enum identifiers",
       "developer-only controls"
     ],
-    "game_launched": false
+    "game_launched": false,
+    "shared_literals": "RETRO is shared by English/German/Spanish; HI-RES by English/French/German; HI-RES CRT by English/German. Shared pointers retain identity and show the translated literal.",
+    "upstream_reference": "Dementium-II-CN executable-text.json independently uses 复古/复古CRT/高清/高清CRT; this locale uses user-requested 经典/经典CRT/高清/高清CRT. No offsets reused."
   }
 }

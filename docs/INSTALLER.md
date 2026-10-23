@@ -1,10 +1,10 @@
-# 汉化补丁安装器 v1.1
+# 汉化补丁安装器 v1.1.1
 
 ## 用户操作
 
 文件：`dist/Dementium-The-Ward-zh-CN-Setup.exe`。Windows x64 自包含程序，不需要另装 Python 或 .NET。界面沿用《病房2》Material Design 3 的卡片、紫色按钮、动效、操作日志与确认弹层；图标为用户图1，顶图为图2，均未生成或重绘。
 
-1. 先退出游戏；自行备份重要存档。本安装器不访问存档或设置。若已安装旧v1.0，请先使用原安装器检查并恢复原版，再运行本版；保留旧安装器位于build/movie-overlay-release/previous-setup.exe，不直接覆盖旧版改件。可优先对另建的原版完整副本安装测试。
+1. 先退出游戏；自行备份重要存档。本安装器不访问存档或设置。若已安装旧v1.1，请先使用原安装器检查并恢复原版，再运行本版；保留旧安装器位于build/ui-feedback-release/baseline/Dementium-The-Ward-zh-CN-Setup.exe，不直接覆盖旧版改件。可优先对另建的原版完整副本安装测试。
 2. 打开安装器，点击“自动检测”，或“浏览…”选择游戏根目录的 `rom.zar`。
 3. 点击“检查资源”。只有 `rom.zar` 与同目录 `Dementium.exe` 都通过受支持完整大小/SHA校验后，安装/恢复按钮才可用。当前仅支持 Steam AppID3909960 / build21501403 原版，或本安装器生成的已安装状态；未知版本、其他模组和混合状态不会直接覆盖。
 4. 点击“安装汉化”并确认。安装器先校验、备份至同目录 `cn-backup`、生成并核对两份临时结果，再提交；安装器不启动游戏。
@@ -17,12 +17,14 @@
 
 ## 本轮内容
 
+- v1.1.1修复广播叠字/重复、显示模式英文及调试菜单列重叠，详见[UI_FEEDBACK_FIXES.md](UI_FEEDBACK_FIXES.md)。原声音/触发、原视频路线和安装器UI不变。
+
 - 新增原视频保留路线：102个电影成员逐字节不变，运行时稀疏覆盖保留对白、画面译注、章节标题及渐隐。安装器UI/图标/顶图不变，仅更新版本与载荷。见[MOVIE_OVERLAY.md](MOVIE_OVERLAY.md)。
 
 - 31条无内部标点的单句物品/交互说明仅移除末尾句号；文档、信件、谜题和对白保持原样。
 - 撤回记事本、血迹白板、破损红字三张推补式重绘，完整保留原资源及mipmap；只保留原图独立可读文字的图片汉化。
 - 保留独立F1和原手柄秘密序列启用后的L3+Y原生调试菜单。
-- 可手动测试的修正副本位于 `build/release-candidate/sample`。旧 `build/full`、`build/debug-menu` 是历史候选，不用于本轮文案/图片修正验收。
+- 可手动测试的修正副本位于 `build/ui-feedback-release/sample`。旧 `build/full`、`build/debug-menu` 是历史候选，不用于本轮文案/图片修正验收。
 
 相关审计：[句末规范](PUNCTUATION_STYLE.md) · [图片复审](IMAGE_READABILITY_REVIEW.md) · [F1与手柄](DEBUG_MENU.md)。
 
@@ -31,7 +33,7 @@
 先按 [BUILDING.md](../BUILDING.md) 从用户自己的原版完成整包基线、两次修改构建和隔离恢复，再运行：
 
 ```powershell
-python -X utf8 tools/build_installer.py --game "C:/Program Files (x86)/Steam/steamapps/common/Dementium - The Ward" --build build/release-candidate --dotnet "C:/path/to/dotnet.exe"
+python -X utf8 tools/build_installer.py --game "C:/Program Files (x86)/Steam/steamapps/common/Dementium - The Ward" --build build/ui-feedback-release --dotnet "C:/path/to/dotnet.exe"
 ```
 
 需要.NET 10 SDK而不是仅runtime；本轮SDK10.0.402，MaterialDesignThemes5.3.2通过包锁定配置恢复。SDK路径可显式指定或通过DOTNET_EXE提供；不依赖旧项目中间产物。

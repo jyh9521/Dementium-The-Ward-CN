@@ -4,6 +4,8 @@
 |---|---|---|
 |Dementium: The Ward|病房|用户指定项目名|
 |New Game|新游戏|表格/UTF-8与BMP字形离线回放；待本作游戏内验收|
+|RETRO / RETRO CRT|经典 / 经典CRT|用户指定显示模式命名，枚举不变|
+|HI-RES / HI-RES CRT|高清 / 高清CRT|原生selector/字形回放；待实显|
 |Graphics Options|画面设置|沿用病房2通用菜单术语|
 |Checkpoint|检查点|沿用病房2|
 |Flashlight|手电筒|沿用病房2|

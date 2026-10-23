@@ -1,9 +1,11 @@
 """Reopen verified locale/installer outputs and retain literal offline receipts."""
+import argparse
 import json
 from pathlib import Path
 import shutil
 import subprocess
 import sys
+import shlex
 
 from source_delta import filehash
 from workspace_io import validate_output_tree
@@ -12,10 +14,21 @@ ROOT=Path(__file__).resolve().parents[1]
 
 
 def main():
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--build',type=Path,default=ROOT/'build/release-candidate')
+    args=parser.parse_args()
     work=ROOT/'build/installer';validate_output_tree(work)
-    locale=ROOT/'build/release-candidate'
+    locale=args.build.resolve()
+    if not locale.is_relative_to(ROOT/'build'):
+        raise ValueError('Locale build must stay under repository build/')
+    validate_output_tree(locale)
     read=lambda p:json.loads(p.read_text(encoding='utf-8'))
     full=read(locale/'verification.json');build=read(work/'build-report.json');ui=read(work/'ui-verification.json')
+    feedback_path=locale/'feedback-replay.json'
+    feedback=read(feedback_path) if feedback_path.exists() else None
+    if feedback and (feedback['exit_status'] or not feedback['inputs_unchanged'] or
+                     feedback['executable_sha256']!=filehash(locale/'MODIFIED_EXECUTABLE.exe')):
+        raise ValueError('Final executable feedback regression proof drift')
     if not all(s['exit_status']==0 for s in full['steps']+build['steps']+ui['previews']):
         raise ValueError('All verification commands must succeed')
     if not build['isolated_install_restore']=='PASS' or not build['repeated_publish_byte_identical']:
@@ -31,19 +44,24 @@ def main():
     shell=work/'ROLLBACK.sh'
     shell.write_text('#!/usr/bin/env bash\nset -euo pipefail\n'
         'PROJECT="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/../.." && pwd)"\n'
-        '"${PYTHON:-python}" -X utf8 "$PROJECT/tools/build_locale.py" rollback --output "$PROJECT/build/release-candidate"\n',
+        'OUTPUT='+shlex.quote(locale.as_posix())+'\n'
+        '"${PYTHON:-python}" -X utf8 "$PROJECT/tools/build_locale.py" rollback --output "$OUTPUT"\n',
         encoding='utf-8',newline='\n')
     shell.chmod(0o755)
     command=['C:/Program Files/Git/bin/bash.exe',str(shell)]
     result=subprocess.run(command,cwd=ROOT,capture_output=True,text=True,encoding='utf-8')
     if result.returncode:raise RuntimeError(result.stderr)
     artifacts={name:str(work/name) for name in ('MODIFIED_FILE.exe','DIFF_FILE.json','VERIFICATION.txt','ROLLBACK.sh')}
-    field='102 original movie members preserved; decoded-frame dialogue/onscreen/title layers at RVA BDBCA; text/image corrections and F1/L3+Y retained; unchanged Material Design 3 installer UI'
+    field=full['field']+'; installer UI retained'
     lines=['FIELD: '+field]
     lines.extend(k+': '+v for k,v in artifacts.items())
     for step in full['steps']:
         lines.extend(['',step['phase'],'COMMAND: '+subprocess.list2cmdline(step['command']),
             'INPUT: '+step['input'],'STDOUT:',step['stdout'].rstrip(),'STDERR:',step['stderr'].rstrip(),'EXIT STATUS: '+str(step['exit_status'])])
+    if feedback:
+        lines.extend(['','FEEDBACK COMMAND: '+subprocess.list2cmdline(feedback['command']),
+                      'INPUT: '+str(locale/'MODIFIED_EXECUTABLE.exe'),'STDOUT:',feedback['stdout'].rstrip(),
+                      'EXIT STATUS: '+str(feedback['exit_status'])])
     for step in build['steps']:
         lines.extend(['','INSTALLER COMMAND: '+subprocess.list2cmdline(step['command']),
             'STDOUT:',step['stdout'].rstrip(),'STDERR:',step['stderr'].rstrip(),'EXIT STATUS: '+str(step['exit_status'])])

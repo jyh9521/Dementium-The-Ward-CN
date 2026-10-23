@@ -151,6 +151,18 @@ def _native_code(section_rva,rows):
     mov qword ptr [rsp+0xb8],r10
     mov qword ptr [rsp+0xc0],r11
     lea rbp,[rip]
+    mov qword ptr [rsp+0xd0],0
+    mov rax,qword ptr [rbp+{g(0x3fc468)}]
+    test rax,rax
+    jz finish
+    cmp qword ptr [rax+8],rbx
+    jne finish
+    cmp byte ptr [rax+0x64],0
+    jne finish
+    cmp byte ptr [rax+0x68],0
+    jne finish
+    cmp byte ptr [rbp+{g(0x3fc417)}],0
+    jne finish
     mov r12,qword ptr [rbp+{g(0xc14e20)}]
     test r12,r12
     jz finish
@@ -177,6 +189,80 @@ node:
     je nextnode
     cmp byte ptr [r15+1],0
     jne nextnode
+    xor ecx,ecx
+pcm_slot:
+    lea rax,[rbp+{g(0xc1a090)}]
+    cmp qword ptr [rax+rcx*8],r15
+    je pcm_present
+    inc ecx
+    cmp ecx,64
+    jb pcm_slot
+    jmp nextnode
+pcm_present:
+    movsd xmm0,qword ptr [r15+0x90]
+    xorps xmm1,xmm1
+    comisd xmm0,xmm1
+    jp nextnode
+    jbe gain
+    cvtsi2sd xmm1,qword ptr [rbp+{g(0x6bb6f0)}]
+    mov eax,48000
+    cvtsi2sd xmm2,eax
+    divsd xmm1,xmm2
+    comisd xmm0,xmm1
+    ja nextnode
+gain:
+    movss xmm0,dword ptr [r15+0x34]
+    mulss xmm0,dword ptr [r15+0x40]
+    mulss xmm0,dword ptr [r15+0x4c]
+    mulss xmm0,dword ptr [rbp+{g(0x3a56d8)}]
+    xorps xmm1,xmm1
+    comiss xmm0,xmm1
+    jp nextnode
+    jbe nextnode
+    mov eax,dword ptr [r15+0x80]
+    and eax,0x7fffffff
+    movd xmm1,eax
+    mov eax,dword ptr [r15+0x84]
+    and eax,0x7fffffff
+    movd xmm2,eax
+    addss xmm1,xmm2
+    mov eax,dword ptr [r15+0x88]
+    and eax,0x7fffffff
+    movd xmm2,eax
+    addss xmm1,xmm2
+    mov eax,dword ptr [r15+0x8c]
+    and eax,0x7fffffff
+    movd xmm2,eax
+    addss xmm1,xmm2
+    mulss xmm0,xmm1
+    xorps xmm1,xmm1
+    comiss xmm0,xmm1
+    jp nextnode
+    jbe nextnode
+    lea r14,[rbp+0x1000]
+source_identity:
+    mov eax,dword ptr [r13]
+    cmp eax,dword ptr [r14]
+    je source_found
+    add r14,32
+    lea rax,[rbp+{table+32*len(rows)}]
+    cmp r14,rax
+    jb source_identity
+    jmp nextnode
+source_found:
+    mov rax,qword ptr [r15+8]
+    test rax,rax
+    jz nextnode
+    mov eax,dword ptr [rax+0x28]
+    cmp eax,dword ptr [r14+4]
+    jne nextnode
+    mov rax,r14
+    sub rax,rbp
+    sub eax,0x1000
+    shr eax,5
+    bt qword ptr [rsp+0xd0],rax
+    jc nextnode
+    mov dword ptr [rsp+0xd8],eax
     lea r14,[rbp+0x1000]
 cue:
     mov eax,dword ptr [r13]
@@ -195,6 +281,8 @@ cue:
     jb nextcue
     comisd xmm0,qword ptr [r14+16]
     jae nextcue
+    mov eax,dword ptr [rsp+0xd8]
+    bts qword ptr [rsp+0xd0],rax
     mov r8,qword ptr [rbp+{g(0x3fc468)}]
     test r8,r8
     jz nextcue
@@ -255,7 +343,7 @@ finish:
     pop rbx
     ret
 '''
-    if not rows:raise ValueError('Native subtitle table is empty')
+    if not rows or len(rows)>64:raise ValueError('Native subtitle table needs 1..64 rows')
     result=bytearray(Ks(KS_ARCH_X86,KS_MODE_64).asm(code,base+section_rva)[0])
     marker=result.index(bytes.fromhex('488d2d00000000'))
     struct.pack_into('<i',result,marker+3,-(marker+7))
@@ -274,11 +362,14 @@ finish:
     return bytes(result+entries+strings),code_size
 
 
-def build_native_overlay(runtime_exe,runtime_recipe,catalog,audio_members,font):
+def build_native_overlay(runtime_exe,runtime_recipe,catalog,audio_members,font,literal_recipe=None):
     import pefile
     from runtime_patch import rollback_bytes,ORIGINAL_SHA256,patch_bytes
-    data=bytes(runtime_exe);original=rollback_bytes(data,runtime_recipe)
-    if hashlib.sha256(original).hexdigest()!=ORIGINAL_SHA256 or patch_bytes(original)[0]!=data:
+    data=bytes(runtime_exe)
+    from executable_text import apply_executable_patch
+    runtime_only=apply_executable_patch(data,literal_recipe,True) if literal_recipe is not None else data
+    original=rollback_bytes(runtime_only,runtime_recipe)
+    if hashlib.sha256(original).hexdigest()!=ORIGINAL_SHA256 or patch_bytes(original)[0]!=runtime_only:
         raise ValueError('Native overlay requires exact audited runtime patch')
     pe=pefile.PE(data=data,fast_load=False);rows=native_cue_table(catalog,audio_members,font)
     if hashlib.sha256(pe.get_data(0xbfe00,0x200)).hexdigest()!='e20bb5539ce956169192cde63e489227e50d8bef7a74a95f683186f84b7617e4':
@@ -352,7 +443,10 @@ class NativeOverlayReplay:
         from unicorn.x86_const import UC_X86_REG_RSP
         class ActualCompilerReplay(UTF8Replay):
             def boundary(self,u,address,size,user):
-                if address-self.base==0xea950:
+                if address in (0x3300e000,0x3300e010):
+                    from unicorn.x86_const import UC_X86_REG_RAX
+                    u.reg_write(UC_X86_REG_RAX,int(address==0x3300e010));self.ret();return
+                if font_data is not None and address-self.base==0xea950:
                     sp=u.reg_read(UC_X86_REG_RSP);pointer,count=struct.unpack('<QI',u.mem_read(sp+40,12))
                     self.compiled=list(struct.unpack('<'+'H'*count,u.mem_read(pointer,count*2)))
                     self.compiler_calls+=1
@@ -361,7 +455,7 @@ class NativeOverlayReplay:
                     self.heap_calls+=1
                     raise ValueError('Unexpected text heap operation in native overlay replay')
                 super().boundary(u,address,size,user)
-        self.r=(ActualCompilerReplay if font_data is not None else UTF8Replay)(original_exe)
+        self.r=ActualCompilerReplay(original_exe)
         self.r.compiler_calls=0;self.r.heap_calls=0;self.actual_compile=font_data is not None
         self.u=self.r.u;self.base=self.r.base
         original_pe=pefile.PE(str(original_exe),fast_load=True);pe=pefile.PE(data=patched_data,fast_load=True)
@@ -403,30 +497,73 @@ class NativeOverlayReplay:
                 call['script_commands']=struct.unpack('<I',u.mem_read(script+4,4))[0]
             self.calls.append(call)
             self.r.ret()
-    def render(self,events):
+    def mixer_coefficients(self,event,*,muted=False,master_gain=1.0):
+        """Original mixer master and PCM matrix instructions; not a gain formula double."""
+        from unicorn.x86_const import (UC_X86_REG_R15,UC_X86_REG_RBX,UC_X86_REG_XMM7,
+            UC_X86_REG_XMM8,UC_X86_REG_XMM9,UC_X86_REG_XMM10)
+        u=self.u;channel=0x33001000
+        u.mem_write(channel,bytes(0xc0))
+        for offset,key in [(0x34,'volume'),(0x40,'gain'),(0x4c,'envelope'),
+                           (0x80,'left'),(0x84,'cross_left'),(0x88,'cross_right'),(0x8c,'right')]:
+            u.mem_write(channel+offset,struct.pack('<f',event.get(key,0. if key.startswith('cross') else 1.)))
+        u.mem_write(self.base+0x3fc417,bytes([int(muted)]))
+        u.mem_write(self.base+0x3a56d8,struct.pack('<f',master_gain))
+        u.reg_write(UC_X86_REG_R15,0)
+        u.emu_start(self.base+0x10970b,self.base+0x109731,count=30)
+        u.reg_write(UC_X86_REG_RBX,channel)
+        u.emu_start(self.base+0x109c66,self.base+0x109ca4,count=30)
+        return [struct.unpack('<f',u.reg_read(reg).to_bytes(16,'little')[:4])[0]*event.get('envelope',1.)
+                for reg in (UC_X86_REG_XMM8,UC_X86_REG_XMM9,UC_X86_REG_XMM10,UC_X86_REG_XMM7)]
+
+    def render(self,events,*,modal=False,muted=False,master_gain=1.0):
         """events: cue_id/sample_rate/position(seconds)/paused/stopped/playing."""
         from unicorn.x86_const import (UC_X86_REG_RSP,UC_X86_REG_RIP,UC_X86_REG_RAX,UC_X86_REG_RCX,
             UC_X86_REG_RBX,UC_X86_REG_RBP,UC_X86_REG_RSI,UC_X86_REG_RDI,UC_X86_REG_R12,
             UC_X86_REG_R13,UC_X86_REG_R14,UC_X86_REG_R15,UC_X86_REG_RDX,UC_X86_REG_R8,
             UC_X86_REG_R9,UC_X86_REG_R10,UC_X86_REG_R11)
+        if len(events)>64:raise ValueError('Replay fixture exceeds native PCM table')
         self.calls=[];self.pending=None;u=self.u;sentinel=0x33000000;root=0x33000100
         u.mem_write(0x33000000,bytes(0x20000));nodes=[]
+        u.mem_write(self.base+0xc1a090,bytes(64*8))
+        u.mem_write(self.base+0x6bb6f0,struct.pack('<Q',48000))
         for i,event in enumerate(events):
             node=0x33001000+i*0x400;record=node+0x40;channel=node+0x140;buffer=node+0x240;nodes.append(node)
             u.mem_write(node+16,struct.pack('<Q',record));u.mem_write(record,struct.pack('<I',event['cue_id']))
             u.mem_write(record+0xc0,struct.pack('<Q',channel));u.mem_write(channel+8,struct.pack('<Q',buffer))
             u.mem_write(channel+1,bytes([int(event.get('paused',False))]))
+            if event.get('mixer_active',True):u.mem_write(self.base+0xc1a090+i*8,struct.pack('<Q',channel))
+            u.mem_write(channel+0x90,struct.pack('<d',event.get('scheduled',0.)))
             u.mem_write(channel+0x30,bytes([int(event.get('stopped',False)),int(event.get('playing',True))]))
             rate=event.get('sample_rate',11025);u.mem_write(buffer+0x28,struct.pack('<I',rate))
             u.mem_write(channel+0x60,struct.pack('<d',event['position']*rate))
+            for offset,key in [(0x34,'volume'),(0x40,'gain'),(0x4c,'envelope'),(0x80,'left'),(0x8c,'right')]:
+                u.mem_write(channel+offset,struct.pack('<f',event.get(key,1.0)))
         chain=[sentinel]+nodes
         for i,node in enumerate(chain):u.mem_write(node,struct.pack('<2Q',chain[(i+1)%len(chain)],chain[(i-1)%len(chain)]))
         u.mem_write(self.base+0xc14e20,struct.pack('<Q',sentinel))
         u.mem_write(self.base+0x3fc468,struct.pack('<Q',root));u.mem_write(root+0x20,struct.pack('<Q',self.r.obj))
+        screen=root+0x15a8
+        u.mem_write(root+8,struct.pack('<Q',screen))
+        if modal:
+            target=root+0x2b78;vtable=0x3300d000
+            u.mem_write(screen,struct.pack('<Q',vtable));u.mem_write(target,struct.pack('<Q',vtable))
+            for offset in (8,0x10,0x50,0x58):
+                u.mem_write(vtable+offset,struct.pack('<Q',0x3300e010 if offset==0x58 else 0x3300e000))
+            self.r.profile['rvas']['switch_overlay']=0xbbba0
+            self.r.run('switch_overlay',rcx=root,rdx=target)
+            if struct.unpack('<Q',u.mem_read(root+8,8))[0]!=target or u.mem_read(root+0x68,1)!=b'\x01':
+                raise ValueError('Original modal UI transition did not select the overlay screen')
+            if modal=='closed':
+                self.r.run('switch_overlay',rcx=root,rdx=screen)
+                if struct.unpack('<Q',u.mem_read(root+8,8))[0]!=screen or u.mem_read(root+0x68,1)!=b'\x00':
+                    raise ValueError('Original modal return did not clear underlay state')
+        u.mem_write(self.base+0x3fc417,bytes([int(muted)]))
+        u.mem_write(self.base+0x3a56d8,struct.pack('<f',master_gain))
         regs=(UC_X86_REG_RBX,UC_X86_REG_RBP,UC_X86_REG_RSI,UC_X86_REG_RDI,UC_X86_REG_R12,
             UC_X86_REG_R13,UC_X86_REG_R14,UC_X86_REG_R15,UC_X86_REG_RDX,UC_X86_REG_R8,
             UC_X86_REG_R9,UC_X86_REG_R10,UC_X86_REG_R11)
         sentinels={reg:0x123400+i for i,reg in enumerate(regs)}
+        sentinels[UC_X86_REG_RBX]=screen
         for reg,value in sentinels.items():u.reg_write(reg,value)
         self.expected_unwind=[sentinels[x] for x in (UC_X86_REG_R15,UC_X86_REG_R14,UC_X86_REG_R13,UC_X86_REG_R12,UC_X86_REG_RBP,UC_X86_REG_RDI,UC_X86_REG_RSI,UC_X86_REG_RBX)]
         stack=0x2001fe00;self.entry_stack=stack;self.unwind_verified=False;u.reg_write(UC_X86_REG_RSP,stack)

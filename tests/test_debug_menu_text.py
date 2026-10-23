@@ -41,7 +41,7 @@ class DebugTextTests(unittest.TestCase):
         if not path.is_file():self.skipTest('User-supplied original is not bundled')
         original=path.read_bytes();patched,pool,recipe=build_text_patch(original,self.catalog,0xd20000)
         self.assertEqual(restore_text(patched,recipe),original)
-        self.assertEqual(len(recipe['runs']),341)
+        self.assertEqual(len(recipe['runs']),344)
         damaged=bytearray(original);damaged[recipe['runs'][0]['offset']]^=1
         with self.assertRaisesRegex(ValueError,'identity'):build_text_patch(bytes(damaged),self.catalog,0xd20000)
 if __name__=='__main__':unittest.main()

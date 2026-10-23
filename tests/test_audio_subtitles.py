@@ -60,9 +60,37 @@ class AudioSubtitlesTests(unittest.TestCase):
   self.assertEqual(replay.render([dict(event,cue_id=0)]),[])
   self.assertEqual(replay.render([dict(event,sample_rate=8000)]),[])
   self.assertEqual(replay.render([]),[])
-  self.assertEqual(len(replay.render([event]*4)),3)
+  cases=[('duplicate', [event]*4, {}, 1),('first-eligible',[dict(event,volume=0.),event],{},1),('source-gap',[dict(event,position=0.75),event],{},1),('modal',[event],dict(modal=True),0),('modal-close',[event],dict(modal='closed'),1),
+         ('muted',[event],dict(muted=True),0),('master-zero',[event],dict(master_gain=0.),0)]
+  cases += [(key,[dict(event,**{key:0.0})],{},0) for key in ('volume','gain','envelope')]
+  cases += [('both-panned-zero',[dict(event,left=0.,right=0.)],{},0),
+            ('right-only',[dict(event,left=0.,right=1.)],{},1),
+            ('unmixed-record',[dict(event,mixer_active=False)],{},0),
+            ('scheduled-future',[dict(event,scheduled=2.)],{},0),
+            ('scheduled-now',[dict(event,scheduled=1.)],{},1),
+            ('scheduled-past',[dict(event,scheduled=0.5)],{},1)]
+  for case_name,events,options,expected in cases:
+   with self.subTest(regression=case_name):self.assertEqual(len(replay.render(events,**options)),expected)
+  for key in ('volume','gain','envelope','left','right'):
+   sample=dict(left=0.,right=0.) if key in ('left','right') else {key:0.}
+   self.assertTrue(all(v==0. for v in replay.mixer_coefficients(sample)))
+  self.assertTrue(all(v==0. for v in replay.mixer_coefficients({},muted=True)))
+  self.assertTrue(all(v==0. for v in replay.mixer_coefficients({},master_gain=0.)))
+  self.assertTrue(any(v>0. for v in replay.mixer_coefficients({})))
+  from executable_text import build_executable,apply_executable_patch
+  literal_catalog=json.loads((ROOT/'locales/zh-CN/executable-text.json').read_text(encoding='utf-8'))
+  literal,lr=build_executable(runtime,literal_catalog)
+  self.assertNotEqual(literal,runtime)
+  combined,cp=build_native_overlay(literal,rr,catalog,{name:raw},font,literal_recipe=lr)
+  self.assertEqual(apply_executable_patch(rollback_overlay(combined,cp),lr,True),runtime)
+  with self.assertRaises(ValueError):build_native_overlay(literal,rr,catalog,{name:raw},font)
+  drift=bytearray(literal);drift[-1]^=1
+  with self.assertRaises(ValueError):build_native_overlay(bytes(drift),rr,catalog,{name:raw},font,literal_recipe=lr)
   shifted=NativeOverlayReplay(exe,out,patch,image_base=0x150000000)
   self.assertEqual(shifted.render([event])[0]['text'],'新游戏')
+  self.assertEqual(len(shifted.render([event]*2)),1)
+  self.assertEqual(shifted.render([event],modal=True),[])
+  self.assertEqual(shifted.render([dict(event,gain=0.)]),[])
   self.assertTrue(shifted.unwind_verified)
   from test_binfont import fixture as font_fixture
   from binfont import BinFont

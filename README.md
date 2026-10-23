@@ -43,3 +43,5 @@ python -X utf8 tools/verify_sample.py --output build/release-candidate
 - [原视频覆盖层](docs/MOVIE_OVERLAY.md) · [电影格式](docs/MOVIE_FORMAT.md) · [对白审计](docs/MOVIE_AUDIO_AUDIT.md) · [画面审计](docs/MOVIE_VISUAL_AUDIT.md) · [章名重建](docs/MOVIE_TITLE_REBUILD.md)
 - [F1调试菜单与手动验收](docs/DEBUG_MENU.md) · [文本层](docs/DEBUG_MENU_TEXT.md) · [历史入口调查](docs/DEBUG_MENU_RESEARCH.md)
 - [术语](GLOSSARY.md) · [上游与许可](NOTICE.md) · [许可边界](LICENSING.md) · [历史调查](TECHNICAL.md)
+
+显示模式采用用户指定的“经典/高清”（含CRT变体）；原EXE部分语言共享该字面量，影响范围及原生selector验证见[显示模式命名](docs/DISPLAY_MODE_LABELS.md)。
