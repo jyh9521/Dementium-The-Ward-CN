@@ -1,4 +1,4 @@
-> 最新游戏构建：build/framed-artwork-release。用户简测后已授权生成v1.0安装包：dist/Dementium-The-Ward-zh-CN-v1.0-Setup.exe；构建与独立安装/恢复证据见docs/INSTALLER_VERIFICATION.md。
+> 最新游戏构建：build/four-fixes-release。仅第十五章“初次相遇”、白底绿字出口牌、“有胆你就来！”与汽水机“汽水／泡泡”四处更新；安装器仍为v1.0，见docs/RELEASE_FOUR_FIXES.md。
 
 > 历史纵轴候选：build/yaxis-alignment，当时未打包；现已由framed-artwork-release及用户指定v1.0安装器取代。
 

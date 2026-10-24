@@ -214,6 +214,22 @@
       "patch": "art/vend03.json",
       "prefix_size": 4,
       "alpha_policy": "preserve-source"
+    },
+    {
+      "scope": "inner",
+      "resource": "3d/tex/code03.tex",
+      "source_sha256": "e8f4ef497faec927c4c4b2a153c66ef002b052c37e5646762d439c298180b03a",
+      "patch": "art/code03.json",
+      "prefix_size": 4,
+      "alpha_policy": "reviewed-regions"
+    },
+    {
+      "scope": "inner",
+      "resource": "3d/tex/soda01.tex",
+      "source_sha256": "e16ab33eb7e4d3934341f217160bd070505dc6ed8c4cd1339a107786ec3b3d00",
+      "patch": "art/soda01.json",
+      "prefix_size": 4,
+      "alpha_policy": "preserve-source"
     }
   ],
   "preserve_source": [
@@ -222,12 +238,6 @@
       "resource": "3d/tex/notepad.tex",
       "source_sha256": "20718a534bf0146f5b9350f050dd89d747d7b5c041368b4a7478f86b54d78400",
       "reason": "原生32×32封面不能独立逐字辨读；旧译取自关联examine文本，不属于图片逐字证据，撤回中文重绘。"
-    },
-    {
-      "scope": "inner",
-      "resource": "3d/tex/code03.tex",
-      "source_sha256": "e8f4ef497faec927c4c4b2a153c66ef002b052c37e5646762d439c298180b03a",
-      "reason": "红色破损笔迹的完整短语不能达到明确可读标准；旧IF YOU DARE!转录不作为已验证事实，撤回中文重绘。"
     },
     {
       "scope": "inner",

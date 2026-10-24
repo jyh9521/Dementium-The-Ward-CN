@@ -57,10 +57,10 @@ class BuildArtTests(unittest.TestCase):
         folder=Path(__file__).resolve().parents[1]/'locales/zh-CN'
         config=json.loads((folder/'art-patches.json').read_text(encoding='utf8'))
         protected={e['resource'] for e in config['preserve_source']}
-        self.assertEqual(protected,{'3d/tex/notepad.tex','3d/tex/code03.tex','3d/tex/wboard02.tex'})
+        self.assertEqual(protected,{'3d/tex/notepad.tex','3d/tex/wboard02.tex'})
         self.assertFalse(protected & {e['resource'] for e in config['patches']})
-        self.assertEqual(len(config['patches']),26)
-        for name in ('notepad','code03','wboard02'):
+        self.assertEqual(len(config['patches']),28)
+        for name in ('notepad','wboard02'):
             self.assertFalse((folder/f'art/{name}.json').exists())
 
     def test_complete_mips_and_padding_alpha_metadata(self):

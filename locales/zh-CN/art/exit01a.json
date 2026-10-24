@@ -7,59 +7,40 @@
     16
   ],
   "source_pixels_sha256": "aab5d8a89b36446aa1d88c80bcbd3fd8f60eafca4381a3dfdebc9f1fffc6356a",
-  "output_pixels_sha256": "e92394d2dda2ded540b506e88d33a30748307ccae6a5261d5602e861e7221342",
-  "xor": "eNrt1f03FQYcx/E37iV5SLgSonQ9FEXtuh5iqJzKTp3Tc2tbpzRNazOWTTtr02qdnlV6kHIyVCuRhw4lIUpM5UohVyKUx9st3Ihids5+u/9Cn1+/P7x++HzP9wsf819O3e+g3ESfoC+Wk5OYwuUzOeQ+TeZGXDQTfbZQaTCTQ8ezSDqxg4JSGeZI2eRsiLn/TEpbbHDT7aQh/iZD/bWs8zKiZvd+UtozaejdTWPPLh7vLyQr9QSn39wg4+FpNf9NVz0dBiKSXxUSZRPI2iYt9gnLOO9bw/zBCOIbYzlbdYej3YmM6bGiRU9B2s7DCJzB3EaKuXIWi+YsJMxMk86Rqawp3sbnJiIWmRvxmZEZK01FXHOtJPaJkiuqejU/rvIrDtcHkjaYTYiDHkXKAtwF/Ygm6ZDXeITCFj9WSev4cWAJhm/mIZFYUzqQi3+fH/oWnqzWXo6mmRfzhqNItF3M32UXKG2Lw3HKFkwH1lLduhdtKwnX78ZwsD9bzU9/d4Hc4jwqm3ayWuRL0u1r8KISD3kJeztX8efIMlZMd6B8qBadIjFhimDulEST2JSI2EOfyyZ+CEU6dGnX8LO3Kd4NPdi6NpPZlIRpbwgZRbk4zByi80E9CTK5mh8rX8kpt9+oatrFVis99jhtJkgngk3eIWy3CeDYuwL2dK7hiGgxeuLJbBQb0205QvQzFbOse0iaNB8D57Ecld7iUT90K01obvMmZiAN3b5Q8oqPYW8hIHnkHldV99T8mOov2WUfQUzZZQ4JJXzb4Ud4eRgh2aEs0d1IjiqbtnFCyo3fsuKZNSd1Ayk10SR5OJpldnYUWgUgMJvDUc8KMoqTSL2TzgXZXxzsyMSuN5Lo4hxsTeFX+TqyPqSp+WsNojhUe55MWTqTq77H2nMqf+rXoZhYRMzTPA6MSFiwRIbzrBrEC4Nwa9cmZsrozGkpM2a6cFOxAJGZD3FCJYUD0cSq8rlUlsXe5gss6jIkuiIGH3cFB12WstQqTM0Pd1xJwq0c8p/nMnlgO2cHM9nm4oTZOH1Shy9S8NKHzVMcGWyuBBcPjCqCyHfq5g+xP06emmRP8MdY5Ilq3CDhWuOxl4wheIYXCe1XEY72n9R1GnFjFfH3Igm1DVDz81ozOFGUzvWRArxGNhD/dhX2Hgrc3V5z5kMhT95dw961jwP7YhG0GbFZlsW12cnMrYtk6qd1JJsuQjDeG41WE16/kPPw5TOaX5awXroRC8UETt69wZzR/ctUxbBblqTmKwdno+q/TVJ3GtP6g4mXBLJkfAA/6fkR6v0LsQ8S+MFrPlobpMxVRZDyJourJWnY1Jrh7FHHifZAtCYJmF4USeLtDHYM57N/KB93sQB9uR3Jt88hcZvCjp5MWp67qvlXKlpIE00jo/IbPlEKmGfxHbtTvmbboyCiqtdTp6kgODWCiNZw9tVfYn/ZWYZ7qgkb2oqq5hE1et44TnXmlM9jNA29me5ryVjL4dE7ehL/4d/p/KceoUqOQt6JvLdBzT9+6zwXG+fxtu8OHdyn3VzFSQ0ZsRplpBo+Zu1sB4beP+SiRj0GQi0cfI1xsJ2IW6smFZJetIUTeH73PrWWlki1BfSav+Lc+1pel5cg11Ch72uFVWsNpbZKWvulHx/e//kXHk8Big==",
+  "output_pixels_sha256": "97e93de29979e4c4220132039a1a2b5aa91697b111ab0d7ae291a8f68c2b38a9",
+  "xor": "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",
   "reviewed_regions": [
     [
-      2,
-      2,
-      30,
-      14
-    ],
-    [
-      2,
-      2,
-      30,
-      14
+      0,
+      0,
+      32,
+      16
     ]
   ],
   "workflow": "imagegen artwork edit, reviewed import; no runtime pixel-font overlay",
-  "prompt": "Approved generated Chinese poster/sign labels imported only into native text regions; original character/face, cutouts, border and all unreviewed pixels retained. Reposition existing painted glyphs by visible-ink bounds relative to surveyed original frames.",
-  "import": {
-    "resize": "LANCZOS per label; no whole atlas or material changes",
+  "prompt": "Plain white sign, only centered green 出口, all old background marks removed.",
+  "alpha_policy": "preserve-source",
+  "import_recipe": {
+    "generated_png_sha256": "be4964d31ac27865b6b26acabdfbb828eb9ded95fff1f1c2502512f82ca3b904",
     "generated_size": [
       1774,
       887
     ],
-    "native_size": [
-      32,
-      16
+    "resampling": "LANCZOS",
+    "target": "出口",
+    "native_regions": [
+      [
+        0,
+        0,
+        32,
+        16
+      ]
     ],
-    "generated_png_sha256": "3939427422ef1161156dc2c99e086b4c74d183670a43cfd1ae27422be3e88fc3",
-    "crop_mappings": [
-      {
-        "generated_box": [
-          150,
-          65,
-          1624,
-          800
-        ],
-        "native_box": [
-          2,
-          2,
-          30,
-          14
-        ],
-        "wording": "出口"
-      }
-    ],
-    "alpha": "source including original paper rips/cutouts",
-    "protected": "all pixels outside native label interiors; rabbit/sun face and source transparency unchanged"
+    "authoring": "built-in image_gen text-localization; reviewed native import"
   },
   "alignment": {
     "method": "visible painted-ink bounding box; integer native-pixel centering",
     "maximum_center_error_pixels": 0.5,
-    "restoration_plate_sha256": "2b5ac7d0ac639e8ab66c7041ed0ca668060e5fd52794f3ac8e2954a86f6c66de",
     "labels": [
       {
         "text": "出口",
@@ -70,23 +51,23 @@
           16
         ],
         "source_ink_box": [
-          5,
-          2,
-          27,
+          6,
+          3,
+          26,
           13
         ],
         "ink_box": [
-          5,
-          2,
-          27,
+          6,
+          3,
+          26,
           13
         ],
         "center_error": [
           0.0,
-          -0.5
+          0.0
         ],
-        "glyph_source": "existing painted artwork pixels, no font redraw",
-        "output_frame_pixels_sha256": "e92394d2dda2ded540b506e88d33a30748307ccae6a5261d5602e861e7221342"
+        "glyph_source": "reviewed generated green sign artwork",
+        "output_frame_pixels_sha256": "97e93de29979e4c4220132039a1a2b5aa91697b111ab0d7ae291a8f68c2b38a9"
       }
     ]
   }
