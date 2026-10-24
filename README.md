@@ -2,7 +2,19 @@
 
 Dementium: The Ward，Steam AppID **3909960**，受支持原版 **build21501403 / Windows x64**。
 
-当前为全量汉化的可复现离线候选构建，**未启动游戏，尚待玩家实际画面与流程验收**。用户约20分钟简测未见明显问题；现已提供v1.0自包含安装器供Steam目录实装测试，尚未发布正式Release。
+当前安装器版本为 **v1.0**，EXE 已上传 GitHub Release。用户约20分钟简测未见明显问题；自动化验证不代表全流程游戏内验收。
+
+## 下载与安装
+
+前往 [GitHub Releases](https://github.com/jyh9521/Dementium-The-Ward-CN/releases)，在 v1.0 的 **Assets** 中下载 `Dementium-The-Ward-zh-CN-v1.0-Setup.exe`，不要下载源码压缩包作为汉化补丁。Release 公开发布后即可下载附件。
+
+- 支持 Steam Windows x64，AppID **3909960** / **build21501403**。
+- 退出游戏，运行安装器，自动检测或选择游戏目录中的 `rom.zar`，依次点击“检查资源”与“安装汉化”。玩家无需 Python 或独立 .NET 运行时。
+- 恢复原版：使用同一安装器检查资源，再点击“恢复原版”；保留 `cn-backup`，存档和设置不变。
+- 若安装过早期同名 v1.0 候选，先用对应旧安装器恢复原版，再安装本次版本。
+- 本次包含第十五章“初次相遇”、出口牌、红色手写字与汽水机四处修正。详见 [v1.0 版本说明](docs/RELEASE_V1_0.md)。
+
+安装器 SHA-256：`5bd98a3d21403bada448ef154fcda22914f12b98cb9294b802d8d4aa5c505939`（78,497,853 字节）。
 
 ## 内容与技术
 
@@ -33,7 +45,7 @@ python -X utf8 tools/verify_sample.py --output build/framed-artwork-release
 
 ## 安装器
 
-`dist/Dementium-The-Ward-zh-CN-v1.0-Setup.exe`（用户指定v1.0，包含最新美术返工）：病房2同款Material Design 3界面，采用用户提供图标与顶图；自动检测/选择rom.zar、检查资源、安装汉化、恢复原版。仅支持受支持原版或本版已安装文件的完整身份；存档/设置不变，不启动游戏。[使用与重建](docs/INSTALLER.md)。
+`dist/Dementium-The-Ward-zh-CN-v1.0-Setup.exe`（v1.0，包含四处发布修正）：病房2同款Material Design 3界面，采用用户提供图标与顶图；自动检测/选择rom.zar、检查资源、安装汉化、恢复原版。仅支持受支持原版或本版已安装文件的完整身份；存档/设置不变，不启动游戏。[使用与重建](docs/INSTALLER.md)。
 
 本轮31条短说明去掉末尾句号；真正文档/信件/对白不变。确认旧版3张重绘证据不足，已撤回并原样保留，见[图片复审](docs/IMAGE_READABILITY_REVIEW.md)。
 

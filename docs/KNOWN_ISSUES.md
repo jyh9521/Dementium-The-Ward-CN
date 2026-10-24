@@ -28,4 +28,4 @@
 
 仅支持AppID3909960/build21501403记录身份，未知版本拒绝构建。历史build/phase2扩图原始分配长度曾误写常量，已修复并加入回归测试；不沿用旧样本，重新构建build/release-candidate。
 
-当前已增加独立F1与简中原生调试菜单离线候选，保留原启用门禁的L3+Y；已提供可安装/恢复的自包含安装器候选，尚未发布正式Release。恢复实现与手测步骤见[调试菜单](DEBUG_MENU.md)。真实焦点/输入捕获、Steam Input、画面布局、全部作弊副作用和跨页面生命周期尚待用户验收。历史文档的阶段数字不替代最新build/release-candidate实际验证记录。
+当前已增加独立F1与简中原生调试菜单离线候选，保留原启用门禁的L3+Y；v1.0 自包含安装器 EXE 已上传 GitHub Release；公开下载见 [Releases](https://github.com/jyh9521/Dementium-The-Ward-CN/releases)，安装与身份见 [v1.0 版本说明](RELEASE_V1_0.md)。恢复实现与手测步骤见[调试菜单](DEBUG_MENU.md)。真实焦点/输入捕获、Steam Input、画面布局、全部作弊副作用和跨页面生命周期尚待用户验收。历史文档的阶段数字不替代最新build/release-candidate实际验证记录。
