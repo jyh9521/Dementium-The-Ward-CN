@@ -24,8 +24,9 @@ GitHub保存工具、译文、美术差分、测试和技术文档。完整原�
 
 打包后逐成员解压读取并核对SHA256/CRC，独立副本恢复测试通过后，才清理已归档的历史build子目录和Python字节码。最新修改产物保持不动。
 
-保留：`build/four-fixes-release`（最新样本与证据）、`build/release-four-fixes`（SHA锁定原版输入及上一安装器）、`build/installer`（安装器载荷/恢复证据）、`dist`（最终安装器）。历史文档中其他build路径须先从ZIP还原，不再假定仍在工作目录。
+保留：`build/four-fixes-release`（最新样本与证据）、`build/release-four-fixes`（SHA锁定原版输入及上一安装器）、`build/installer`（安装器载荷/恢复证据）、`dist`（最终安装器）。另保留测试直接引用的少量旧版EXE、字库与电影层差分fixture，避免清理导致原生回归被静默跳过。历史文档中其他build路径须先从ZIP还原，不再假定仍在工作目录。
 
 恢复完整工程：从GitHub克隆或由bundle克隆源码，将ZIP解压到工程根目录（不要把ZIP内清单当作源码）。仅恢复清理文件可运行交接目录的恢复脚本，先恢复到独立目录再按需拷回。
 
 归档不代表新的游戏内验收；此次未启动游戏，也未更改Steam文件。NAS复制由用户完成，复制后请再核对ZIP SHA256。
+
