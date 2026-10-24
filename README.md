@@ -2,11 +2,11 @@
 
 Dementium: The Ward，Steam AppID **3909960**，受支持原版 **build21501403 / Windows x64**。
 
-当前安装器版本为 **v1.0**，EXE 已上传 GitHub Release。用户约20分钟简测未见明显问题；自动化验证不代表全流程游戏内验收。
+已进行通关验收，暂未发现任何问题。
 
 ## 下载与安装
 
-前往 [GitHub Releases](https://github.com/jyh9521/Dementium-The-Ward-CN/releases)，在 v1.0 的 **Assets** 中下载 `Dementium-The-Ward-zh-CN-v1.0-Setup.exe`，不要下载源码压缩包作为汉化补丁。Release 公开发布后即可下载附件。
+前往 [GitHub Releases](https://github.com/jyh9521/Dementium-The-Ward-CN/releases)。
 
 - 支持 Steam Windows x64，AppID **3909960** / **build21501403**。
 - 退出游戏，运行安装器，自动检测或选择游戏目录中的 `rom.zar`，依次点击“检查资源”与“安装汉化”。玩家无需 Python 或独立 .NET 运行时。
